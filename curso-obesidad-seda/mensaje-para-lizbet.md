@@ -9,7 +9,8 @@ Lizbet, querida, ya revisé el documento completo del curso. Te armé una matriz
 Cómo quedó el mapa:
 
 - **8 clases confirmadas** — las que marcaste en rojo, más la mía de salud digital.
-- **11 clases con nombre asignado pero sin confirmar** — hay que pedirles el sí por escrito.
+- **10 clases con nombre asignado pero sin confirmar** — hay que pedirles el sí por escrito.
+- **1 clase con el nombre del ponente incompleto** — el «Dr. Harold» del Módulo 6.
 - **9 clases sin ningún ponente.** El Módulo 5 (nutrición en diabetes) es el más descubierto: 3 de sus 4 clases están vacías.
 
 Para poder avanzar necesito que me pases, de **cada ponente que ya tienes**, estos datos:
