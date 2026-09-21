@@ -1,30 +1,28 @@
 # Mensaje de WhatsApp para el Dr. Chih Hao Chen Ku
 
 **Número:** +506 8392 7083 · Costa Rica
+**Se conocen de ALAD.** Tono cordial y cercano, sin presentaciones formales.
 
 | | |
 |---|---|
 | **Ya comprometida** | M6 · C2 — Riesgo cardiovascular y dislipidemias |
 | **Se le pide además** | M6 · C3 — Síndrome cardiorrenometabólico |
 | **Entrega de ambas** | jueves 26 de noviembre · se publican el 3 de diciembre |
-| **Ya envió** | hoja de vida |
-| **Le falta** | declaración de conflicto de interés, pasaporte, fotografía, título definitivo |
+| **Le falta enviar** | declaración de conflicto de interés, pasaporte, fotografía |
 
-> **Zona horaria:** Costa Rica va **una hora atrás** de Ecuador. Si le escribes a las 8 de la mañana desde Cuenca, allá son las 7.
+> **Zona horaria:** Costa Rica va **una hora atrás** de Ecuador.
 
 ---
 
 ```
-Estimado Dr. Chen, muy buenos días.
+Dr. Chen, ¡qué gusto saludarlo!
 
-Le escribe Omidres Pérez de Carvelli, endocrinóloga. Estoy
-apoyando a la Dra. Lizbet Ruilova y al Dr. Pablo Vanegas en la
-organización del curso virtual de la Sociedad de Endocrinología
-y Diabetes del Austro, en Ecuador.
+Le escribo desde Cuenca. Estoy apoyando a Liz Ruilova y a Pablo
+Vanegas con el curso virtual de la Sociedad de Endocrinología y
+Diabetes del Austro, y me dio mucho gusto saber que aceptó
+acompañarnos.
 
-Ante todo, gracias por aceptar acompañarnos.
-
-Le confirmo los detalles de su clase:
+Le confirmo cómo quedó su clase:
 
   Riesgo cardiovascular en obesidad y diabetes
   Módulo 6, Clase 2
@@ -34,65 +32,79 @@ Le confirmo los detalles de su clase:
   las dislipidemias · Manejo del riesgo residual: colesterol
   no-HDL, ApoB e hipertrigliceridemia
 
-  • Clase grabada de 30 minutos
+  • 30 minutos grabados
   • Entrega: jueves 26 de noviembre
   • Se publica el 3 de diciembre
-  • Le envío la plantilla institucional de diapositivas
+  • Le mando la plantilla de diapositivas del curso
 
-Si desea ajustar el título o el enfoque, con toda libertad.
+Si quiere ajustar el título o el enfoque, con toda libertad.
 
-Y aprovecho para pedirle un favor, Doctor.
+Y quería pedirle un favor, aprovechando que lo tengo por aquí.
 
 En ese mismo módulo teníamos la clase de Síndrome
 cardiorrenometabólico —conceptos actuales, insuficiencia
 cardíaca, y beneficios cardiovasculares y renales de las nuevas
-terapias—, y el colega que iba a dictarla finalmente no pudo.
+terapias—, y el colega que iba a dictarla al final no pudo.
 
-Al revisar su hoja de vida vi que usted coordina el grupo de
-investigación sobre complicaciones cardio-reno-metabólicas de la
-ALAD. Siendo honesta, no se me ocurre nadie con mejor autoridad
-para ese tema.
+Pensé en usted de inmediato. Nadie mejor para ese tema que quien
+coordina el grupo de complicaciones cardio-reno-metabólicas en
+ALAD.
 
-¿Tendría la disponibilidad de tomarla también? Sería otra clase
-de 30 minutos, del mismo módulo y con la misma fecha de entrega,
-el 26 de noviembre, así que se prepararían en un mismo bloque.
+¿Se animaría a tomarla también? Sería otra de 30 minutos, del
+mismo módulo y con la misma fecha de entrega, así que se
+preparan de una sola sentada.
 
-Y si por agenda no le resulta posible, lo entiendo perfectamente
-y su clase queda igual de bienvenida. En ese caso, ¿podría
-recomendarme a alguien de su grupo? Su sugerencia nos ayudaría
-muchísimo.
+Y si la agenda no le da, lo entiendo perfectamente y no cambia
+nada: su clase nos tiene igual de contentos. Si fuera el caso,
+¿me podría recomendar a alguien de su grupo? Con eso nos ayuda
+igual.
 
-Por último, para el expediente de aval ante la Universidad de
-Cuenca me faltarían de usted:
+Le dejo lo aburrido del asunto para el final: para el expediente
+del aval ante la Universidad de Cuenca todavía me faltarían de
+usted la declaración de conflicto de interés firmada —le adjunto
+el formato—, el número de pasaporte y una foto.
 
-  1. La declaración de conflicto de interés firmada
-     (le adjunto el formato)
-  2. Número de pasaporte
-  3. Una fotografía profesional
+Su hoja de vida ya me llegó, mil gracias. Si me lo puede mandar
+antes del 2 de octubre, perfecto.
 
-Su hoja de vida ya la recibí, muchas gracias. Si pudiera
-enviarme el resto antes del 2 de octubre, se lo agradecería
-muchísimo.
-
-Quedo muy atenta. Un cordial saludo desde Ecuador.
+Un abrazo grande desde Ecuador. ¡Y nos vemos pronto en alguna
+de ALAD!
 ```
 
 ---
 
-## Cómo quedó estructurado
+## Qué cambió
 
-**Primero se confirma, no se pide.** Su clase ya está acordada y el mensaje la trata como un hecho: tema, contenidos, duración, fecha. Nada de «nos gustaría pedirle» sobre algo que él ya aceptó.
+**Fuera la presentación formal.** Se conocen: decirle «le escribe Omidres Pérez de Carvelli, endocrinóloga» habría sonado a que no lo recuerda.
 
-**La segunda clase es un favor, y se nombra como tal.** «Aprovecho para pedirle un favor» marca el cambio de registro. No es una ampliación del compromiso: es una petición nueva que él puede declinar.
+**Lo de ALAD ya no se «descubre».** Antes el mensaje decía «al revisar su hoja de vida vi que usted coordina…», lo cual es distante y además no es cierto: usted ya lo sabía. Ahora es un hecho compartido entre colegas: «nadie mejor para ese tema que quien coordina el grupo en ALAD».
 
-**El argumento es su expertise, no la necesidad de SEDA.** «No se me ocurre nadie con mejor autoridad para ese tema» — sostenido por un hecho verificable de su propio currículo, su coordinación del grupo de ALAD. Es reconocimiento profesional, no adulación.
+**«Pensé en usted de inmediato»** sustituye al razonamiento explicado. Entre gente que se conoce, eso basta y suena verdadero.
 
-**La salida está explícita y sin culpa.** «Su clase queda igual de bienvenida» deja claro que un no sobre la segunda no afecta a la primera. Y la pregunta por una recomendación convierte la negativa en un contacto útil — con su posición en ALAD, puede valer tanto como un sí.
+**Liz y Pablo van por su nombre de pila**, no con tratamiento completo. Todos se conocen del mismo circuito.
 
-**La mención de que comparten módulo y fecha** no es presión: es información real de que se preparan juntas.
+**El cierre reconoce el vínculo:** «nos vemos pronto en alguna de ALAD». Es lo que convierte un mensaje de gestión en uno entre colegas.
+
+**Los documentos se piden al final y con humor** — «le dejo lo aburrido del asunto para el final» —, en un párrafo corrido en vez de una lista numerada que parece formulario.
+
+## Si se tutean
+
+El mensaje está en **usted**, que entre colegas de sociedad científica en la región es lo habitual y nunca queda mal. Si ustedes se tutean, cambia:
+
+- «Le escribo» → «Te escribo»
+- «aceptó acompañarnos» → «aceptaste acompañarnos»
+- «Le confirmo cómo quedó su clase» → «Te confirmo cómo quedó tu clase»
+- «Si quiere ajustar» → «Si quieres ajustar»
+- «pedirle un favor» → «pedirte un favor»
+- «Pensé en usted» → «Pensé en ti»
+- «¿Se animaría?» → «¿Te animarías?»
+- «si la agenda no le da» → «si la agenda no te da»
+- «¿me podría recomendar?» → «¿me podrías recomendar?»
+- «me faltarían de usted» → «me faltarían de ti»
+- «Si me lo puede mandar» → «Si me lo puedes mandar»
 
 ## Antes de enviarlo
 
-**Adjunta la plantilla de diapositivas y el formato de conflicto de interés.** El mensaje los menciona.
+**Adjunta la plantilla de diapositivas y el formato de conflicto de interés.**
 
-**Y define el honorario.** Si acepta las dos, le habrás pedido una hora de contenido grabado a un ponente internacional. Si la participación es ad honorem, debe saberlo antes de responder.
+**Y define el honorario.** Si acepta las dos, es una hora de contenido grabado. Entre colegas que se conocen, ese punto se aclara antes, no después.
