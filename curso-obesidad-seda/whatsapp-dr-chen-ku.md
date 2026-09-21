@@ -1,9 +1,14 @@
 # Mensaje de WhatsApp para el Dr. Chih Hao Chen Ku
 
 **Número:** +506 8392 7083 · Costa Rica
-**Lo que se le pide:** **dos clases** del Módulo 6 · 30 minutos cada una · ambas con entrega el **jueves 26 de noviembre**
-**Ya envió:** hoja de vida
-**Le falta:** declaración de conflicto de interés, pasaporte, fotografía, títulos definitivos
+
+| | |
+|---|---|
+| **Ya comprometida** | M6 · C2 — Riesgo cardiovascular y dislipidemias |
+| **Se le pide además** | M6 · C3 — Síndrome cardiorrenometabólico |
+| **Entrega de ambas** | jueves 26 de noviembre · se publican el 3 de diciembre |
+| **Ya envió** | hoja de vida |
+| **Le falta** | declaración de conflicto de interés, pasaporte, fotografía, título definitivo |
 
 > **Zona horaria:** Costa Rica va **una hora atrás** de Ecuador. Si le escribes a las 8 de la mañana desde Cuenca, allá son las 7.
 
@@ -17,43 +22,45 @@ apoyando a la Dra. Lizbet Ruilova y al Dr. Pablo Vanegas en la
 organización del curso virtual de la Sociedad de Endocrinología
 y Diabetes del Austro, en Ecuador.
 
-Ante todo, gracias por aceptar participar.
+Ante todo, gracias por aceptar acompañarnos.
 
-Le escribo para plantearle el alcance completo de lo que nos
-gustaría pedirle: serían dos clases, ambas del Módulo 6.
+Le confirmo los detalles de su clase:
 
-La primera es la que usted ya aceptó:
+  Riesgo cardiovascular en obesidad y diabetes
+  Módulo 6, Clase 2
 
-  1. Riesgo cardiovascular en obesidad y diabetes
-     Estratificación del riesgo · Aterosclerosis y obesidad ·
-     Prevención cardiovascular y tratamiento integral de las
-     dislipidemias · Riesgo residual: no-HDL, ApoB e
-     hipertrigliceridemia
+  Estratificación del riesgo cardiovascular · Aterosclerosis y
+  obesidad · Prevención cardiovascular y tratamiento integral de
+  las dislipidemias · Manejo del riesgo residual: colesterol
+  no-HDL, ApoB e hipertrigliceridemia
 
-La segunda estaba asignada a otro colega que finalmente no pudo
-tomarla:
+  • Clase grabada de 30 minutos
+  • Entrega: jueves 26 de noviembre
+  • Se publica el 3 de diciembre
+  • Le envío la plantilla institucional de diapositivas
 
-  2. Síndrome cardiorrenometabólico
-     Conceptos actuales · Insuficiencia cardíaca · Beneficios
-     cardiovasculares y renales de las nuevas terapias
+Si desea ajustar el título o el enfoque, con toda libertad.
 
-Se la proponemos a usted porque, al revisar su hoja de vida, vi
-que coordina el grupo de investigación sobre complicaciones
-cardio-reno-metabólicas de la ALAD. Es exactamente el tema, y no
-se nos ocurre a quién pedírselo mejor.
+Y aprovecho para pedirle un favor, Doctor.
 
-Lo práctico:
+En ese mismo módulo teníamos la clase de Síndrome
+cardiorrenometabólico —conceptos actuales, insuficiencia
+cardíaca, y beneficios cardiovasculares y renales de las nuevas
+terapias—, y el colega que iba a dictarla finalmente no pudo.
 
-• 30 minutos grabados cada clase, 60 minutos en total
-• Las dos son del mismo módulo y comparten fecha de entrega:
-  jueves 26 de noviembre
-• Se publican el 3 de diciembre
-• Le envío la plantilla institucional de diapositivas
+Al revisar su hoja de vida vi que usted coordina el grupo de
+investigación sobre complicaciones cardio-reno-metabólicas de la
+ALAD. Siendo honesta, no se me ocurre nadie con mejor autoridad
+para ese tema.
 
-Le pido que lo valore con calma. Si prefiere quedarse solo con
-la primera, lo entiendo perfectamente y no hay ningún problema.
-Y si ese fuera el caso, ¿podría recomendarme a alguien de su
-grupo para la segunda? Su sugerencia nos sería de enorme ayuda.
+¿Tendría la disponibilidad de tomarla también? Sería otra clase
+de 30 minutos, del mismo módulo y con la misma fecha de entrega,
+el 26 de noviembre, así que se prepararían en un mismo bloque.
+
+Y si por agenda no le resulta posible, lo entiendo perfectamente
+y su clase queda igual de bienvenida. En ese caso, ¿podría
+recomendarme a alguien de su grupo? Su sugerencia nos ayudaría
+muchísimo.
 
 Por último, para el expediente de aval ante la Universidad de
 Cuenca me faltarían de usted:
@@ -62,7 +69,6 @@ Cuenca me faltarían de usted:
      (le adjunto el formato)
   2. Número de pasaporte
   3. Una fotografía profesional
-  4. Los títulos definitivos de sus charlas, si desea ajustarlos
 
 Su hoja de vida ya la recibí, muchas gracias. Si pudiera
 enviarme el resto antes del 2 de octubre, se lo agradecería
@@ -73,20 +79,20 @@ Quedo muy atenta. Un cordial saludo desde Ecuador.
 
 ---
 
-## Qué cambió y por qué
+## Cómo quedó estructurado
 
-**El alcance completo va en la segunda línea.** «Serían dos clases» aparece antes de cualquier detalle, para que evalúe el compromiso entero de una sola vez. Con un colega de su trayectoria, pedirle una y deslizarle la segunda después habría sido incómodo.
+**Primero se confirma, no se pide.** Su clase ya está acordada y el mensaje la trata como un hecho: tema, contenidos, duración, fecha. Nada de «nos gustaría pedirle» sobre algo que él ya aceptó.
 
-**Los 60 minutos están dichos.** Sin eufemismos ni letra pequeña.
+**La segunda clase es un favor, y se nombra como tal.** «Aprovecho para pedirle un favor» marca el cambio de registro. No es una ampliación del compromiso: es una petición nueva que él puede declinar.
 
-**El hecho de compartir módulo y fecha se presenta como lo que es:** las dos clases son del mismo bloque temático y se entregan el mismo día, así que se preparan juntas. Para él es un solo esfuerzo de preparación, no dos.
+**El argumento es su expertise, no la necesidad de SEDA.** «No se me ocurre nadie con mejor autoridad para ese tema» — sostenido por un hecho verificable de su propio currículo, su coordinación del grupo de ALAD. Es reconocimiento profesional, no adulación.
 
-**La salida sigue abierta.** «Si prefiere quedarse solo con la primera, lo entiendo perfectamente» — y si dice que no, la pregunta por una recomendación convierte la negativa en un contacto. Con su posición en ALAD, esa recomendación puede valer tanto como un sí.
+**La salida está explícita y sin culpa.** «Su clase queda igual de bienvenida» deja claro que un no sobre la segunda no afecta a la primera. Y la pregunta por una recomendación convierte la negativa en un contacto útil — con su posición en ALAD, puede valer tanto como un sí.
 
-**El argumento es su propio currículo**, no un halago: coordina el grupo de complicaciones cardio-reno-metabólicas de ALAD y el tema vacante es exactamente ése.
+**La mención de que comparten módulo y fecha** no es presión: es información real de que se preparan juntas.
 
 ## Antes de enviarlo
 
 **Adjunta la plantilla de diapositivas y el formato de conflicto de interés.** El mensaje los menciona.
 
-**Y decide lo del honorario.** Esto ya no es un detalle: le estás pidiendo **una hora de contenido grabado** a un ponente internacional. Si la participación es ad honorem, tiene que saberlo antes de responder, no después.
+**Y define el honorario.** Si acepta las dos, le habrás pedido una hora de contenido grabado a un ponente internacional. Si la participación es ad honorem, debe saberlo antes de responder.
