@@ -1,15 +1,13 @@
 # Mensaje de WhatsApp para el Dr. Chih Hao Chen Ku
 
 **Número:** +506 8392 7083 · Costa Rica
-**Su clase confirmada:** M6 · C2 — *Riesgo cardiovascular y dislipidemias* · entrega **jueves 26 de noviembre**
+**Lo que se le pide:** **dos clases** del Módulo 6 · 30 minutos cada una · ambas con entrega el **jueves 26 de noviembre**
 **Ya envió:** hoja de vida
-**Le falta:** declaración de conflicto de interés, pasaporte, fotografía, título definitivo
+**Le falta:** declaración de conflicto de interés, pasaporte, fotografía, títulos definitivos
 
 > **Zona horaria:** Costa Rica va **una hora atrás** de Ecuador. Si le escribes a las 8 de la mañana desde Cuenca, allá son las 7.
 
 ---
-
-## Mensaje 1 — confirmación y documentos
 
 ```
 Estimado Dr. Chen, muy buenos días.
@@ -19,75 +17,76 @@ apoyando a la Dra. Lizbet Ruilova y al Dr. Pablo Vanegas en la
 organización del curso virtual de la Sociedad de Endocrinología
 y Diabetes del Austro, en Ecuador.
 
-Ante todo, gracias por aceptar participar. Su clase quedó
-asignada así:
+Ante todo, gracias por aceptar participar.
 
-  Riesgo cardiovascular en obesidad y diabetes
-  Módulo 6, Clase 2
+Le escribo para plantearle el alcance completo de lo que nos
+gustaría pedirle: serían dos clases, ambas del Módulo 6.
 
-  Estratificación del riesgo cardiovascular · Aterosclerosis y
-  obesidad · Prevención cardiovascular y tratamiento integral de
-  las dislipidemias · Manejo del riesgo residual: colesterol
-  no-HDL, ApoB e hipertrigliceridemia
+La primera es la que usted ya aceptó:
 
-Los detalles prácticos:
+  1. Riesgo cardiovascular en obesidad y diabetes
+     Estratificación del riesgo · Aterosclerosis y obesidad ·
+     Prevención cardiovascular y tratamiento integral de las
+     dislipidemias · Riesgo residual: no-HDL, ApoB e
+     hipertrigliceridemia
 
-• Clase grabada de 30 minutos
-• Entrega de la grabación: jueves 26 de noviembre
-• Se publica el 3 de diciembre
+La segunda estaba asignada a otro colega que finalmente no pudo
+tomarla:
+
+  2. Síndrome cardiorrenometabólico
+     Conceptos actuales · Insuficiencia cardíaca · Beneficios
+     cardiovasculares y renales de las nuevas terapias
+
+Se la proponemos a usted porque, al revisar su hoja de vida, vi
+que coordina el grupo de investigación sobre complicaciones
+cardio-reno-metabólicas de la ALAD. Es exactamente el tema, y no
+se nos ocurre a quién pedírselo mejor.
+
+Lo práctico:
+
+• 30 minutos grabados cada clase, 60 minutos en total
+• Las dos son del mismo módulo y comparten fecha de entrega:
+  jueves 26 de noviembre
+• Se publican el 3 de diciembre
 • Le envío la plantilla institucional de diapositivas
 
-Ya recibí su hoja de vida, muchas gracias. Para el expediente de
-aval ante la Universidad de Cuenca me faltarían de usted:
+Le pido que lo valore con calma. Si prefiere quedarse solo con
+la primera, lo entiendo perfectamente y no hay ningún problema.
+Y si ese fuera el caso, ¿podría recomendarme a alguien de su
+grupo para la segunda? Su sugerencia nos sería de enorme ayuda.
+
+Por último, para el expediente de aval ante la Universidad de
+Cuenca me faltarían de usted:
 
   1. La declaración de conflicto de interés firmada
      (le adjunto el formato)
   2. Número de pasaporte
   3. Una fotografía profesional
-  4. El título definitivo de su charla, si desea ajustarlo
+  4. Los títulos definitivos de sus charlas, si desea ajustarlos
 
-Si pudiera enviármelo antes del 2 de octubre, se lo agradecería
+Su hoja de vida ya la recibí, muchas gracias. Si pudiera
+enviarme el resto antes del 2 de octubre, se lo agradecería
 muchísimo.
-```
-
-## Mensaje 2 — la segunda clase *(enviar seguido del anterior)*
-
-```
-Y quería consultarle algo más, Doctor.
-
-En ese mismo módulo teníamos asignada la clase de Síndrome
-cardiorrenometabólico —conceptos actuales, insuficiencia
-cardíaca, y beneficios cardiovasculares y renales de las nuevas
-terapias— pero el colega que la iba a dictar finalmente no pudo.
-
-Al revisar su hoja de vida vi que usted coordina el grupo de
-investigación sobre complicaciones cardio-reno-metabólicas de
-la ALAD. Es exactamente el tema.
-
-¿Le interesaría tomarla también? Serían otros 30 minutos, con la
-misma fecha de entrega, el 26 de noviembre.
-
-Y si por tiempo no le resulta posible, lo entiendo perfectamente:
-en ese caso, ¿podría recomendarme a alguien de su grupo que
-pudiera dictarla? Su sugerencia nos sería de enorme ayuda.
 
 Quedo muy atenta. Un cordial saludo desde Ecuador.
 ```
 
 ---
 
-## Por qué está escrito así
+## Qué cambió y por qué
 
-**Se le trata de usted y se le llama «Dr. Chen».** Es un colega de trayectoria —Fellow del American College of Endocrinology, vocal de la junta directiva de ALAD, coordinador de postgrado en la Universidad de Costa Rica— y el registro formal corresponde.
+**El alcance completo va en la segunda línea.** «Serían dos clases» aparece antes de cualquier detalle, para que evalúe el compromiso entero de una sola vez. Con un colega de su trayectoria, pedirle una y deslizarle la segunda después habría sido incómodo.
 
-**El primer mensaje cierra lo que ya está acordado** antes de pedirle nada nuevo. Si solo respondiera a ese, igual habrías conseguido sus documentos.
+**Los 60 minutos están dichos.** Sin eufemismos ni letra pequeña.
 
-**El segundo le da una salida airosa.** No es «¿acepta o no?», sino «acepte, y si no puede, recomiéndeme a alguien». Un no se convierte en un contacto útil. Con su posición en ALAD, esa recomendación puede valer tanto como un sí.
+**El hecho de compartir módulo y fecha se presenta como lo que es:** las dos clases son del mismo bloque temático y se entregan el mismo día, así que se preparan juntas. Para él es un solo esfuerzo de preparación, no dos.
 
-**El argumento de por qué él** sale de su propio currículo, no de un halago genérico. Coordina el grupo de complicaciones cardio-reno-metabólicas de ALAD y el tema vacante es precisamente ése.
+**La salida sigue abierta.** «Si prefiere quedarse solo con la primera, lo entiendo perfectamente» — y si dice que no, la pregunta por una recomendación convierte la negativa en un contacto. Con su posición en ALAD, esa recomendación puede valer tanto como un sí.
+
+**El argumento es su propio currículo**, no un halago: coordina el grupo de complicaciones cardio-reno-metabólicas de ALAD y el tema vacante es exactamente ése.
 
 ## Antes de enviarlo
 
-**Adjunta los dos archivos:** la plantilla de diapositivas y el formato de conflicto de interés. El mensaje los menciona.
+**Adjunta la plantilla de diapositivas y el formato de conflicto de interés.** El mensaje los menciona.
 
-**Decide lo del honorario.** Si la participación es ad honorem, conviene que lo sepa antes de que acepte una segunda clase. Pedirle 60 minutos de grabación a un ponente internacional sin haberlo aclarado no es cómodo para nadie.
+**Y decide lo del honorario.** Esto ya no es un detalle: le estás pidiendo **una hora de contenido grabado** a un ponente internacional. Si la participación es ad honorem, tiene que saberlo antes de responder, no después.
