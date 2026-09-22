@@ -12,6 +12,12 @@ Te confirmo: Nutrición conductual, Módulo 2, Clase 3.
 Hambre fisiológica y emocional, conducta alimentaria y
 adherencia terapéutica. Clase grabada de 30 minutos.
 
+Una cosa que te debo decir antes de que te pongas a preparar
+nada: la participación docente es ad honorem, la mía incluida.
+El curso va a cobrar inscripción, pero eso se va en plataforma,
+certificación y el trámite del aval. Te lo digo ahora y no
+después, que es lo justo.
+
 Te paso por acá la plantilla de diapositivas y el formato de la
 declaración de conflicto de interés.
 

@@ -1,6 +1,6 @@
 # Correo a los ponentes confirmados — especificaciones y documentación
 
-**Para:** los 7 ponentes confirmados (direcciones pendientes de obtener)
+**Para:** los 8 ponentes confirmados · 9 clases (direcciones pendientes de obtener)
 **CC:** Dra. Lizbet Ruilova · Dr. Pablo Vanegas
 **Adjuntos:** `SEDA_Plantilla_Ponentes.pptx` y `SEDA_Declaracion_Conflicto_Interes.docx`
 **Plazo de documentación propuesto:** viernes 2 de octubre de 2026
@@ -23,10 +23,12 @@ El curso es virtual, con clases grabadas que se publican por módulos. **La grab
 |---|---|---|---|
 | Lcda. Isabel Reinoso | M2 · C1 | Principios de terapia nutricional | **jueves 29 de octubre** |
 | Dra. Johanna Piedra Bravo | M2 · C2 | Patrones alimentarios basados en evidencia | **jueves 29 de octubre** |
+| Dra. Janeth Bermeo | M2 · C3 | Nutrición conductual | **jueves 29 de octubre** |
 | Dr. Frank Espinoza | M3 · C2 | Agonistas del receptor de GLP-1 | jueves 5 de noviembre |
 | Dra. Teresa Cuatecontzi | M3 · C3 | Tirzepatida y nuevas terapias | jueves 5 de noviembre |
 | Dra. Josefa Palacio Riofrío | M4 · C2 | Monitoreo glucémico y metas terapéuticas | jueves 12 de noviembre |
 | Dr. Chih Hao Chen Ku | M6 · C2 | Riesgo cardiovascular y dislipidemias | jueves 26 de noviembre |
+| Dr. Chih Hao Chen Ku | M6 · C3 | Síndrome cardiorrenometabólico | jueves 26 de noviembre |
 | Dra. Adriana Alvarez | M6 · C4 | MASLD, sarcopenia y complicaciones metabólicas | jueves 26 de noviembre |
 
 El curso inicia el **jueves 5 de noviembre** y cierra el **jueves 17 de diciembre**.
@@ -48,7 +50,7 @@ Estamos preparando la solicitud de aval académico ante la **Universidad de Cuen
 
 **1. Declaración de conflicto de interés firmada.** Va adjunta. Es obligatoria para todos, incluso si no tienen ningún vínculo que declarar. El programa aborda agonistas de GLP-1, tirzepatida e iSGLT2, y el curso contempla auspicio externo; la transparencia los protege a ustedes y respalda la solidez del aval.
 
-**2. Hoja de vida resumida.** Ya tengo las de la **Dra. Piedra, la Dra. Palacio y el Dr. Chen Ku** — muchas gracias. Me faltan las de la **Lcda. Reinoso, el Dr. Espinoza, la Dra. Cuatecontzi y la Dra. Alvarez.**
+**2. Hoja de vida resumida.** Ya tengo las de la **Dra. Piedra, la Dra. Palacio y el Dr. Chen Ku** — muchas gracias. Me faltan las de la **Lcda. Reinoso, el Dr. Espinoza, la Dra. Cuatecontzi, la Dra. Alvarez y la Dra. Bermeo.**
 
 **3. Número de cédula o pasaporte.**
 
@@ -58,7 +60,9 @@ Estamos preparando la solicitud de aval académico ante la **Universidad de Cuen
 
 Les agradecería recibir todo antes del **viernes 2 de octubre**. Es la fecha que nos permite presentar el expediente a tiempo.
 
-## Dos aclaraciones
+## Tres aclaraciones
+
+**Sobre la participación docente:** es **ad honorem**, la mía incluida. El curso tendrá un costo de inscripción destinado a la plataforma, la certificación y el trámite del aval universitario, pero ningún ponente percibe honorarios. Prefiero decirlo con claridad ahora, antes de que preparen su clase.
 
 **Sobre el formato de la hoja de vida:** envíenla en el formato que tengan. Si la Universidad exige uno específico, se los haré saber y les ayudaré a adaptarla.
 
