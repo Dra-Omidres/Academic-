@@ -1,83 +1,75 @@
-# Mensaje para la Dra. Janeth Bermeo — lista completa de temas
+# Dra. Janeth Bermeo — confirmación de su clase
 
-**Endocrinóloga · Hospital del Río, Cuenca** — misma institución que la Dra. Omidres.
-Propuesta por la Dra. Lizbet Ruilova el 19 de septiembre.
-
-> Se le entrega **la lista completa de las 10 clases pendientes**, sin preselección, para que escoja el tema con el que se sienta cómoda.
+**Endocrinóloga · Hospital del Río, Cuenca**
+**Aceptó el 22 de septiembre de 2026:** Módulo 2 · Clase 3 — *Nutrición conductual*
+**Entrega de la grabación: jueves 29 de octubre** ← el plazo más apretado del curso
 
 ---
 
+## Mensaje de confirmación
+
 ```
-Janeth, ¿cómo estás? 😊
+¡Janeth, qué alegría! Gracias por sumarte 🙌
 
-Te cuento: estoy apoyando a Liz Ruilova con el curso virtual de
-obesidad, diabetes y nutrición clínica de SEDA. Son 7 módulos
-con clases grabadas y estamos en trámite de aval con la
-Universidad de Cuenca.
+Te confirmo entonces:
 
-Liz te propuso como ponente y me pareció buenísima idea.
+  Nutrición conductual
+  Módulo 2, Clase 3
 
-Te paso la lista completa de los temas que nos faltan por cubrir,
-para que veas si alguno te gusta. No quiero asignarte nada: lo
-importante es que el tema sea uno con el que te sientas cómoda.
+  Hambre fisiológica y emocional · Conducta alimentaria ·
+  Adherencia terapéutica
 
-MÓDULO 2 — entrega 29 de octubre
- 1. Nutrición conductual
-    (hambre fisiológica y emocional, conducta alimentaria,
-    adherencia terapéutica)
- 2. Actividad física en obesidad
-    (ejercicio aeróbico, entrenamiento de fuerza, prescripción)
+Si quieres ajustar el título o darle otro enfoque, con toda
+libertad. El contenido es tuyo.
 
-MÓDULO 3 — entrega 5 de noviembre
- 3. Cirugía bariátrica
-    (indicaciones, técnicas quirúrgicas, seguimiento metabólico)
+Lo práctico:
 
-MÓDULO 5 — entrega 19 de noviembre
- 4. Nutrición de precisión en diabetes y obesidad
-    (fenotipos metabólicos, individualización nutricional)
- 5. Estrategias nutricionales basadas en evidencia
-    (mediterránea, restricción de carbohidratos, ayuno
-    intermitente)
- 6. Nutrición durante las terapias para obesidad
-    (GLP-1, tirzepatida, preservación de masa muscular)
+• Clase grabada de 30 minutos
+• Te paso la plantilla de diapositivas del curso, para que las
+  28 clases se vean parejas
+• Se publica la primera semana del curso, el 5 de noviembre
 
-MÓDULO 6 — entrega 26 de noviembre
- 7. Síndrome cardiorrenometabólico
-    (conceptos actuales, insuficiencia cardíaca, beneficios
-    cardiovasculares y renales de las nuevas terapias)
+Y aquí va lo importante, porque prefiero decírtelo de una:
 
-MÓDULO 7 — entrega 3 de diciembre
- 8. Monitoreo digital y tecnologías en diabetes y obesidad
-    (monitoreo continuo de glucosa e interpretación del AGP,
-    monitoreo remoto, apps y wearables)
- 9. Terapéutica digital, inteligencia artificial y educación
-    del paciente
-10. Implementación, ética y seguridad de datos
-    (teleconsulta y telenutrición, protección de datos,
-    interoperabilidad)
+  La grabación tendría que estar lista el jueves 29 de octubre.
 
-El módulo 7 lo coordino yo, así que si escoges alguno de esos
-tres me tendrías al lado para lo que necesites.
+Es la fecha más corta de todo el curso, porque tu módulo abre el
+programa. Los demás ponentes tienen hasta noviembre o diciembre.
+Son unas cinco semanas desde hoy.
 
-¿Alguno te llama? Dime el número y te lo aparto. Y si ninguno te
-convence, dímelo con toda confianza: prefiero eso a que dictes
-algo que no sea lo tuyo.
+Si te parece muy justo, dímelo con confianza y te paso otro tema
+de la lista con más plazo. Prefiero eso mil veces a que andes
+corriendo.
 
-Es una clase grabada de 30 minutos, con plantilla de diapositivas
-que yo te paso.
+Para el expediente del aval con la Universidad de Cuenca
+necesitaría de ti:
 
-Cualquier cosa me dices, o me buscas en el hospital y lo
-conversamos. ¡Un beso!
+  1. Tu hoja de vida resumida
+  2. Número de cédula
+  3. Una foto profesional
+  4. La declaración de conflicto de interés firmada
+     (te paso el formato)
+  5. El título definitivo de tu charla, si lo cambias
+
+Como nos vemos en el hospital, eso lo resolvemos ahí mismo
+cuando quieras.
+
+¡Un beso y gracias de nuevo!
 ```
 
 ---
 
-## Notas
+## Qué le tienes que mandar tú
 
-**Va la lista completa, sin filtrar.** Aunque su perfil sea endocrinología, quien decide qué domina es ella. El número 7 —síndrome cardiorrenometabólico— podría cruzarse con el Dr. Chen Ku, a quien ya se le propuso: si él acepta, ese sale de la lista.
+- `SEDA_Plantilla_Ponentes.pptx`
+- `SEDA_Declaracion_Conflicto_Interes.docx`
 
-**«Si ninguno te convence, dímelo con toda confianza»** le da permiso explícito para decir que no sin incomodidad.
+## Por qué el mensaje le ofrece cambiar de tema
 
-**Los números 1 y 2 vencen el 29 de octubre**, que es dentro de cinco semanas. Si elige alguno de esos, hay que avisarle de inmediato que el plazo es corto.
+Cuando eligió, no tenía delante lo apretado que es su plazo. El Módulo 2 abre el curso y su grabación vence el **29 de octubre**, cinco semanas desde hoy, mientras el resto del cuerpo docente entrega entre noviembre y diciembre.
 
-**Sigue siendo mejor hablarle en persona.** Trabajan en el mismo hospital; el mensaje sirve para dejarle la lista por escrito después de la conversación.
+Es mejor que lo sepa hoy y pueda cambiarse a un tema del Módulo 5 o 7 —con tres o seis semanas más— que descubrirlo a mediados de octubre. Quedan ocho temas más en la lista.
+
+## Guarda su aceptación por escrito
+
+Si te dijo que sí por WhatsApp, esa captura vale para el expediente del aval. Consérvala.
