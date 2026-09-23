@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pedido de documentos SEDA</title>
+<style>
+:root{
+  --teal:#0D5A62; --teal2:#094247; --gold:#B8852B; --mint:#C8E1DF; --pale:#EDF5F4;
+  --bg:#F7FAFA; --surface:#FFFFFF; --ink:#1A2325; --muted:#5F7073; --line:#DCE8E7;
+  --ok:#0D5A62; --pend:#B8852B;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --teal:#7FC5C4; --teal2:#A8DCDA; --gold:#E0AE5C; --mint:#123A3D; --pale:#0F2A2D;
+  --bg:#0B1718; --surface:#122224; --ink:#E8F1F0; --muted:#94A9AB; --line:#1E3538;
+  --ok:#7FC5C4; --pend:#E0AE5C;
+}}
+:root[data-theme="dark"]{
+  --teal:#7FC5C4; --teal2:#A8DCDA; --gold:#E0AE5C; --mint:#123A3D; --pale:#0F2A2D;
+  --bg:#0B1718; --surface:#122224; --ink:#E8F1F0; --muted:#94A9AB; --line:#1E3538;
+  --ok:#7FC5C4; --pend:#E0AE5C;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+.wrap{max-width:1140px;margin:0 auto;padding:32px 16px 72px}
+header.top{border-bottom:2px solid var(--mint);padding-bottom:20px;margin-bottom:26px}
+h1{font-size:clamp(22px,4vw,30px);margin:0 0 6px;color:var(--teal);letter-spacing:-.01em}
+.sub{margin:0;color:var(--muted);font-size:14px}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 0}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px;min-width:96px}
+.stat b{display:block;font-size:20px;color:var(--teal);line-height:1.2}
+.stat span{font-size:12px;color:var(--muted)}
+.filtros{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 6px}
+.f{background:var(--surface);border:1px solid var(--line);color:var(--muted);border-radius:999px;
+   padding:7px 15px;font-size:13px;cursor:pointer;font-family:inherit}
+.f[aria-pressed="true"]{background:var(--teal);border-color:var(--teal);color:var(--bg);font-weight:600}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));margin-top:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;
+      display:flex;flex-direction:column;gap:12px}
+.card.hecho{opacity:.5}
+.card header{position:relative;padding-right:92px}
+.card h2{font-size:17px;margin:0;color:var(--teal);line-height:1.3}
+.tel{margin:3px 0 0;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.badge{position:absolute;top:0;right:0;font-size:10px;letter-spacing:.06em;font-weight:700;
+       padding:4px 8px;border-radius:5px;text-transform:uppercase}
+.badge.ok{background:var(--mint);color:var(--ok)}
+.badge.pend{background:transparent;border:1px solid var(--pend);color:var(--pend)}
+.done{position:absolute;top:26px;right:0;display:flex;align-items:center;gap:5px;font-size:11px;color:var(--muted);cursor:pointer}
+.clases{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.clases li{font-size:14px;line-height:1.4}
+.cod{display:inline-block;background:var(--pale);color:var(--teal);font-size:11px;font-weight:700;
+     padding:2px 6px;border-radius:4px;margin-right:6px;white-space:nowrap}
+.fecha{margin:0;font-size:13px;color:var(--muted)}
+.fecha strong{color:var(--gold)}
+.falta{background:var(--pale);border-radius:9px;padding:11px 13px}
+.falta h3{margin:0 0 5px;font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.falta ul{margin:0;padding-left:17px;font-size:13px}
+.falta li{margin:2px 0}
+.nota{margin:0;font-size:12.5px;color:var(--muted);border-left:3px solid var(--gold);padding-left:10px}
+details summary{cursor:pointer;font-size:13px;color:var(--teal);font-weight:600}
+.msg{white-space:pre-wrap;font:13px/1.55 ui-monospace,SFMono-Regular,Menlo,monospace;
+     background:var(--pale);border-radius:8px;padding:12px;margin:9px 0 0;overflow-x:auto}
+.acciones{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;padding-top:4px}
+.btn{font:600 13px/1 inherit;font-family:inherit;border-radius:8px;padding:10px 14px;cursor:pointer;
+     text-decoration:none;display:inline-flex;align-items:center;border:1px solid transparent}
+.primary{background:var(--teal);color:var(--bg)}
+.ghost{background:transparent;border-color:var(--line);color:var(--teal)}
+.src{position:absolute;left:-9999px}
+footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted)}
+footer b{color:var(--teal)}
+@media (max-width:480px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <h1>Pedido de documentos para el aval</h1>
+  <p class="sub">Curso virtual SEDA en obesidad, diabetes, nutrición clínica y salud digital · 14 docentes · plazo 2 de octubre de 2026</p>
+  <div class="stats">
+    <div class="stat"><b>15</b><span>docentes</span></div>
+    <div class="stat"><b>8</b><span>confirmados</span></div>
+    <div class="stat"><b>6</b><span>por confirmar</span></div>
+    <div class="stat"><b>4</b><span>hojas de vida</span></div>
+    <div class="stat"><b>1</b><span>declaración COI</span></div>
+    <div class="stat"><b>0</b><span>fotografías</span></div>
+  </div>
+</header>
+
+<div class="filtros" role="group" aria-label="Filtros">
+  <button class="f" data-f="todos" aria-pressed="true">Todos</button>
+  <button class="f" data-f="ok" aria-pressed="false">Confirmados</button>
+  <button class="f" data-f="pend" aria-pressed="false">Por confirmar</button>
+  <button class="f" data-f="pendientes" aria-pressed="false">Sin enviar</button>
+</div>
+
+<main class="grid" id="grid">
+
+<article class="card" data-estado="ok" id="p0">
+  <header>
+    <label class="done"><input type="checkbox" data-k="p0"><span>enviado</span></label>
+    <h2>Lcda. Isabel Reinoso</h2>
+    <p class="tel">+593 98 736 8816</p>
+    <span class="badge ok">CONFIRMADO</span>
+  </header>
+  <ul class="clases"><li><span class="cod">M2 · C1</span> Principios de terapia nutricional</li></ul>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 29 de octubre</strong></p>
+  <div class="falta"><h3>Le falta enviar</h3><ul><li>hoja de vida</li><li>número de cédula</li><li>fotografía</li><li>declaración de conflicto de interés firmada</li></ul></div>
+  
+  <details><summary>Ver el mensaje</summary><pre class="msg">Hola Isabel, ¿cómo está? Le escribe Omidres Pérez.
+
+Le confirmo su participación en el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro:
+
+Principios de terapia nutricional
+Módulo 2, Clase 1 · 30 minutos grabados
+Entrega de la grabación: jueves 29 de octubre
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Y le pido un favor: estamos armando el expediente del aval y me faltan de usted hoja de vida, número de cédula, fotografía y declaración de conflicto de interés firmada.
+
+¿Me los puede enviar a info@draomidresperez.com? Si me llegan antes del 2 de octubre, quedamos al día.
+
+Le paso por aquí la plantilla de diapositivas del curso y el formato de la declaración. La primera lámina de la plantilla trae las instrucciones y hay que borrarla antes de grabar.
+
+¡Mil gracias y un abrazo!</pre></details>
+  <div class="acciones">
+    <a class="btn primary" href="https://wa.me/593987368816?text=Hola%20Isabel%2C%20%C2%BFc%C3%B3mo%20est%C3%A1%3F%20Le%20escribe%20Omidres%20P%C3%A9rez.%0A%0ALe%20confirmo%20su%20participaci%C3%B3n%20en%20el%20curso%20virtual%20de%20la%20Sociedad%20de%20Endocrinolog%C3%ADa%20y%20Diabetes%20del%20Austro%3A%0A%0APrincipios%20de%20terapia%20nutricional%0AM%C3%B3dulo%202%2C%20Clase%201%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%2029%20de%20octubre%0A%0AUna%20cosa%20antes%20de%20que%20prepare%20nada%2C%20para%20que%20no%20haya%20malentendidos%3A%20la%20participaci%C3%B3n%20docente%20es%20ad%20honorem%2C%20la%20m%C3%ADa%20incluida.%20El%20curso%20va%20a%20cobrar%20inscripci%C3%B3n%2C%20pero%20eso%20se%20destina%20a%20la%20plataforma%2C%20la%20certificaci%C3%B3n%20y%20el%20tr%C3%A1mite%20del%20aval%20ante%20la%20Universidad%20de%20Cuenca.%0A%0AY%20le%20pido%20un%20favor%3A%20estamos%20armando%20el%20expediente%20del%20aval%20y%20me%20faltan%20de%20usted%20hoja%20de%20vida%2C%20n%C3%BAmero%20de%20c%C3%A9dula%2C%20fotograf%C3%ADa%20y%20declaraci%C3%B3n%20de%20conflicto%20de%20inter%C3%A9s%20firmada.%0A%0A%C2%BFMe%20los%20puede%20enviar%20a%20info%40draomidresperez.com%3F%20Si%20me%20llegan%20antes%20del%202%20de%20octubre%2C%20quedamos%20al%20d%C3%ADa.%0A%0ALe%20paso%20por%20aqu%C3%AD%20la%20plantilla%20de%20diapositivas%20del%20curso%20y%20el%20formato%20de%20la%20declaraci%C3%B3n.%20La%20primera%20l%C3%A1mina%20de%20la%20plantilla%20trae%20las%20instrucciones%20y%20hay%20que%20borrarla%20antes%20de%20grabar.%0A%0A%C2%A1Mil%20gracias%20y%20un%20abrazo%21" target="_blank" rel="noopener">Abrir en WhatsApp</a>
+    
+    <button class="btn ghost copy" type="button" data-id="p0">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-p0" readonly hidden>Hola Isabel, ¿cómo está? Le escribe Omidres Pérez.
+
+Le confirmo su participación en el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro:
+
+Principios de terapia nutricional
+Módulo 2, Clase 1 · 30 minutos grabados
+Entrega de la grabación: jueves 29 de octubre
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Y le pido un favor: estamos armando el expediente del aval y me faltan de usted hoja de vida, número de cédula, fotografía y declaración de conflicto de interés firmada.
+
+¿Me los puede enviar a info@draomidresperez.com? Si me llegan antes del 2 de octubre, quedamos al día.
+
+Le paso por aquí la plantilla de diapositivas del curso y el formato de la declaración. La primera lámina de la plantilla trae las instrucciones y hay que borrarla antes de grabar.
+
+¡Mil gracias y un abrazo!</textarea>
+</article>
+
+<article class="card" data-estado="ok" id="p1">
+  <header>
+    <label class="done"><input type="checkbox" data-k="p1"><span>enviado</span></label>
+    <h2>Dra. Johanna Piedra Bravo</h2>
+    <p class="tel">+593 98 765 4330</p>
+    <span class="badge ok">CONFIRMADO</span>
+  </header>
+  <ul class="clases"><li><span class="cod">M2 · C2</span> Patrones alimentarios basados en evidencia</li></ul>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 29 de octubre</strong></p>
+  <div class="falta"><h3>Le falta enviar</h3><ul><li>número de cédula</li><li>fotografía</li><li>declaración de conflicto de interés firmada</li></ul></div>
+  <p class="nota">Su hoja de vida ya llegó.</p>
+  <details><summary>Ver el mensaje</summary><pre class="msg">Hola Johanna, ¿cómo está? Le escribe Omidres Pérez.
+
+Le confirmo su participación en el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro:
+
+Patrones alimentarios basados en evidencia
+Módulo 2, Clase 2 · 30 minutos grabados
+Entrega de la grabación: jueves 29 de octubre
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Y le pido un favor: estamos armando el expediente del aval y me faltan de usted número de cédula, fotografía y declaración de conflicto de interés firmada.
+
+¿Me los puede enviar a info@draomidresperez.com? Si me llegan antes del 2 de octubre, quedamos al día.
+
+Le paso por aquí la plantilla de diapositivas del curso y el formato de la declaración. La primera lámina de la plantilla trae las instrucciones y hay que borrarla antes de grabar.
+
+¡Mil gracias y un abrazo!</pre></details>
+  <div class="acciones">
+    <a class="btn primary" href="https://wa.me/593987654330?text=Hola%20Johanna%2C%20%C2%BFc%C3%B3mo%20est%C3%A1%3F%20Le%20escribe%20Omidres%20P%C3%A9rez.%0A%0ALe%20confirmo%20su%20participaci%C3%B3n%20en%20el%20curso%20virtual%20de%20la%20Sociedad%20de%20Endocrinolog%C3%ADa%20y%20Diabetes%20del%20Austro%3A%0A%0APatrones%20alimentarios%20basados%20en%20evidencia%0AM%C3%B3dulo%202%2C%20Clase%202%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%2029%20de%20octubre%0A%0AUna%20cosa%20antes%20de%20que%20prepare%20nada%2C%20para%20que%20no%20haya%20malentendidos%3A%20la%20participaci%C3%B3n%20docente%20es%20ad%20honorem%2C%20la%20m%C3%ADa%20incluida.%20El%20curso%20va%20a%20cobrar%20inscripci%C3%B3n%2C%20pero%20eso%20se%20destina%20a%20la%20plataforma%2C%20la%20certificaci%C3%B3n%20y%20el%20tr%C3%A1mite%20del%20aval%20ante%20la%20Universidad%20de%20Cuenca.%0A%0AY%20le%20pido%20un%20favor%3A%20estamos%20armando%20el%20expediente%20del%20aval%20y%20me%20faltan%20de%20usted%20n%C3%BAmero%20de%20c%C3%A9dula%2C%20fotograf%C3%ADa%20y%20declaraci%C3%B3n%20de%20conflicto%20de%20inter%C3%A9s%20firmada.%0A%0A%C2%BFMe%20los%20puede%20enviar%20a%20info%40draomidresperez.com%3F%20Si%20me%20llegan%20antes%20del%202%20de%20octubre%2C%20quedamos%20al%20d%C3%ADa.%0A%0ALe%20paso%20por%20aqu%C3%AD%20la%20plantilla%20de%20diapositivas%20del%20curso%20y%20el%20formato%20de%20la%20declaraci%C3%B3n.%20La%20primera%20l%C3%A1mina%20de%20la%20plantilla%20trae%20las%20instrucciones%20y%20hay%20que%20borrarla%20antes%20de%20grabar.%0A%0A%C2%A1Mil%20gracias%20y%20un%20abrazo%21" target="_blank" rel="noopener">Abrir en WhatsApp</a>
+    
+    <button class="btn ghost copy" type="button" data-id="p1">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-p1" readonly hidden>Hola Johanna, ¿cómo está? Le escribe Omidres Pérez.
+
+Le confirmo su participación en el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro:
+
+Patrones alimentarios basados en evidencia
+Módulo 2, Clase 2 · 30 minutos grabados
+Entrega de la grabación: jueves 29 de octubre
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Y le pido un favor: estamos armando el expediente del aval y me faltan de usted número de cédula, fotografía y declaración de conflicto de interés firmada.
+
+¿Me los puede enviar a info@draomidresperez.com? Si me llegan antes del 2 de octubre, quedamos al día.
+
+Le paso por aquí la plantilla de diapositivas del curso y el formato de la declaración. La primera lámina de la plantilla trae las instrucciones y hay que borrarla antes de grabar.
+
+¡Mil gracias y un abrazo!</textarea>
+</article>
+
+<article class="card" data-estado="ok" id="p2">
+  <header>
+    <label class="done"><input type="checkbox" data-k="p2"><span>enviado</span></label>
+    <h2>Dra. Janeth Bermeo</h2>
+    <p class="tel">+593 96 198 1203</p>
+    <span class="badge ok">CONFIRMADO</span>
+  </header>
+  <ul class="clases"><li><span class="cod">M2 · C3</span> Nutrición conductual</li></ul>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 29 de octubre</strong></p>
+  <div class="falta"><h3>Le falta enviar</h3><ul><li>hoja de vida</li><li>número de cédula</li><li>fotografía</li><li>declaración de conflicto de interés firmada</li></ul></div>
+  <p class="nota">Aceptó el 22/09. Es la fecha más apretada del curso: su módulo abre el programa.</p>
+  <details><summary>Ver el mensaje</summary><pre class="msg">Hola Janeth, ¿cómo está? Le escribe Omidres Pérez.
+
+Le confirmo su participación en el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro:
+
+Nutrición conductual
+Módulo 2, Clase 3 · 30 minutos grabados
+Entrega de la grabación: jueves 29 de octubre
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Y le pido un favor: estamos armando el expediente del aval y me faltan de usted hoja de vida, número de cédula, fotografía y declaración de conflicto de interés firmada.
+
+¿Me los puede enviar a info@draomidresperez.com? Si me llegan antes del 2 de octubre, quedamos al día.
+
+Le paso por aquí la plantilla de diapositivas del curso y el formato de la declaración. La primera lámina de la plantilla trae las instrucciones y hay que borrarla antes de grabar.
+
+¡Mil gracias y un abrazo!</pre></details>
+  <div class="acciones">
+    <a class="btn primary" href="https://wa.me/593961981203?text=Hola%20Janeth%2C%20%C2%BFc%C3%B3mo%20est%C3%A1%3F%20Le%20escribe%20Omidres%20P%C3%A9rez.%0A%0ALe%20confirmo%20su%20participaci%C3%B3n%20en%20el%20curso%20virtual%20de%20la%20Sociedad%20de%20Endocrinolog%C3%ADa%20y%20Diabetes%20del%20Austro%3A%0A%0ANutrici%C3%B3n%20conductual%0AM%C3%B3dulo%202%2C%20Clase%203%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%2029%20de%20octubre%0A%0AUna%20cosa%20antes%20de%20que%20prepare%20nada%2C%20para%20que%20no%20haya%20malentendidos%3A%20la%20participaci%C3%B3n%20docente%20es%20ad%20honorem%2C%20la%20m%C3%ADa%20incluida.%20El%20curso%20va%20a%20cobrar%20inscripci%C3%B3n%2C%20pero%20eso%20se%20destina%20a%20la%20plataforma%2C%20la%20certificaci%C3%B3n%20y%20el%20tr%C3%A1mite%20del%20aval%20ante%20la%20Universidad%20de%20Cuenca.%0A%0AY%20le%20pido%20un%20favor%3A%20estamos%20armando%20el%20expediente%20del%20aval%20y%20me%20faltan%20de%20usted%20hoja%20de%20vida%2C%20n%C3%BAmero%20de%20c%C3%A9dula%2C%20fotograf%C3%ADa%20y%20declaraci%C3%B3n%20de%20conflicto%20de%20inter%C3%A9s%20firmada.%0A%0A%C2%BFMe%20los%20puede%20enviar%20a%20info%40draomidresperez.com%3F%20Si%20me%20llegan%20antes%20del%202%20de%20octubre%2C%20quedamos%20al%20d%C3%ADa.%0A%0ALe%20paso%20por%20aqu%C3%AD%20la%20plantilla%20de%20diapositivas%20del%20curso%20y%20el%20formato%20de%20la%20declaraci%C3%B3n.%20La%20primera%20l%C3%A1mina%20de%20la%20plantilla%20trae%20las%20instrucciones%20y%20hay%20que%20borrarla%20antes%20de%20grabar.%0A%0A%C2%A1Mil%20gracias%20y%20un%20abrazo%21" target="_blank" rel="noopener">Abrir en WhatsApp</a>
+    
+    <button class="btn ghost copy" type="button" data-id="p2">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-p2" readonly hidden>Hola Janeth, ¿cómo está? Le escribe Omidres Pérez.
+
+Le confirmo su participación en el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro:
+
+Nutrición conductual
+Módulo 2, Clase 3 · 30 minutos grabados
+Entrega de la grabación: jueves 29 de octubre
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Y le pido un favor: estamos armando el expediente del aval y me faltan de usted hoja de vida, número de cédula, fotografía y declaración de conflicto de interés firmada.
+
+¿Me los puede enviar a info@draomidresperez.com? Si me llegan antes del 2 de octubre, quedamos al día.
+
+Le paso por aquí la plantilla de diapositivas del curso y el formato de la declaración. La primera lámina de la plantilla trae las instrucciones y hay que borrarla antes de grabar.
+
+¡Mil gracias y un abrazo!</textarea>
+</article>
+
+<article class="card" data-estado="ok" id="p3">
+  <header>
+    <label class="done"><input type="checkbox" data-k="p3"><span>enviado</span></label>
+    <h2>Dr. Frank Espinoza</h2>
+    <p class="tel">+51 936 260 715</p>
+    <span class="badge ok">CONFIRMADO</span>
+  </header>
+  <ul class="clases"><li><span class="cod">M3 · C2</span> Agonistas del receptor de GLP-1</li></ul>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 5 de noviembre</strong></p>
+  <div class="falta"><h3>Le falta enviar</h3><ul><li>hoja de vida</li><li>número de cédula o pasaporte</li><li>fotografía</li><li>declaración de conflicto de interés firmada</li></ul></div>
+  <p class="nota">Número de Perú. Si ejerce fuera de Ecuador, pídale pasaporte en lugar de cédula.</p>
+  <details><summary>Ver el mensaje</summary><pre class="msg">Hola, doctor, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga.
+
+Le confirmo su participación en el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro:
+
+Agonistas del receptor de GLP-1
+Módulo 3, Clase 2 · 30 minutos grabados
+Entrega de la grabación: jueves 5 de noviembre
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Y le pido un favor: estamos armando el expediente del aval y me faltan de usted hoja de vida, número de cédula o pasaporte, fotografía y declaración de conflicto de interés firmada.
+
+¿Me los puede enviar a info@draomidresperez.com? Si me llegan antes del 2 de octubre, quedamos al día.
+
+Le paso por aquí la plantilla de diapositivas del curso y el formato de la declaración. La primera lámina de la plantilla trae las instrucciones y hay que borrarla antes de grabar.
+
+¡Mil gracias y un abrazo!</pre></details>
+  <div class="acciones">
+    <a class="btn primary" href="https://wa.me/51936260715?text=Hola%2C%20doctor%2C%20%C2%BFc%C3%B3mo%20est%C3%A1%3F%20Le%20escribe%20Omidres%20P%C3%A9rez%2C%20endocrin%C3%B3loga.%0A%0ALe%20confirmo%20su%20participaci%C3%B3n%20en%20el%20curso%20virtual%20de%20la%20Sociedad%20de%20Endocrinolog%C3%ADa%20y%20Diabetes%20del%20Austro%3A%0A%0AAgonistas%20del%20receptor%20de%20GLP-1%0AM%C3%B3dulo%203%2C%20Clase%202%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%205%20de%20noviembre%0A%0AUna%20cosa%20antes%20de%20que%20prepare%20nada%2C%20para%20que%20no%20haya%20malentendidos%3A%20la%20participaci%C3%B3n%20docente%20es%20ad%20honorem%2C%20la%20m%C3%ADa%20incluida.%20El%20curso%20va%20a%20cobrar%20inscripci%C3%B3n%2C%20pero%20eso%20se%20destina%20a%20la%20plataforma%2C%20la%20certificaci%C3%B3n%20y%20el%20tr%C3%A1mite%20del%20aval%20ante%20la%20Universidad%20de%20Cuenca.%0A%0AY%20le%20pido%20un%20favor%3A%20estamos%20armando%20el%20expediente%20del%20aval%20y%20me%20faltan%20de%20usted%20hoja%20de%20vida%2C%20n%C3%BAmero%20de%20c%C3%A9dula%20o%20pasaporte%2C%20fotograf%C3%ADa%20y%20declaraci%C3%B3n%20de%20conflicto%20de%20inter%C3%A9s%20firmada.%0A%0A%C2%BFMe%20los%20puede%20enviar%20a%20info%40draomidresperez.com%3F%20Si%20me%20llegan%20antes%20del%202%20de%20octubre%2C%20quedamos%20al%20d%C3%ADa.%0A%0ALe%20paso%20por%20aqu%C3%AD%20la%20plantilla%20de%20diapositivas%20del%20curso%20y%20el%20formato%20de%20la%20declaraci%C3%B3n.%20La%20primera%20l%C3%A1mina%20de%20la%20plantilla%20trae%20las%20instrucciones%20y%20hay%20que%20borrarla%20antes%20de%20grabar.%0A%0A%C2%A1Mil%20gracias%20y%20un%20abrazo%21" target="_blank" rel="noopener">Abrir en WhatsApp</a>
+    
+    <button class="btn ghost copy" type="button" data-id="p3">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-p3" readonly hidden>Hola, doctor, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga.
+
+Le confirmo su participación en el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro:
+
+Agonistas del receptor de GLP-1
+Módulo 3, Clase 2 · 30 minutos grabados
+Entrega de la grabación: jueves 5 de noviembre
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Y le pido un favor: estamos armando el expediente del aval y me faltan de usted hoja de vida, número de cédula o pasaporte, fotografía y declaración de conflicto de interés firmada.
+
+¿Me los puede enviar a info@draomidresperez.com? Si me llegan antes del 2 de octubre, quedamos al día.
+
+Le paso por aquí la plantilla de diapositivas del curso y el formato de la declaración. La primera lámina de la plantilla trae las instrucciones y hay que borrarla antes de grabar.
+
+¡Mil gracias y un abrazo!</textarea>
+</article>
+
+<article class="card" data-estado="ok" id="p4">
+  <header>
+    <label class="done"><input type="checkbox" data-k="p4"><span>enviado</span></label>
+    <h2>Dra. Teresa Cuatecontzi</h2>
+    <p class="tel">+52 1 55 5405 6619</p>
+    <span class="badge ok">CONFIRMADO</span>
+  </header>
+  <ul class="clases"><li><span class="cod">M3 · C3</span> Tirzepatida y nuevas terapias</li></ul>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 5 de noviembre</strong></p>
+  <div class="falta"><h3>Le falta enviar</h3><ul><li>hoja de vida</li><li>número de pasaporte</li><li>fotografía</li><li>declaración de conflicto de interés firmada</li></ul></div>
+  <p class="nota">México. El «1» del número es el prefijo antiguo de móviles; si el enlace no abre, use el alterno.</p>
+  <details><summary>Ver el mensaje</summary><pre class="msg">Hola, doctora, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga.
+
+Le confirmo su participación en el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro:
+
+Tirzepatida y nuevas terapias
+Módulo 3, Clase 3 · 30 minutos grabados
+Entrega de la grabación: jueves 5 de noviembre
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Y le pido un favor: estamos armando el expediente del aval y me faltan de usted hoja de vida, número de pasaporte, fotografía y declaración de conflicto de interés firmada.
+
+¿Me los puede enviar a info@draomidresperez.com? Si me llegan antes del 2 de octubre, quedamos al día.
+
+Le paso por aquí la plantilla de diapositivas del curso y el formato de la declaración. La primera lámina de la plantilla trae las instrucciones y hay que borrarla antes de grabar.
+
+¡Mil gracias y un abrazo!</pre></details>
+  <div class="acciones">
+    <a class="btn primary" href="https://wa.me/5215554056619?text=Hola%2C%20doctora%2C%20%C2%BFc%C3%B3mo%20est%C3%A1%3F%20Le%20escribe%20Omidres%20P%C3%A9rez%2C%20endocrin%C3%B3loga.%0A%0ALe%20confirmo%20su%20participaci%C3%B3n%20en%20el%20curso%20virtual%20de%20la%20Sociedad%20de%20Endocrinolog%C3%ADa%20y%20Diabetes%20del%20Austro%3A%0A%0ATirzepatida%20y%20nuevas%20terapias%0AM%C3%B3dulo%203%2C%20Clase%203%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%205%20de%20noviembre%0A%0AUna%20cosa%20antes%20de%20que%20prepare%20nada%2C%20para%20que%20no%20haya%20malentendidos%3A%20la%20participaci%C3%B3n%20docente%20es%20ad%20honorem%2C%20la%20m%C3%ADa%20incluida.%20El%20curso%20va%20a%20cobrar%20inscripci%C3%B3n%2C%20pero%20eso%20se%20destina%20a%20la%20plataforma%2C%20la%20certificaci%C3%B3n%20y%20el%20tr%C3%A1mite%20del%20aval%20ante%20la%20Universidad%20de%20Cuenca.%0A%0AY%20le%20pido%20un%20favor%3A%20estamos%20armando%20el%20expediente%20del%20aval%20y%20me%20faltan%20de%20usted%20hoja%20de%20vida%2C%20n%C3%BAmero%20de%20pasaporte%2C%20fotograf%C3%ADa%20y%20declaraci%C3%B3n%20de%20conflicto%20de%20inter%C3%A9s%20firmada.%0A%0A%C2%BFMe%20los%20puede%20enviar%20a%20info%40draomidresperez.com%3F%20Si%20me%20llegan%20antes%20del%202%20de%20octubre%2C%20quedamos%20al%20d%C3%ADa.%0A%0ALe%20paso%20por%20aqu%C3%AD%20la%20plantilla%20de%20diapositivas%20del%20curso%20y%20el%20formato%20de%20la%20declaraci%C3%B3n.%20La%20primera%20l%C3%A1mina%20de%20la%20plantilla%20trae%20las%20instrucciones%20y%20hay%20que%20borrarla%20antes%20de%20grabar.%0A%0A%C2%A1Mil%20gracias%20y%20un%20abrazo%21" target="_blank" rel="noopener">Abrir en WhatsApp</a>
+    <a class="btn ghost" href="https://wa.me/525554056619?text=Hola%2C%20doctora%2C%20%C2%BFc%C3%B3mo%20est%C3%A1%3F%20Le%20escribe%20Omidres%20P%C3%A9rez%2C%20endocrin%C3%B3loga.%0A%0ALe%20confirmo%20su%20participaci%C3%B3n%20en%20el%20curso%20virtual%20de%20la%20Sociedad%20de%20Endocrinolog%C3%ADa%20y%20Diabetes%20del%20Austro%3A%0A%0ATirzepatida%20y%20nuevas%20terapias%0AM%C3%B3dulo%203%2C%20Clase%203%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%205%20de%20noviembre%0A%0AUna%20cosa%20antes%20de%20que%20prepare%20nada%2C%20para%20que%20no%20haya%20malentendidos%3A%20la%20participaci%C3%B3n%20docente%20es%20ad%20honorem%2C%20la%20m%C3%ADa%20incluida.%20El%20curso%20va%20a%20cobrar%20inscripci%C3%B3n%2C%20pero%20eso%20se%20destina%20a%20la%20plataforma%2C%20la%20certificaci%C3%B3n%20y%20el%20tr%C3%A1mite%20del%20aval%20ante%20la%20Universidad%20de%20Cuenca.%0A%0AY%20le%20pido%20un%20favor%3A%20estamos%20armando%20el%20expediente%20del%20aval%20y%20me%20faltan%20de%20usted%20hoja%20de%20vida%2C%20n%C3%BAmero%20de%20pasaporte%2C%20fotograf%C3%ADa%20y%20declaraci%C3%B3n%20de%20conflicto%20de%20inter%C3%A9s%20firmada.%0A%0A%C2%BFMe%20los%20puede%20enviar%20a%20info%40draomidresperez.com%3F%20Si%20me%20llegan%20antes%20del%202%20de%20octubre%2C%20quedamos%20al%20d%C3%ADa.%0A%0ALe%20paso%20por%20aqu%C3%AD%20la%20plantilla%20de%20diapositivas%20del%20curso%20y%20el%20formato%20de%20la%20declaraci%C3%B3n.%20La%20primera%20l%C3%A1mina%20de%20la%20plantilla%20trae%20las%20instrucciones%20y%20hay%20que%20borrarla%20antes%20de%20grabar.%0A%0A%C2%A1Mil%20gracias%20y%20un%20abrazo%21" target="_blank" rel="noopener">Nº alterno</a>
+    <button class="btn ghost copy" type="button" data-id="p4">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-p4" readonly hidden>Hola, doctora, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga.
+
+Le confirmo su participación en el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro:
+
+Tirzepatida y nuevas terapias
+Módulo 3, Clase 3 · 30 minutos grabados
+Entrega de la grabación: jueves 5 de noviembre
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Y le pido un favor: estamos armando el expediente del aval y me faltan de usted hoja de vida, número de pasaporte, fotografía y declaración de conflicto de interés firmada.
+
+¿Me los puede enviar a info@draomidresperez.com? Si me llegan antes del 2 de octubre, quedamos al día.
+
+Le paso por aquí la plantilla de diapositivas del curso y el formato de la declaración. La primera lámina de la plantilla trae las instrucciones y hay que borrarla antes de grabar.
+
+¡Mil gracias y un abrazo!</textarea>
+</article>
+
+<article class="card" data-estado="ok" id="p5">
+  <header>
+    <label class="done"><input type="checkbox" data-k="p5"><span>enviado</span></label>
+    <h2>Dra. Josefa Palacio Riofrío</h2>
+    <p class="tel">+593 96 816 1654</p>
+    <span class="badge ok">CONFIRMADO</span>
+  </header>
+  <ul class="clases"><li><span class="cod">M4 · C2</span> Monitoreo glucémico y metas terapéuticas</li></ul>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 12 de noviembre</strong></p>
+  <div class="falta"><h3>Le falta enviar</h3><ul><li>fotografía</li><li>declaración de conflicto de interés firmada</li></ul></div>
+  <p class="nota">Ya envió hoja de vida y cédula. Es la más completa del grupo.</p>
+  <details><summary>Ver el mensaje</summary><pre class="msg">Hola, doctora, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga.
+
+Le confirmo su participación en el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro:
+
+Monitoreo glucémico y metas terapéuticas
+Módulo 4, Clase 2 · 30 minutos grabados
+Entrega de la grabación: jueves 12 de noviembre
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Y le pido un favor: estamos armando el expediente del aval y me faltan de usted fotografía y declaración de conflicto de interés firmada.
+
+¿Me los puede enviar a info@draomidresperez.com? Si me llegan antes del 2 de octubre, quedamos al día.
+
+Le paso por aquí la plantilla de diapositivas del curso y el formato de la declaración. La primera lámina de la plantilla trae las instrucciones y hay que borrarla antes de grabar.
+
+¡Mil gracias y un abrazo!</pre></details>
+  <div class="acciones">
+    <a class="btn primary" href="https://wa.me/593968161654?text=Hola%2C%20doctora%2C%20%C2%BFc%C3%B3mo%20est%C3%A1%3F%20Le%20escribe%20Omidres%20P%C3%A9rez%2C%20endocrin%C3%B3loga.%0A%0ALe%20confirmo%20su%20participaci%C3%B3n%20en%20el%20curso%20virtual%20de%20la%20Sociedad%20de%20Endocrinolog%C3%ADa%20y%20Diabetes%20del%20Austro%3A%0A%0AMonitoreo%20gluc%C3%A9mico%20y%20metas%20terap%C3%A9uticas%0AM%C3%B3dulo%204%2C%20Clase%202%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%2012%20de%20noviembre%0A%0AUna%20cosa%20antes%20de%20que%20prepare%20nada%2C%20para%20que%20no%20haya%20malentendidos%3A%20la%20participaci%C3%B3n%20docente%20es%20ad%20honorem%2C%20la%20m%C3%ADa%20incluida.%20El%20curso%20va%20a%20cobrar%20inscripci%C3%B3n%2C%20pero%20eso%20se%20destina%20a%20la%20plataforma%2C%20la%20certificaci%C3%B3n%20y%20el%20tr%C3%A1mite%20del%20aval%20ante%20la%20Universidad%20de%20Cuenca.%0A%0AY%20le%20pido%20un%20favor%3A%20estamos%20armando%20el%20expediente%20del%20aval%20y%20me%20faltan%20de%20usted%20fotograf%C3%ADa%20y%20declaraci%C3%B3n%20de%20conflicto%20de%20inter%C3%A9s%20firmada.%0A%0A%C2%BFMe%20los%20puede%20enviar%20a%20info%40draomidresperez.com%3F%20Si%20me%20llegan%20antes%20del%202%20de%20octubre%2C%20quedamos%20al%20d%C3%ADa.%0A%0ALe%20paso%20por%20aqu%C3%AD%20la%20plantilla%20de%20diapositivas%20del%20curso%20y%20el%20formato%20de%20la%20declaraci%C3%B3n.%20La%20primera%20l%C3%A1mina%20de%20la%20plantilla%20trae%20las%20instrucciones%20y%20hay%20que%20borrarla%20antes%20de%20grabar.%0A%0A%C2%A1Mil%20gracias%20y%20un%20abrazo%21" target="_blank" rel="noopener">Abrir en WhatsApp</a>
+    
+    <button class="btn ghost copy" type="button" data-id="p5">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-p5" readonly hidden>Hola, doctora, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga.
+
+Le confirmo su participación en el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro:
+
+Monitoreo glucémico y metas terapéuticas
+Módulo 4, Clase 2 · 30 minutos grabados
+Entrega de la grabación: jueves 12 de noviembre
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Y le pido un favor: estamos armando el expediente del aval y me faltan de usted fotografía y declaración de conflicto de interés firmada.
+
+¿Me los puede enviar a info@draomidresperez.com? Si me llegan antes del 2 de octubre, quedamos al día.
+
+Le paso por aquí la plantilla de diapositivas del curso y el formato de la declaración. La primera lámina de la plantilla trae las instrucciones y hay que borrarla antes de grabar.
+
+¡Mil gracias y un abrazo!</textarea>
+</article>
+
+<article class="card" data-estado="ok" id="p6">
+  <header>
+    <label class="done"><input type="checkbox" data-k="p6"><span>enviado</span></label>
+    <h2>Dr. Chih Hao Chen Ku</h2>
+    <p class="tel">+506 8392 7083</p>
+    <span class="badge ok">CONFIRMADO</span>
+  </header>
+  <ul class="clases"><li><span class="cod">M6 · C2</span> Riesgo cardiovascular en obesidad y diabetes</li><li><span class="cod">M6 · C3</span> Síndrome cardiorrenometabólico</li></ul>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 26 de noviembre</strong></p>
+  <div class="falta"><h3>Le falta enviar</h3><ul><li>número de pasaporte</li><li>fotografía</li></ul></div>
+  <p class="nota">Ya se le pidió por correo el 23/09. Use este mensaje solo si no responde.</p>
+  <details><summary>Ver el mensaje</summary><pre class="msg">Hola, doctor, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga.
+
+Le confirmo su participación en el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro:
+
+Riesgo cardiovascular en obesidad y diabetes
+Módulo 6, Clase 2 · 30 minutos grabados
+Entrega de la grabación: jueves 26 de noviembre
+
+Síndrome cardiorrenometabólico
+Módulo 6, Clase 3 · 30 minutos grabados
+Entrega de la grabación: jueves 26 de noviembre
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Y le pido un favor: estamos armando el expediente del aval y me faltan de usted número de pasaporte y fotografía.
+
+¿Me los puede enviar a info@draomidresperez.com? Si me llegan antes del 2 de octubre, quedamos al día.
+
+Le paso por aquí la plantilla de diapositivas del curso y el formato de la declaración. La primera lámina de la plantilla trae las instrucciones y hay que borrarla antes de grabar.
+
+¡Mil gracias y un abrazo!</pre></details>
+  <div class="acciones">
+    <a class="btn primary" href="https://wa.me/50683927083?text=Hola%2C%20doctor%2C%20%C2%BFc%C3%B3mo%20est%C3%A1%3F%20Le%20escribe%20Omidres%20P%C3%A9rez%2C%20endocrin%C3%B3loga.%0A%0ALe%20confirmo%20su%20participaci%C3%B3n%20en%20el%20curso%20virtual%20de%20la%20Sociedad%20de%20Endocrinolog%C3%ADa%20y%20Diabetes%20del%20Austro%3A%0A%0ARiesgo%20cardiovascular%20en%20obesidad%20y%20diabetes%0AM%C3%B3dulo%206%2C%20Clase%202%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%2026%20de%20noviembre%0A%0AS%C3%ADndrome%20cardiorrenometab%C3%B3lico%0AM%C3%B3dulo%206%2C%20Clase%203%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%2026%20de%20noviembre%0A%0AUna%20cosa%20antes%20de%20que%20prepare%20nada%2C%20para%20que%20no%20haya%20malentendidos%3A%20la%20participaci%C3%B3n%20docente%20es%20ad%20honorem%2C%20la%20m%C3%ADa%20incluida.%20El%20curso%20va%20a%20cobrar%20inscripci%C3%B3n%2C%20pero%20eso%20se%20destina%20a%20la%20plataforma%2C%20la%20certificaci%C3%B3n%20y%20el%20tr%C3%A1mite%20del%20aval%20ante%20la%20Universidad%20de%20Cuenca.%0A%0AY%20le%20pido%20un%20favor%3A%20estamos%20armando%20el%20expediente%20del%20aval%20y%20me%20faltan%20de%20usted%20n%C3%BAmero%20de%20pasaporte%20y%20fotograf%C3%ADa.%0A%0A%C2%BFMe%20los%20puede%20enviar%20a%20info%40draomidresperez.com%3F%20Si%20me%20llegan%20antes%20del%202%20de%20octubre%2C%20quedamos%20al%20d%C3%ADa.%0A%0ALe%20paso%20por%20aqu%C3%AD%20la%20plantilla%20de%20diapositivas%20del%20curso%20y%20el%20formato%20de%20la%20declaraci%C3%B3n.%20La%20primera%20l%C3%A1mina%20de%20la%20plantilla%20trae%20las%20instrucciones%20y%20hay%20que%20borrarla%20antes%20de%20grabar.%0A%0A%C2%A1Mil%20gracias%20y%20un%20abrazo%21" target="_blank" rel="noopener">Abrir en WhatsApp</a>
+    
+    <button class="btn ghost copy" type="button" data-id="p6">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-p6" readonly hidden>Hola, doctor, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga.
+
+Le confirmo su participación en el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro:
+
+Riesgo cardiovascular en obesidad y diabetes
+Módulo 6, Clase 2 · 30 minutos grabados
+Entrega de la grabación: jueves 26 de noviembre
+
+Síndrome cardiorrenometabólico
+Módulo 6, Clase 3 · 30 minutos grabados
+Entrega de la grabación: jueves 26 de noviembre
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Y le pido un favor: estamos armando el expediente del aval y me faltan de usted número de pasaporte y fotografía.
+
+¿Me los puede enviar a info@draomidresperez.com? Si me llegan antes del 2 de octubre, quedamos al día.
+
+Le paso por aquí la plantilla de diapositivas del curso y el formato de la declaración. La primera lámina de la plantilla trae las instrucciones y hay que borrarla antes de grabar.
+
+¡Mil gracias y un abrazo!</textarea>
+</article>
+
+<article class="card" data-estado="ok" id="p7">
+  <header>
+    <label class="done"><input type="checkbox" data-k="p7"><span>enviado</span></label>
+    <h2>Dra. Adriana Alvarez</h2>
+    <p class="tel">+54 9 11 6708-1708</p>
+    <span class="badge ok">CONFIRMADO</span>
+  </header>
+  <ul class="clases"><li><span class="cod">M6 · C4</span> MASLD, sarcopenia y complicaciones metabólicas</li></ul>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 26 de noviembre</strong></p>
+  <div class="falta"><h3>Le falta enviar</h3><ul><li>hoja de vida</li><li>número de pasaporte</li><li>fotografía</li><li>declaración de conflicto de interés firmada</li></ul></div>
+  <p class="nota">Número de Argentina. Confirmar dónde ejerce.</p>
+  <details><summary>Ver el mensaje</summary><pre class="msg">Hola, doctora, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga.
+
+Le confirmo su participación en el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro:
+
+MASLD, sarcopenia y complicaciones metabólicas
+Módulo 6, Clase 4 · 30 minutos grabados
+Entrega de la grabación: jueves 26 de noviembre
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Y le pido un favor: estamos armando el expediente del aval y me faltan de usted hoja de vida, número de pasaporte, fotografía y declaración de conflicto de interés firmada.
+
+¿Me los puede enviar a info@draomidresperez.com? Si me llegan antes del 2 de octubre, quedamos al día.
+
+Le paso por aquí la plantilla de diapositivas del curso y el formato de la declaración. La primera lámina de la plantilla trae las instrucciones y hay que borrarla antes de grabar.
+
+¡Mil gracias y un abrazo!</pre></details>
+  <div class="acciones">
+    <a class="btn primary" href="https://wa.me/5491167081708?text=Hola%2C%20doctora%2C%20%C2%BFc%C3%B3mo%20est%C3%A1%3F%20Le%20escribe%20Omidres%20P%C3%A9rez%2C%20endocrin%C3%B3loga.%0A%0ALe%20confirmo%20su%20participaci%C3%B3n%20en%20el%20curso%20virtual%20de%20la%20Sociedad%20de%20Endocrinolog%C3%ADa%20y%20Diabetes%20del%20Austro%3A%0A%0AMASLD%2C%20sarcopenia%20y%20complicaciones%20metab%C3%B3licas%0AM%C3%B3dulo%206%2C%20Clase%204%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%2026%20de%20noviembre%0A%0AUna%20cosa%20antes%20de%20que%20prepare%20nada%2C%20para%20que%20no%20haya%20malentendidos%3A%20la%20participaci%C3%B3n%20docente%20es%20ad%20honorem%2C%20la%20m%C3%ADa%20incluida.%20El%20curso%20va%20a%20cobrar%20inscripci%C3%B3n%2C%20pero%20eso%20se%20destina%20a%20la%20plataforma%2C%20la%20certificaci%C3%B3n%20y%20el%20tr%C3%A1mite%20del%20aval%20ante%20la%20Universidad%20de%20Cuenca.%0A%0AY%20le%20pido%20un%20favor%3A%20estamos%20armando%20el%20expediente%20del%20aval%20y%20me%20faltan%20de%20usted%20hoja%20de%20vida%2C%20n%C3%BAmero%20de%20pasaporte%2C%20fotograf%C3%ADa%20y%20declaraci%C3%B3n%20de%20conflicto%20de%20inter%C3%A9s%20firmada.%0A%0A%C2%BFMe%20los%20puede%20enviar%20a%20info%40draomidresperez.com%3F%20Si%20me%20llegan%20antes%20del%202%20de%20octubre%2C%20quedamos%20al%20d%C3%ADa.%0A%0ALe%20paso%20por%20aqu%C3%AD%20la%20plantilla%20de%20diapositivas%20del%20curso%20y%20el%20formato%20de%20la%20declaraci%C3%B3n.%20La%20primera%20l%C3%A1mina%20de%20la%20plantilla%20trae%20las%20instrucciones%20y%20hay%20que%20borrarla%20antes%20de%20grabar.%0A%0A%C2%A1Mil%20gracias%20y%20un%20abrazo%21" target="_blank" rel="noopener">Abrir en WhatsApp</a>
+    
+    <button class="btn ghost copy" type="button" data-id="p7">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-p7" readonly hidden>Hola, doctora, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga.
+
+Le confirmo su participación en el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro:
+
+MASLD, sarcopenia y complicaciones metabólicas
+Módulo 6, Clase 4 · 30 minutos grabados
+Entrega de la grabación: jueves 26 de noviembre
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Y le pido un favor: estamos armando el expediente del aval y me faltan de usted hoja de vida, número de pasaporte, fotografía y declaración de conflicto de interés firmada.
+
+¿Me los puede enviar a info@draomidresperez.com? Si me llegan antes del 2 de octubre, quedamos al día.
+
+Le paso por aquí la plantilla de diapositivas del curso y el formato de la declaración. La primera lámina de la plantilla trae las instrucciones y hay que borrarla antes de grabar.
+
+¡Mil gracias y un abrazo!</textarea>
+</article>
+
+<article class="card" data-estado="pend" id="p8">
+  <header>
+    <label class="done"><input type="checkbox" data-k="p8"><span>enviado</span></label>
+    <h2>Dra. Lizbet Ruilova</h2>
+    <p class="tel">+593 99 907 3471</p>
+    <span class="badge pend">POR CONFIRMAR</span>
+  </header>
+  <ul class="clases"><li><span class="cod">M1 · C1</span> Epidemiología y nuevos conceptos de obesidad</li><li><span class="cod">M5 · C4</span> Composición corporal y sarcopenia en pacientes con diabetes</li></ul>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 29 de octubre</strong></p>
+  <div class="falta"><h3>Le falta enviar</h3><ul><li>número de cédula</li><li>fotografía</li><li>declaración de conflicto de interés firmada</li></ul></div>
+  <p class="nota">Presidenta de SEDA. Su hoja de vida ya llegó. Falta su aceptación por escrito de sus dos clases.</p>
+  <details><summary>Ver el mensaje</summary><pre class="msg">Liz, ¿cómo estás? Te escribe Omidres.
+
+Te escribo por algo de trámite, no de fondo. En el programa figuras con estas dos clases:
+
+Epidemiología y nuevos conceptos de obesidad
+Módulo 1, Clase 1 · 30 minutos grabados
+Entrega de la grabación: jueves 29 de octubre
+
+Composición corporal y sarcopenia en pacientes con diabetes
+Módulo 5, Clase 4 · 30 minutos grabados
+Entrega de la grabación: jueves 19 de noviembre
+
+Para el expediente del aval necesito tu aceptación por escrito, aunque suene absurdo pidiéndotela a ti. La Universidad pide constancia de cada docente y la tuya es la única que no tengo en papel. Con que me respondas este mensaje diciendo que sí, me sirve.
+
+Y dejo dicho, para que quede parejo: estoy manejando el curso como participación ad honorem para todo el cuerpo docente, yo incluida. Así se lo dije a los demás ponentes y así quedó en el correo al Dr. Ojeda.
+
+Y me faltarían de ti número de cédula, fotografía y declaración de conflicto de interés firmada. A info@draomidresperez.com cuando puedas.
+
+¡Un abrazo!</pre></details>
+  <div class="acciones">
+    <a class="btn primary" href="https://wa.me/593999073471?text=Liz%2C%20%C2%BFc%C3%B3mo%20est%C3%A1s%3F%20Te%20escribe%20Omidres.%0A%0ATe%20escribo%20por%20algo%20de%20tr%C3%A1mite%2C%20no%20de%20fondo.%20En%20el%20programa%20figuras%20con%20estas%20dos%20clases%3A%0A%0AEpidemiolog%C3%ADa%20y%20nuevos%20conceptos%20de%20obesidad%0AM%C3%B3dulo%201%2C%20Clase%201%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%2029%20de%20octubre%0A%0AComposici%C3%B3n%20corporal%20y%20sarcopenia%20en%20pacientes%20con%20diabetes%0AM%C3%B3dulo%205%2C%20Clase%204%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%2019%20de%20noviembre%0A%0APara%20el%20expediente%20del%20aval%20necesito%20tu%20aceptaci%C3%B3n%20por%20escrito%2C%20aunque%20suene%20absurdo%20pidi%C3%A9ndotela%20a%20ti.%20La%20Universidad%20pide%20constancia%20de%20cada%20docente%20y%20la%20tuya%20es%20la%20%C3%BAnica%20que%20no%20tengo%20en%20papel.%20Con%20que%20me%20respondas%20este%20mensaje%20diciendo%20que%20s%C3%AD%2C%20me%20sirve.%0A%0AY%20dejo%20dicho%2C%20para%20que%20quede%20parejo%3A%20estoy%20manejando%20el%20curso%20como%20participaci%C3%B3n%20ad%20honorem%20para%20todo%20el%20cuerpo%20docente%2C%20yo%20incluida.%20As%C3%AD%20se%20lo%20dije%20a%20los%20dem%C3%A1s%20ponentes%20y%20as%C3%AD%20qued%C3%B3%20en%20el%20correo%20al%20Dr.%20Ojeda.%0A%0AY%20me%20faltar%C3%ADan%20de%20ti%20n%C3%BAmero%20de%20c%C3%A9dula%2C%20fotograf%C3%ADa%20y%20declaraci%C3%B3n%20de%20conflicto%20de%20inter%C3%A9s%20firmada.%20A%20info%40draomidresperez.com%20cuando%20puedas.%0A%0A%C2%A1Un%20abrazo%21" target="_blank" rel="noopener">Abrir en WhatsApp</a>
+    
+    <button class="btn ghost copy" type="button" data-id="p8">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-p8" readonly hidden>Liz, ¿cómo estás? Te escribe Omidres.
+
+Te escribo por algo de trámite, no de fondo. En el programa figuras con estas dos clases:
+
+Epidemiología y nuevos conceptos de obesidad
+Módulo 1, Clase 1 · 30 minutos grabados
+Entrega de la grabación: jueves 29 de octubre
+
+Composición corporal y sarcopenia en pacientes con diabetes
+Módulo 5, Clase 4 · 30 minutos grabados
+Entrega de la grabación: jueves 19 de noviembre
+
+Para el expediente del aval necesito tu aceptación por escrito, aunque suene absurdo pidiéndotela a ti. La Universidad pide constancia de cada docente y la tuya es la única que no tengo en papel. Con que me respondas este mensaje diciendo que sí, me sirve.
+
+Y dejo dicho, para que quede parejo: estoy manejando el curso como participación ad honorem para todo el cuerpo docente, yo incluida. Así se lo dije a los demás ponentes y así quedó en el correo al Dr. Ojeda.
+
+Y me faltarían de ti número de cédula, fotografía y declaración de conflicto de interés firmada. A info@draomidresperez.com cuando puedas.
+
+¡Un abrazo!</textarea>
+</article>
+
+<article class="card" data-estado="pend" id="p9">
+  <header>
+    <label class="done"><input type="checkbox" data-k="p9"><span>enviado</span></label>
+    <h2>Dr. Pablo Vanegas</h2>
+    <p class="tel">+593 98 765 3136</p>
+    <span class="badge pend">POR CONFIRMAR</span>
+  </header>
+  <ul class="clases"><li><span class="cod">M1 · C2</span> Fisiopatología moderna de la obesidad</li><li><span class="cod">M3 · C1</span> Farmacoterapia para obesidad</li></ul>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 29 de octubre</strong></p>
+  <div class="falta"><h3>Le falta enviar</h3><ul><li>hoja de vida</li><li>número de cédula</li><li>fotografía</li><li>declaración de conflicto de interés firmada</li></ul></div>
+  <p class="nota">Coordinador académico.</p>
+  <details><summary>Ver el mensaje</summary><pre class="msg">Pablo, ¿cómo estás? Te escribe Omidres.
+
+Te escribo por algo de trámite, no de fondo. En el programa figuras con estas dos clases:
+
+Fisiopatología moderna de la obesidad
+Módulo 1, Clase 2 · 30 minutos grabados
+Entrega de la grabación: jueves 29 de octubre
+
+Farmacoterapia para obesidad
+Módulo 3, Clase 1 · 30 minutos grabados
+Entrega de la grabación: jueves 5 de noviembre
+
+Para el expediente del aval necesito tu aceptación por escrito, aunque suene absurdo pidiéndotela a ti. La Universidad pide constancia de cada docente y la tuya es la única que no tengo en papel. Con que me respondas este mensaje diciendo que sí, me sirve.
+
+Y dejo dicho, para que quede parejo: estoy manejando el curso como participación ad honorem para todo el cuerpo docente, yo incluida. Así se lo dije a los demás ponentes y así quedó en el correo al Dr. Ojeda.
+
+Y me faltarían de ti hoja de vida, número de cédula, fotografía y declaración de conflicto de interés firmada. A info@draomidresperez.com cuando puedas.
+
+¡Un abrazo!</pre></details>
+  <div class="acciones">
+    <a class="btn primary" href="https://wa.me/593987653136?text=Pablo%2C%20%C2%BFc%C3%B3mo%20est%C3%A1s%3F%20Te%20escribe%20Omidres.%0A%0ATe%20escribo%20por%20algo%20de%20tr%C3%A1mite%2C%20no%20de%20fondo.%20En%20el%20programa%20figuras%20con%20estas%20dos%20clases%3A%0A%0AFisiopatolog%C3%ADa%20moderna%20de%20la%20obesidad%0AM%C3%B3dulo%201%2C%20Clase%202%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%2029%20de%20octubre%0A%0AFarmacoterapia%20para%20obesidad%0AM%C3%B3dulo%203%2C%20Clase%201%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%205%20de%20noviembre%0A%0APara%20el%20expediente%20del%20aval%20necesito%20tu%20aceptaci%C3%B3n%20por%20escrito%2C%20aunque%20suene%20absurdo%20pidi%C3%A9ndotela%20a%20ti.%20La%20Universidad%20pide%20constancia%20de%20cada%20docente%20y%20la%20tuya%20es%20la%20%C3%BAnica%20que%20no%20tengo%20en%20papel.%20Con%20que%20me%20respondas%20este%20mensaje%20diciendo%20que%20s%C3%AD%2C%20me%20sirve.%0A%0AY%20dejo%20dicho%2C%20para%20que%20quede%20parejo%3A%20estoy%20manejando%20el%20curso%20como%20participaci%C3%B3n%20ad%20honorem%20para%20todo%20el%20cuerpo%20docente%2C%20yo%20incluida.%20As%C3%AD%20se%20lo%20dije%20a%20los%20dem%C3%A1s%20ponentes%20y%20as%C3%AD%20qued%C3%B3%20en%20el%20correo%20al%20Dr.%20Ojeda.%0A%0AY%20me%20faltar%C3%ADan%20de%20ti%20hoja%20de%20vida%2C%20n%C3%BAmero%20de%20c%C3%A9dula%2C%20fotograf%C3%ADa%20y%20declaraci%C3%B3n%20de%20conflicto%20de%20inter%C3%A9s%20firmada.%20A%20info%40draomidresperez.com%20cuando%20puedas.%0A%0A%C2%A1Un%20abrazo%21" target="_blank" rel="noopener">Abrir en WhatsApp</a>
+    
+    <button class="btn ghost copy" type="button" data-id="p9">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-p9" readonly hidden>Pablo, ¿cómo estás? Te escribe Omidres.
+
+Te escribo por algo de trámite, no de fondo. En el programa figuras con estas dos clases:
+
+Fisiopatología moderna de la obesidad
+Módulo 1, Clase 2 · 30 minutos grabados
+Entrega de la grabación: jueves 29 de octubre
+
+Farmacoterapia para obesidad
+Módulo 3, Clase 1 · 30 minutos grabados
+Entrega de la grabación: jueves 5 de noviembre
+
+Para el expediente del aval necesito tu aceptación por escrito, aunque suene absurdo pidiéndotela a ti. La Universidad pide constancia de cada docente y la tuya es la única que no tengo en papel. Con que me respondas este mensaje diciendo que sí, me sirve.
+
+Y dejo dicho, para que quede parejo: estoy manejando el curso como participación ad honorem para todo el cuerpo docente, yo incluida. Así se lo dije a los demás ponentes y así quedó en el correo al Dr. Ojeda.
+
+Y me faltarían de ti hoja de vida, número de cédula, fotografía y declaración de conflicto de interés firmada. A info@draomidresperez.com cuando puedas.
+
+¡Un abrazo!</textarea>
+</article>
+
+<article class="card" data-estado="pend" id="p10">
+  <header>
+    <label class="done"><input type="checkbox" data-k="p10"><span>enviado</span></label>
+    <h2>Dra. María Augusta Astudillo</h2>
+    <p class="tel">+593 99 811 1635</p>
+    <span class="badge pend">POR CONFIRMAR</span>
+  </header>
+  <ul class="clases"><li><span class="cod">M1 · C3</span> Evaluación integral del paciente con obesidad</li><li><span class="cod">M4 · C1</span> Fisiopatología y clasificación de la diabetes</li></ul>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 29 de octubre</strong></p>
+  <div class="falta"><h3>Le falta enviar</h3><ul><li>hoja de vida</li><li>número de cédula</li><li>fotografía</li><li>declaración de conflicto de interés firmada</li></ul></div>
+  
+  <details><summary>Ver el mensaje</summary><pre class="msg">Hola, doctora, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga. Estoy apoyando a Liz Ruilova y a Pablo Vanegas con el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro.
+
+Usted figura en el programa con estas dos clases:
+
+Evaluación integral del paciente con obesidad
+Módulo 1, Clase 3 · 30 minutos grabados
+Entrega de la grabación: jueves 29 de octubre
+
+Fisiopatología y clasificación de la diabetes
+Módulo 4, Clase 1 · 30 minutos grabados
+Entrega de la grabación: jueves 12 de noviembre
+
+Antes de seguir necesito confirmarlo con usted directamente: ¿contamos con su participación? Se lo pregunto porque el expediente del aval ante la Universidad de Cuenca lleva el nombre de cada docente y no quiero poner el suyo sin que usted me lo diga.
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Si me dice que sí, le paso enseguida la plantilla de diapositivas y le pediría hoja de vida, número de cédula, fotografía y declaración de conflicto de interés firmada para el expediente, a info@draomidresperez.com.
+
+Y si no le calza, dígame con toda confianza: preferimos saberlo ahora.
+
+¡Un abrazo!</pre></details>
+  <div class="acciones">
+    <a class="btn primary" href="https://wa.me/593998111635?text=Hola%2C%20doctora%2C%20%C2%BFc%C3%B3mo%20est%C3%A1%3F%20Le%20escribe%20Omidres%20P%C3%A9rez%2C%20endocrin%C3%B3loga.%20Estoy%20apoyando%20a%20Liz%20Ruilova%20y%20a%20Pablo%20Vanegas%20con%20el%20curso%20virtual%20de%20la%20Sociedad%20de%20Endocrinolog%C3%ADa%20y%20Diabetes%20del%20Austro.%0A%0AUsted%20figura%20en%20el%20programa%20con%20estas%20dos%20clases%3A%0A%0AEvaluaci%C3%B3n%20integral%20del%20paciente%20con%20obesidad%0AM%C3%B3dulo%201%2C%20Clase%203%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%2029%20de%20octubre%0A%0AFisiopatolog%C3%ADa%20y%20clasificaci%C3%B3n%20de%20la%20diabetes%0AM%C3%B3dulo%204%2C%20Clase%201%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%2012%20de%20noviembre%0A%0AAntes%20de%20seguir%20necesito%20confirmarlo%20con%20usted%20directamente%3A%20%C2%BFcontamos%20con%20su%20participaci%C3%B3n%3F%20Se%20lo%20pregunto%20porque%20el%20expediente%20del%20aval%20ante%20la%20Universidad%20de%20Cuenca%20lleva%20el%20nombre%20de%20cada%20docente%20y%20no%20quiero%20poner%20el%20suyo%20sin%20que%20usted%20me%20lo%20diga.%0A%0AUna%20cosa%20antes%20de%20que%20prepare%20nada%2C%20para%20que%20no%20haya%20malentendidos%3A%20la%20participaci%C3%B3n%20docente%20es%20ad%20honorem%2C%20la%20m%C3%ADa%20incluida.%20El%20curso%20va%20a%20cobrar%20inscripci%C3%B3n%2C%20pero%20eso%20se%20destina%20a%20la%20plataforma%2C%20la%20certificaci%C3%B3n%20y%20el%20tr%C3%A1mite%20del%20aval%20ante%20la%20Universidad%20de%20Cuenca.%0A%0ASi%20me%20dice%20que%20s%C3%AD%2C%20le%20paso%20enseguida%20la%20plantilla%20de%20diapositivas%20y%20le%20pedir%C3%ADa%20hoja%20de%20vida%2C%20n%C3%BAmero%20de%20c%C3%A9dula%2C%20fotograf%C3%ADa%20y%20declaraci%C3%B3n%20de%20conflicto%20de%20inter%C3%A9s%20firmada%20para%20el%20expediente%2C%20a%20info%40draomidresperez.com.%0A%0AY%20si%20no%20le%20calza%2C%20d%C3%ADgame%20con%20toda%20confianza%3A%20preferimos%20saberlo%20ahora.%0A%0A%C2%A1Un%20abrazo%21" target="_blank" rel="noopener">Abrir en WhatsApp</a>
+    
+    <button class="btn ghost copy" type="button" data-id="p10">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-p10" readonly hidden>Hola, doctora, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga. Estoy apoyando a Liz Ruilova y a Pablo Vanegas con el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro.
+
+Usted figura en el programa con estas dos clases:
+
+Evaluación integral del paciente con obesidad
+Módulo 1, Clase 3 · 30 minutos grabados
+Entrega de la grabación: jueves 29 de octubre
+
+Fisiopatología y clasificación de la diabetes
+Módulo 4, Clase 1 · 30 minutos grabados
+Entrega de la grabación: jueves 12 de noviembre
+
+Antes de seguir necesito confirmarlo con usted directamente: ¿contamos con su participación? Se lo pregunto porque el expediente del aval ante la Universidad de Cuenca lleva el nombre de cada docente y no quiero poner el suyo sin que usted me lo diga.
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Si me dice que sí, le paso enseguida la plantilla de diapositivas y le pediría hoja de vida, número de cédula, fotografía y declaración de conflicto de interés firmada para el expediente, a info@draomidresperez.com.
+
+Y si no le calza, dígame con toda confianza: preferimos saberlo ahora.
+
+¡Un abrazo!</textarea>
+</article>
+
+<article class="card" data-estado="pend" id="p11">
+  <header>
+    <label class="done"><input type="checkbox" data-k="p11"><span>enviado</span></label>
+    <h2>Dra. Gabriela Jiménez</h2>
+    <p class="tel">+593 99 807 8964</p>
+    <span class="badge pend">POR CONFIRMAR</span>
+  </header>
+  <ul class="clases"><li><span class="cod">M1 · C4</span> Composición corporal y sarcopenia</li><li><span class="cod">M4 · C3</span> Terapia farmacológica moderna</li></ul>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 29 de octubre</strong></p>
+  <div class="falta"><h3>Le falta enviar</h3><ul><li>hoja de vida</li><li>número de cédula</li><li>fotografía</li><li>declaración de conflicto de interés firmada</li></ul></div>
+  
+  <details><summary>Ver el mensaje</summary><pre class="msg">Hola, doctora, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga. Estoy apoyando a Liz Ruilova y a Pablo Vanegas con el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro.
+
+Usted figura en el programa con estas dos clases:
+
+Composición corporal y sarcopenia
+Módulo 1, Clase 4 · 30 minutos grabados
+Entrega de la grabación: jueves 29 de octubre
+
+Terapia farmacológica moderna
+Módulo 4, Clase 3 · 30 minutos grabados
+Entrega de la grabación: jueves 12 de noviembre
+
+Antes de seguir necesito confirmarlo con usted directamente: ¿contamos con su participación? Se lo pregunto porque el expediente del aval ante la Universidad de Cuenca lleva el nombre de cada docente y no quiero poner el suyo sin que usted me lo diga.
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Si me dice que sí, le paso enseguida la plantilla de diapositivas y le pediría hoja de vida, número de cédula, fotografía y declaración de conflicto de interés firmada para el expediente, a info@draomidresperez.com.
+
+Y si no le calza, dígame con toda confianza: preferimos saberlo ahora.
+
+¡Un abrazo!</pre></details>
+  <div class="acciones">
+    <a class="btn primary" href="https://wa.me/593998078964?text=Hola%2C%20doctora%2C%20%C2%BFc%C3%B3mo%20est%C3%A1%3F%20Le%20escribe%20Omidres%20P%C3%A9rez%2C%20endocrin%C3%B3loga.%20Estoy%20apoyando%20a%20Liz%20Ruilova%20y%20a%20Pablo%20Vanegas%20con%20el%20curso%20virtual%20de%20la%20Sociedad%20de%20Endocrinolog%C3%ADa%20y%20Diabetes%20del%20Austro.%0A%0AUsted%20figura%20en%20el%20programa%20con%20estas%20dos%20clases%3A%0A%0AComposici%C3%B3n%20corporal%20y%20sarcopenia%0AM%C3%B3dulo%201%2C%20Clase%204%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%2029%20de%20octubre%0A%0ATerapia%20farmacol%C3%B3gica%20moderna%0AM%C3%B3dulo%204%2C%20Clase%203%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%2012%20de%20noviembre%0A%0AAntes%20de%20seguir%20necesito%20confirmarlo%20con%20usted%20directamente%3A%20%C2%BFcontamos%20con%20su%20participaci%C3%B3n%3F%20Se%20lo%20pregunto%20porque%20el%20expediente%20del%20aval%20ante%20la%20Universidad%20de%20Cuenca%20lleva%20el%20nombre%20de%20cada%20docente%20y%20no%20quiero%20poner%20el%20suyo%20sin%20que%20usted%20me%20lo%20diga.%0A%0AUna%20cosa%20antes%20de%20que%20prepare%20nada%2C%20para%20que%20no%20haya%20malentendidos%3A%20la%20participaci%C3%B3n%20docente%20es%20ad%20honorem%2C%20la%20m%C3%ADa%20incluida.%20El%20curso%20va%20a%20cobrar%20inscripci%C3%B3n%2C%20pero%20eso%20se%20destina%20a%20la%20plataforma%2C%20la%20certificaci%C3%B3n%20y%20el%20tr%C3%A1mite%20del%20aval%20ante%20la%20Universidad%20de%20Cuenca.%0A%0ASi%20me%20dice%20que%20s%C3%AD%2C%20le%20paso%20enseguida%20la%20plantilla%20de%20diapositivas%20y%20le%20pedir%C3%ADa%20hoja%20de%20vida%2C%20n%C3%BAmero%20de%20c%C3%A9dula%2C%20fotograf%C3%ADa%20y%20declaraci%C3%B3n%20de%20conflicto%20de%20inter%C3%A9s%20firmada%20para%20el%20expediente%2C%20a%20info%40draomidresperez.com.%0A%0AY%20si%20no%20le%20calza%2C%20d%C3%ADgame%20con%20toda%20confianza%3A%20preferimos%20saberlo%20ahora.%0A%0A%C2%A1Un%20abrazo%21" target="_blank" rel="noopener">Abrir en WhatsApp</a>
+    
+    <button class="btn ghost copy" type="button" data-id="p11">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-p11" readonly hidden>Hola, doctora, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga. Estoy apoyando a Liz Ruilova y a Pablo Vanegas con el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro.
+
+Usted figura en el programa con estas dos clases:
+
+Composición corporal y sarcopenia
+Módulo 1, Clase 4 · 30 minutos grabados
+Entrega de la grabación: jueves 29 de octubre
+
+Terapia farmacológica moderna
+Módulo 4, Clase 3 · 30 minutos grabados
+Entrega de la grabación: jueves 12 de noviembre
+
+Antes de seguir necesito confirmarlo con usted directamente: ¿contamos con su participación? Se lo pregunto porque el expediente del aval ante la Universidad de Cuenca lleva el nombre de cada docente y no quiero poner el suyo sin que usted me lo diga.
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Si me dice que sí, le paso enseguida la plantilla de diapositivas y le pediría hoja de vida, número de cédula, fotografía y declaración de conflicto de interés firmada para el expediente, a info@draomidresperez.com.
+
+Y si no le calza, dígame con toda confianza: preferimos saberlo ahora.
+
+¡Un abrazo!</textarea>
+</article>
+
+<article class="card" data-estado="pend" id="p12">
+  <header>
+    <label class="done"><input type="checkbox" data-k="p12"><span>enviado</span></label>
+    <h2>Dr. Juan Molina</h2>
+    <p class="tel">+593 99 862 5711</p>
+    <span class="badge pend">POR CONFIRMAR</span>
+  </header>
+  <ul class="clases"><li><span class="cod">M4 · C4</span> Insulinoterapia avanzada</li></ul>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 12 de noviembre</strong></p>
+  <div class="falta"><h3>Le falta enviar</h3><ul><li>hoja de vida</li><li>número de cédula</li><li>fotografía</li><li>declaración de conflicto de interés firmada</li></ul></div>
+  
+  <details><summary>Ver el mensaje</summary><pre class="msg">Hola, doctor, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga. Estoy apoyando a Liz Ruilova y a Pablo Vanegas con el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro.
+
+Usted figura en el programa con esta clase:
+
+Insulinoterapia avanzada
+Módulo 4, Clase 4 · 30 minutos grabados
+Entrega de la grabación: jueves 12 de noviembre
+
+Antes de seguir necesito confirmarlo con usted directamente: ¿contamos con su participación? Se lo pregunto porque el expediente del aval ante la Universidad de Cuenca lleva el nombre de cada docente y no quiero poner el suyo sin que usted me lo diga.
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Si me dice que sí, le paso enseguida la plantilla de diapositivas y le pediría hoja de vida, número de cédula, fotografía y declaración de conflicto de interés firmada para el expediente, a info@draomidresperez.com.
+
+Y si no le calza, dígame con toda confianza: preferimos saberlo ahora.
+
+¡Un abrazo!</pre></details>
+  <div class="acciones">
+    <a class="btn primary" href="https://wa.me/593998625711?text=Hola%2C%20doctor%2C%20%C2%BFc%C3%B3mo%20est%C3%A1%3F%20Le%20escribe%20Omidres%20P%C3%A9rez%2C%20endocrin%C3%B3loga.%20Estoy%20apoyando%20a%20Liz%20Ruilova%20y%20a%20Pablo%20Vanegas%20con%20el%20curso%20virtual%20de%20la%20Sociedad%20de%20Endocrinolog%C3%ADa%20y%20Diabetes%20del%20Austro.%0A%0AUsted%20figura%20en%20el%20programa%20con%20esta%20clase%3A%0A%0AInsulinoterapia%20avanzada%0AM%C3%B3dulo%204%2C%20Clase%204%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%2012%20de%20noviembre%0A%0AAntes%20de%20seguir%20necesito%20confirmarlo%20con%20usted%20directamente%3A%20%C2%BFcontamos%20con%20su%20participaci%C3%B3n%3F%20Se%20lo%20pregunto%20porque%20el%20expediente%20del%20aval%20ante%20la%20Universidad%20de%20Cuenca%20lleva%20el%20nombre%20de%20cada%20docente%20y%20no%20quiero%20poner%20el%20suyo%20sin%20que%20usted%20me%20lo%20diga.%0A%0AUna%20cosa%20antes%20de%20que%20prepare%20nada%2C%20para%20que%20no%20haya%20malentendidos%3A%20la%20participaci%C3%B3n%20docente%20es%20ad%20honorem%2C%20la%20m%C3%ADa%20incluida.%20El%20curso%20va%20a%20cobrar%20inscripci%C3%B3n%2C%20pero%20eso%20se%20destina%20a%20la%20plataforma%2C%20la%20certificaci%C3%B3n%20y%20el%20tr%C3%A1mite%20del%20aval%20ante%20la%20Universidad%20de%20Cuenca.%0A%0ASi%20me%20dice%20que%20s%C3%AD%2C%20le%20paso%20enseguida%20la%20plantilla%20de%20diapositivas%20y%20le%20pedir%C3%ADa%20hoja%20de%20vida%2C%20n%C3%BAmero%20de%20c%C3%A9dula%2C%20fotograf%C3%ADa%20y%20declaraci%C3%B3n%20de%20conflicto%20de%20inter%C3%A9s%20firmada%20para%20el%20expediente%2C%20a%20info%40draomidresperez.com.%0A%0AY%20si%20no%20le%20calza%2C%20d%C3%ADgame%20con%20toda%20confianza%3A%20preferimos%20saberlo%20ahora.%0A%0A%C2%A1Un%20abrazo%21" target="_blank" rel="noopener">Abrir en WhatsApp</a>
+    
+    <button class="btn ghost copy" type="button" data-id="p12">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-p12" readonly hidden>Hola, doctor, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga. Estoy apoyando a Liz Ruilova y a Pablo Vanegas con el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro.
+
+Usted figura en el programa con esta clase:
+
+Insulinoterapia avanzada
+Módulo 4, Clase 4 · 30 minutos grabados
+Entrega de la grabación: jueves 12 de noviembre
+
+Antes de seguir necesito confirmarlo con usted directamente: ¿contamos con su participación? Se lo pregunto porque el expediente del aval ante la Universidad de Cuenca lleva el nombre de cada docente y no quiero poner el suyo sin que usted me lo diga.
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Si me dice que sí, le paso enseguida la plantilla de diapositivas y le pediría hoja de vida, número de cédula, fotografía y declaración de conflicto de interés firmada para el expediente, a info@draomidresperez.com.
+
+Y si no le calza, dígame con toda confianza: preferimos saberlo ahora.
+
+¡Un abrazo!</textarea>
+</article>
+
+<article class="card" data-estado="pend" id="p13">
+  <header>
+    <label class="done"><input type="checkbox" data-k="p13"><span>enviado</span></label>
+    <h2>Dra. Valeria Andrade</h2>
+    <p class="tel">+593 98 335 5686</p>
+    <span class="badge pend">POR CONFIRMAR</span>
+  </header>
+  <ul class="clases"><li><span class="cod">M6 · C1</span> Enfermedad renal asociada a obesidad y diabetes</li></ul>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 26 de noviembre</strong></p>
+  <div class="falta"><h3>Le falta enviar</h3><ul><li>hoja de vida</li><li>número de cédula</li><li>fotografía</li><li>declaración de conflicto de interés firmada</li></ul></div>
+  
+  <details><summary>Ver el mensaje</summary><pre class="msg">Hola, doctora, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga. Estoy apoyando a Liz Ruilova y a Pablo Vanegas con el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro.
+
+Usted figura en el programa con esta clase:
+
+Enfermedad renal asociada a obesidad y diabetes
+Módulo 6, Clase 1 · 30 minutos grabados
+Entrega de la grabación: jueves 26 de noviembre
+
+Antes de seguir necesito confirmarlo con usted directamente: ¿contamos con su participación? Se lo pregunto porque el expediente del aval ante la Universidad de Cuenca lleva el nombre de cada docente y no quiero poner el suyo sin que usted me lo diga.
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Si me dice que sí, le paso enseguida la plantilla de diapositivas y le pediría hoja de vida, número de cédula, fotografía y declaración de conflicto de interés firmada para el expediente, a info@draomidresperez.com.
+
+Y si no le calza, dígame con toda confianza: preferimos saberlo ahora.
+
+¡Un abrazo!</pre></details>
+  <div class="acciones">
+    <a class="btn primary" href="https://wa.me/593983355686?text=Hola%2C%20doctora%2C%20%C2%BFc%C3%B3mo%20est%C3%A1%3F%20Le%20escribe%20Omidres%20P%C3%A9rez%2C%20endocrin%C3%B3loga.%20Estoy%20apoyando%20a%20Liz%20Ruilova%20y%20a%20Pablo%20Vanegas%20con%20el%20curso%20virtual%20de%20la%20Sociedad%20de%20Endocrinolog%C3%ADa%20y%20Diabetes%20del%20Austro.%0A%0AUsted%20figura%20en%20el%20programa%20con%20esta%20clase%3A%0A%0AEnfermedad%20renal%20asociada%20a%20obesidad%20y%20diabetes%0AM%C3%B3dulo%206%2C%20Clase%201%20%C2%B7%2030%20minutos%20grabados%0AEntrega%20de%20la%20grabaci%C3%B3n%3A%20jueves%2026%20de%20noviembre%0A%0AAntes%20de%20seguir%20necesito%20confirmarlo%20con%20usted%20directamente%3A%20%C2%BFcontamos%20con%20su%20participaci%C3%B3n%3F%20Se%20lo%20pregunto%20porque%20el%20expediente%20del%20aval%20ante%20la%20Universidad%20de%20Cuenca%20lleva%20el%20nombre%20de%20cada%20docente%20y%20no%20quiero%20poner%20el%20suyo%20sin%20que%20usted%20me%20lo%20diga.%0A%0AUna%20cosa%20antes%20de%20que%20prepare%20nada%2C%20para%20que%20no%20haya%20malentendidos%3A%20la%20participaci%C3%B3n%20docente%20es%20ad%20honorem%2C%20la%20m%C3%ADa%20incluida.%20El%20curso%20va%20a%20cobrar%20inscripci%C3%B3n%2C%20pero%20eso%20se%20destina%20a%20la%20plataforma%2C%20la%20certificaci%C3%B3n%20y%20el%20tr%C3%A1mite%20del%20aval%20ante%20la%20Universidad%20de%20Cuenca.%0A%0ASi%20me%20dice%20que%20s%C3%AD%2C%20le%20paso%20enseguida%20la%20plantilla%20de%20diapositivas%20y%20le%20pedir%C3%ADa%20hoja%20de%20vida%2C%20n%C3%BAmero%20de%20c%C3%A9dula%2C%20fotograf%C3%ADa%20y%20declaraci%C3%B3n%20de%20conflicto%20de%20inter%C3%A9s%20firmada%20para%20el%20expediente%2C%20a%20info%40draomidresperez.com.%0A%0AY%20si%20no%20le%20calza%2C%20d%C3%ADgame%20con%20toda%20confianza%3A%20preferimos%20saberlo%20ahora.%0A%0A%C2%A1Un%20abrazo%21" target="_blank" rel="noopener">Abrir en WhatsApp</a>
+    
+    <button class="btn ghost copy" type="button" data-id="p13">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-p13" readonly hidden>Hola, doctora, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga. Estoy apoyando a Liz Ruilova y a Pablo Vanegas con el curso virtual de la Sociedad de Endocrinología y Diabetes del Austro.
+
+Usted figura en el programa con esta clase:
+
+Enfermedad renal asociada a obesidad y diabetes
+Módulo 6, Clase 1 · 30 minutos grabados
+Entrega de la grabación: jueves 26 de noviembre
+
+Antes de seguir necesito confirmarlo con usted directamente: ¿contamos con su participación? Se lo pregunto porque el expediente del aval ante la Universidad de Cuenca lleva el nombre de cada docente y no quiero poner el suyo sin que usted me lo diga.
+
+Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval ante la Universidad de Cuenca.
+
+Si me dice que sí, le paso enseguida la plantilla de diapositivas y le pediría hoja de vida, número de cédula, fotografía y declaración de conflicto de interés firmada para el expediente, a info@draomidresperez.com.
+
+Y si no le calza, dígame con toda confianza: preferimos saberlo ahora.
+
+¡Un abrazo!</textarea>
+</article>
+</main>
+
+<footer>
+<p><b>Cómo usarlo.</b> «Abrir en WhatsApp» abre la conversación con el mensaje ya escrito: usted solo revisa y pulsa enviar. No se envía nada solo. «Copiar texto» sirve si prefiere pegarlo a mano.</p>
+<p><b>Adjunte los dos archivos.</b> El mensaje anuncia la plantilla de diapositivas y el formato de declaración de conflicto de interés. WhatsApp no permite adjuntarlos desde un enlace: adjúntelos usted en la misma conversación, después de enviar el texto.</p>
+<p><b>La casilla «enviado»</b> se guarda solo en este navegador, en este equipo. No se comparte con nadie y no queda registrada en la matriz.</p>
+<p><b>Dra. Cuatecontzi:</b> su número trae el prefijo «1» que México usaba para móviles. Si el enlace principal no abre la conversación, pruebe el botón «Nº alterno». No puedo confirmarle cuál de los dos formatos está vigente hoy.</p>
+<p>La Dra. Omidres no aparece en esta lista porque es ella quien envía. Generado el 23 de septiembre de 2026 a partir de <b>SEDA_Matriz_Ponentes_Curso_Obesidad.xlsx</b>.</p>
+</footer>
+</div>
+
+<script>
+(function(){
+  var K='seda-docs-enviados';
+  var st={};
+  try{ st=JSON.parse(localStorage.getItem(K)||'{}')||{}; }catch(e){ st={}; }
+  function pinta(){
+    document.querySelectorAll('.card').forEach(function(c){
+      var b=c.querySelector('input[type=checkbox]');
+      if(!b) return;
+      b.checked=!!st[b.dataset.k];
+      c.classList.toggle('hecho', b.checked);
+    });
+  }
+  document.querySelectorAll('input[type=checkbox]').forEach(function(b){
+    b.addEventListener('change',function(){
+      st[b.dataset.k]=b.checked;
+      try{ localStorage.setItem(K,JSON.stringify(st)); }catch(e){}
+      pinta(); aplica();
+    });
+  });
+  var filtro='todos';
+  function aplica(){
+    document.querySelectorAll('.card').forEach(function(c){
+      var b=c.querySelector('input[type=checkbox]');
+      var hecho=b&&b.checked;
+      var ok = filtro==='todos' ? true
+             : filtro==='pendientes' ? !hecho
+             : c.dataset.estado===filtro;
+      c.style.display = ok ? '' : 'none';
+    });
+  }
+  document.querySelectorAll('.f').forEach(function(f){
+    f.addEventListener('click',function(){
+      filtro=f.dataset.f;
+      document.querySelectorAll('.f').forEach(function(o){ o.setAttribute('aria-pressed', o===f ? 'true':'false'); });
+      aplica();
+    });
+  });
+  document.querySelectorAll('.copy').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var t=document.getElementById('src-'+btn.dataset.id);
+      var txt=t.value;
+      function fin(){ var o=btn.textContent; btn.textContent='Copiado'; setTimeout(function(){btn.textContent=o;},1400); }
+      if(navigator.clipboard&&navigator.clipboard.writeText){
+        navigator.clipboard.writeText(txt).then(fin,manual);
+      } else { manual(); }
+      function manual(){
+        t.hidden=false; t.select(); t.setSelectionRange(0,999999);
+        try{ document.execCommand('copy'); fin(); }catch(e){ alert('Seleccione el texto y cópielo a mano.'); }
+        t.hidden=true;
+      }
+    });
+  });
+  pinta(); aplica();
+})();
+</script>
+</body>
+</html>
