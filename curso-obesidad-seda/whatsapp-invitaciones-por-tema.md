@@ -77,6 +77,8 @@ Te aviso de una vez, para que no haya sorpresas: es ad honorem, yo también. El 
 
 **Perfil:** Nutricionista clínico o endocrinólogo con línea en nutrición de precisión · **Entrega:** jueves 19 de noviembre · **Registro:** formal
 
+> ✉️ **Lcda. Daniela Vintimilla — Directora de la Carrera de Nutrición, Universidad de Cuenca** — INVITADA 23/09/2026 (registro formal) · esperando respuesta
+
 > El módulo 5 está entero sin ponente: se le puede ofrecer completo a una sola persona.
 
 ```
