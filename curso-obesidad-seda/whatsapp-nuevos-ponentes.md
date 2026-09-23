@@ -63,7 +63,7 @@ actualización en obesidad, diabetes, nutrición clínica y salud
 digital, en trámite de aval académico ante la Universidad de Cuenca.
 
 El módulo de salud digital lo coordino yo, y me gustaría mucho
-que participes. Tengo estos tres temas disponibles:
+que participes. Tengo estos dos temas disponibles:
 
 1. Monitoreo digital y tecnologías en diabetes y obesidad
    (monitoreo continuo de glucosa e interpretación del AGP,
@@ -73,10 +73,6 @@ que participes. Tengo estos tres temas disponibles:
    del paciente
    (terapias digitales, IA en tamizaje y apoyo a la decisión
    clínica, adherencia)
-
-3. Implementación, ética y seguridad de datos
-   (teleconsulta y telenutrición, protección de datos en salud,
-   interoperabilidad y calidad)
 
 ¿Cuál te llama más? Respóndeme con el número y te lo reservo.
 
@@ -152,7 +148,7 @@ grabada de 30 minutos, en el tema de tu especialidad, ad honorem.
 
 ---
 
-## Los 8 temas disponibles, por orden de urgencia
+## Los 7 temas disponibles, por orden de urgencia
 
 | Prioridad | Módulo · Clase | Tema | Entrega |
 |---|---|---|---|
@@ -163,7 +159,6 @@ grabada de 30 minutos, en el tema de tu especialidad, ad honorem.
 | 3 | M5 · C3 | Nutrición durante las terapias para obesidad | 19 nov |
 | 5 | M7 · C2 | Monitoreo digital y tecnologías | 3 dic |
 | 5 | M7 · C3 | Terapéutica digital, IA y educación del paciente | 3 dic |
-| 5 | M7 · C4 | Implementación, ética y seguridad de datos | 3 dic |
 
 **Lleva la cuenta de lo que vas reservando.** Si mandas la versión 1 a cuatro nutricionistas a la vez, pueden elegir todos el mismo número. Conviene enviar de dos en dos y esperar respuesta, o anotar en la matriz quién se quedó con qué.
 
@@ -172,3 +167,5 @@ grabada de 30 minutos, en el tema de tu especialidad, ad honorem.
 **M6 · C3 ya está resuelto.** El Dr. Chen Ku aceptó el 22 de septiembre de 2026 y el módulo 6 quedó completo. No hay que buscar a nadie.
 
 **M2 · C3 ya está resuelto.** La Dra. Janeth Bermeo aceptó Nutrición conductual el 22 de septiembre de 2026.
+
+**M7 · C4 ya está resuelto.** Lo asume la Dra. Omidres (23 de septiembre de 2026), que ya dicta M7 · C1.
