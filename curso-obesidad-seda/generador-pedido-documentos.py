@@ -152,16 +152,43 @@ def mensaje(nombre,trato,clases,estado,faltan):
           "¡Un abrazo!" if coord else "Y si no le calza, dígame con toda confianza: preferimos saberlo ahora.",
           "" if coord else "¡Un abrazo!"] if p])
 
+GANCHO = {
+ "M2 · C4": "y pensé en ti de una vez. Nadie mejor para esto:",
+ "M3 · C4": "y me falta justo lo tuyo:",
+ "M5 · C1": "y hay un tema que tiene tu nombre escrito:",
+ "M5 · C2": "y hay un tema que es exactamente tu área:",
+ "M5 · C3": "y hay un tema que es puro tú:",
+ "M7 · C2": "y hay un tema para el que pensé en ti de inmediato:",
+ "M7 · C3": "y me falta alguien para un tema que es tuyo:",
+}
+EXTRA = {
+ "M2 · C4": "Lo único apretado es la fecha: la grabación tendría que estar el jueves 29 de octubre, porque ese módulo abre el curso. Si te resulta muy justo, dime y vemos.",
+ "M5 · C1": "Y si te provoca, en ese mismo módulo tengo dos temas más de nutrición con la misma fecha. Puedes quedarte con uno o con los que quieras.",
+ "M5 · C2": "Y si te provoca, en ese mismo módulo tengo dos temas más de nutrición con la misma fecha. Puedes quedarte con uno o con los que quieras.",
+ "M5 · C3": "Te confieso que es el tema que más me están preguntando. Por eso quiero que lo dé alguien que lo maneje de verdad.",
+ "M7 · C3": "Ese módulo lo coordino yo, así que trabajaríamos juntos de cerca.",
+ "M7 · C2": "Ese módulo lo coordino yo, así que trabajaríamos juntos de cerca.",
+}
+
 def invitacion(cod, tema, cont, fecha):
-    return "\n\n".join([
-      "Hola [NOMBRE], ¿cómo estás? Te escribe Omidres Pérez, endocrinóloga.",
-      "Te contacto por encargo de la Sociedad de Endocrinología y Diabetes del Austro (SEDA). Estamos organizando un curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital, en trámite de aval académico ante la Universidad de Cuenca.",
-      "Hay un tema que es exactamente lo tuyo:",
-      "%s\n%s" % (tema, cont),
-      "Sería una clase grabada de 30 minutos, con plantilla institucional que te envío. La entrega de la grabación sería el %s." % fecha,
-      "Te lo digo de entrada para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval.",
-      "¿Te animarías a dictarla? Si te interesa te paso ahora mismo el programa completo y los detalles.",
-      "¡Un abrazo!"])
+    p = ["[NOMBRE], ¿cómo estás?",
+         "Te escribo porque estoy metida de lleno con el curso virtual de SEDA "
+         "—obesidad, diabetes, nutrición clínica y salud digital, con el aval de la "
+         "Universidad de Cuenca en trámite— %s" % GANCHO[cod],
+         "*%s*\n%s" % (tema, cont),
+         "Es una clase grabada de 30 minutos, tú a tu ritmo. Te paso la plantilla del "
+         "curso y listo. La grabación tendría que estar el %s." % fecha]
+    if cod in EXTRA and cod != "M2 · C4":
+        p.append(EXTRA[cod])
+    elif cod == "M2 · C4":
+        p[-1] = ("Es una clase grabada de 30 minutos, tú a tu ritmo. Te paso la plantilla "
+                 "del curso y listo. " + EXTRA[cod])
+    p += ["Te aviso de una vez, para que no haya sorpresas: es ad honorem, yo también. "
+          "El curso va a cobrar inscripción, pero eso se va completo en la plataforma, "
+          "los certificados y el trámite del aval.",
+          "¿Te animas? Y si no te da la agenda, me lo dices con toda confianza, que no pasa nada.",
+          "¡Un abrazo grande!"]
+    return "\n\n".join(p)
 
 def wa_digits(n): return "".join(ch for ch in n if ch.isdigit())
 
