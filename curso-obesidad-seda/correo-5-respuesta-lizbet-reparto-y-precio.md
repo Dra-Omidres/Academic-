@@ -42,7 +42,7 @@ Para no duplicar esfuerzos ni dejar huecos, te propongo esta división. Si te pa
 | M7 · C3 | Terapéutica digital, IA y educación del paciente |
 | M7 · C4 | Implementación, ética y seguridad de datos |
 
-**Sobre Janeth Bermeo:** con gusto la invito. ¿Me dices cuál es su especialidad? Según eso la ubico en el módulo que mejor le corresponda, y así no le ofrezco un tema que no sea el suyo.
+**Sobre Janeth Bermeo:** ya está resuelto. Es endocrinóloga del Hospital del Río, donde trabajo, así que la contacté directamente. Aceptó el 22 de septiembre la clase de nutrición conductual, módulo 2, clase 3.
 
 ## Los diez que aún no han confirmado por escrito
 

@@ -1,5 +1,16 @@
 # -*- coding: utf-8 -*-
-import html, urllib.parse, json
+import html, urllib.parse, json, openpyxl
+
+_wb = openpyxl.load_workbook('/home/user/Academic-/curso-obesidad-seda/SEDA_Matriz_Ponentes_Curso_Obesidad.xlsx')
+_p = _wb['Ponentes - datos aval']
+def _tel(v):
+    return "".join(ch for ch in str(v or "") if ch.isdigit())
+
+ESPECIALIDAD = {}
+for _r in range(4, 19):
+    _k = _tel(_p.cell(_r, 6).value)
+    if _k:
+        ESPECIALIDAD[_k] = (_p.cell(_r, 3).value or "").strip()
 
 FECHAS = {"M1":"jueves 29 de octubre","M2":"jueves 29 de octubre","M3":"jueves 5 de noviembre",
           "M4":"jueves 12 de noviembre","M5":"jueves 19 de noviembre","M6":"jueves 26 de noviembre",
@@ -58,6 +69,35 @@ P = [
   ["hoja de vida","número de cédula","fotografía","declaración de conflicto de interés firmada"],None),
 ]
 
+VAC = [
+ ("M2 · C4","Actividad física en obesidad",
+  "Ejercicio aeróbico · entrenamiento de fuerza · prescripción de ejercicio",
+  "Medicina del deporte, fisiatría o fisioterapia","M2","urgente",
+  "Su módulo abre el curso. Es la única vacante con fecha de octubre."),
+ ("M3 · C4","Cirugía bariátrica",
+  "Indicaciones · técnicas quirúrgicas · seguimiento metabólico",
+  "Cirujano bariátrico y metabólico acreditado","M3","",
+  "La gestiona la Dra. Lizbet Ruilova. Es la única que le queda a ella."),
+ ("M5 · C1","Nutrición de precisión en diabetes y obesidad",
+  "Fenotipos metabólicos · individualización nutricional",
+  "Nutricionista clínico o endocrinólogo con línea en nutrición de precisión","M5","",
+  "El módulo 5 está entero sin ponente: se le puede ofrecer completo a una sola persona."),
+ ("M5 · C2","Estrategias nutricionales basadas en evidencia",
+  "Dieta mediterránea · restricción de carbohidratos · ayuno intermitente",
+  "Nutricionista clínico con experiencia en diabetes","M5","",None),
+ ("M5 · C3","Nutrición durante las terapias para obesidad",
+  "Agonistas de GLP-1 · tirzepatida · preservación de la masa muscular",
+  "Nutricionista clínico o endocrinólogo","M5","",
+  "Tema de alta demanda: es el mejor gancho para reclutar."),
+ ("M7 · C2","Monitoreo digital y tecnologías en diabetes y obesidad",
+  "MCG y AGP en entornos digitales · monitoreo remoto, apps y wearables · salud conectada",
+  "Endocrinólogo con experiencia en MCG o tecnología en diabetes","M7","",None),
+ ("M7 · C3","Terapéutica digital, IA y educación del paciente",
+  "Terapias digitales (DTx) · IA en tamizaje y apoyo a la decisión · educación digital y adherencia",
+  "Informática médica o IA aplicada a salud","M7","",
+  "Perfil difícil de encontrar en Cuenca: conviene sondear ya aunque la entrega sea en diciembre."),
+]
+
 AD_HON = ("Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es "
           "ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, "
           "la certificación y el trámite del aval ante la Universidad de Cuenca.")
@@ -112,6 +152,17 @@ def mensaje(nombre,trato,clases,estado,faltan):
           "¡Un abrazo!" if coord else "Y si no le calza, dígame con toda confianza: preferimos saberlo ahora.",
           "" if coord else "¡Un abrazo!"] if p])
 
+def invitacion(cod, tema, cont, fecha):
+    return "\n\n".join([
+      "Hola [NOMBRE], ¿cómo estás? Te escribe Omidres Pérez, endocrinóloga.",
+      "Te contacto por encargo de la Sociedad de Endocrinología y Diabetes del Austro (SEDA). Estamos organizando un curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital, en trámite de aval académico ante la Universidad de Cuenca.",
+      "Hay un tema que es exactamente lo tuyo:",
+      "%s\n%s" % (tema, cont),
+      "Sería una clase grabada de 30 minutos, con plantilla institucional que te envío. La entrega de la grabación sería el %s." % fecha,
+      "Te lo digo de entrada para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval.",
+      "¿Te animarías a dictarla? Si te interesa te paso ahora mismo el programa completo y los detalles.",
+      "¡Un abrazo!"])
+
 def wa_digits(n): return "".join(ch for ch in n if ch.isdigit())
 
 cards=[]
@@ -124,7 +175,8 @@ for i,(nombre,trato,wa,clases,estado,faltan,nota) in enumerate(P):
     altlink = "https://wa.me/%s?text=%s" % (alt, urllib.parse.quote(msg)) if alt else None
     mods = sorted({c.split(" · ")[0] for c in clases})
     fecha_min = FECHAS[mods[0]]
-    cards.append(dict(id="p%d"%i, nombre=nombre, wa=wa, estado=estado, clases=clases,
+    esp = ESPECIALIDAD.get(wa_digits(wa), "") or "especialidad no registrada"
+    cards.append(dict(id="p%d"%i, nombre=nombre, esp=esp, wa=wa, estado=estado, clases=clases,
                       temas=[TEMAS[c] for c in clases], fecha=fecha_min, faltan=faltan,
                       nota=nota, msg=msg, link=link, altlink=altlink))
 
@@ -144,6 +196,7 @@ for c in cards:
   <header>
     <label class="done"><input type="checkbox" data-k="{c['id']}"><span>enviado</span></label>
     <h2>{esc(c['nombre'])}</h2>
+    <p class="esp">{esc(c['esp'])}</p>
     <p class="tel">{esc(c['wa'])}</p>
     <span class="badge {badge}">{esc(c['estado'])}</span>
   </header>
@@ -158,6 +211,33 @@ for c in cards:
     <button class="btn ghost copy" type="button" data-id="{c['id']}">Copiar texto</button>
   </div>
   <textarea class="src" id="src-{c['id']}" readonly hidden>{esc(c['msg'])}</textarea>
+</article>""")
+
+vac_html=[]
+for j,(cod,tema,cont,perfil,mod,urg,nota) in enumerate(VAC):
+    msg = invitacion(cod, tema, cont, FECHAS[mod])
+    nota_h = '<p class="nota">%s</p>' % esc(nota) if nota else ""
+    urg_h = '<span class="badge urg">urgente</span>' if urg else ""
+    vac_html.append(f"""
+<article class="card vac" id="v{j}">
+  <header>
+    <span class="cod">{esc(cod)}</span>{urg_h}
+    <h2>{esc(tema)}</h2>
+  </header>
+  <p class="cont">{esc(cont)}</p>
+  <div class="falta"><h3>Perfil que se busca</h3><p>{esc(perfil)}</p></div>
+  <p class="fecha">Entrega de la grabación: <strong>{esc(FECHAS[mod])}</strong></p>
+  {nota_h}
+  <details><summary>Ver la invitación</summary><pre class="msg">{esc(msg)}</pre></details>
+  <div class="envio">
+    <input class="inp nom" type="text" placeholder="Nombre de pila" autocomplete="off">
+    <input class="inp tel" type="tel" placeholder="WhatsApp con código de país" autocomplete="off" inputmode="tel">
+  </div>
+  <div class="acciones">
+    <button class="btn primary abrir" type="button" data-id="v{j}">Abrir en WhatsApp</button>
+    <button class="btn ghost copy" type="button" data-id="v{j}">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-v{j}" readonly hidden>{esc(msg)}</textarea>
 </article>""")
 
 doc = """<!DOCTYPE html>
@@ -197,13 +277,33 @@ h1{font-size:clamp(22px,4vw,30px);margin:0 0 6px;color:var(--teal);letter-spacin
 .f{background:var(--surface);border:1px solid var(--line);color:var(--muted);border-radius:999px;
    padding:7px 15px;font-size:13px;cursor:pointer;font-family:inherit}
 .f[aria-pressed="true"]{background:var(--teal);border-color:var(--teal);color:var(--bg);font-weight:600}
+.stat.ok b{color:var(--ok)} .stat.urg b{color:var(--pend)}
+.secs{display:flex;gap:8px;margin:22px 0 4px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.sec{background:none;border:none;border-bottom:3px solid transparent;color:var(--muted);
+     font:600 15px/1 inherit;font-family:inherit;padding:11px 4px;margin-right:14px;cursor:pointer}
+.sec em{font-style:normal;font-size:11px;background:var(--pale);color:var(--muted);
+        border-radius:20px;padding:2px 7px;margin-left:6px;vertical-align:2px}
+.sec[aria-selected="true"]{color:var(--teal);border-bottom-color:var(--teal)}
+.sec[aria-selected="true"] em{background:var(--mint);color:var(--teal)}
+.intro{margin:20px 0 0;font-size:14px;color:var(--muted);max-width:62ch}
+.card.vac header{padding-right:0}
+.card.vac h2{margin-top:9px}
+.badge.urg{position:static;background:var(--pend);color:var(--bg);margin-left:7px}
+.cont{margin:0;font-size:13.5px;color:var(--muted);line-height:1.5}
+.falta p{margin:0;font-size:13px}
+.envio{display:flex;flex-direction:column;gap:7px;margin-top:auto}
+.inp{font:14px/1 inherit;font-family:inherit;padding:10px 12px;border-radius:8px;
+     border:1px solid var(--line);background:var(--bg);color:var(--ink);width:100%}
+.inp:focus{outline:2px solid var(--teal);outline-offset:1px}
+.card.vac .acciones{margin-top:0}
 .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));margin-top:18px}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;
       display:flex;flex-direction:column;gap:12px}
 .card.hecho{opacity:.5}
 .card header{position:relative;padding-right:92px}
 .card h2{font-size:17px;margin:0;color:var(--teal);line-height:1.3}
-.tel{margin:3px 0 0;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.esp{margin:4px 0 0;font-size:12.5px;color:var(--gold);font-weight:600}
+.tel{margin:2px 0 0;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
 .badge{position:absolute;top:0;right:0;font-size:10px;letter-spacing:.06em;font-weight:700;
        padding:4px 8px;border-radius:5px;text-transform:uppercase}
 .badge.ok{background:var(--mint);color:var(--ok)}
@@ -237,18 +337,24 @@ footer b{color:var(--teal)}
 <body>
 <div class="wrap">
 <header class="top">
-  <h1>Pedido de documentos para el aval</h1>
-  <p class="sub">Curso virtual SEDA en obesidad, diabetes, nutrición clínica y salud digital · 14 docentes · plazo 2 de octubre de 2026</p>
+  <h1>Cuerpo docente del curso SEDA</h1>
+  <p class="sub">Obesidad, diabetes, nutrición clínica y salud digital · inicio 5 de noviembre de 2026 · plazo de documentación 2 de octubre</p>
   <div class="stats">
-    <div class="stat"><b>15</b><span>docentes</span></div>
-    <div class="stat"><b>8</b><span>confirmados</span></div>
-    <div class="stat"><b>6</b><span>por confirmar</span></div>
-    <div class="stat"><b>4</b><span>hojas de vida</span></div>
-    <div class="stat"><b>1</b><span>declaración COI</span></div>
-    <div class="stat"><b>0</b><span>fotografías</span></div>
+    <div class="stat"><b>28</b><span>clases</span></div>
+    <div class="stat ok"><b>11</b><span>confirmadas</span></div>
+    <div class="stat"><b>10</b><span>por confirmar</span></div>
+    <div class="stat urg"><b>7</b><span>vacantes</span></div>
+    <div class="stat"><b>4/15</b><span>hojas de vida</span></div>
+    <div class="stat"><b>1/15</b><span>declaración COI</span></div>
   </div>
 </header>
 
+<nav class="secs" role="tablist">
+  <button class="sec" data-s="docs" aria-selected="true">Pedir documentos <em>14</em></button>
+  <button class="sec" data-s="vac" aria-selected="false">Cubrir vacantes <em>7</em></button>
+</nav>
+
+<section id="s-docs">
 <div class="filtros" role="group" aria-label="Filtros">
   <button class="f" data-f="todos" aria-pressed="true">Todos</button>
   <button class="f" data-f="ok" aria-pressed="false">Confirmados</button>
@@ -256,16 +362,25 @@ footer b{color:var(--teal)}
   <button class="f" data-f="pendientes" aria-pressed="false">Sin enviar</button>
 </div>
 
-<main class="grid" id="grid">
+<div class="grid" id="grid">
 __CARDS__
-</main>
+</div>
+</section>
+
+<section id="s-vac" hidden>
+<p class="intro">Siete clases sin ponente. Escriba el nombre de pila y el WhatsApp de la persona a la que quiere invitar, y el botón abre la conversación con la invitación ya escrita.</p>
+<div class="grid">
+__VACANTES__
+</div>
+</section>
 
 <footer>
 <p><b>Cómo usarlo.</b> «Abrir en WhatsApp» abre la conversación con el mensaje ya escrito: usted solo revisa y pulsa enviar. No se envía nada solo. «Copiar texto» sirve si prefiere pegarlo a mano.</p>
 <p><b>Adjunte los dos archivos.</b> El mensaje anuncia la plantilla de diapositivas y el formato de declaración de conflicto de interés. WhatsApp no permite adjuntarlos desde un enlace: adjúntelos usted en la misma conversación, después de enviar el texto.</p>
 <p><b>La casilla «enviado»</b> se guarda solo en este navegador, en este equipo. No se comparte con nadie y no queda registrada en la matriz.</p>
 <p><b>Dra. Cuatecontzi:</b> su número trae el prefijo «1» que México usaba para móviles. Si el enlace principal no abre la conversación, pruebe el botón «Nº alterno». No puedo confirmarle cuál de los dos formatos está vigente hoy.</p>
-<p>La Dra. Omidres no aparece en esta lista porque es ella quien envía. Generado el 23 de septiembre de 2026 a partir de <b>SEDA_Matriz_Ponentes_Curso_Obesidad.xlsx</b>.</p>
+<p><b>Las vacantes.</b> El mensaje de invitación dice «[NOMBRE]» hasta que usted escriba el nombre de pila en la tarjeta. Si va a mandar la misma vacante a varias personas, hágalo de dos en dos y espere respuesta, o terminará con dos personas preparando la misma clase.</p>
+<p>La Dra. Omidres no aparece en la lista de documentos porque es ella quien envía; sí dicta M7 · C1 y M7 · C4. Generado el 23 de septiembre de 2026 a partir de <b>SEDA_Matriz_Ponentes_Curso_Obesidad.xlsx</b>.</p>
 </footer>
 </div>
 
@@ -323,12 +438,44 @@ __CARDS__
     });
   });
   pinta(); aplica();
+
+  // secciones
+  document.querySelectorAll('.sec').forEach(function(b){
+    b.addEventListener('click',function(){
+      document.querySelectorAll('.sec').forEach(function(o){ o.setAttribute('aria-selected', o===b ? 'true':'false'); });
+      document.getElementById('s-docs').hidden = b.dataset.s!=='docs';
+      document.getElementById('s-vac').hidden  = b.dataset.s!=='vac';
+      window.scrollTo(0,0);
+    });
+  });
+
+  // vacantes: arma el enlace con el nombre y el numero escritos
+  document.querySelectorAll('.abrir').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var card=document.getElementById(btn.dataset.id);
+      var nom=(card.querySelector('.nom').value||'').trim();
+      var tel=(card.querySelector('.tel').value||'').replace(/\D/g,'');
+      if(tel.length<8){ alert('Escriba el número de WhatsApp con código de país, por ejemplo +593 99 123 4567.'); card.querySelector('.tel').focus(); return; }
+      var txt=document.getElementById('src-'+btn.dataset.id).value;
+      if(nom) txt=txt.replace('[NOMBRE]',nom);
+      window.open('https://wa.me/'+tel+'?text='+encodeURIComponent(txt),'_blank','noopener');
+    });
+  });
+  // el boton copiar de una vacante tambien sustituye el nombre
+  document.querySelectorAll('.vac .copy').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var card=document.getElementById(btn.dataset.id);
+      var nom=(card.querySelector('.nom').value||'').trim();
+      var t=document.getElementById('src-'+btn.dataset.id);
+      if(nom && t.value.indexOf('[NOMBRE]')>-1) t.value=t.value.replace('[NOMBRE]',nom);
+    }, true);
+  });
 })();
 </script>
 </body>
 </html>
 """
-doc = doc.replace("__CARDS__", "\n".join(cards_html))
+doc = doc.replace("__CARDS__", "\n".join(cards_html)).replace("__VACANTES__", "\n".join(vac_html))
 open('/home/user/Academic-/curso-obesidad-seda/SEDA_Pedido_Documentos_Ponentes.html','w',encoding='utf-8').write(doc)
-print("cards:", len(cards))
+print("cards:", len(cards), "| vacantes:", len(vac_html))
 print("bytes:", len(doc))
