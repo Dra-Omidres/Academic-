@@ -3,6 +3,12 @@ import html, urllib.parse, json, openpyxl
 
 _wb = openpyxl.load_workbook('/home/user/Academic-/curso-obesidad-seda/SEDA_Matriz_Ponentes_Curso_Obesidad.xlsx')
 _p = _wb['Ponentes - datos aval']
+_v = _wb['Vacantes por cubrir']
+GESTION = {}
+for _r in range(4, 15):
+    _c = _v.cell(_r, 2).value
+    if _c and _v.cell(_r, 5).value:
+        GESTION[_c] = (_v.cell(_r, 5).value, _v.cell(_r, 7).value or "")
 def _tel(v):
     return "".join(ch for ch in str(v or "") if ch.isdigit())
 
@@ -170,7 +176,39 @@ EXTRA = {
  "M7 · C2": "Ese módulo lo coordino yo, así que trabajaríamos juntos de cerca.",
 }
 
+FORMAL = {
+ "M5 · C1": True,
+}
+
+def invitacion_formal(cod, tema, cont, fecha):
+    return "\n\n".join([
+      "Estimado/a Dr./Dra. [NOMBRE]:",
+      "Reciba un cordial saludo.",
+      "Le escribo en nombre de la Sociedad de Endocrinología y Diabetes del Austro (SEDA). "
+      "Estamos organizando el *Curso virtual de actualización en obesidad, diabetes, "
+      "nutrición clínica y salud digital*, cuyo aval académico se encuentra en trámite ante "
+      "la Universidad de Cuenca.",
+      "Me dirijo a usted para invitarle a integrar el cuerpo docente con el siguiente tema:",
+      "*%s*\n%s" % (tema, cont),
+      "Se trata de una clase grabada de treinta minutos, que usted prepara y graba cuando le "
+      "resulte conveniente. Le haríamos llegar la plantilla institucional del curso y el "
+      "formato de declaración de conflicto de interés. La grabación debería estar entregada "
+      "el %s." % fecha,
+      "El mismo módulo contempla otros dos temas de nutrición con idéntica fecha de entrega, "
+      "por si fueran de su interés.",
+      "Le señalo desde ahora, con toda transparencia, que la participación del cuerpo docente "
+      "es ad honorem, la mía incluida. El curso tendrá un costo de inscripción destinado a la "
+      "plataforma, la certificación y el trámite del aval universitario.",
+      "Quedo atenta a su respuesta y con gusto le amplío cualquier detalle del programa. "
+      "Si su agenda no se lo permitiera, le agradezco igualmente que me lo haga saber.",
+      "Cordialmente,\n\nDra. Omidres Pérez de Carvelli\nEndocrinología · Medicina Interna"])
+
 def invitacion(cod, tema, cont, fecha):
+    if FORMAL.get(cod):
+        return invitacion_formal(cod, tema, cont, fecha)
+    return invitacion_cercana(cod, tema, cont, fecha)
+
+def invitacion_cercana(cod, tema, cont, fecha):
     p = ["[NOMBRE], ¿cómo estás?",
          "Te escribo porque estoy metida de lleno con el curso virtual de SEDA "
          "—obesidad, diabetes, nutrición clínica y salud digital, con el aval de la "
@@ -244,6 +282,8 @@ vac_html=[]
 for j,(cod,tema,cont,perfil,mod,urg,nota) in enumerate(VAC):
     msg = invitacion(cod, tema, cont, FECHAS[mod])
     nota_h = '<p class="nota">%s</p>' % esc(nota) if nota else ""
+    ges = GESTION.get(cod)
+    ges_h = ('<p class="ges"><strong>%s</strong><br>%s</p>' % (esc(ges[0]), esc(ges[1]))) if ges else ""
     urg_h = '<span class="badge urg">urgente</span>' if urg else ""
     vac_html.append(f"""
 <article class="card vac" id="v{j}">
@@ -254,7 +294,7 @@ for j,(cod,tema,cont,perfil,mod,urg,nota) in enumerate(VAC):
   <p class="cont">{esc(cont)}</p>
   <div class="falta"><h3>Perfil que se busca</h3><p>{esc(perfil)}</p></div>
   <p class="fecha">Entrega de la grabación: <strong>{esc(FECHAS[mod])}</strong></p>
-  {nota_h}
+  {ges_h}{nota_h}
   <details><summary>Ver la invitación</summary><pre class="msg">{esc(msg)}</pre></details>
   <div class="envio">
     <input class="inp nom" type="text" placeholder="Nombre de pila" autocomplete="off">
@@ -316,6 +356,8 @@ h1{font-size:clamp(22px,4vw,30px);margin:0 0 6px;color:var(--teal);letter-spacin
 .card.vac header{padding-right:0}
 .card.vac h2{margin-top:9px}
 .badge.urg{position:static;background:var(--pend);color:var(--bg);margin-left:7px}
+.ges{margin:0;background:var(--mint);color:var(--teal);border-radius:9px;
+     padding:10px 13px;font-size:12.5px;line-height:1.45}
 .cont{margin:0;font-size:13.5px;color:var(--muted);line-height:1.5}
 .falta p{margin:0;font-size:13px}
 .envio{display:flex;flex-direction:column;gap:7px;margin-top:auto}
