@@ -35,6 +35,25 @@ h1{font-size:clamp(22px,4vw,30px);margin:0 0 6px;color:var(--teal);letter-spacin
 .f{background:var(--surface);border:1px solid var(--line);color:var(--muted);border-radius:999px;
    padding:7px 15px;font-size:13px;cursor:pointer;font-family:inherit}
 .f[aria-pressed="true"]{background:var(--teal);border-color:var(--teal);color:var(--bg);font-weight:600}
+.stat.ok b{color:var(--ok)} .stat.urg b{color:var(--pend)}
+.secs{display:flex;gap:8px;margin:22px 0 4px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.sec{background:none;border:none;border-bottom:3px solid transparent;color:var(--muted);
+     font:600 15px/1 inherit;font-family:inherit;padding:11px 4px;margin-right:14px;cursor:pointer}
+.sec em{font-style:normal;font-size:11px;background:var(--pale);color:var(--muted);
+        border-radius:20px;padding:2px 7px;margin-left:6px;vertical-align:2px}
+.sec[aria-selected="true"]{color:var(--teal);border-bottom-color:var(--teal)}
+.sec[aria-selected="true"] em{background:var(--mint);color:var(--teal)}
+.intro{margin:20px 0 0;font-size:14px;color:var(--muted);max-width:62ch}
+.card.vac header{padding-right:0}
+.card.vac h2{margin-top:9px}
+.badge.urg{position:static;background:var(--pend);color:var(--bg);margin-left:7px}
+.cont{margin:0;font-size:13.5px;color:var(--muted);line-height:1.5}
+.falta p{margin:0;font-size:13px}
+.envio{display:flex;flex-direction:column;gap:7px;margin-top:auto}
+.inp{font:14px/1 inherit;font-family:inherit;padding:10px 12px;border-radius:8px;
+     border:1px solid var(--line);background:var(--bg);color:var(--ink);width:100%}
+.inp:focus{outline:2px solid var(--teal);outline-offset:1px}
+.card.vac .acciones{margin-top:0}
 .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));margin-top:18px}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;
       display:flex;flex-direction:column;gap:12px}
@@ -75,18 +94,24 @@ footer b{color:var(--teal)}
 <body>
 <div class="wrap">
 <header class="top">
-  <h1>Pedido de documentos para el aval</h1>
-  <p class="sub">Curso virtual SEDA en obesidad, diabetes, nutrición clínica y salud digital · 14 docentes · plazo 2 de octubre de 2026</p>
+  <h1>Cuerpo docente del curso SEDA</h1>
+  <p class="sub">Obesidad, diabetes, nutrición clínica y salud digital · inicio 5 de noviembre de 2026 · plazo de documentación 2 de octubre</p>
   <div class="stats">
-    <div class="stat"><b>15</b><span>docentes</span></div>
-    <div class="stat"><b>8</b><span>confirmados</span></div>
-    <div class="stat"><b>6</b><span>por confirmar</span></div>
-    <div class="stat"><b>4</b><span>hojas de vida</span></div>
-    <div class="stat"><b>1</b><span>declaración COI</span></div>
-    <div class="stat"><b>0</b><span>fotografías</span></div>
+    <div class="stat"><b>28</b><span>clases</span></div>
+    <div class="stat ok"><b>11</b><span>confirmadas</span></div>
+    <div class="stat"><b>10</b><span>por confirmar</span></div>
+    <div class="stat urg"><b>7</b><span>vacantes</span></div>
+    <div class="stat"><b>4/15</b><span>hojas de vida</span></div>
+    <div class="stat"><b>1/15</b><span>declaración COI</span></div>
   </div>
 </header>
 
+<nav class="secs" role="tablist">
+  <button class="sec" data-s="docs" aria-selected="true">Pedir documentos <em>14</em></button>
+  <button class="sec" data-s="vac" aria-selected="false">Cubrir vacantes <em>7</em></button>
+</nav>
+
+<section id="s-docs">
 <div class="filtros" role="group" aria-label="Filtros">
   <button class="f" data-f="todos" aria-pressed="true">Todos</button>
   <button class="f" data-f="ok" aria-pressed="false">Confirmados</button>
@@ -94,7 +119,7 @@ footer b{color:var(--teal)}
   <button class="f" data-f="pendientes" aria-pressed="false">Sin enviar</button>
 </div>
 
-<main class="grid" id="grid">
+<div class="grid" id="grid">
 
 <article class="card" data-estado="ok" id="p0">
   <header>
@@ -855,14 +880,379 @@ Y si no le calza, dígame con toda confianza: preferimos saberlo ahora.
 
 ¡Un abrazo!</textarea>
 </article>
-</main>
+</div>
+</section>
+
+<section id="s-vac" hidden>
+<p class="intro">Siete clases sin ponente. Escriba el nombre de pila y el WhatsApp de la persona a la que quiere invitar, y el botón abre la conversación con la invitación ya escrita.</p>
+<div class="grid">
+
+<article class="card vac" id="v0">
+  <header>
+    <span class="cod">M2 · C4</span><span class="badge urg">urgente</span>
+    <h2>Actividad física en obesidad</h2>
+  </header>
+  <p class="cont">Ejercicio aeróbico · entrenamiento de fuerza · prescripción de ejercicio</p>
+  <div class="falta"><h3>Perfil que se busca</h3><p>Medicina del deporte, fisiatría o fisioterapia</p></div>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 29 de octubre</strong></p>
+  <p class="nota">Su módulo abre el curso. Es la única vacante con fecha de octubre.</p>
+  <details><summary>Ver la invitación</summary><pre class="msg">Hola [NOMBRE], ¿cómo estás? Te escribe Omidres Pérez, endocrinóloga.
+
+Te contacto por encargo de la Sociedad de Endocrinología y Diabetes del Austro (SEDA). Estamos organizando un curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital, en trámite de aval académico ante la Universidad de Cuenca.
+
+Hay un tema que es exactamente lo tuyo:
+
+Actividad física en obesidad
+Ejercicio aeróbico · entrenamiento de fuerza · prescripción de ejercicio
+
+Sería una clase grabada de 30 minutos, con plantilla institucional que te envío. La entrega de la grabación sería el jueves 29 de octubre.
+
+Te lo digo de entrada para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval.
+
+¿Te animarías a dictarla? Si te interesa te paso ahora mismo el programa completo y los detalles.
+
+¡Un abrazo!</pre></details>
+  <div class="envio">
+    <input class="inp nom" type="text" placeholder="Nombre de pila" autocomplete="off">
+    <input class="inp tel" type="tel" placeholder="WhatsApp con código de país" autocomplete="off" inputmode="tel">
+  </div>
+  <div class="acciones">
+    <button class="btn primary abrir" type="button" data-id="v0">Abrir en WhatsApp</button>
+    <button class="btn ghost copy" type="button" data-id="v0">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-v0" readonly hidden>Hola [NOMBRE], ¿cómo estás? Te escribe Omidres Pérez, endocrinóloga.
+
+Te contacto por encargo de la Sociedad de Endocrinología y Diabetes del Austro (SEDA). Estamos organizando un curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital, en trámite de aval académico ante la Universidad de Cuenca.
+
+Hay un tema que es exactamente lo tuyo:
+
+Actividad física en obesidad
+Ejercicio aeróbico · entrenamiento de fuerza · prescripción de ejercicio
+
+Sería una clase grabada de 30 minutos, con plantilla institucional que te envío. La entrega de la grabación sería el jueves 29 de octubre.
+
+Te lo digo de entrada para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval.
+
+¿Te animarías a dictarla? Si te interesa te paso ahora mismo el programa completo y los detalles.
+
+¡Un abrazo!</textarea>
+</article>
+
+<article class="card vac" id="v1">
+  <header>
+    <span class="cod">M3 · C4</span>
+    <h2>Cirugía bariátrica</h2>
+  </header>
+  <p class="cont">Indicaciones · técnicas quirúrgicas · seguimiento metabólico</p>
+  <div class="falta"><h3>Perfil que se busca</h3><p>Cirujano bariátrico y metabólico acreditado</p></div>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 5 de noviembre</strong></p>
+  <p class="nota">La gestiona la Dra. Lizbet Ruilova. Es la única que le queda a ella.</p>
+  <details><summary>Ver la invitación</summary><pre class="msg">Hola [NOMBRE], ¿cómo estás? Te escribe Omidres Pérez, endocrinóloga.
+
+Te contacto por encargo de la Sociedad de Endocrinología y Diabetes del Austro (SEDA). Estamos organizando un curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital, en trámite de aval académico ante la Universidad de Cuenca.
+
+Hay un tema que es exactamente lo tuyo:
+
+Cirugía bariátrica
+Indicaciones · técnicas quirúrgicas · seguimiento metabólico
+
+Sería una clase grabada de 30 minutos, con plantilla institucional que te envío. La entrega de la grabación sería el jueves 5 de noviembre.
+
+Te lo digo de entrada para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval.
+
+¿Te animarías a dictarla? Si te interesa te paso ahora mismo el programa completo y los detalles.
+
+¡Un abrazo!</pre></details>
+  <div class="envio">
+    <input class="inp nom" type="text" placeholder="Nombre de pila" autocomplete="off">
+    <input class="inp tel" type="tel" placeholder="WhatsApp con código de país" autocomplete="off" inputmode="tel">
+  </div>
+  <div class="acciones">
+    <button class="btn primary abrir" type="button" data-id="v1">Abrir en WhatsApp</button>
+    <button class="btn ghost copy" type="button" data-id="v1">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-v1" readonly hidden>Hola [NOMBRE], ¿cómo estás? Te escribe Omidres Pérez, endocrinóloga.
+
+Te contacto por encargo de la Sociedad de Endocrinología y Diabetes del Austro (SEDA). Estamos organizando un curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital, en trámite de aval académico ante la Universidad de Cuenca.
+
+Hay un tema que es exactamente lo tuyo:
+
+Cirugía bariátrica
+Indicaciones · técnicas quirúrgicas · seguimiento metabólico
+
+Sería una clase grabada de 30 minutos, con plantilla institucional que te envío. La entrega de la grabación sería el jueves 5 de noviembre.
+
+Te lo digo de entrada para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval.
+
+¿Te animarías a dictarla? Si te interesa te paso ahora mismo el programa completo y los detalles.
+
+¡Un abrazo!</textarea>
+</article>
+
+<article class="card vac" id="v2">
+  <header>
+    <span class="cod">M5 · C1</span>
+    <h2>Nutrición de precisión en diabetes y obesidad</h2>
+  </header>
+  <p class="cont">Fenotipos metabólicos · individualización nutricional</p>
+  <div class="falta"><h3>Perfil que se busca</h3><p>Nutricionista clínico o endocrinólogo con línea en nutrición de precisión</p></div>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 19 de noviembre</strong></p>
+  <p class="nota">El módulo 5 está entero sin ponente: se le puede ofrecer completo a una sola persona.</p>
+  <details><summary>Ver la invitación</summary><pre class="msg">Hola [NOMBRE], ¿cómo estás? Te escribe Omidres Pérez, endocrinóloga.
+
+Te contacto por encargo de la Sociedad de Endocrinología y Diabetes del Austro (SEDA). Estamos organizando un curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital, en trámite de aval académico ante la Universidad de Cuenca.
+
+Hay un tema que es exactamente lo tuyo:
+
+Nutrición de precisión en diabetes y obesidad
+Fenotipos metabólicos · individualización nutricional
+
+Sería una clase grabada de 30 minutos, con plantilla institucional que te envío. La entrega de la grabación sería el jueves 19 de noviembre.
+
+Te lo digo de entrada para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval.
+
+¿Te animarías a dictarla? Si te interesa te paso ahora mismo el programa completo y los detalles.
+
+¡Un abrazo!</pre></details>
+  <div class="envio">
+    <input class="inp nom" type="text" placeholder="Nombre de pila" autocomplete="off">
+    <input class="inp tel" type="tel" placeholder="WhatsApp con código de país" autocomplete="off" inputmode="tel">
+  </div>
+  <div class="acciones">
+    <button class="btn primary abrir" type="button" data-id="v2">Abrir en WhatsApp</button>
+    <button class="btn ghost copy" type="button" data-id="v2">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-v2" readonly hidden>Hola [NOMBRE], ¿cómo estás? Te escribe Omidres Pérez, endocrinóloga.
+
+Te contacto por encargo de la Sociedad de Endocrinología y Diabetes del Austro (SEDA). Estamos organizando un curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital, en trámite de aval académico ante la Universidad de Cuenca.
+
+Hay un tema que es exactamente lo tuyo:
+
+Nutrición de precisión en diabetes y obesidad
+Fenotipos metabólicos · individualización nutricional
+
+Sería una clase grabada de 30 minutos, con plantilla institucional que te envío. La entrega de la grabación sería el jueves 19 de noviembre.
+
+Te lo digo de entrada para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval.
+
+¿Te animarías a dictarla? Si te interesa te paso ahora mismo el programa completo y los detalles.
+
+¡Un abrazo!</textarea>
+</article>
+
+<article class="card vac" id="v3">
+  <header>
+    <span class="cod">M5 · C2</span>
+    <h2>Estrategias nutricionales basadas en evidencia</h2>
+  </header>
+  <p class="cont">Dieta mediterránea · restricción de carbohidratos · ayuno intermitente</p>
+  <div class="falta"><h3>Perfil que se busca</h3><p>Nutricionista clínico con experiencia en diabetes</p></div>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 19 de noviembre</strong></p>
+  
+  <details><summary>Ver la invitación</summary><pre class="msg">Hola [NOMBRE], ¿cómo estás? Te escribe Omidres Pérez, endocrinóloga.
+
+Te contacto por encargo de la Sociedad de Endocrinología y Diabetes del Austro (SEDA). Estamos organizando un curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital, en trámite de aval académico ante la Universidad de Cuenca.
+
+Hay un tema que es exactamente lo tuyo:
+
+Estrategias nutricionales basadas en evidencia
+Dieta mediterránea · restricción de carbohidratos · ayuno intermitente
+
+Sería una clase grabada de 30 minutos, con plantilla institucional que te envío. La entrega de la grabación sería el jueves 19 de noviembre.
+
+Te lo digo de entrada para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval.
+
+¿Te animarías a dictarla? Si te interesa te paso ahora mismo el programa completo y los detalles.
+
+¡Un abrazo!</pre></details>
+  <div class="envio">
+    <input class="inp nom" type="text" placeholder="Nombre de pila" autocomplete="off">
+    <input class="inp tel" type="tel" placeholder="WhatsApp con código de país" autocomplete="off" inputmode="tel">
+  </div>
+  <div class="acciones">
+    <button class="btn primary abrir" type="button" data-id="v3">Abrir en WhatsApp</button>
+    <button class="btn ghost copy" type="button" data-id="v3">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-v3" readonly hidden>Hola [NOMBRE], ¿cómo estás? Te escribe Omidres Pérez, endocrinóloga.
+
+Te contacto por encargo de la Sociedad de Endocrinología y Diabetes del Austro (SEDA). Estamos organizando un curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital, en trámite de aval académico ante la Universidad de Cuenca.
+
+Hay un tema que es exactamente lo tuyo:
+
+Estrategias nutricionales basadas en evidencia
+Dieta mediterránea · restricción de carbohidratos · ayuno intermitente
+
+Sería una clase grabada de 30 minutos, con plantilla institucional que te envío. La entrega de la grabación sería el jueves 19 de noviembre.
+
+Te lo digo de entrada para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval.
+
+¿Te animarías a dictarla? Si te interesa te paso ahora mismo el programa completo y los detalles.
+
+¡Un abrazo!</textarea>
+</article>
+
+<article class="card vac" id="v4">
+  <header>
+    <span class="cod">M5 · C3</span>
+    <h2>Nutrición durante las terapias para obesidad</h2>
+  </header>
+  <p class="cont">Agonistas de GLP-1 · tirzepatida · preservación de la masa muscular</p>
+  <div class="falta"><h3>Perfil que se busca</h3><p>Nutricionista clínico o endocrinólogo</p></div>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 19 de noviembre</strong></p>
+  <p class="nota">Tema de alta demanda: es el mejor gancho para reclutar.</p>
+  <details><summary>Ver la invitación</summary><pre class="msg">Hola [NOMBRE], ¿cómo estás? Te escribe Omidres Pérez, endocrinóloga.
+
+Te contacto por encargo de la Sociedad de Endocrinología y Diabetes del Austro (SEDA). Estamos organizando un curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital, en trámite de aval académico ante la Universidad de Cuenca.
+
+Hay un tema que es exactamente lo tuyo:
+
+Nutrición durante las terapias para obesidad
+Agonistas de GLP-1 · tirzepatida · preservación de la masa muscular
+
+Sería una clase grabada de 30 minutos, con plantilla institucional que te envío. La entrega de la grabación sería el jueves 19 de noviembre.
+
+Te lo digo de entrada para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval.
+
+¿Te animarías a dictarla? Si te interesa te paso ahora mismo el programa completo y los detalles.
+
+¡Un abrazo!</pre></details>
+  <div class="envio">
+    <input class="inp nom" type="text" placeholder="Nombre de pila" autocomplete="off">
+    <input class="inp tel" type="tel" placeholder="WhatsApp con código de país" autocomplete="off" inputmode="tel">
+  </div>
+  <div class="acciones">
+    <button class="btn primary abrir" type="button" data-id="v4">Abrir en WhatsApp</button>
+    <button class="btn ghost copy" type="button" data-id="v4">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-v4" readonly hidden>Hola [NOMBRE], ¿cómo estás? Te escribe Omidres Pérez, endocrinóloga.
+
+Te contacto por encargo de la Sociedad de Endocrinología y Diabetes del Austro (SEDA). Estamos organizando un curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital, en trámite de aval académico ante la Universidad de Cuenca.
+
+Hay un tema que es exactamente lo tuyo:
+
+Nutrición durante las terapias para obesidad
+Agonistas de GLP-1 · tirzepatida · preservación de la masa muscular
+
+Sería una clase grabada de 30 minutos, con plantilla institucional que te envío. La entrega de la grabación sería el jueves 19 de noviembre.
+
+Te lo digo de entrada para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval.
+
+¿Te animarías a dictarla? Si te interesa te paso ahora mismo el programa completo y los detalles.
+
+¡Un abrazo!</textarea>
+</article>
+
+<article class="card vac" id="v5">
+  <header>
+    <span class="cod">M7 · C2</span>
+    <h2>Monitoreo digital y tecnologías en diabetes y obesidad</h2>
+  </header>
+  <p class="cont">MCG y AGP en entornos digitales · monitoreo remoto, apps y wearables · salud conectada</p>
+  <div class="falta"><h3>Perfil que se busca</h3><p>Endocrinólogo con experiencia en MCG o tecnología en diabetes</p></div>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 3 de diciembre</strong></p>
+  
+  <details><summary>Ver la invitación</summary><pre class="msg">Hola [NOMBRE], ¿cómo estás? Te escribe Omidres Pérez, endocrinóloga.
+
+Te contacto por encargo de la Sociedad de Endocrinología y Diabetes del Austro (SEDA). Estamos organizando un curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital, en trámite de aval académico ante la Universidad de Cuenca.
+
+Hay un tema que es exactamente lo tuyo:
+
+Monitoreo digital y tecnologías en diabetes y obesidad
+MCG y AGP en entornos digitales · monitoreo remoto, apps y wearables · salud conectada
+
+Sería una clase grabada de 30 minutos, con plantilla institucional que te envío. La entrega de la grabación sería el jueves 3 de diciembre.
+
+Te lo digo de entrada para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval.
+
+¿Te animarías a dictarla? Si te interesa te paso ahora mismo el programa completo y los detalles.
+
+¡Un abrazo!</pre></details>
+  <div class="envio">
+    <input class="inp nom" type="text" placeholder="Nombre de pila" autocomplete="off">
+    <input class="inp tel" type="tel" placeholder="WhatsApp con código de país" autocomplete="off" inputmode="tel">
+  </div>
+  <div class="acciones">
+    <button class="btn primary abrir" type="button" data-id="v5">Abrir en WhatsApp</button>
+    <button class="btn ghost copy" type="button" data-id="v5">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-v5" readonly hidden>Hola [NOMBRE], ¿cómo estás? Te escribe Omidres Pérez, endocrinóloga.
+
+Te contacto por encargo de la Sociedad de Endocrinología y Diabetes del Austro (SEDA). Estamos organizando un curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital, en trámite de aval académico ante la Universidad de Cuenca.
+
+Hay un tema que es exactamente lo tuyo:
+
+Monitoreo digital y tecnologías en diabetes y obesidad
+MCG y AGP en entornos digitales · monitoreo remoto, apps y wearables · salud conectada
+
+Sería una clase grabada de 30 minutos, con plantilla institucional que te envío. La entrega de la grabación sería el jueves 3 de diciembre.
+
+Te lo digo de entrada para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval.
+
+¿Te animarías a dictarla? Si te interesa te paso ahora mismo el programa completo y los detalles.
+
+¡Un abrazo!</textarea>
+</article>
+
+<article class="card vac" id="v6">
+  <header>
+    <span class="cod">M7 · C3</span>
+    <h2>Terapéutica digital, IA y educación del paciente</h2>
+  </header>
+  <p class="cont">Terapias digitales (DTx) · IA en tamizaje y apoyo a la decisión · educación digital y adherencia</p>
+  <div class="falta"><h3>Perfil que se busca</h3><p>Informática médica o IA aplicada a salud</p></div>
+  <p class="fecha">Entrega de la grabación: <strong>jueves 3 de diciembre</strong></p>
+  <p class="nota">Perfil difícil de encontrar en Cuenca: conviene sondear ya aunque la entrega sea en diciembre.</p>
+  <details><summary>Ver la invitación</summary><pre class="msg">Hola [NOMBRE], ¿cómo estás? Te escribe Omidres Pérez, endocrinóloga.
+
+Te contacto por encargo de la Sociedad de Endocrinología y Diabetes del Austro (SEDA). Estamos organizando un curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital, en trámite de aval académico ante la Universidad de Cuenca.
+
+Hay un tema que es exactamente lo tuyo:
+
+Terapéutica digital, IA y educación del paciente
+Terapias digitales (DTx) · IA en tamizaje y apoyo a la decisión · educación digital y adherencia
+
+Sería una clase grabada de 30 minutos, con plantilla institucional que te envío. La entrega de la grabación sería el jueves 3 de diciembre.
+
+Te lo digo de entrada para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval.
+
+¿Te animarías a dictarla? Si te interesa te paso ahora mismo el programa completo y los detalles.
+
+¡Un abrazo!</pre></details>
+  <div class="envio">
+    <input class="inp nom" type="text" placeholder="Nombre de pila" autocomplete="off">
+    <input class="inp tel" type="tel" placeholder="WhatsApp con código de país" autocomplete="off" inputmode="tel">
+  </div>
+  <div class="acciones">
+    <button class="btn primary abrir" type="button" data-id="v6">Abrir en WhatsApp</button>
+    <button class="btn ghost copy" type="button" data-id="v6">Copiar texto</button>
+  </div>
+  <textarea class="src" id="src-v6" readonly hidden>Hola [NOMBRE], ¿cómo estás? Te escribe Omidres Pérez, endocrinóloga.
+
+Te contacto por encargo de la Sociedad de Endocrinología y Diabetes del Austro (SEDA). Estamos organizando un curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital, en trámite de aval académico ante la Universidad de Cuenca.
+
+Hay un tema que es exactamente lo tuyo:
+
+Terapéutica digital, IA y educación del paciente
+Terapias digitales (DTx) · IA en tamizaje y apoyo a la decisión · educación digital y adherencia
+
+Sería una clase grabada de 30 minutos, con plantilla institucional que te envío. La entrega de la grabación sería el jueves 3 de diciembre.
+
+Te lo digo de entrada para que no haya malentendidos: la participación docente es ad honorem, la mía incluida. El curso va a cobrar inscripción, pero eso se destina a la plataforma, la certificación y el trámite del aval.
+
+¿Te animarías a dictarla? Si te interesa te paso ahora mismo el programa completo y los detalles.
+
+¡Un abrazo!</textarea>
+</article>
+</div>
+</section>
 
 <footer>
 <p><b>Cómo usarlo.</b> «Abrir en WhatsApp» abre la conversación con el mensaje ya escrito: usted solo revisa y pulsa enviar. No se envía nada solo. «Copiar texto» sirve si prefiere pegarlo a mano.</p>
 <p><b>Adjunte los dos archivos.</b> El mensaje anuncia la plantilla de diapositivas y el formato de declaración de conflicto de interés. WhatsApp no permite adjuntarlos desde un enlace: adjúntelos usted en la misma conversación, después de enviar el texto.</p>
 <p><b>La casilla «enviado»</b> se guarda solo en este navegador, en este equipo. No se comparte con nadie y no queda registrada en la matriz.</p>
 <p><b>Dra. Cuatecontzi:</b> su número trae el prefijo «1» que México usaba para móviles. Si el enlace principal no abre la conversación, pruebe el botón «Nº alterno». No puedo confirmarle cuál de los dos formatos está vigente hoy.</p>
-<p>La Dra. Omidres no aparece en esta lista porque es ella quien envía. Generado el 23 de septiembre de 2026 a partir de <b>SEDA_Matriz_Ponentes_Curso_Obesidad.xlsx</b>.</p>
+<p><b>Las vacantes.</b> El mensaje de invitación dice «[NOMBRE]» hasta que usted escriba el nombre de pila en la tarjeta. Si va a mandar la misma vacante a varias personas, hágalo de dos en dos y espere respuesta, o terminará con dos personas preparando la misma clase.</p>
+<p>La Dra. Omidres no aparece en la lista de documentos porque es ella quien envía; sí dicta M7 · C1 y M7 · C4. Generado el 23 de septiembre de 2026 a partir de <b>SEDA_Matriz_Ponentes_Curso_Obesidad.xlsx</b>.</p>
 </footer>
 </div>
 
@@ -920,6 +1310,38 @@ Y si no le calza, dígame con toda confianza: preferimos saberlo ahora.
     });
   });
   pinta(); aplica();
+
+  // secciones
+  document.querySelectorAll('.sec').forEach(function(b){
+    b.addEventListener('click',function(){
+      document.querySelectorAll('.sec').forEach(function(o){ o.setAttribute('aria-selected', o===b ? 'true':'false'); });
+      document.getElementById('s-docs').hidden = b.dataset.s!=='docs';
+      document.getElementById('s-vac').hidden  = b.dataset.s!=='vac';
+      window.scrollTo(0,0);
+    });
+  });
+
+  // vacantes: arma el enlace con el nombre y el numero escritos
+  document.querySelectorAll('.abrir').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var card=document.getElementById(btn.dataset.id);
+      var nom=(card.querySelector('.nom').value||'').trim();
+      var tel=(card.querySelector('.tel').value||'').replace(/\D/g,'');
+      if(tel.length<8){ alert('Escriba el número de WhatsApp con código de país, por ejemplo +593 99 123 4567.'); card.querySelector('.tel').focus(); return; }
+      var txt=document.getElementById('src-'+btn.dataset.id).value;
+      if(nom) txt=txt.replace('[NOMBRE]',nom);
+      window.open('https://wa.me/'+tel+'?text='+encodeURIComponent(txt),'_blank','noopener');
+    });
+  });
+  // el boton copiar de una vacante tambien sustituye el nombre
+  document.querySelectorAll('.vac .copy').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var card=document.getElementById(btn.dataset.id);
+      var nom=(card.querySelector('.nom').value||'').trim();
+      var t=document.getElementById('src-'+btn.dataset.id);
+      if(nom && t.value.indexOf('[NOMBRE]')>-1) t.value=t.value.replace('[NOMBRE]',nom);
+    }, true);
+  });
 })();
 </script>
 </body>
