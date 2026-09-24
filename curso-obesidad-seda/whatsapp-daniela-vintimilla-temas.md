@@ -22,12 +22,15 @@ La Dra. Omidres se comprometió a enviarle la lista «a final de la tarde».
 | Tema | ¿Se ofrece? | Razón |
 |---|---|---|
 | M5 · C1 Nutrición de precisión | **Sí** | Ella misma ya propuso a Gabriela Molina |
+| M5 · C2 Estrategias nutricionales | **Sí** | Decisión de la Dra. Omidres (24/09): la Dra. Villavicencio lleva dos días sin responder |
 | M5 · C3 Nutrición durante las terapias | **Sí** | Libre, sin gestionar |
-| M7 · C3 Terapéutica digital, IA y educación | **Sí** | Ella ofreció «varias áreas», no solo nutrición |
-| M5 · C2 Estrategias nutricionales | **No todavía** | Invitación enviada a Gaby Villavicencio el 23/09, sin respuesta. Ofrecerlo ahora puede dejar a dos personas preparando la misma clase |
 | M7 · C2 Monitoreo digital | **No** | Perfil endocrinológico (MCG/AGP). Reservado para la Dra. María Paz Castillo |
+| M7 · C3 Terapéutica digital, IA y educación | **No** | Retirado por decisión de la Dra. Omidres (24/09). La lista queda solo con nutrición, que es la Carrera de la Lcda. Vintimilla |
 
-Si Gaby Villavicencio no responde en los próximos días, M5 · C2 se le ofrece también.
+**Riesgo asumido con M5 · C2.** La invitación a la Dra. Gaby Villavicencio sigue viva y
+sin respuesta desde el 23/09. Si contesta que sí después de que alguien de la Carrera
+lo haya tomado, habrá que decirle que el tema ya está cubierto. Con dos temas más de
+nutrición disponibles, lo normal será poder reubicarla sin que quede mal.
 
 ---
 
@@ -45,17 +48,16 @@ que tenemos disponibles:
 Fenotipos metabólicos · individualización nutricional
 Entrega de la grabación: jueves 19 de noviembre
 
-*2. Nutrición durante las terapias para obesidad*
+*2. Estrategias nutricionales basadas en evidencia*
+Dieta mediterránea · restricción de carbohidratos · ayuno intermitente
+Entrega de la grabación: jueves 19 de noviembre
+
+*3. Nutrición durante las terapias para obesidad*
 Agonistas de GLP-1 · tirzepatida · preservación de la masa muscular
 Entrega de la grabación: jueves 19 de noviembre
 
-*3. Terapéutica digital, inteligencia artificial y educación del paciente*
-Terapias digitales · IA en tamizaje y apoyo a la decisión clínica ·
-educación digital y adherencia
-Entrega de la grabación: jueves 3 de diciembre
-
-Este tercero no es de nutrición, se lo incluyo porque usted mencionó
-profesionales de varias áreas.
+Los tres son del mismo módulo, así que si le interesaran a más de una
+persona de su equipo, se pueden repartir.
 
 Las condiciones son iguales para todos:
 
@@ -75,6 +77,9 @@ Mil gracias, de verdad.
 ```
 
 ## Nota
+
+**Los tres temas son del mismo módulo 5**, y el mensaje lo dice: si la Carrera aporta
+tres docentes, el módulo queda cerrado de una sola vez.
 
 **No se menciona cuántas vacantes quedan ni que el curso cobra inscripción.** Lo
 primero porque suena a que estamos cubriendo huecos; lo segundo porque ella no lo
