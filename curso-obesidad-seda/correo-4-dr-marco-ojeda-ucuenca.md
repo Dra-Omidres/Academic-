@@ -3,7 +3,10 @@
 **Para:** marco.ojeda@ucuenca.edu.ec
 **CC:** Dra. Lizbet Ruilova · Dr. Pablo Vanegas
 **Asunto:** Consulta sobre requisitos y plazos para aval académico — Curso virtual SEDA en obesidad, diabetes y nutrición clínica
-**Estado:** ENVIADO el 22 de septiembre de 2026, 14:12 (hora de Cuenca)
+**Estado:** ENVIADO el 22/09/2026 · **VÍA CERRADA** — el Dr. Ojeda respondió el 24/09
+que hace un año que no está a cargo de la comisión de avales. Remite a la Dra. Silvia
+Aguirre y a la Lcda. Fabiola Palacios. La consulta se rehízo en
+`correo-12-comision-avales-ucuenca.md`. Este archivo se conserva como registro.
 **Actualizado:** 23 de septiembre de 2026
 
 **CORRECCIÓN PENDIENTE — el correo ya salió con un dato incompleto.** Se envió
