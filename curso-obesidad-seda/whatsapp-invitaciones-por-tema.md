@@ -17,59 +17,8 @@ los asteriscos desaparecen. Si lo pega en otro lado, bórrelos.
 nutrición seguidos y el perfil que les calza es el mismo. Por eso esos tres mensajes
 ofrecen quedarse con más de uno.
 
----
-
-## M2 · C4 — Actividad física en obesidad  🔴 **la más urgente**
-
-**Perfil:** Medicina del deporte, fisiatría o fisioterapia · **Entrega:** jueves 29 de octubre · **Registro:** cercano
-
-> ✉️ **Dr. César Dommar — fisioterapeuta** — INVITADO 23/09/2026 · esperando respuesta
-
-> Su módulo abre el curso. Es la única vacante con fecha de octubre.
-
-```
-[NOMBRE], ¿cómo estás?
-
-Te escribo porque estoy metida de lleno con el curso virtual de SEDA —obesidad, diabetes, nutrición clínica y salud digital, con el aval de la Universidad de Cuenca en trámite— y pensé en ti de una vez. Nadie mejor para esto:
-
-*Actividad física en obesidad*
-Ejercicio aeróbico · entrenamiento de fuerza · prescripción de ejercicio
-
-Es una clase grabada de 30 minutos, tú a tu ritmo. Te paso la plantilla del curso y listo. Lo único apretado es la fecha: la grabación tendría que estar el jueves 29 de octubre, porque ese módulo abre el curso. Si te resulta muy justo, dime y vemos.
-
-Te aviso de una vez, para que no haya sorpresas: es ad honorem, yo también. El curso va a cobrar inscripción, pero eso se va completo en la plataforma, los certificados y el trámite del aval.
-
-¿Te animas? Y si no te da la agenda, me lo dices con toda confianza, que no pasa nada.
-
-¡Un abrazo grande!
-```
-
----
-
-## M3 · C4 — Cirugía bariátrica
-
-**Perfil:** Cirujano bariátrico y metabólico acreditado · **Entrega:** jueves 5 de noviembre · **Registro:** cercano
-
-> ✉️ **Dr. Verdugo — cirujano** — INVITADO 23/09/2026 · esperando respuesta
-
-> La gestiona la Dra. Lizbet Ruilova. Es la única que le queda a ella.
-
-```
-[NOMBRE], ¿cómo estás?
-
-Te escribo porque estoy metida de lleno con el curso virtual de SEDA —obesidad, diabetes, nutrición clínica y salud digital, con el aval de la Universidad de Cuenca en trámite— y me falta justo lo tuyo:
-
-*Cirugía bariátrica*
-Indicaciones · técnicas quirúrgicas · seguimiento metabólico
-
-Es una clase grabada de 30 minutos, tú a tu ritmo. Te paso la plantilla del curso y listo. La grabación tendría que estar el jueves 5 de noviembre.
-
-Te aviso de una vez, para que no haya sorpresas: es ad honorem, yo también. El curso va a cobrar inscripción, pero eso se va completo en la plataforma, los certificados y el trámite del aval.
-
-¿Te animas? Y si no te da la agenda, me lo dices con toda confianza, que no pasa nada.
-
-¡Un abrazo grande!
-```
+**Actualizado el 24/09:** actividad física y cirugía bariátrica salieron de esta lista,
+ya tienen ponente. Quedan cinco temas.
 
 ---
 

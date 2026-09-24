@@ -76,14 +76,6 @@ P = [
 ]
 
 VAC = [
- ("M2 · C4","Actividad física en obesidad",
-  "Ejercicio aeróbico · entrenamiento de fuerza · prescripción de ejercicio",
-  "Medicina del deporte, fisiatría o fisioterapia","M2","urgente",
-  "Su módulo abre el curso. Es la única vacante con fecha de octubre."),
- ("M3 · C4","Cirugía bariátrica",
-  "Indicaciones · técnicas quirúrgicas · seguimiento metabólico",
-  "Cirujano bariátrico y metabólico acreditado","M3","",
-  "La gestiona la Dra. Lizbet Ruilova. Es la única que le queda a ella."),
  ("M5 · C1","Nutrición de precisión en diabetes y obesidad",
   "Fenotipos metabólicos · individualización nutricional",
   "Nutricionista clínico o endocrinólogo con línea en nutrición de precisión","M5","",
@@ -169,7 +161,7 @@ GANCHO = {
 }
 EXTRA = {
  "M2 · C4": "Lo único apretado es la fecha: la grabación tendría que estar el jueves 29 de octubre, porque ese módulo abre el curso. Si te resulta muy justo, dime y vemos.",
- "M5 · C1": "Y si te provoca, en ese mismo módulo tengo dos temas más de nutrición con la misma fecha. Puedes quedarte con uno o con los que quieras.",
+ "M5 · C1": "Y si te provoca, en ese mismo módulo tengo otros dos temas de nutrición con la misma fecha. Puedes quedarte con uno o con los que quieras.",
  "M5 · C2": "Y si te provoca, en ese mismo módulo tengo dos temas más de nutrición con la misma fecha. Puedes quedarte con uno o con los que quieras.",
  "M5 · C3": "Te confieso que es el tema que más me están preguntando. Por eso quiero que lo dé alguien que lo maneje de verdad.",
  "M7 · C3": "Ese módulo lo coordino yo, así que trabajaríamos juntos de cerca.",
@@ -410,17 +402,17 @@ footer b{color:var(--teal)}
   <p class="sub">Obesidad, diabetes, nutrición clínica y salud digital · inicio 5 de noviembre de 2026 · plazo de documentación 2 de octubre</p>
   <div class="stats">
     <div class="stat"><b>28</b><span>clases</span></div>
-    <div class="stat ok"><b>11</b><span>confirmadas</span></div>
+    <div class="stat ok"><b>13</b><span>confirmadas</span></div>
     <div class="stat"><b>10</b><span>por confirmar</span></div>
-    <div class="stat urg"><b>7</b><span>vacantes</span></div>
-    <div class="stat"><b>4/15</b><span>hojas de vida</span></div>
-    <div class="stat"><b>1/15</b><span>declaración COI</span></div>
+    <div class="stat urg"><b>5</b><span>vacantes</span></div>
+    <div class="stat"><b>4/18</b><span>hojas de vida</span></div>
+    <div class="stat"><b>1/18</b><span>declaración COI</span></div>
   </div>
 </header>
 
 <nav class="secs" role="tablist">
   <button class="sec" data-s="docs" aria-selected="true">Pedir documentos <em>14</em></button>
-  <button class="sec" data-s="vac" aria-selected="false">Cubrir vacantes <em>7</em></button>
+  <button class="sec" data-s="vac" aria-selected="false">Cubrir vacantes <em>5</em></button>
 </nav>
 
 <section id="s-docs">
