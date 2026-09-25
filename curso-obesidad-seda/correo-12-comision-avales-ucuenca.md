@@ -17,38 +17,32 @@ corresponde y se abre nombrando a quien nos remitió, que es la carta de present
 1. **Cuatro ponentes extranjeros, no dos.** Lizbeth confirmó el 24/09 que «los
    extranjeros ejercen todos afuera»: México, Costa Rica, Perú y Argentina. La
    pregunta 3 ya lo dice bien de entrada, así que no hace falta corregir nada después.
-2. **Se retira la afirmación «ad honorem, sin honorarios para ningún ponente».**
-   Ver la advertencia de abajo. La pregunta 6 describe ahora lo que Lizbeth planteó:
-   reconocimiento económico a los internacionales y participación ad honorem del
-   cuerpo docente local.
+2. **Se mantiene el ad honorem**, por decisión de la Dra. Omidres del 25/09, pero
+   se retira la frase absoluta «sin honorarios para ningún ponente». Ver abajo.
 3. **Se quita el número de docentes.** El cuerpo docente pasó de 15 a 17 en dos días
    y aún hay siete clases sin ponente; dar una cifra que va a cambiar antes de
    presentar el expediente no aporta y sí puede desmentirnos.
 
-## ADVERTENCIA — lo que ya se le dijo a la Universidad
+## Cómo quedó el asunto de los honorarios
 
-El correo del 22/09, con copia a Lizbeth y a Pablo, afirma literalmente:
+El 24/09 Lizbeth escribió que a los ponentes extranjeros y a la Dra. Omidres se les
+pagarían 100 USD, y a los locales «si nos va bien».
 
-> «La participación del cuerpo docente es ad honorem, **sin honorarios para ningún
-> ponente**, y los ingresos por inscripción se destinan a la plataforma, la
-> certificación y el propio trámite del aval.»
+**Decisión de la Dra. Omidres, 25/09:** el curso se maneja y se comunica como
+**ad honorem**. Ese pago no es seguro, depende de cómo vayan las cosas, y anunciar
+un honorario que puede no existir sería peor que no mencionarlo. Si al cierre hay
+fondos, se entrega como reconocimiento, no como pago comprometido.
 
-El 24/09 Lizbeth escribió que **a los ponentes extranjeros y a la Dra. Omidres sí se
-les va a pagar 100 USD**, y que a los locales se les pagaría «si nos va bien», cosa
-que todavía no se les ha dicho.
+Es coherente y no obliga a nadie a nada. Se sostiene la misma versión ante los
+ponentes, ante la Universidad y ante la Sociedad.
 
-Si ese pago se concreta, la frase enviada el 22/09 deja de ser exacta. Este correo
-nuevo es la oportunidad de decirlo bien desde el principio, ante las personas que sí
-van a resolver el trámite. Por eso la pregunta 6 está redactada como está.
+**El único cambio de redacción:** el correo del 22/09 decía «ad honorem, **sin
+honorarios para ningún ponente**». Esa segunda frase es absoluta y hacia el futuro:
+si en diciembre hay fondos y se reparte algo, contradice lo declarado. Este correo
+dice solo «la participación del cuerpo docente es ad honorem», que describe la
+situación real sin cerrar una puerta que la Sociedad quiere dejar abierta.
 
-**Si la Dra. Omidres prefiere sostener la versión ad honorem**, se cambia la pregunta
-6 en un minuto — pero entonces esa tiene que ser la realidad, no la redacción.
-
-## Pendiente aparte
-
-Al **Dr. Chen Ku** se le escribió el 23/09 diciéndole expresamente que la
-participación es ad honorem. Es ponente internacional. Si cobra los 100 USD, alguien
-tiene que avisarle; es una diferencia a su favor, pero no debe enterarse por terceros.
+Al Dr. Chen Ku se le dijo lo mismo el 23/09, así que no hay nada que corregirle.
 
 ---
 
