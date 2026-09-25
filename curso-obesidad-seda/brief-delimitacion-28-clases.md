@@ -50,7 +50,7 @@ Situación mundial y regional; impacto sanitario y económico; cambio de paradig
 • Cómo se clasifica y evalúa al paciente en consulta
   → M1 · C3, Dra. María Augusta Astudillo
 • IMC, circunferencia abdominal y bioimpedancia en detalle
-  → M1 · C4, Dra. Gabriela Jiménez
+  → M1 · C4
 
 *La grabación:* por Zoom. Le paso el enlace y coordinamos día y hora.
 *La fecha de entrega:* jueves 29 de octubre.
@@ -110,7 +110,7 @@ Clasificación clínica; fenotipos metabólicos; estratificación de riesgo
 
 *Lo que le pido que no toque, porque lo dicta otra persona:*
 • Antropometría, bioimpedancia y sarcopenia
-  → M1 · C4, Dra. Gabriela Jiménez
+  → M1 · C4
 • El uso de los fenotipos para individualizar el plan nutricional
   → M5 · C1, módulo 5
 • Estratificación del riesgo cardiovascular
@@ -180,7 +180,7 @@ Balance energético; calidad nutricional; individualización del tratamiento
 • Conducta alimentaria, hambre emocional y adherencia
   → M2 · C3, Dra. Janneth Bermeo
 • Antropometría y bioimpedancia
-  → M1 · C4, Dra. Gabriela Jiménez
+  → M1 · C4
 • Nutrición durante el tratamiento con GLP-1 o tirzepatida
   → M5 · C3, módulo 5
 
@@ -275,7 +275,7 @@ Ejercicio aeróbico; entrenamiento de fuerza; prescripción de ejercicio
 
 *Lo que le pido que no toque, porque lo dicta otra persona:*
 • Sarcopenia y composición corporal
-  → M1 · C4, Dra. Gabriela Jiménez
+  → M1 · C4
 • Preservación de masa muscular durante el tratamiento farmacológico
   → M5 · C3, módulo 5
 • Enfermedad osteomuscular asociada a la obesidad
@@ -412,7 +412,7 @@ Indicaciones; técnicas quirúrgicas; seguimiento metabólico
 • Farmacoterapia previa a la cirugía
   → M3 · C1 a C3
 • Composición corporal y sarcopenia
-  → M1 · C4, Dra. Gabriela Jiménez
+  → M1 · C4
 • El plan nutricional general
   → módulo 2
 
@@ -793,13 +793,12 @@ MASLD; obesidad sarcopénica; enfermedad osteomuscular; estrategias integrales
 
 *Lo que sí es suyo, con toda libertad:*
 • MASLD: diagnóstico, estratificación y manejo
-• Obesidad sarcopénica como complicación
 • Enfermedad osteomuscular asociada a la obesidad
 • Abordaje integral de estas complicaciones
 
 *Lo que le pido que no toque, porque lo dicta otra persona:*
-• diagnóstico de sarcopenia y bioimpedancia
-  → M1 · C4 (Dra. Gabriela Jiménez) y M5 · C4 (Dra. Lizbet Ruilova). Ellas dan el método diagnóstico: céntrese usted en la sarcopenia como complicación y su manejo
+• Sarcopenia y obesidad sarcopénica
+  → M1 · C4 y M5 · C4. Usted declinó este tema el 25/09 y queda fuera de su clase
 • Riesgo cardiovascular y renal
   → M6 · C1 y M6 · C2
 • Prescripción de ejercicio

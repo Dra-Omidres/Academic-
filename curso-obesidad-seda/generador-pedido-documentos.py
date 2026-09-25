@@ -76,6 +76,14 @@ P = [
 ]
 
 VAC = [
+ ("M1 · C4","Composición corporal y sarcopenia",
+  "Limitaciones del IMC · circunferencia abdominal · bioimpedancia · obesidad sarcopénica",
+  "Endocrinología o nutrición con experiencia en sarcopenia y bioimpedancia","M1","urgente",
+  "La Dra. Gabriela Jiménez declinó el tema el 25/09. Entrega el 29 de octubre."),
+ ("M4 · C1","Fisiopatología y clasificación de la diabetes",
+  "Defectos fisiopatológicos de la DM2 · clasificación actual · diagnóstico temprano",
+  "Endocrinología o medicina interna","M4","",
+  "La Dra. María Augusta Astudillo declinó el tema el 25/09. Sin candidato."),
  ("M5 · C1","Nutrición de precisión en diabetes y obesidad",
   "Fenotipos metabólicos · individualización nutricional",
   "Nutricionista clínico o endocrinólogo con línea en nutrición de precisión","M5","",
@@ -151,6 +159,8 @@ def mensaje(nombre,trato,clases,estado,faltan):
           "" if coord else "¡Un abrazo!"] if p])
 
 GANCHO = {
+ "M1 · C4": "y hay un tema que es exactamente tu área:",
+ "M4 · C1": "y me falta alguien para un tema que es puro tú:",
  "M2 · C4": "y pensé en ti de una vez. Nadie mejor para esto:",
  "M3 · C4": "y me falta justo lo tuyo:",
  "M5 · C1": "y hay un tema que tiene tu nombre escrito:",
@@ -160,6 +170,7 @@ GANCHO = {
  "M7 · C3": "y me falta alguien para un tema que es tuyo:",
 }
 EXTRA = {
+ "M1 · C4": "Te aviso que la fecha es la más apretada del curso: ese módulo abre el programa.",
  "M2 · C4": "Lo único apretado es la fecha: la grabación tendría que estar el jueves 29 de octubre, porque ese módulo abre el curso. Si te resulta muy justo, dime y vemos.",
  "M5 · C1": "Y si te provoca, en ese mismo módulo tengo otros dos temas de nutrición con la misma fecha. Puedes quedarte con uno o con los que quieras.",
  "M5 · C2": "Y si te provoca, en ese mismo módulo tengo dos temas más de nutrición con la misma fecha. Puedes quedarte con uno o con los que quieras.",
@@ -403,8 +414,8 @@ footer b{color:var(--teal)}
   <div class="stats">
     <div class="stat"><b>28</b><span>clases</span></div>
     <div class="stat ok"><b>13</b><span>confirmadas</span></div>
-    <div class="stat"><b>10</b><span>por confirmar</span></div>
-    <div class="stat urg"><b>5</b><span>vacantes</span></div>
+    <div class="stat"><b>8</b><span>por confirmar</span></div>
+    <div class="stat urg"><b>7</b><span>vacantes</span></div>
     <div class="stat"><b>4/18</b><span>hojas de vida</span></div>
     <div class="stat"><b>1/18</b><span>declaración COI</span></div>
   </div>
@@ -412,7 +423,7 @@ footer b{color:var(--teal)}
 
 <nav class="secs" role="tablist">
   <button class="sec" data-s="docs" aria-selected="true">Pedir documentos <em>14</em></button>
-  <button class="sec" data-s="vac" aria-selected="false">Cubrir vacantes <em>5</em></button>
+  <button class="sec" data-s="vac" aria-selected="false">Cubrir vacantes <em>7</em></button>
 </nav>
 
 <section id="s-docs">
