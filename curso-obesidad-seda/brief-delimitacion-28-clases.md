@@ -126,7 +126,7 @@ Si algo de esto le aprieta o cree que falta, dígame con toda confianza y lo aju
 
 ## M1 · C4 — Composición corporal y sarcopenia
 
-**Ponente:** Dra. Gabriela Jiménez · **Entrega:** jueves 29 de octubre
+**Ponente:** — sin ponente — · **Entrega:** jueves 29 de octubre
 
 ```
 *Su clase: Composición corporal y sarcopenia*
@@ -145,7 +145,7 @@ IMC y sus limitaciones; circunferencia abdominal; bioimpedancia; obesidad sarcop
 • La misma evaluación en el paciente con diabetes
   → M5 · C4, Dra. Lizbet Ruilova — coordínenlo entre ustedes
 • Sarcopenia como complicación metabólica
-  → M6 · C4, Dra. Adriana Álvarez
+  → M6 · C4, Dra. Adriana Alvarez
 • Estrategias nutricionales para preservar masa muscular
   → M5 · C3, módulo 5
 
@@ -214,7 +214,7 @@ Dieta mediterránea; dieta DASH; dietas bajas en carbohidratos; ayuno intermiten
   → M2 · C1, Lcda. Isabel Reinoso — es la clase anterior a la suya
 • Adherencia y conducta alimentaria
   → M2 · C3, Dra. Janneth Bermeo
-• ATENCIÓN — los mismos patrones aplicados a diabetes
+• los mismos patrones aplicados a diabetes
   → M5 · C2, módulo 5. Ese módulo repite mediterránea, restricción de carbohidratos y ayuno: enfoque usted la obesidad y deje la diabetes al módulo 5
 
 *La grabación:* por Zoom. Le paso el enlace y coordinamos día y hora.
@@ -279,7 +279,7 @@ Ejercicio aeróbico; entrenamiento de fuerza; prescripción de ejercicio
 • Preservación de masa muscular durante el tratamiento farmacológico
   → M5 · C3, módulo 5
 • Enfermedad osteomuscular asociada a la obesidad
-  → M6 · C4, Dra. Adriana Álvarez
+  → M6 · C4, Dra. Adriana Alvarez
 
 *La grabación:* por Zoom. Le paso el enlace y coordinamos día y hora.
 *La fecha de entrega:* jueves 29 de octubre.
@@ -343,7 +343,7 @@ Semaglutida; evidencia clínica
 *Lo que le pido que no toque, porque lo dicta otra persona:*
 • Tirzepatida
   → M3 · C3, Dra. Teresa Cuatecontzi
-• ATENCIÓN — los agonistas de GLP-1 en diabetes
+• los agonistas de GLP-1 en diabetes
   → M4 · C3, Dra. Gabriela Jiménez. Céntrese en obesidad y deje el uso en diabetes a ese módulo
 • Los beneficios cardiovasculares y renales de estos fármacos
   → M6 · C3, Dr. Chih Hao Chen Ku
@@ -426,7 +426,7 @@ Si algo de esto le aprieta o cree que falta, dígame con toda confianza y lo aju
 
 ## M4 · C1 — Fisiopatología y clasificación de la diabetes
 
-**Ponente:** Dra. María Augusta Astudillo · **Entrega:** jueves 12 de noviembre
+**Ponente:** — sin ponente — · **Entrega:** jueves 12 de noviembre
 
 ```
 *Su clase: Fisiopatología y clasificación de la diabetes*
@@ -474,7 +474,7 @@ HbA1c; tiempo en rango; AGP y monitoreo continuo de glucosa
 • Cómo se fijan las metas y se individualizan
 
 *Lo que le pido que no toque, porque lo dicta otra persona:*
-• ATENCIÓN — MCG y AGP en entornos digitales, apps y monitoreo remoto
+• MCG y AGP en entornos digitales, apps y monitoreo remoto
   → M7 · C2, módulo 7. Usted da la interpretación clínica; ese módulo da la implementación digital
 • Los fármacos para alcanzar las metas
   → M4 · C3, Dra. Gabriela Jiménez
@@ -506,7 +506,7 @@ iSGLT2 e iDPP-4; agonistas de GLP-1 y tirzepatida; individualización
 • Individualización del tratamiento y algoritmos de decisión
 
 *Lo que le pido que no toque, porque lo dicta otra persona:*
-• ATENCIÓN — los mismos fármacos en obesidad
+• los mismos fármacos en obesidad
   → M3 · C2 (Dr. Frank Espinoza) y M3 · C3 (Dra. Teresa Cuatecontzi). Céntrese en el control glucémico y deje el tratamiento de la obesidad al módulo 3
 • Los beneficios cardiovasculares y renales de estos fármacos
   → M6 · C3, Dr. Chih Hao Chen Ku
@@ -558,7 +558,7 @@ Si algo de esto le aprieta o cree que falta, dígame con toda confianza y lo aju
 
 ## M5 · C1 — Nutrición de precisión en diabetes y obesidad
 
-**Ponente:** — sin ponente — · **Entrega:** jueves 19 de noviembre
+**Ponente:** Lcda. Gabriela Molina · **Entrega:** jueves 19 de noviembre
 
 ```
 *Su clase: Nutrición de precisión en diabetes y obesidad*
@@ -605,7 +605,7 @@ Dieta mediterránea; restricción de carbohidratos; ayuno intermitente
 • Ayuno intermitente: evidencia en diabetes
 
 *Lo que le pido que no toque, porque lo dicta otra persona:*
-• ATENCIÓN — los mismos patrones en obesidad
+• los mismos patrones en obesidad
   → M2 · C2, Dra. Johanna Piedra Bravo. Ese módulo cubre mediterránea, DASH, bajas en carbohidratos y ayuno aplicados a obesidad: enfoque usted la diabetes
 • Individualización por fenotipos
   → M5 · C1, su mismo módulo
@@ -622,7 +622,7 @@ Si algo de esto le aprieta o cree que falta, dígame con toda confianza y lo aju
 
 ## M5 · C3 — Nutrición durante las terapias para obesidad
 
-**Ponente:** — sin ponente — · **Entrega:** jueves 19 de noviembre
+**Ponente:** Dra. Gabriela Machado · **Entrega:** jueves 19 de noviembre
 
 ```
 *Su clase: Nutrición durante las terapias para obesidad*
@@ -670,10 +670,10 @@ Evaluación clínica; interpretación de la bioimpedancia; estrategias nutricion
 • Estrategias nutricionales frente a la pérdida de masa magra
 
 *Lo que le pido que no toque, porque lo dicta otra persona:*
-• ATENCIÓN — IMC, circunferencia, bioimpedancia y obesidad sarcopénica
+• IMC, circunferencia, bioimpedancia y obesidad sarcopénica
   → M1 · C4, Dra. Gabriela Jiménez. Ella da los fundamentos del método: céntrese usted en el paciente con diabetes
 • Sarcopenia como complicación metabólica
-  → M6 · C4, Dra. Adriana Álvarez
+  → M6 · C4, Dra. Adriana Alvarez
 • Nutrición durante el tratamiento farmacológico
   → M5 · C3, su mismo módulo
 
@@ -702,7 +702,7 @@ Tamizaje y diagnóstico temprano; estratificación de riesgo; estrategias terap�
 • Estrategias terapéuticas de protección renal
 
 *Lo que le pido que no toque, porque lo dicta otra persona:*
-• ATENCIÓN — los beneficios renales de las nuevas terapias
+• los beneficios renales de las nuevas terapias
   → M6 · C3, Dr. Chih Hao Chen Ku. Él los cubre dentro del síndrome cardiorrenometabólico: céntrese usted en el tamizaje, el diagnóstico y la estratificación
 • Riesgo cardiovascular y dislipidemias
   → M6 · C2, Dr. Chih Hao Chen Ku
@@ -780,16 +780,16 @@ Si algo de esto le aprieta o cree que falta, dígame con toda confianza y lo aju
 
 ---
 
-## M6 · C4 — MASLD, sarcopenia y complicaciones metabólicas
+## M6 · C4 — MASLD y complicaciones metabólicas
 
 **Ponente:** Dra. Adriana Álvarez · **Entrega:** jueves 26 de noviembre
 
 ```
-*Su clase: MASLD, sarcopenia y complicaciones metabólicas*
+*Su clase: MASLD y complicaciones metabólicas*
 Módulo 6, Clase 4 · 30 minutos grabados
 
 El programa declara estos contenidos para su clase:
-MASLD; obesidad sarcopénica; enfermedad osteomuscular; estrategias integrales
+MASLD; enfermedad osteomuscular asociada a la obesidad; estrategias integrales
 
 *Lo que sí es suyo, con toda libertad:*
 • MASLD: diagnóstico, estratificación y manejo
@@ -798,7 +798,7 @@ MASLD; obesidad sarcopénica; enfermedad osteomuscular; estrategias integrales
 
 *Lo que le pido que no toque, porque lo dicta otra persona:*
 • Sarcopenia y obesidad sarcopénica
-  → M1 · C4 y M5 · C4. Usted declinó este tema el 25/09 y queda fuera de su clase
+  → M1 · C4, Dra. Adriana González. Salió de su clase por acuerdo del 28/09
 • Riesgo cardiovascular y renal
   → M6 · C1 y M6 · C2
 • Prescripción de ejercicio
@@ -861,7 +861,7 @@ MCG y AGP en entornos digitales; monitoreo remoto (RPM), apps y wearables; salud
 • Salud conectada e integración de datos
 
 *Lo que le pido que no toque, porque lo dicta otra persona:*
-• ATENCIÓN — interpretación clínica del AGP y del tiempo en rango
+• interpretación clínica del AGP y del tiempo en rango
   → M4 · C2, Dra. Josefa Palacio. Ella da la lectura clínica: céntrese usted en la implementación digital y el monitoreo a distancia
 • Marco normativo de telesalud
   → M7 · C1, Dra. Omidres Pérez
