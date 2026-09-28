@@ -83,7 +83,7 @@ VAC = [
  ("M4 · C1","Fisiopatología y clasificación de la diabetes",
   "Defectos fisiopatológicos de la DM2 · clasificación actual · diagnóstico temprano",
   "Endocrinología o medicina interna","M4","",
-  "La Dra. María Augusta Astudillo declinó el tema el 25/09. Sin candidato."),
+  "La Dra. María Augusta Astudillo declinó el tema el 25/09. Clase troncal: abre el módulo de diabetes."),
  ("M5 · C2","Estrategias nutricionales basadas en evidencia",
   "Dieta mediterránea · restricción de carbohidratos · ayuno intermitente",
   "Nutricionista clínico con experiencia en diabetes","M5","",None),
