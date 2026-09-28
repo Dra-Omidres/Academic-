@@ -26,7 +26,7 @@ Corresponden a los nombres marcados en rojo en tu documento, más mi propia clas
 | Dra. Teresa Cuatecontzi | M3 · C3 | Tirzepatida y nuevas terapias |
 | Dra. Josefa Palacios | M4 · C2 | Monitoreo glucémico y metas terapéuticas |
 | Dr. Chih Hao Chen Ku | M6 · C2 | Riesgo cardiovascular y dislipidemias |
-| Dra. Adriana Alvarez | M6 · C4 | MASLD, sarcopenia y complicaciones metabólicas |
+| Dra. Adriana Álvarez | M6 · C4 | MASLD, sarcopenia y complicaciones metabólicas |
 | Dra. Omidres Pérez de Carvelli | M7 · C1 | Fundamentos de salud digital y telemedicina |
 
 ## 2. Ponentes asignados en el programa pero sin confirmación (10 clases)

@@ -23,7 +23,7 @@ Ya hay dos Gabrielas y dos Adrianas en el cuerpo docente:
 |---|---|
 | **Lcda. Gabriela Molina** | M5 · C1, nutrición · esta |
 | **Dra. Gabriela Jiménez** | M4 · C3, terapia farmacológica |
-| **Dra. Adriana Alvarez** | M6 · C4, MASLD · Argentina |
+| **Dra. Adriana Álvarez** | M6 · C4, MASLD · Argentina |
 | **Dra. Adriana González** | M1 · C4, sarcopenia · Ecuador, candidata |
 
 No se pueden cruzar ni en la matriz ni en los certificados.

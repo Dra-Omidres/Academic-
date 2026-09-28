@@ -29,7 +29,7 @@ El curso es virtual, con clases grabadas que se publican por módulos. **La grab
 | Dra. Josefa Palacio Riofrío | M4 · C2 | Monitoreo glucémico y metas terapéuticas | jueves 12 de noviembre |
 | Dr. Chih Hao Chen Ku | M6 · C2 | Riesgo cardiovascular y dislipidemias | jueves 26 de noviembre |
 | Dr. Chih Hao Chen Ku | M6 · C3 | Síndrome cardiorrenometabólico | jueves 26 de noviembre |
-| Dra. Adriana Alvarez | M6 · C4 | MASLD, sarcopenia y complicaciones metabólicas | jueves 26 de noviembre |
+| Dra. Adriana Álvarez | M6 · C4 | MASLD, sarcopenia y complicaciones metabólicas | jueves 26 de noviembre |
 
 El curso inicia el **jueves 5 de noviembre** y cierra el **jueves 17 de diciembre**.
 

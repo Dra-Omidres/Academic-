@@ -56,7 +56,7 @@ P = [
  ("Dr. Chih Hao Chen Ku","doctor","+506 8392 7083",["M6 · C2","M6 · C3"],"CONFIRMADO",
   ["número de pasaporte","fotografía"],
   "Ya se le pidió por correo el 23/09. Use este mensaje solo si no responde."),
- ("Dra. Adriana Alvarez","doctora","+54 9 11 6708-1708",["M6 · C4"],"CONFIRMADO",
+ ("Dra. Adriana Álvarez","doctora","+54 9 11 6708-1708",["M6 · C4"],"CONFIRMADO",
   ["hoja de vida","número de pasaporte","fotografía","declaración de conflicto de interés firmada"],
   "Número de Argentina. Confirmar dónde ejerce."),
  ("Dra. Lizbet Ruilova","Liz","+593 99 907 3471",["M1 · C1","M5 · C4"],"POR CONFIRMAR",

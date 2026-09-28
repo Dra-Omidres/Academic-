@@ -1,6 +1,6 @@
 # Dra. Adriana González — invitación a M1 · C4
 
-**Quién es:** tesorera de ALAD, Ecuador. La propuso la Dra. Adriana Alvarez el 25/09:
+**Quién es:** tesorera de ALAD, Ecuador. La propuso la Dra. Adriana Álvarez el 25/09:
 dictó una charla de sarcopenia en Curitiba y, en palabras de la Dra. Alvarez,
 «YA la tiene preparada».
 **Contacto:** +593 99 602 1221 (enviado por la Dra. Alvarez el 28/09)
@@ -22,7 +22,7 @@ Conviene no cruzarlas en la matriz ni en los certificados.
 Dra. González, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga, desde
 Cuenca.
 
-Le llego por recomendación de Adriana Alvarez, que me habló de su charla
+Le llego por recomendación de Adriana Álvarez, que me habló de su charla
 de sarcopenia en Curitiba con verdadero entusiasmo.
 
 Estoy apoyando a la Sociedad de Endocrinología y Diabetes del Austro con

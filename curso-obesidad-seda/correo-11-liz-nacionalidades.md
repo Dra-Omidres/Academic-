@@ -26,7 +26,7 @@ Gracias, con esos cuatro ya tengo teléfono de **catorce de los quince** docente
 Pero los prefijos me abrieron una duda importante y necesito que me la resuelvas:
 
 > **Dr. Frank Espinoza** — número de Perú (+51)
-> **Dra. Adriana Alvarez** — número de Argentina (+54)
+> **Dra. Adriana Álvarez** — número de Argentina (+54)
 >
 > ¿Ellos **ejercen allá**, o tienen línea de su país de origen y trabajan en Ecuador?
 
