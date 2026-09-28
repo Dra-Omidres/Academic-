@@ -3,7 +3,7 @@
 **Quién es:** tesorera de ALAD, Ecuador. La propuso la Dra. Adriana Alvarez el 25/09:
 dictó una charla de sarcopenia en Curitiba y, en palabras de la Dra. Alvarez,
 «YA la tiene preparada».
-**Su contacto** llegó como tarjeta de WhatsApp desde la Dra. Alvarez.
+**Contacto:** +593 99 602 1221 (enviado por la Dra. Alvarez el 28/09)
 **Tema:** M1 · C4 — Composición corporal y sarcopenia · entrega **jueves 29 de octubre**
 
 ## Por qué este calce es bueno
