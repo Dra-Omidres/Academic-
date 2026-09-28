@@ -50,7 +50,7 @@ Estamos preparando la solicitud de aval académico ante la **Universidad de Cuen
 
 **1. Declaración de conflicto de interés firmada.** Va adjunta. Es obligatoria para todos, incluso si no tienen ningún vínculo que declarar. El programa aborda agonistas de GLP-1, tirzepatida e iSGLT2, y el curso contempla auspicio externo; la transparencia los protege a ustedes y respalda la solidez del aval.
 
-**2. Hoja de vida resumida.** Ya tengo las de la **Dra. Piedra, la Dra. Palacio y el Dr. Chen Ku** — muchas gracias. Me faltan las de la **Lcda. Reinoso, el Dr. Espinoza, la Dra. Cuatecontzi, la Dra. Alvarez y la Dra. Bermeo.**
+**2. Hoja de vida resumida.** Ya tengo las de la **Dra. Piedra, la Dra. Palacio y el Dr. Chen Ku** — muchas gracias. Me faltan las de la **Lcda. Reinoso, el Dr. Espinoza, la Dra. Cuatecontzi, la Dra. Álvarez y la Dra. Bermeo.**
 
 **3. Número de cédula o pasaporte.**
 

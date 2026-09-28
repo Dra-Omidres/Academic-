@@ -13,7 +13,7 @@ Aguirre y a la Lcda. Fabiola Palacios. La consulta se rehízo en
 declarando **dos** ponentes extranjeros (México y Costa Rica). Al día siguiente,
 23/09, Lizbeth mandó los teléfonos que faltaban y aparecieron dos países más:
 **+51 (Perú)** para el Dr. Frank Espinoza y **+54 (Argentina)** para la Dra. Adriana
-Alvarez. Serían cuatro ponentes extranjeros, no dos, y es justamente el dato que el
+Álvarez. Serían cuatro ponentes extranjeros, no dos, y es justamente el dato que el
 Dr. Ojeda va a usar para decir qué documentación se necesita.
 
 **Perú y Argentina son una inferencia mía, no un dato confirmado.** Un prefijo

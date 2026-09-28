@@ -6,7 +6,7 @@
 
 ## Qué contiene
 
-1. **La pregunta que importa:** si el Dr. Espinoza (+51) y la Dra. Alvarez (+54)
+1. **La pregunta que importa:** si el Dr. Espinoza (+51) y la Dra. Álvarez (+54)
    ejercen en Perú y Argentina o solo tienen línea de su país de origen. De esa
    respuesta depende si hay que corregirle al Dr. Ojeda el número de ponentes
    extranjeros (ver `correo-10-ojeda-correccion-extranjeros.md`).
@@ -30,7 +30,7 @@ Pero los prefijos me abrieron una duda importante y necesito que me la resuelvas
 >
 > ¿Ellos **ejercen allá**, o tienen línea de su país de origen y trabajan en Ecuador?
 
-Te lo pregunto porque no es un detalle. Al Dr. Ojeda le escribí ayer diciéndole que teníamos **dos** ponentes extranjeros, México y Costa Rica. Si Espinoza y Alvarez también son de fuera, serían **cuatro**, y la documentación que la Universidad exige para ponentes extranjeros suele variar según el país. Tendría que mandarle una corrección antes de que nos conteste, para que su respuesta nos sirva.
+Te lo pregunto porque no es un detalle. Al Dr. Ojeda le escribí ayer diciéndole que teníamos **dos** ponentes extranjeros, México y Costa Rica. Si Espinoza y Álvarez también son de fuera, serían **cuatro**, y la documentación que la Universidad exige para ponentes extranjeros suele variar según el país. Tendría que mandarle una corrección antes de que nos conteste, para que su respuesta nos sirva.
 
 Con que me digas el país de cada uno me basta.
 

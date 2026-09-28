@@ -21,7 +21,7 @@ Es el tema que la Dra. Omidres había señalado como «el que más me están pre
 | **Lcda. Gabriela Molina** | M5 · C1, nutrición de precisión |
 | **Dra. Gabriela Jiménez** | M4 · C3, terapia farmacológica |
 
-Y dos Adrianas: **Alvarez** (M6 · C4, Argentina) y **González** (M1 · C4, candidata).
+Y dos Adrianas: **Álvarez** (M6 · C4, Argentina) y **González** (M1 · C4, candidata).
 
 ## Falta preguntarle
 

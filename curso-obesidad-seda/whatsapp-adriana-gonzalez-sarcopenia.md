@@ -1,9 +1,9 @@
 # Dra. Adriana González — invitación a M1 · C4
 
 **Quién es:** tesorera de ALAD, Ecuador. La propuso la Dra. Adriana Álvarez el 25/09:
-dictó una charla de sarcopenia en Curitiba y, en palabras de la Dra. Alvarez,
+dictó una charla de sarcopenia en Curitiba y, en palabras de la Dra. Álvarez,
 «YA la tiene preparada».
-**Contacto:** +593 99 602 1221 (enviado por la Dra. Alvarez el 28/09)
+**Contacto:** +593 99 602 1221 (enviado por la Dra. Álvarez el 28/09)
 **Tema:** M1 · C4 — Composición corporal y sarcopenia · entrega **jueves 29 de octubre**
 
 ## Por qué este calce es bueno
@@ -12,7 +12,7 @@ Dos cosas coincidieron el mismo día: la Dra. Gabriela Jiménez declinó justame
 tema de sarcopenia, y apareció alguien que ya tiene la charla hecha. No hay que
 convencerla de preparar nada desde cero, y la fecha es la más apretada del curso.
 
-**Ojo con las dos Adrianas.** Adriana **Alvarez** es la de Argentina, que dicta MASLD
+**Ojo con las dos Adrianas.** Adriana **Álvarez** es la de Argentina, que dicta MASLD
 en el módulo 6. Adriana **González** es la de Ecuador, tesorera de ALAD, que sería esta.
 Conviene no cruzarlas en la matriz ni en los certificados.
 

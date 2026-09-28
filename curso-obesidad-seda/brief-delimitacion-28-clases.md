@@ -145,7 +145,7 @@ IMC y sus limitaciones; circunferencia abdominal; bioimpedancia; obesidad sarcop
 • La misma evaluación en el paciente con diabetes
   → M5 · C4, Dra. Lizbet Ruilova — coordínenlo entre ustedes
 • Sarcopenia como complicación metabólica
-  → M6 · C4, Dra. Adriana Alvarez
+  → M6 · C4, Dra. Adriana Álvarez
 • Estrategias nutricionales para preservar masa muscular
   → M5 · C3, módulo 5
 
@@ -279,7 +279,7 @@ Ejercicio aeróbico; entrenamiento de fuerza; prescripción de ejercicio
 • Preservación de masa muscular durante el tratamiento farmacológico
   → M5 · C3, módulo 5
 • Enfermedad osteomuscular asociada a la obesidad
-  → M6 · C4, Dra. Adriana Alvarez
+  → M6 · C4, Dra. Adriana Álvarez
 
 *La grabación:* por Zoom. Le paso el enlace y coordinamos día y hora.
 *La fecha de entrega:* jueves 29 de octubre.
@@ -673,7 +673,7 @@ Evaluación clínica; interpretación de la bioimpedancia; estrategias nutricion
 • IMC, circunferencia, bioimpedancia y obesidad sarcopénica
   → M1 · C4, Dra. Gabriela Jiménez. Ella da los fundamentos del método: céntrese usted en el paciente con diabetes
 • Sarcopenia como complicación metabólica
-  → M6 · C4, Dra. Adriana Alvarez
+  → M6 · C4, Dra. Adriana Álvarez
 • Nutrición durante el tratamiento farmacológico
   → M5 · C3, su mismo módulo
 
