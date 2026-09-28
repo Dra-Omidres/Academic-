@@ -87,10 +87,6 @@ VAC = [
  ("M5 · C2","Estrategias nutricionales basadas en evidencia",
   "Dieta mediterránea · restricción de carbohidratos · ayuno intermitente",
   "Nutricionista clínico con experiencia en diabetes","M5","",None),
- ("M5 · C3","Nutrición durante las terapias para obesidad",
-  "Agonistas de GLP-1 · tirzepatida · preservación de la masa muscular",
-  "Nutricionista clínico o endocrinólogo","M5","",
-  "Tema de alta demanda: es el mejor gancho para reclutar."),
  ("M7 · C2","Monitoreo digital y tecnologías en diabetes y obesidad",
   "MCG y AGP en entornos digitales · monitoreo remoto, apps y wearables · salud conectada",
   "Endocrinólogo con experiencia en MCG o tecnología en diabetes","M7","",None),
@@ -169,7 +165,7 @@ EXTRA = {
  "M1 · C4": "Te aviso que la fecha es la más apretada del curso: ese módulo abre el programa.",
  "M2 · C4": "Lo único apretado es la fecha: la grabación tendría que estar el jueves 29 de octubre, porque ese módulo abre el curso. Si te resulta muy justo, dime y vemos.",
  "M5 · C1": "Y si te provoca, en ese mismo módulo tengo otros dos temas de nutrición con la misma fecha. Puedes quedarte con uno o con los que quieras.",
- "M5 · C2": "Y si te provoca, en ese mismo módulo me queda otro tema de nutrición con la misma fecha.",
+ 
  "M5 · C3": "Te confieso que es el tema que más me están preguntando. Por eso quiero que lo dé alguien que lo maneje de verdad.",
  "M7 · C3": "Ese módulo lo coordino yo, así que trabajaríamos juntos de cerca.",
  "M7 · C2": "Ese módulo lo coordino yo, así que trabajaríamos juntos de cerca.",
@@ -409,17 +405,17 @@ footer b{color:var(--teal)}
   <p class="sub">Obesidad, diabetes, nutrición clínica y salud digital · inicio 5 de noviembre de 2026 · plazo de documentación 2 de octubre</p>
   <div class="stats">
     <div class="stat"><b>28</b><span>clases</span></div>
-    <div class="stat ok"><b>14</b><span>confirmadas</span></div>
+    <div class="stat ok"><b>15</b><span>confirmadas</span></div>
     <div class="stat"><b>8</b><span>por confirmar</span></div>
-    <div class="stat urg"><b>6</b><span>vacantes</span></div>
-    <div class="stat"><b>5/19</b><span>hojas de vida</span></div>
-    <div class="stat"><b>1/19</b><span>declaración COI</span></div>
+    <div class="stat urg"><b>5</b><span>vacantes</span></div>
+    <div class="stat"><b>5/20</b><span>hojas de vida</span></div>
+    <div class="stat"><b>1/20</b><span>declaración COI</span></div>
   </div>
 </header>
 
 <nav class="secs" role="tablist">
   <button class="sec" data-s="docs" aria-selected="true">Pedir documentos <em>14</em></button>
-  <button class="sec" data-s="vac" aria-selected="false">Cubrir vacantes <em>6</em></button>
+  <button class="sec" data-s="vac" aria-selected="false">Cubrir vacantes <em>5</em></button>
 </nav>
 
 <section id="s-docs">
