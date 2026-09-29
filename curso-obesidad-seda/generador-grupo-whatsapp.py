@@ -15,13 +15,15 @@ def pais(t):
     return ''
 
 gente, sin_tel = [], []
-for r in range(4, 26):
+r = 4
+while True:                       # hasta la primera fila vacía, para que no se quede corto
     n = p.cell(r,2).value
-    if not n: continue
+    if not n: break
     tel = p.cell(r,6).value
     fila = dict(n=n, tel=tel or '', esp=p.cell(r,3).value or '',
                 cl=p.cell(r,9).value or '', esta=str(p.cell(r,14).value or ''))
     (gente if tel else sin_tel).append(fila)
+    r += 1
 
 # ordenar por módulo y clase
 def clave(f):
