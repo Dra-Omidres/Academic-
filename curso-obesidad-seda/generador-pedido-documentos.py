@@ -76,10 +76,6 @@ P = [
 ]
 
 VAC = [
- ("M4 · C1","Fisiopatología y clasificación de la diabetes",
-  "Defectos fisiopatológicos de la DM2 · clasificación actual · diagnóstico temprano",
-  "Endocrinología o medicina interna","M4","",
-  "La Dra. María Augusta Astudillo declinó el tema el 25/09. Clase troncal: abre el módulo de diabetes."),
  ("M5 · C2","Estrategias nutricionales basadas en evidencia",
   "Dieta mediterránea · restricción de carbohidratos · ayuno intermitente",
   "Nutricionista clínico con experiencia en diabetes","M5","",None),
@@ -394,9 +390,9 @@ footer b{color:var(--teal)}
   <p class="sub">Obesidad, diabetes, nutrición clínica y salud digital · inicio 5 de noviembre de 2026 · plazo de documentación 2 de octubre</p>
   <div class="stats">
     <div class="stat"><b>28</b><span>clases</span></div>
-    <div class="stat ok"><b>26</b><span>confirmadas</span></div>
+    <div class="stat ok"><b>27</b><span>confirmadas</span></div>
     <div class="stat"><b>0</b><span>por confirmar</span></div>
-    <div class="stat urg"><b>2</b><span>vacantes</span></div>
+    <div class="stat urg"><b>1</b><span>vacante</span></div>
     <div class="stat"><b>5/23</b><span>hojas de vida</span></div>
     <div class="stat"><b>1/23</b><span>declaración COI</span></div>
   </div>
@@ -404,7 +400,7 @@ footer b{color:var(--teal)}
 
 <nav class="secs" role="tablist">
   <button class="sec" data-s="docs" aria-selected="true">Pedir documentos <em>14</em></button>
-  <button class="sec" data-s="vac" aria-selected="false">Cubrir vacantes <em>2</em></button>
+  <button class="sec" data-s="vac" aria-selected="false">Cubrir vacantes <em>1</em></button>
 </nav>
 
 <section id="s-docs">
