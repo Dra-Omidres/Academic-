@@ -71,9 +71,8 @@ de conflicto de interés que montamos no la exige nadie: es un plus.
 
 ## Lo que esto abre — cuatro cosas nuevas que el expediente pide y no teníamos
 
-**1. La plataforma, por escrito.** El punto 10 exige «indicar si es presencial, o
-virtual **con la plataforma a utilizarse**». Sigue sin decidirse desde que Boehringer
-retiró su ofrecimiento. Ya no es una decisión logística: es un requisito del expediente.
+**1. La plataforma, por escrito.** RESUELTO el 29/09: **saludelearning.com**. El punto
+10 exige nombrarla y ya se puede. Ver más abajo la advertencia sobre cómo declararla.
 
 **2. El tipo de certificado.** De **participación** o de **aprobación**. Si es de
 aprobación, hay que presentar los **parámetros de evaluación**, que no existen. Ojo:
@@ -113,8 +112,30 @@ entrega del expediente**, porque el reloj ya está corriendo.
 | 7. Entidad auspiciante | ⚠️ Depende de si Elea entra con el simposio |
 | 8. Programación detallada con fechas, horas y expositores | ⚠️ Falta el detalle de horas |
 | 9. Costo | ⚠️ Igual que (f) |
-| 10. Modalidad **y plataforma** | ❌ **La plataforma sigue sin decidirse** |
+| 10. Modalidad **y plataforma** | ✅ Virtual, en saludelearning.com |
 | 11. Cupos disponibles | ❌ Nunca se ha definido |
+
+---
+
+## Advertencia sobre la plataforma
+
+**Estoy suponiendo, verifíquelo:** saludelearning.com figura entre los servicios de la
+Dra. Omidres, así que entiendo que la plataforma es suya o está vinculada a ella.
+
+Si es así, hay que declararlo, por dos razones que se refuerzan:
+
+**En el expediente.** El punto 7 pide la entidad auspiciante y el 9 el costo. Si los
+ingresos por inscripción se destinan a una plataforma vinculada a quien organiza el
+cuerpo docente, eso se declara de entrada. Declarado no es problema; descubierto
+después, sí.
+
+**En su propia declaración de conflicto de interés.** El formato que ella misma
+redactó exige declarar vínculos de los últimos 24 meses. El suyo es exactamente eso.
+
+**Y hay una pregunta previa que resolver con la Dra. Ruilova:** ¿SEDA le paga a
+saludelearning.com por el uso de la plataforma, o la Dra. Omidres la aporta sin costo?
+No es lo mismo, y cambia lo que se declara. Conviene dejarlo por escrito entre ellas
+antes de que el expediente diga nada.
 
 ---
 
@@ -122,8 +143,9 @@ entrega del expediente**, porque el reloj ya está corriendo.
 
 1. **Las 18 hojas de vida que faltan.** Sin eso no hay expediente, y el expediente
    tiene que entrar la semana que viene a más tardar.
-2. **Decidir la plataforma.** Es requisito formal.
-3. **Decidir el tipo de certificado.** Si es de aprobación, hay que escribir los
+2. **Decidir el tipo de certificado.** Si es de aprobación, hay que escribir los
    parámetros de evaluación.
-4. **Fijar el costo y los cupos.**
+3. **Fijar el costo y los cupos.**
+4. **Aclarar con la Dra. Ruilova las condiciones de uso de la plataforma**, y
+   declararlas.
 5. **Redactar la solicitud motivada** dirigida a la Dra. Nancy Auquilla Díaz.
