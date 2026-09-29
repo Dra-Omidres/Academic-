@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grupo de ponentes SEDA</title>
+<style>
+:root{--teal:#0D5A62;--gold:#B8852B;--mint:#C8E1DF;--pale:#EDF5F4;--bg:#F7FAFA;
+  --surface:#FFF;--ink:#1A2325;--muted:#5F7073;--line:#DCE8E7;--wa:#128C7E}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--teal:#7FC5C4;--gold:#E0AE5C;
+  --mint:#123A3D;--pale:#0F2A2D;--bg:#0B1718;--surface:#122224;--ink:#E8F1F0;--muted:#94A9AB;
+  --line:#1E3538;--wa:#25D366}}
+:root[data-theme="dark"]{--teal:#7FC5C4;--gold:#E0AE5C;--mint:#123A3D;--pale:#0F2A2D;--bg:#0B1718;
+  --surface:#122224;--ink:#E8F1F0;--muted:#94A9AB;--line:#1E3538;--wa:#25D366}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:840px;margin:0 auto;padding:30px 16px 70px}
+h1{font-size:clamp(21px,4vw,28px);margin:0 0 6px;color:var(--teal)}
+.sub{margin:0;color:var(--muted);font-size:14px}
+h2{font-size:15px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);
+  margin:34px 0 12px;padding-bottom:7px;border-bottom:1px solid var(--line)}
+.paso{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:0 0 14px}
+.paso ol{margin:0;padding-left:20px} .paso li{margin:6px 0;font-size:14.5px}
+.campo{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin:0 0 12px}
+.campo h3{margin:0 0 8px;font-size:13px;letter-spacing:.03em;text-transform:uppercase;color:var(--muted)}
+.campo pre{white-space:pre-wrap;margin:0 0 11px;font:13.5px/1.55 inherit;background:var(--pale);
+  border-radius:8px;padding:12px 14px;max-height:230px;overflow:auto}
+.campo .nom{font:600 17px/1.3 inherit;color:var(--teal);background:var(--pale);
+  border-radius:8px;padding:11px 14px;margin:0 0 11px}
+.prog{display:flex;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--line);
+  border-radius:12px;padding:13px 17px;margin:0 0 14px;position:sticky;top:8px;z-index:5}
+.prog b{font-size:21px;color:var(--teal);font-variant-numeric:tabular-nums}
+.bar{flex:1;height:7px;background:var(--pale);border-radius:9px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--wa);width:0;transition:width .25s}
+ul.lista{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+li.p{background:var(--surface);border:1px solid var(--line);border-radius:11px;
+  padding:12px 14px;display:flex;align-items:center;gap:13px;flex-wrap:wrap}
+li.p.ok{opacity:.45}
+.chk input{position:absolute;opacity:0;width:0;height:0}
+.chk span{display:block;width:23px;height:23px;border:2px solid var(--line);border-radius:6px;cursor:pointer}
+.chk input:checked+span{background:var(--wa);border-color:var(--wa)}
+.chk input:checked+span::after{content:"";display:block;width:6px;height:11px;margin:2px auto;
+  border:solid #fff;border-width:0 2.5px 2.5px 0;transform:rotate(45deg)}
+.who{flex:1;min-width:190px;display:flex;flex-direction:column}
+.who b{font-size:15px;color:var(--teal);line-height:1.3}
+.meta{font-size:12px;color:var(--muted)}
+.num{display:flex;flex-direction:column;align-items:flex-end}
+.num code{font:600 14.5px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-variant-numeric:tabular-nums;color:var(--ink)}
+.pais{font-size:11px;color:var(--muted)}
+.btn{font:600 13px/1 inherit;font-family:inherit;border-radius:8px;padding:9px 13px;cursor:pointer;
+  border:1px solid var(--line);background:transparent;color:var(--teal)}
+.btn.full{background:var(--teal);color:var(--bg);border-color:var(--teal)}
+.aviso{background:var(--pale);border-left:4px solid var(--gold);border-radius:0 9px 9px 0;
+  padding:13px 16px;margin:0 0 12px;font-size:14px}
+.aviso b{color:var(--gold)}
+.aviso ul{margin:7px 0 0;padding-left:19px}
+footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted)}
+@media(max-width:520px){.num{align-items:flex-start;width:100%}.btn{width:100%}}
+</style></head><body><div class="wrap">
+
+<h1>Armar el grupo de ponentes</h1>
+<p class="sub">SEDA · Curso de obesidad, diabetes, nutrición clínica y salud digital · 21 integrantes</p>
+
+<h2>Cómo se crea</h2>
+<div class="paso"><ol>
+<li>WhatsApp → <b>Nuevo grupo</b></li>
+<li>Añadir a las 21 personas de la lista, marcando cada una aquí según las agregue</li>
+<li>Poner el nombre y la descripción de abajo</li>
+<li><b>Ajustes del grupo → Enviar mensajes → Solo administradores</b>, mientras lo arma</li>
+<li>Enviar el mensaje de bienvenida y <b>fijarlo</b></li>
+<li>Abrir los mensajes para todos</li>
+</ol></div>
+
+<h2>Nombre y descripción</h2>
+<div class="campo"><h3>Nombre del grupo</h3>
+<div class="nom" id="nom">SEDA · Curso obesidad y diabetes 2026</div>
+<button class="btn copy" type="button" data-t="nom">Copiar nombre</button></div>
+<div class="campo"><h3>Descripción</h3>
+<pre id="desc">Curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital · Sociedad de Endocrinología y Diabetes del Austro (SEDA).
+
+7 módulos · 28 clases grabadas de 30 minutos · inicio 5 de noviembre de 2026 · aval académico de la Universidad de Cuenca en trámite.
+
+Coordinación: Dra. Lizbet Ruilova y Dr. Pablo Vanegas.
+Organización del cuerpo docente: Dra. Omidres Pérez de Carvelli.
+
+Documentos y consultas: info@draomidresperez.com</pre>
+<button class="btn copy" type="button" data-t="desc">Copiar descripción</button></div>
+
+<h2>A quién añadir</h2>
+<div class="prog"><b><span id="hechos">0</span>/21</b><div class="bar"><i id="barra"></i></div>
+<button class="btn" type="button" id="reset">Reiniciar</button></div>
+<ul class="lista">
+<li class="p" id="m0">
+  <label class="chk"><input type="checkbox" data-k="m0"><span></span></label>
+  <div class="who">
+    <b>Dra. Lizbet Yolanda Ruilova González</b>
+    <span class="meta">M1 · C1  /  M5 · C4 · Fundamentos de obesidad · Endocrinología · Medicina Interna</span>
+  </div>
+  <div class="num"><code id="t0">+593 99 907 3471</code><span class="pais">🇪🇨 Ecuador</span></div>
+  <button class="btn copy" type="button" data-t="t0">Copiar</button>
+</li>
+<li class="p" id="m1">
+  <label class="chk"><input type="checkbox" data-k="m1"><span></span></label>
+  <div class="who">
+    <b>Dr. Pablo Vanegas</b>
+    <span class="meta">M1 · C2  /  M3 · C1 · Fundamentos de obesidad · Endocrinología</span>
+  </div>
+  <div class="num"><code id="t1">+593 98 765 3136</code><span class="pais">🇪🇨 Ecuador</span></div>
+  <button class="btn copy" type="button" data-t="t1">Copiar</button>
+</li>
+<li class="p" id="m2">
+  <label class="chk"><input type="checkbox" data-k="m2"><span></span></label>
+  <div class="who">
+    <b>Dra. María Augusta Astudillo</b>
+    <span class="meta">M1 · C3 · Fundamentos de obesidad · Endocrinología</span>
+  </div>
+  <div class="num"><code id="t2">+593 99 811 1635</code><span class="pais">🇪🇨 Ecuador</span></div>
+  <button class="btn copy" type="button" data-t="t2">Copiar</button>
+</li>
+<li class="p" id="m3">
+  <label class="chk"><input type="checkbox" data-k="m3"><span></span></label>
+  <div class="who">
+    <b>Lcda. Isabel Reinoso</b>
+    <span class="meta">M2 · C1 · Nutrición en obesidad · Nutriología</span>
+  </div>
+  <div class="num"><code id="t3">+593 98 736 8816</code><span class="pais">🇪🇨 Ecuador</span></div>
+  <button class="btn copy" type="button" data-t="t3">Copiar</button>
+</li>
+<li class="p" id="m4">
+  <label class="chk"><input type="checkbox" data-k="m4"><span></span></label>
+  <div class="who">
+    <b>Dra. Johanna Piedra Bravo</b>
+    <span class="meta">M2 · C2 · Nutrición en obesidad · Nutriología y Diabetología · Magíster en Diabetes</span>
+  </div>
+  <div class="num"><code id="t4">+593 98 765 4330</code><span class="pais">🇪🇨 Ecuador</span></div>
+  <button class="btn copy" type="button" data-t="t4">Copiar</button>
+</li>
+<li class="p" id="m5">
+  <label class="chk"><input type="checkbox" data-k="m5"><span></span></label>
+  <div class="who">
+    <b>Dra. Janneth Bermeo Cabrera</b>
+    <span class="meta">M2 · C3 · Nutrición en obesidad · Medicina Interna · Subespecialista en Endocrinología · Alta especialidad en Obesidad y Enfermedades Tiroideas (UNAM)</span>
+  </div>
+  <div class="num"><code id="t5">+593 96 198 1203</code><span class="pais">🇪🇨 Ecuador</span></div>
+  <button class="btn copy" type="button" data-t="t5">Copiar</button>
+</li>
+<li class="p" id="m6">
+  <label class="chk"><input type="checkbox" data-k="m6"><span></span></label>
+  <div class="who">
+    <b>Dra. Julia Castro</b>
+    <span class="meta">M2 · C4 · Nutrición en obesidad · Fisioterapia</span>
+  </div>
+  <div class="num"><code id="t6">+593 99 208 7747</code><span class="pais">🇪🇨 Ecuador</span></div>
+  <button class="btn copy" type="button" data-t="t6">Copiar</button>
+</li>
+<li class="p" id="m7">
+  <label class="chk"><input type="checkbox" data-k="m7"><span></span></label>
+  <div class="who">
+    <b>Dr. Frank Espinoza</b>
+    <span class="meta">M3 · C2 · Farmacoterapia y cirugía</span>
+  </div>
+  <div class="num"><code id="t7">+51 936 260 715</code><span class="pais">🇵🇪 Perú</span></div>
+  <button class="btn copy" type="button" data-t="t7">Copiar</button>
+</li>
+<li class="p" id="m8">
+  <label class="chk"><input type="checkbox" data-k="m8"><span></span></label>
+  <div class="who">
+    <b>Dra. Teresa Cuatecontzi</b>
+    <span class="meta">M3 · C3 · Farmacoterapia y cirugía</span>
+  </div>
+  <div class="num"><code id="t8">+52 1 55 5405 6619</code><span class="pais">🇲🇽 México</span></div>
+  <button class="btn copy" type="button" data-t="t8">Copiar</button>
+</li>
+<li class="p" id="m9">
+  <label class="chk"><input type="checkbox" data-k="m9"><span></span></label>
+  <div class="who">
+    <b>Dr. Cristian Castillo</b>
+    <span class="meta">M3 · C4 · Farmacoterapia y cirugía · Cirugía bariátrica y metabólica</span>
+  </div>
+  <div class="num"><code id="t9">+593 97 965 3154</code><span class="pais">🇪🇨 Ecuador</span></div>
+  <button class="btn copy" type="button" data-t="t9">Copiar</button>
+</li>
+<li class="p" id="m10">
+  <label class="chk"><input type="checkbox" data-k="m10"><span></span></label>
+  <div class="who">
+    <b>Dra. Josefa Elizabeth Palacio Riofrío</b>
+    <span class="meta">M4 · C2 · Diabetes · Endocrinología · Diabetes y Metabolismo</span>
+  </div>
+  <div class="num"><code id="t10">+593 96 816 1654</code><span class="pais">🇪🇨 Ecuador</span></div>
+  <button class="btn copy" type="button" data-t="t10">Copiar</button>
+</li>
+<li class="p" id="m11">
+  <label class="chk"><input type="checkbox" data-k="m11"><span></span></label>
+  <div class="who">
+    <b>Dra. Gabriela Jiménez</b>
+    <span class="meta">M4 · C3 · Diabetes · Endocrinología</span>
+  </div>
+  <div class="num"><code id="t11">+593 99 807 8964</code><span class="pais">🇪🇨 Ecuador</span></div>
+  <button class="btn copy" type="button" data-t="t11">Copiar</button>
+</li>
+<li class="p" id="m12">
+  <label class="chk"><input type="checkbox" data-k="m12"><span></span></label>
+  <div class="who">
+    <b>Dr. Juan Molina</b>
+    <span class="meta">M4 · C4 · Diabetes · Endocrinología</span>
+  </div>
+  <div class="num"><code id="t12">+593 99 862 5711</code><span class="pais">🇪🇨 Ecuador</span></div>
+  <button class="btn copy" type="button" data-t="t12">Copiar</button>
+</li>
+<li class="p" id="m13">
+  <label class="chk"><input type="checkbox" data-k="m13"><span></span></label>
+  <div class="who">
+    <b>Lcda. Gabriela Molina</b>
+    <span class="meta">M5 · C1 · Nutrición en diabetes · Nutrición</span>
+  </div>
+  <div class="num"><code id="t13">+593 99 551 4286</code><span class="pais">🇪🇨 Ecuador</span></div>
+  <button class="btn copy" type="button" data-t="t13">Copiar</button>
+</li>
+<li class="p" id="m14">
+  <label class="chk"><input type="checkbox" data-k="m14"><span></span></label>
+  <div class="who">
+    <b>Dra. Gabriela Machado</b>
+    <span class="meta">M5 · C3 · Nutrición en diabetes</span>
+  </div>
+  <div class="num"><code id="t14">+593 99 502 5774</code><span class="pais">🇪🇨 Ecuador</span></div>
+  <button class="btn copy" type="button" data-t="t14">Copiar</button>
+</li>
+<li class="p" id="m15">
+  <label class="chk"><input type="checkbox" data-k="m15"><span></span></label>
+  <div class="who">
+    <b>Dra. Valeria Andrade</b>
+    <span class="meta">M6 · C1 · Complicaciones</span>
+  </div>
+  <div class="num"><code id="t15">+593 98 335 5686</code><span class="pais">🇪🇨 Ecuador</span></div>
+  <button class="btn copy" type="button" data-t="t15">Copiar</button>
+</li>
+<li class="p" id="m16">
+  <label class="chk"><input type="checkbox" data-k="m16"><span></span></label>
+  <div class="who">
+    <b>Dr. Chih Hao Chen Ku, M.Sc.</b>
+    <span class="meta">M6 · C2  /  M6 · C3 · Complicaciones · Endocrinología · Farmacología</span>
+  </div>
+  <div class="num"><code id="t16">+506 8392 7083</code><span class="pais">🇨🇷 Costa Rica</span></div>
+  <button class="btn copy" type="button" data-t="t16">Copiar</button>
+</li>
+<li class="p" id="m17">
+  <label class="chk"><input type="checkbox" data-k="m17"><span></span></label>
+  <div class="who">
+    <b>Dra. Adriana Mabel Álvarez</b>
+    <span class="meta">M6 · C4 (MASLD y complicaciones metabólicas) · Complicaciones · Endocrinología · Comité de Esteatosis Hepática Metabólica (SAD) · Coordinadora del Grupo Obesidad-MASH de ALAD · Vocal Región Sur de ALAD</span>
+  </div>
+  <div class="num"><code id="t17">+54 9 11 6708-1708</code><span class="pais">🇦🇷 Argentina</span></div>
+  <button class="btn copy" type="button" data-t="t17">Copiar</button>
+</li>
+<li class="p" id="m18">
+  <label class="chk"><input type="checkbox" data-k="m18"><span></span></label>
+  <div class="who">
+    <b>Dra. Omidres Pérez de Carvelli</b>
+    <span class="meta">M7 · C1  /  M7 · C4 · Salud digital · Endocrinología · Medicina Interna</span>
+  </div>
+  <div class="num"><code id="t18">+593 98 206 2988</code><span class="pais">🇪🇨 Ecuador</span></div>
+  <button class="btn copy" type="button" data-t="t18">Copiar</button>
+</li>
+<li class="p" id="m19">
+  <label class="chk"><input type="checkbox" data-k="m19"><span></span></label>
+  <div class="who">
+    <b>Dra. Ana María Gómez</b>
+    <span class="meta">M7 · C2 · Salud digital · Endocrinología · experta en monitoreo de glucosa</span>
+  </div>
+  <div class="num"><code id="t19">+57 310 488 4626</code><span class="pais">🇨🇴 Colombia</span></div>
+  <button class="btn copy" type="button" data-t="t19">Copiar</button>
+</li>
+<li class="p" id="m20">
+  <label class="chk"><input type="checkbox" data-k="m20"><span></span></label>
+  <div class="who">
+    <b>Dr. Fabrizio Salas</b>
+    <span class="meta">M7 · C3 · Salud digital · Medicina · Epidemiología · Salud digital e interoperabilidad</span>
+  </div>
+  <div class="num"><code id="t20">+593 99 381 4728</code><span class="pais">🇪🇨 Ecuador</span></div>
+  <button class="btn copy" type="button" data-t="t20">Copiar</button>
+</li></ul>
+
+<h2>Mensaje de bienvenida</h2>
+<div class="campo"><h3>Enviar y fijar</h3>
+<pre id="bien">¡Bienvenidos y bienvenidas!
+
+Este grupo es para coordinar el curso virtual de SEDA. Somos docentes de Ecuador, México, Costa Rica, Perú, Argentina y Colombia, y aquí vamos a resolver lo práctico sin llenarnos de correos.
+
+*Lo esencial:*
+
+• Cada clase es una grabación de 30 minutos
+• Se graba por Zoom; les paso el enlace y coordinamos día y hora uno por uno
+• Cada módulo entrega su grabación 7 días antes de publicarse, así que cada quien tiene una fecha distinta. La suya ya se la envié por privado
+• El curso arranca el 5 de noviembre y cierra el 17 de diciembre
+
+*Lo que necesito de cada uno, si aún no me lo ha enviado:*
+
+  1. Hoja de vida resumida
+  2. Cédula o pasaporte
+  3. Fotografía profesional
+  4. Declaración de conflicto de interés firmada
+
+A info@draomidresperez.com. Es lo que exige el expediente del aval ante la Universidad de Cuenca, y sin eso no puedo presentarlo.
+
+*Dos cosas más:*
+
+La participación docente es ad honorem, la mía incluida.
+
+A cada quien le envié por privado qué cubre su clase y qué cubren las demás, para que no se pisen los temas. Si al preparar la suya ve que algo se cruza, dígamelo y lo acomodamos — mejor ahora que cuando ya esté grabado.
+
+Cualquier duda, por aquí o por privado. ¡Gracias por sumarse!</pre>
+<button class="btn full copy" type="button" data-t="bien">Copiar mensaje</button></div>
+
+<h2>Antes de crearlo</h2>
+<div class="aviso"><b>Falta resolver:</b><ul><li><b>Dra. María Paz Castillo</b> — POR ASIGNAR</li></ul>
+Sin número no puede entrar al grupo. Conviene decidir qué se hace antes de crearlo, para no dejar a nadie fuera sin explicación.</div>
+<div class="aviso"><b>No tratar en el grupo:</b><ul>
+<li>El precio de la inscripción y el tema de los honorarios. Hay una conversación abierta con la Dra. Ruilova que no está cerrada. En el grupo, ad honorem y nada más.</li>
+<li>Las fechas de entrega de los demás. Cada quien ya tiene la suya por privado; verlas juntas invita a comparar y a pedir prórrogas.</li>
+<li>Una fecha estimada del aval. Mientras la comisión no responda, «en trámite» y punto: en un grupo, una estimación se vuelve promesa.</li>
+</ul></div>
+
+<footer>
+<p>Las casillas se guardan solo en este navegador y en este equipo. No se comparten ni quedan en la matriz.</p>
+<p>Generado desde <b>SEDA_Matriz_Ponentes_Curso_Obesidad.xlsx</b>. Si cambia la matriz, se regenera y la lista se actualiza sola.</p>
+</footer>
+</div>
+<script>
+(function(){
+ var K='seda-grupo',st={};try{st=JSON.parse(localStorage.getItem(K)||'{}')||{}}catch(e){st={}}
+ var cajas=[].slice.call(document.querySelectorAll('input[type=checkbox]'));
+ function pinta(){
+   var n=0;
+   cajas.forEach(function(b){
+     b.checked=!!st[b.dataset.k];
+     b.closest('li').classList.toggle('ok',b.checked);
+     if(b.checked)n++;
+   });
+   document.getElementById('hechos').textContent=n;
+   document.getElementById('barra').style.width=(cajas.length?n/cajas.length*100:0)+'%';
+ }
+ cajas.forEach(function(b){b.addEventListener('change',function(){
+   st[b.dataset.k]=b.checked;try{localStorage.setItem(K,JSON.stringify(st))}catch(e){}pinta();});});
+ document.getElementById('reset').addEventListener('click',function(){
+   st={};try{localStorage.removeItem(K)}catch(e){}pinta();});
+ document.querySelectorAll('.copy').forEach(function(btn){
+   btn.addEventListener('click',function(){
+     var el=document.getElementById(btn.dataset.t),txt=el.textContent;
+     function ok(){var o=btn.textContent;btn.textContent='Copiado';setTimeout(function(){btn.textContent=o},1300)}
+     function manual(){
+       var ta=document.createElement('textarea');ta.value=txt;ta.style.position='fixed';ta.style.left='-9999px';
+       document.body.appendChild(ta);ta.select();
+       try{document.execCommand('copy');ok()}catch(e){alert('Seleccione el texto y cópielo a mano.')}
+       document.body.removeChild(ta);
+     }
+     if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(ok,manual)}else{manual()}
+   });
+ });
+ pinta();
+})();
+</script></body></html>
