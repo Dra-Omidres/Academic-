@@ -14,10 +14,10 @@ personas ni enviar mensajes. Todo lo de estos días lo ha enviado ella a mano.
 3. Nombre: **SEDA · Curso obesidad y diabetes 2026**
 4. Descripción del grupo: pegar el texto de la sección «Descripción»
 5. **Ajustes del grupo → Enviar mensajes → Solo administradores**, mientras se arma;
-   después se abre. Si no, veinte personas presentándose ahogan la información útil.
+   después se abre. Si no, veintiuna personas presentándose ahogan la información útil.
 6. Fijar el mensaje de bienvenida
 
-## A quién añadir AHORA — los 20 confirmados con teléfono
+## A quién añadir AHORA — los 21 confirmados con teléfono
 
 | WhatsApp | Docente | Clase |
 |---|---|---|
@@ -28,6 +28,7 @@ personas ni enviar mensajes. Todo lo de estos días lo ha enviado ella a mano.
 | +51 936 260 715 | Dr. Frank Espinoza | M3 · C2 |
 | +52 1 55 5405 6619 | Dra. Teresa Cuatecontzi | M3 · C3 |
 | +593 97 965 3154 | Dr. Cristian Castillo | M3 · C4 |
+| +593 99 208 7747 | Dra. Julia Castro | M2 · C4 |
 | +593 96 816 1654 | Dra. Josefa Palacio Riofrío | M4 · C2 |
 | +593 99 551 4286 | Lcda. Gabriela Molina | M5 · C1 |
 | +593 99 502 5774 | Dra. Gabriela Machado | M5 · C3 |
@@ -47,9 +48,8 @@ personas ni enviar mensajes. Todo lo de estos días lo ha enviado ella a mano.
 **Los 6 que faltaban ya confirmaron** el 29/09 y entran al grupo. El programa queda
 sin ninguna clase pendiente de confirmación.
 
-**Las 2 sin teléfono:** Dra. Julia Castro (M2 · C4, entrega el 29 de octubre) y Dra.
-María Paz Castillo (sin tema asignado). De la Dra. Castro hace falta el número con
-urgencia: es la entrega más próxima del curso.
+**La única sin teléfono:** Dra. María Paz Castillo, que además sigue sin tema
+asignado. Es la última persona del cuerpo docente sin contacto.
 
 **Las 3 invitaciones sin respuesta:** González, Valverde y Vásquez. Igual: primero
 aceptan, después entran.
