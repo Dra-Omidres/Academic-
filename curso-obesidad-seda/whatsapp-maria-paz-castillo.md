@@ -1,7 +1,15 @@
-# Dra. María Paz Castillo Cabrera — M4 · C1 · ponente en México
+# Dra. María Paz Castillo Cabrera — M4 · C1
+
+> ## 🛑 EN ESPERA — NO ENVIAR
+>
+> **Actualización del 29/09/2026:** la Dra. Omidres advierte que esta María Paz Castillo
+> podría ser **la misma persona vinculada al trámite de avales de la Universidad de
+> Cuenca**. Hay que **verificarlo con la Dra. Lizbet Ruilova antes de escribirle**.
+>
+> Hasta que eso se aclare, el mensaje de más abajo —redactado para una expositora que
+> ejerce en México— **no se envía**. Ver «Las dos cosas que hay que resolver».
 
 **WhatsApp:** +52 1 56 2489 0698
-**Ejerce en:** México (institución y ciudad por confirmar — se las pide en el mensaje)
 **Su clase:** M4 · C1 — Fisiopatología y clasificación de la diabetes
 **Entrega de la grabación:** jueves 12 de noviembre · se publica el 19
 
@@ -12,39 +20,75 @@ Dra. Ruilova insistió en incluirla, ofreciendo incluso ceder una de sus propias
 No hizo falta: **el Dr. José Luis Valverde, invitado el 28/09, no respondió**, así que
 M4 · C1 quedó libre. Es endocrinología pura y abre el módulo de diabetes.
 
-## Lo que cambia por estar en México
+## Las dos cosas que hay que resolver
 
-1. **Pasaporte, no cédula.** Es ponente internacional; el expediente del aval le pide
-   pasaporte. El mensaje ya no pregunta «cédula o pasaporte»: pide pasaporte directo.
-2. **Institución y ciudad mexicanas.** No las tenemos. Sin ellas no se puede armar la
-   tabla docente del expediente, así que van de primeras en la lista de documentos.
-3. **Diferencia horaria.** Cuenca está **una hora adelante de Ciudad de México**
-   (Ecuador UTC−5 todo el año; México dejó el horario de verano en 2022, CDMX quedó en
-   UTC−6 fijo). *Esto es aproximado si ella no está en la zona centro: Baja California
-   es UTC−8 y Sonora UTC−7 — verifícalo cuando diga su ciudad.* El mensaje lo menciona
-   al coordinar la grabación para que ella dé la hora en su huso.
-4. **La cifra ante la Comisión de Avales.** Ver abajo.
+### 1. Quién es, y desde dónde
 
-## ⚠️ Dato que debes saber antes de entregar el expediente
+El único dato duro que tenemos es el **teléfono +52, de México**. De ahí salió la
+versión del mensaje que está abajo. Pero un número mexicano no prueba residencia: se
+conserva al volver, y una estancia de posgrado en México explicaría las dos cosas a la
+vez.
 
-En el correo a la Comisión de Avales de la Universidad de Cuenca se escribió
-«**En nuestro caso son cuatro: México, Costa Rica, Perú y Argentina**».
+**En toda la correspondencia del aval que tenemos archivada, ella no aparece.** Los
+nombres que figuran son:
 
-El cuerpo docente hoy tiene **seis ponentes internacionales en cinco países**:
+| Quién | Papel |
+|---|---|
+| Dra. Nancy Auquilla Díaz | Decana (e) de la Facultad de Ciencias Médicas — a ella se dirige la solicitud |
+| Dra. Silvia Aguirre Ponce, MgS | Comisión de Avales — firmó la respuesta del 29/09 |
+| Lcda. Fabiola Palacios | Copiada en la respuesta |
 
-| País | Ponente | Clase |
-|---|---|---|
-| Argentina | Dra. Adriana Mabel Álvarez | M6 · C4 |
-| Colombia | Dra. Ana María Gómez | M7 · C2 |
-| Costa Rica | Dr. Chih Hao Chen Ku, M.Sc. | M6 · C2 / M6 · C3 |
-| México | Dra. Teresa Cuatecontzi | M3 · C3 |
-| México | Dra. María Paz Castillo Cabrera | M4 · C1 |
-| Perú | Dr. Frank Espinoza | M3 · C2 |
+Así que **no puedo confirmar ni descartar** el vínculo desde lo que tengo: puede estar
+en el Decanato, en la Comisión sin firmar, o en otra instancia del trámite. Eso lo
+responde la Dra. Ruilova, no un archivo.
 
-Se sumó Colombia y México pasó a dos. No es un problema —el cuerpo docente creció
-mientras el trámite avanzaba, y la tabla de docentes del expediente lo va a reflejar
-sola— pero conviene que lo sepas antes de firmar la entrega, para no parecer
-inconsistente si alguien compara el correo con el expediente.
+### 2. Si es la misma, hay conflicto de interés
+
+Y hay que tratarlo como tal, sin rodeos: **una persona que interviene en el trámite del
+aval no puede, a la vez, ser docente del curso que lo solicita** sin que quede declarado
+y sin que se aparte de la decisión. No porque haya mala intención —no la hay—, sino
+porque basta con que alguien lo note después para que el aval quede tocado y, con él, la
+reputación del curso y la tuya.
+
+Si se confirma el vínculo, hay dos salidas limpias:
+
+**A. Participa como docente y se aparta del trámite.** Se declara por escrito en el
+expediente —nombre, papel en la comisión o el decanato, clase que dicta— y ella se
+excusa formalmente de revisar y de votar este caso. Es lo habitual en comités
+académicos y no tiene nada de vergonzoso: lo que sí lo tendría es no decirlo.
+
+**B. No figura como docente en esta edición.** M4 · C1 se cubre con otra persona y el
+trámite queda sin una sola sombra. Es la opción más conservadora.
+
+**Mi recomendación es la A**, siempre que ella esté de acuerdo en excusarse por escrito
+y en que su nombre y su papel aparezcan declarados. Da transparencia en lugar de
+silencio. Pero **la decisión no es técnica, es tuya y de SEDA**, y depende de qué tan
+central sea ella en el trámite: si es quien lo resuelve, la opción B deja de ser la
+conservadora y pasa a ser la única.
+
+**Y hay una cosa que no cambia en ningún escenario:** esto no se pregunta por WhatsApp
+como un trámite más. Si el vínculo existe, se lo planteas tú, directamente y de frente,
+antes de que aparezca su nombre en ningún documento.
+
+## El paso inmediato: preguntarle a Liz
+
+Fue ella quien la propuso, así que es la vía natural y no incomoda a nadie.
+
+```
+Liz, una cosa antes de escribirle a María Paz Castillo.
+
+¿Es la misma María Paz Castillo que está vinculada al tema de los avales
+en la Universidad? Te pregunto porque el número que tengo es de México
+(+52) y quiero estar segura de que hablamos de la misma persona.
+
+Y si lo es, prefiero que lo conversemos antes: si ella interviene en el
+trámite del aval, no me parece correcto que aparezca como docente sin que
+eso quede declarado en el expediente y sin que se excuse de revisar
+nuestro caso. Se puede hacer perfectamente bien, pero quiero hacerlo
+bien desde el principio y no que nos lo señalen después.
+
+Dime y avanzamos.
+```
 
 ## Y el cabo suelto
 
@@ -53,6 +97,32 @@ que decirle que el tema ya está cubierto. Fue la Dra. Ruilova quien lo propuso,
 conviene que ella lo sepa antes que él.
 
 ---
+
+## ⚠️ Dato aparte, que sigue en pie pase lo que pase
+
+En el correo a la Comisión de Avales se escribió «**En nuestro caso son cuatro: México,
+Costa Rica, Perú y Argentina**». Sin contar a la Dra. Castillo, el cuerpo docente ya
+tiene **cinco ponentes internacionales en cinco países**:
+
+| País | Ponente | Clase |
+|---|---|---|
+| Argentina | Dra. Adriana Mabel Álvarez | M6 · C4 |
+| Colombia | Dra. Ana María Gómez | M7 · C2 |
+| Costa Rica | Dr. Chih Hao Chen Ku, M.Sc. | M6 · C2 / M6 · C3 |
+| México | Dra. Teresa Cuatecontzi | M3 · C3 |
+| Perú | Dr. Frank Espinoza | M3 · C2 |
+
+Se sumó Colombia. No es un problema —el cuerpo docente creció mientras el trámite
+avanzaba, y la tabla de docentes del expediente lo va a reflejar sola— pero conviene que
+lo sepas antes de firmar la entrega.
+
+---
+
+## Borrador congelado — mensaje para el escenario «ejerce en México»
+
+*No enviar hasta confirmar con la Dra. Ruilova. Si resulta que está en Cuenca, este
+texto se cae entero: el pasaporte pasa a ser cédula, la diferencia horaria desaparece y
+el encuadre internacional sobra.*
 
 ```
 Dra. Castillo, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga, desde
