@@ -14,10 +14,10 @@ personas ni enviar mensajes. Todo lo de estos días lo ha enviado ella a mano.
 3. Nombre: **SEDA · Curso obesidad y diabetes 2026**
 4. Descripción del grupo: pegar el texto de la sección «Descripción»
 5. **Ajustes del grupo → Enviar mensajes → Solo administradores**, mientras se arma;
-   después se abre. Si no, veintidós personas presentándose ahogan la información útil.
+   después se abre. Si no, veinte personas presentándose ahogan la información útil.
 6. Fijar el mensaje de bienvenida
 
-## A quién añadir AHORA — los 14 confirmados
+## A quién añadir AHORA — los 20 confirmados con teléfono
 
 | WhatsApp | Docente | Clase |
 |---|---|---|
@@ -35,12 +35,17 @@ personas ni enviar mensajes. Todo lo de estos días lo ha enviado ella a mano.
 | +54 9 11 6708-1708 | Dra. Adriana Mabel Álvarez | M6 · C4 |
 | +57 310 488 4626 | Dra. Ana María Gómez | M7 · C2 |
 | +593 99 381 4728 | Dr. Fabrizio Salas | M7 · C3 |
+| +593 99 907 3471 | Dra. Lizbet Ruilova | M1 · C1 y M5 · C4 |
+| +593 98 765 3136 | Dr. Pablo Vanegas | M1 · C2 y M3 · C1 |
+| +593 99 811 1635 | Dra. María Augusta Astudillo | M1 · C3 |
+| +593 99 807 8964 | Dra. Gabriela Jiménez | M4 · C3 |
+| +593 99 862 5711 | Dr. Juan Molina | M4 · C4 |
+| +593 98 335 5686 | Dra. Valeria Andrade | M6 · C1 |
 
 ## A quién NO añadir todavía — y por qué
 
-**Los 6 que no han confirmado por escrito:** Ruilova, Vanegas, Astudillo, Jiménez,
-Molina y Andrade. Meterlos en un grupo de ponentes es darles por comprometidos sin
-que lo hayan dicho, y encima delante de todos. Se añaden cuando confirmen.
+**Los 6 que faltaban ya confirmaron** el 29/09 y entran al grupo. El programa queda
+sin ninguna clase pendiente de confirmación.
 
 **Las 2 sin teléfono:** Dra. Julia Castro (M2 · C4, entrega el 29 de octubre) y Dra.
 María Paz Castillo (sin tema asignado). De la Dra. Castro hace falta el número con

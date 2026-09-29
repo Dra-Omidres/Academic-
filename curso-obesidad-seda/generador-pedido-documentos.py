@@ -398,8 +398,8 @@ footer b{color:var(--teal)}
   <p class="sub">Obesidad, diabetes, nutrición clínica y salud digital · inicio 5 de noviembre de 2026 · plazo de documentación 2 de octubre</p>
   <div class="stats">
     <div class="stat"><b>28</b><span>clases</span></div>
-    <div class="stat ok"><b>17</b><span>confirmadas</span></div>
-    <div class="stat"><b>8</b><span>por confirmar</span></div>
+    <div class="stat ok"><b>25</b><span>confirmadas</span></div>
+    <div class="stat"><b>0</b><span>por confirmar</span></div>
     <div class="stat urg"><b>3</b><span>vacantes</span></div>
     <div class="stat"><b>5/22</b><span>hojas de vida</span></div>
     <div class="stat"><b>1/22</b><span>declaración COI</span></div>
