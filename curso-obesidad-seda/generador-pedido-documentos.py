@@ -56,7 +56,7 @@ P = [
  ("Dr. Chih Hao Chen Ku","doctor","+506 8392 7083",["M6 · C2","M6 · C3"],"CONFIRMADO",
   ["número de pasaporte","fotografía"],
   "Ya se le pidió por correo el 23/09. Use este mensaje solo si no responde."),
- ("Dra. Adriana Álvarez","doctora","+54 9 11 6708-1708",["M6 · C4"],"CONFIRMADO",
+ ("Dra. Adriana Alvarez","doctora","+54 9 11 6708-1708",["M6 · C4"],"CONFIRMADO",
   ["hoja de vida","número de pasaporte","fotografía","declaración de conflicto de interés firmada"],
   "Número de Argentina. Confirmar dónde ejerce."),
  ("Dra. Lizbet Ruilova","Liz","+593 99 907 3471",["M1 · C1","M5 · C4"],"POR CONFIRMAR",
@@ -87,13 +87,6 @@ VAC = [
  ("M5 · C2","Estrategias nutricionales basadas en evidencia",
   "Dieta mediterránea · restricción de carbohidratos · ayuno intermitente",
   "Nutricionista clínico con experiencia en diabetes","M5","",None),
- ("M7 · C2","Monitoreo digital y tecnologías en diabetes y obesidad",
-  "MCG y AGP en entornos digitales · monitoreo remoto, apps y wearables · salud conectada",
-  "Endocrinólogo con experiencia en MCG o tecnología en diabetes","M7","",None),
- ("M7 · C3","Terapéutica digital, IA y educación del paciente",
-  "Terapias digitales (DTx) · IA en tamizaje y apoyo a la decisión · educación digital y adherencia",
-  "Informática médica o IA aplicada a salud","M7","",
-  "Perfil difícil de encontrar en Cuenca: conviene sondear ya aunque la entrega sea en diciembre."),
 ]
 
 AD_HON = ("Una cosa antes de que prepare nada, para que no haya malentendidos: la participación docente es "
@@ -405,17 +398,17 @@ footer b{color:var(--teal)}
   <p class="sub">Obesidad, diabetes, nutrición clínica y salud digital · inicio 5 de noviembre de 2026 · plazo de documentación 2 de octubre</p>
   <div class="stats">
     <div class="stat"><b>28</b><span>clases</span></div>
-    <div class="stat ok"><b>15</b><span>confirmadas</span></div>
+    <div class="stat ok"><b>17</b><span>confirmadas</span></div>
     <div class="stat"><b>8</b><span>por confirmar</span></div>
-    <div class="stat urg"><b>5</b><span>vacantes</span></div>
-    <div class="stat"><b>5/20</b><span>hojas de vida</span></div>
-    <div class="stat"><b>1/20</b><span>declaración COI</span></div>
+    <div class="stat urg"><b>3</b><span>vacantes</span></div>
+    <div class="stat"><b>5/22</b><span>hojas de vida</span></div>
+    <div class="stat"><b>1/22</b><span>declaración COI</span></div>
   </div>
 </header>
 
 <nav class="secs" role="tablist">
   <button class="sec" data-s="docs" aria-selected="true">Pedir documentos <em>14</em></button>
-  <button class="sec" data-s="vac" aria-selected="false">Cubrir vacantes <em>5</em></button>
+  <button class="sec" data-s="vac" aria-selected="false">Cubrir vacantes <em>3</em></button>
 </nav>
 
 <section id="s-docs">

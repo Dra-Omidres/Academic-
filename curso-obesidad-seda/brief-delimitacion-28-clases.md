@@ -846,7 +846,7 @@ Si algo de esto le aprieta o cree que falta, dígame con toda confianza y lo aju
 
 ## M7 · C2 — Monitoreo digital y tecnologías en diabetes y obesidad
 
-**Ponente:** — sin ponente — · **Entrega:** jueves 3 de diciembre
+**Ponente:** Dra. Ana María Gómez · **Entrega:** jueves 3 de diciembre
 
 ```
 *Su clase: Monitoreo digital y tecnologías en diabetes y obesidad*
@@ -878,7 +878,7 @@ Si algo de esto le aprieta o cree que falta, dígame con toda confianza y lo aju
 
 ## M7 · C3 — Terapéutica digital, inteligencia artificial y educación del paciente
 
-**Ponente:** — sin ponente — · **Entrega:** jueves 3 de diciembre
+**Ponente:** Dr. Fabrizio Salas · **Entrega:** jueves 3 de diciembre
 
 ```
 *Su clase: Terapéutica digital, inteligencia artificial y educación del paciente*
@@ -888,6 +888,7 @@ El programa declara estos contenidos para su clase:
 Terapias digitales (DTx); IA en tamizaje y apoyo a la decisión; educación digital y adherencia
 
 *Lo que sí es suyo, con toda libertad:*
+• ALCANCE ACORDADO: panorama general de los tres puntos, no profundizar en uno solo
 • Terapias digitales (DTx): qué son y qué evidencia tienen
 • IA en tamizaje y apoyo a la decisión clínica
 • Educación digital del paciente y adherencia
