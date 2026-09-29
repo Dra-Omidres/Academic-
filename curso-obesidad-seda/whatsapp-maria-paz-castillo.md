@@ -1,15 +1,17 @@
 # Dra. María Paz Castillo Cabrera — M4 · C1
 
-> ## 🛑 EN ESPERA — NO ENVIAR
+> ## ⏸️ LISTO, PERO AÚN NO SE ENVÍA
 >
-> **Actualización del 29/09/2026:** la Dra. Omidres advierte que esta María Paz Castillo
-> podría ser **la misma persona vinculada al trámite de avales de la Universidad de
-> Cuenca**. Hay que **verificarlo con la Dra. Lizbet Ruilova antes de escribirle**.
+> **29/09/2026.** La Dra. Ruilova confirma que **ejerce en Cuenca**: es ponente
+> nacional, se le pide cédula, y el +52 es un número mexicano conservado. El mensaje de
+> abajo ya está redactado para eso.
 >
-> Hasta que eso se aclare, el mensaje de más abajo —redactado para una expositora que
-> ejerce en México— **no se envía**. Ver «Las dos cosas que hay que resolver».
+> **Lo que sigue abierto es lo importante:** si es la misma María Paz Castillo vinculada
+> al trámite de avales de la Universidad de Cuenca. Liz contestó el país, no eso. Hasta
+> que lo aclare, **el mensaje no se envía** — ver «Lo que falta resolver».
 
-**WhatsApp:** +52 1 56 2489 0698
+**WhatsApp:** +52 1 56 2489 0698 · número mexicano, pero ejerce en Cuenca
+**Ejerce en:** Cuenca, Ecuador (institución por confirmar)
 **Su clase:** M4 · C1 — Fisiopatología y clasificación de la diabetes
 **Entrega de la grabación:** jueves 12 de noviembre · se publica el 19
 
@@ -20,89 +22,82 @@ Dra. Ruilova insistió en incluirla, ofreciendo incluso ceder una de sus propias
 No hizo falta: **el Dr. José Luis Valverde, invitado el 28/09, no respondió**, así que
 M4 · C1 quedó libre. Es endocrinología pura y abre el módulo de diabetes.
 
-## Las dos cosas que hay que resolver
+## Lo que queda resuelto
 
-### 1. Quién es, y desde dónde
+| | |
+|---|---|
+| País | **Ecuador.** Ponente nacional, no internacional |
+| Documento | **Cédula**, no pasaporte |
+| Horario | Sin diferencia horaria: coordinar la grabación es trivial |
+| El +52 | Número mexicano conservado. No hay que darle más vueltas |
+| El conteo de extranjeros | **No cambia.** Siguen siendo cinco, no seis (ver abajo) |
 
-El único dato duro que tenemos es el **teléfono +52, de México**. De ahí salió la
-versión del mensaje que está abajo. Pero un número mexicano no prueba residencia: se
-conserva al volver, y una estancia de posgrado en México explicaría las dos cosas a la
-vez.
+## Lo que falta resolver
 
-**En toda la correspondencia del aval que tenemos archivada, ella no aparece.** Los
-nombres que figuran son:
+El 29/09 tú advertiste que esta María Paz Castillo podría ser **la misma persona
+vinculada al trámite de avales de la Universidad de Cuenca**. Liz confirmó que trabaja
+en Cuenca, y eso es compatible con las dos cosas: con que sea solo una endocrinóloga
+cuencana, y con que sea además quien interviene en el trámite. **No lo aclara.**
+
+En toda la correspondencia del aval que tenemos archivada ella no aparece. Los nombres
+que figuran son:
 
 | Quién | Papel |
 |---|---|
 | Dra. Nancy Auquilla Díaz | Decana (e) de la Facultad de Ciencias Médicas — a ella se dirige la solicitud |
 | Dra. Silvia Aguirre Ponce, MgS | Comisión de Avales — firmó la respuesta del 29/09 |
-| Lcda. Fabiola Palacios | Copiada en la respuesta |
+| Lcda. Fabiola Palacios | Copiada en esa respuesta |
 
-Así que **no puedo confirmar ni descartar** el vínculo desde lo que tengo: puede estar
-en el Decanato, en la Comisión sin firmar, o en otra instancia del trámite. Eso lo
-responde la Dra. Ruilova, no un archivo.
+Puede estar en el Decanato, en la Comisión sin firmar, o en otra instancia. Eso lo
+responde Liz, no un archivo.
 
-### 2. Si es la misma, hay conflicto de interés
+### Y si resulta que sí
 
-Y hay que tratarlo como tal, sin rodeos: **una persona que interviene en el trámite del
-aval no puede, a la vez, ser docente del curso que lo solicita** sin que quede declarado
-y sin que se aparte de la decisión. No porque haya mala intención —no la hay—, sino
-porque basta con que alguien lo note después para que el aval quede tocado y, con él, la
-reputación del curso y la tuya.
+Se trata como lo que es: **quien interviene en el trámite del aval no puede ser a la vez
+docente del curso que lo solicita** sin que quede declarado y sin que se aparte de la
+decisión. No por mala intención —no la hay—, sino porque basta con que alguien lo note
+después para que el aval quede tocado.
 
-Si se confirma el vínculo, hay dos salidas limpias:
+**A. Participa y se aparta del trámite.** Se declara por escrito en el expediente
+—nombre, papel y clase que dicta— y ella se excusa formalmente de revisar y votar este
+caso. Es lo habitual en comités académicos; lo que quedaría mal es callarlo.
 
-**A. Participa como docente y se aparta del trámite.** Se declara por escrito en el
-expediente —nombre, papel en la comisión o el decanato, clase que dicta— y ella se
-excusa formalmente de revisar y de votar este caso. Es lo habitual en comités
-académicos y no tiene nada de vergonzoso: lo que sí lo tendría es no decirlo.
+**B. No figura como docente en esta edición.** M4 · C1 se cubre con otra persona.
 
-**B. No figura como docente en esta edición.** M4 · C1 se cubre con otra persona y el
-trámite queda sin una sola sombra. Es la opción más conservadora.
+**Recomendación: la A**, si ella acepta excusarse por escrito. Pero **si es quien
+resuelve el trámite, la B deja de ser la conservadora y pasa a ser la única.**
 
-**Mi recomendación es la A**, siempre que ella esté de acuerdo en excusarse por escrito
-y en que su nombre y su papel aparezcan declarados. Da transparencia en lugar de
-silencio. Pero **la decisión no es técnica, es tuya y de SEDA**, y depende de qué tan
-central sea ella en el trámite: si es quien lo resuelve, la opción B deja de ser la
-conservadora y pasa a ser la única.
+Y en cualquier caso: eso no se plantea por WhatsApp como un trámite más. Se lo dices tú,
+de frente, antes de que su nombre entre en ningún documento.
 
-**Y hay una cosa que no cambia en ningún escenario:** esto no se pregunta por WhatsApp
-como un trámite más. Si el vínculo existe, se lo planteas tú, directamente y de frente,
-antes de que aparezca su nombre en ningún documento.
-
-## El paso inmediato: preguntarle a Liz
-
-Fue ella quien la propuso, así que es la vía natural y no incomoda a nadie.
+## Para cerrar el tema con Liz
 
 ```
-Liz, una cosa antes de escribirle a María Paz Castillo.
+Liz, gracias — con lo de Cuenca me queda claro.
 
-¿Es la misma María Paz Castillo que está vinculada al tema de los avales
-en la Universidad? Te pregunto porque el número que tengo es de México
-(+52) y quiero estar segura de que hablamos de la misma persona.
+Me falta una sola cosa, y es la que me importa: ¿es la misma María Paz
+Castillo que está vinculada al tema de los avales en la Universidad?
 
-Y si lo es, prefiero que lo conversemos antes: si ella interviene en el
-trámite del aval, no me parece correcto que aparezca como docente sin que
-eso quede declarado en el expediente y sin que se excuse de revisar
-nuestro caso. Se puede hacer perfectamente bien, pero quiero hacerlo
-bien desde el principio y no que nos lo señalen después.
+Te lo pregunto porque si ella interviene en el trámite, no me parece
+correcto que aparezca como docente sin que eso quede declarado en el
+expediente y sin que se excuse de revisar nuestro caso. Se puede hacer
+perfectamente bien, pero quiero hacerlo bien desde el principio y no que
+nos lo señalen después.
 
-Dime y avanzamos.
+Dime y le escribo hoy mismo.
 ```
 
-## Y el cabo suelto
+## El cabo suelto
 
 Al **Dr. Valverde** se le escribió el 28/09 y no contestó. Si aparece más adelante, hay
 que decirle que el tema ya está cubierto. Fue la Dra. Ruilova quien lo propuso, así que
 conviene que ella lo sepa antes que él.
 
----
-
-## ⚠️ Dato aparte, que sigue en pie pase lo que pase
+## ⚠️ Dato aparte, que sigue en pie
 
 En el correo a la Comisión de Avales se escribió «**En nuestro caso son cuatro: México,
-Costa Rica, Perú y Argentina**». Sin contar a la Dra. Castillo, el cuerpo docente ya
-tiene **cinco ponentes internacionales en cinco países**:
+Costa Rica, Perú y Argentina**». Con la Dra. Castillo como ponente nacional, el cuerpo
+docente tiene **cinco ponentes internacionales en cinco países**:
 
 | País | Ponente | Clase |
 |---|---|---|
@@ -112,21 +107,16 @@ tiene **cinco ponentes internacionales en cinco países**:
 | México | Dra. Teresa Cuatecontzi | M3 · C3 |
 | Perú | Dr. Frank Espinoza | M3 · C2 |
 
-Se sumó Colombia. No es un problema —el cuerpo docente creció mientras el trámite
-avanzaba, y la tabla de docentes del expediente lo va a reflejar sola— pero conviene que
-lo sepas antes de firmar la entrega.
+La única diferencia con lo declarado es **Colombia**, que se sumó después. La tabla
+docente del expediente lo va a reflejar sola, pero conviene que lo sepas antes de firmar
+la entrega.
 
 ---
 
-## Borrador congelado — mensaje para el escenario «ejerce en México»
-
-*No enviar hasta confirmar con la Dra. Ruilova. Si resulta que está en Cuenca, este
-texto se cae entero: el pasaporte pasa a ser cédula, la diferencia horaria desaparece y
-el encuadre internacional sobra.*
+## Mensaje, listo para enviar en cuanto Liz aclare lo del aval
 
 ```
-Dra. Castillo, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga, desde
-Cuenca, Ecuador.
+Dra. Castillo, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga.
 
 Liz Ruilova me habló de usted y me insistió en que la tuviéramos en el
 curso. Le tengo el tema, y es de los importantes:
@@ -139,12 +129,12 @@ Es la clase que abre el módulo de diabetes, el módulo 4. Todo lo que
 viene después —monitoreo, fármacos, insulinoterapia— se apoya en lo que
 usted plantee ahí.
 
-*Qué implica:* una clase grabada de 30 minutos, usted a su ritmo. Se
-graba por Zoom, yo le paso el enlace y coordinamos día y hora. Tenga
-presente que Cuenca va una hora adelante de Ciudad de México, así que
-dígame el horario que le sirva *en su hora* y yo me acomodo. Le enviamos
-la plantilla institucional del curso. La grabación tendría que estar
-lista el jueves 12 de noviembre.
+*Qué implica:* una clase grabada de 30 minutos, usted a su ritmo y en su
+casa. No hay sesión en vivo ni horario que cumplir: se graba por Zoom
+cuando a usted le quede bien. Le enviamos un video tutorial que explica
+paso a paso cómo grabarla, el fondo institucional del curso y la
+plantilla de diapositivas. La grabación tendría que estar lista el jueves
+12 de noviembre.
 
 *Y dónde están los límites, para que no se pisen los temas:*
 
@@ -159,23 +149,22 @@ tratamiento viene después.
 
 *El contexto:* es el curso virtual de la Sociedad de Endocrinología y
 Diabetes del Austro, con el aval de la Universidad de Cuenca en trámite.
-Siete módulos, veintiocho clases, del 5 de noviembre al 17 de diciembre.
-El cuerpo docente es de Ecuador, México, Costa Rica, Perú, Argentina y
-Colombia; usted sería la segunda colega mexicana del programa.
+Siete módulos, veintiocho clases, del 5 de noviembre al 17 de diciembre,
+en saludelearning.com. El cuerpo docente es de Ecuador, México, Costa
+Rica, Perú, Argentina y Colombia.
 
 *Le digo de entrada para que no haya malentendidos:* la participación
 docente es ad honorem, la mía incluida. El curso va a cobrar inscripción,
 pero eso se destina a la plataforma, la certificación y el trámite del
 aval. Recibe certificado de docente.
 
-*Y lo que necesito de usted para el expediente:* como es ponente
-internacional, la universidad pide un par de cosas distintas:
+*Y lo que necesito de usted para el expediente:*
 
-  1. Su institución, ciudad y estado en México
-  2. Copia del pasaporte (en su caso no aplica la cédula ecuatoriana)
-  3. Hoja de vida resumida
-  4. Una fotografía profesional
-  5. La declaración de conflicto de interés firmada
+  1. Hoja de vida resumida
+  2. Copia de la cédula
+  3. Una fotografía profesional
+  4. La declaración de conflicto de interés firmada
+  5. Su institución y cargo actual
   6. El título definitivo de su charla, si decide ajustarlo
 
 Todo a: info@draomidresperez.com
@@ -183,5 +172,5 @@ Todo a: info@draomidresperez.com
 Si algo de esto le aprieta o cree que falta, dígame con toda confianza y
 lo ajustamos. Prefiero acomodarlo ahora y no cuando ya esté grabado.
 
-¡Bienvenida, y un abrazo grande hasta México!
+¡Bienvenida, y un abrazo grande!
 ```
