@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Programa académico del curso, en PDF, para anclar en el grupo de ponentes."""
-import io, json
+import io, json, re
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
 from reportlab.lib import colors
@@ -27,6 +27,23 @@ CL = {c['cod']: c for c in json.load(open('/tmp/clases.json'))}
 ns = {}
 exec(io.open('generador-delimitacion.py', encoding='utf-8').read().split('# ---------- generación')[0], ns)
 D = ns['D']
+
+
+NOM = re.compile(r'\s*\(?\b(?:Dr\.|Dra\.|Lcda\.|Lcdo\.)\s+[A-ZÁÉÍÓÚÑ][^,.;:—()]*\)?')
+def sin_nombres(t):
+    """El programa se publica sin nombres: deja solo el código de la clase."""
+    t = re.sub(r'^ATENCIÓN\s*—\s*', '', t)        # marca interna, no va en el programa
+    t = re.sub(r',' + NOM.pattern, '', t)          # «M1 · C2, Dr. Pablo Vanegas»
+    t = NOM.sub('', t)                              # «(Dra. Lizbet Ruilova)»
+    t = (t.replace('Él los cubre', 'Esa clase los cubre')
+           .replace('Ella da los fundamentos del método', 'Esa clase da los fundamentos del método')
+           .replace('Ella da la lectura clínica', 'Esa clase da la lectura clínica')
+           .replace('Ellas dan el método diagnóstico', 'Esas clases dan el método diagnóstico'))
+    t = re.sub(r'\s{2,}', ' ', t)
+    t = re.sub(r'\s+([,.;:])', r'\1', t)
+    t = re.sub(r'\(\s*\)', '', t)
+    t = re.sub(r'\s*y\s*$', '', t.strip())
+    return t.strip(' ,;')
 
 S = lambda **k: ParagraphStyle(**k)
 st_tit   = S(name='t',  fontName='Helvetica-Bold', fontSize=21, leading=25, textColor=TEAL)
@@ -121,16 +138,17 @@ for cod, c in CL.items():
     si, no = D[cod]
     bloque = [Paragraph(cod.replace(' · C', ' · CLASE '), st_cod),
               Paragraph(c['tema'], st_tema),
-              Paragraph('Ponente: %s&nbsp;&nbsp;·&nbsp;&nbsp;30 minutos grabados'
-                        % (c['ponente'] or 'por asignar'), st_pon),
+              Paragraph('30 minutos grabados&nbsp;&nbsp;·&nbsp;&nbsp;entrega de la grabación: %s'
+                        % ENTREGA[m], st_pon),
               Spacer(1, 2.5*mm),
               Paragraph('CONTENIDOS DECLARADOS EN EL PROGRAMA', st_lab),
               Paragraph(c['cont'], st_txt),
               Spacer(1, 2.5*mm),
               Paragraph('CÓMO ENFOCARLA', st_lab)]
     bloque += [Paragraph(x, st_li, bulletText='•') for x in si]
-    bloque += [Spacer(1, 2.5*mm), Paragraph('QUÉ NO ABORDAR, Y QUIÉN LO CUBRE', st_lab)]
-    bloque += [Paragraph('<b>%s</b> — %s' % (q, quien), st_no, bulletText='–') for q, quien in no]
+    bloque += [Spacer(1, 2.5*mm), Paragraph('QUÉ NO ABORDAR, Y DÓNDE SE CUBRE', st_lab)]
+    bloque += [Paragraph('<b>%s</b> — %s' % (sin_nombres(q), sin_nombres(quien)), st_no, bulletText='–')
+               for q, quien in no]
     caja = Table([[bloque]], colWidths=[doc.width])
     caja.setStyle(TableStyle([('LEFTPADDING',(0,0),(-1,-1),11),('RIGHTPADDING',(0,0),(-1,-1),11),
                               ('TOPPADDING',(0,0),(-1,-1),9),('BOTTOMPADDING',(0,0),(-1,-1),9),
