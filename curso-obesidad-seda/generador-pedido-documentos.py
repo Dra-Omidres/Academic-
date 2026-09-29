@@ -76,10 +76,6 @@ P = [
 ]
 
 VAC = [
- ("M1 · C4","Composición corporal y sarcopenia",
-  "Limitaciones del IMC · circunferencia abdominal · bioimpedancia · obesidad sarcopénica",
-  "Endocrinología o nutrición con experiencia en sarcopenia y bioimpedancia","M1","urgente",
-  "La Dra. Gabriela Jiménez declinó el tema el 25/09. Entrega el 29 de octubre."),
  ("M4 · C1","Fisiopatología y clasificación de la diabetes",
   "Defectos fisiopatológicos de la DM2 · clasificación actual · diagnóstico temprano",
   "Endocrinología o medicina interna","M4","",
@@ -398,17 +394,17 @@ footer b{color:var(--teal)}
   <p class="sub">Obesidad, diabetes, nutrición clínica y salud digital · inicio 5 de noviembre de 2026 · plazo de documentación 2 de octubre</p>
   <div class="stats">
     <div class="stat"><b>28</b><span>clases</span></div>
-    <div class="stat ok"><b>25</b><span>confirmadas</span></div>
+    <div class="stat ok"><b>26</b><span>confirmadas</span></div>
     <div class="stat"><b>0</b><span>por confirmar</span></div>
-    <div class="stat urg"><b>3</b><span>vacantes</span></div>
-    <div class="stat"><b>5/22</b><span>hojas de vida</span></div>
-    <div class="stat"><b>1/22</b><span>declaración COI</span></div>
+    <div class="stat urg"><b>2</b><span>vacantes</span></div>
+    <div class="stat"><b>5/23</b><span>hojas de vida</span></div>
+    <div class="stat"><b>1/23</b><span>declaración COI</span></div>
   </div>
 </header>
 
 <nav class="secs" role="tablist">
   <button class="sec" data-s="docs" aria-selected="true">Pedir documentos <em>14</em></button>
-  <button class="sec" data-s="vac" aria-selected="false">Cubrir vacantes <em>3</em></button>
+  <button class="sec" data-s="vac" aria-selected="false">Cubrir vacantes <em>2</em></button>
 </nav>
 
 <section id="s-docs">
