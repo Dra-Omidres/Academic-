@@ -1,6 +1,7 @@
-# Dra. María Paz Castillo Cabrera — M4 · C1
+# Dra. María Paz Castillo Cabrera — M4 · C1 · ponente en México
 
 **WhatsApp:** +52 1 56 2489 0698
+**Ejerce en:** México (institución y ciudad por confirmar — se las pide en el mensaje)
 **Su clase:** M4 · C1 — Fisiopatología y clasificación de la diabetes
 **Entrega de la grabación:** jueves 12 de noviembre · se publica el 19
 
@@ -11,15 +12,39 @@ Dra. Ruilova insistió en incluirla, ofreciendo incluso ceder una de sus propias
 No hizo falta: **el Dr. José Luis Valverde, invitado el 28/09, no respondió**, así que
 M4 · C1 quedó libre. Es endocrinología pura y abre el módulo de diabetes.
 
-## Antes de escribirle: su país
+## Lo que cambia por estar en México
 
-Su teléfono es **+52, de México**. Si ejerce allá sería el **sexto país** del cuerpo
-docente y necesitaría **pasaporte, no cédula** — y habría que corregir ante la Comisión
-de Avales la cifra de ponentes extranjeros, que ya cambió una vez.
+1. **Pasaporte, no cédula.** Es ponente internacional; el expediente del aval le pide
+   pasaporte. El mensaje ya no pregunta «cédula o pasaporte»: pide pasaporte directo.
+2. **Institución y ciudad mexicanas.** No las tenemos. Sin ellas no se puede armar la
+   tabla docente del expediente, así que van de primeras en la lista de documentos.
+3. **Diferencia horaria.** Cuenca está **una hora adelante de Ciudad de México**
+   (Ecuador UTC−5 todo el año; México dejó el horario de verano en 2022, CDMX quedó en
+   UTC−6 fijo). *Esto es aproximado si ella no está en la zona centro: Baja California
+   es UTC−8 y Sonora UTC−7 — verifícalo cuando diga su ciudad.* El mensaje lo menciona
+   al coordinar la grabación para que ella dé la hora en su huso.
+4. **La cifra ante la Comisión de Avales.** Ver abajo.
 
-Con el Dr. Espinoza y la Dra. Álvarez el prefijo coincidió con el país, pero **no es una
-regla**. El mensaje se lo pregunta sin darlo por hecho: pide «cédula o pasaporte, según
-dónde ejerza».
+## ⚠️ Dato que debes saber antes de entregar el expediente
+
+En el correo a la Comisión de Avales de la Universidad de Cuenca se escribió
+«**En nuestro caso son cuatro: México, Costa Rica, Perú y Argentina**».
+
+El cuerpo docente hoy tiene **seis ponentes internacionales en cinco países**:
+
+| País | Ponente | Clase |
+|---|---|---|
+| Argentina | Dra. Adriana Mabel Álvarez | M6 · C4 |
+| Colombia | Dra. Ana María Gómez | M7 · C2 |
+| Costa Rica | Dr. Chih Hao Chen Ku, M.Sc. | M6 · C2 / M6 · C3 |
+| México | Dra. Teresa Cuatecontzi | M3 · C3 |
+| México | Dra. María Paz Castillo Cabrera | M4 · C1 |
+| Perú | Dr. Frank Espinoza | M3 · C2 |
+
+Se sumó Colombia y México pasó a dos. No es un problema —el cuerpo docente creció
+mientras el trámite avanzaba, y la tabla de docentes del expediente lo va a reflejar
+sola— pero conviene que lo sepas antes de firmar la entrega, para no parecer
+inconsistente si alguien compara el correo con el expediente.
 
 ## Y el cabo suelto
 
@@ -31,7 +56,7 @@ conviene que ella lo sepa antes que él.
 
 ```
 Dra. Castillo, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga, desde
-Cuenca.
+Cuenca, Ecuador.
 
 Liz Ruilova me habló de usted y me insistió en que la tuviéramos en el
 curso. Le tengo el tema, y es de los importantes:
@@ -45,9 +70,11 @@ viene después —monitoreo, fármacos, insulinoterapia— se apoya en lo que
 usted plantee ahí.
 
 *Qué implica:* una clase grabada de 30 minutos, usted a su ritmo. Se
-graba por Zoom, yo le paso el enlace y coordinamos día y hora en el
-horario que le sirva. Le enviamos la plantilla institucional del curso.
-La grabación tendría que estar el jueves 12 de noviembre.
+graba por Zoom, yo le paso el enlace y coordinamos día y hora. Tenga
+presente que Cuenca va una hora adelante de Ciudad de México, así que
+dígame el horario que le sirva *en su hora* y yo me acomodo. Le enviamos
+la plantilla institucional del curso. La grabación tendría que estar
+lista el jueves 12 de noviembre.
 
 *Y dónde están los límites, para que no se pisen los temas:*
 
@@ -62,21 +89,23 @@ tratamiento viene después.
 
 *El contexto:* es el curso virtual de la Sociedad de Endocrinología y
 Diabetes del Austro, con el aval de la Universidad de Cuenca en trámite.
-Siete módulos, veintiocho clases, docentes de Ecuador, México, Costa
-Rica, Perú, Argentina y Colombia. Del 5 de noviembre al 17 de diciembre.
+Siete módulos, veintiocho clases, del 5 de noviembre al 17 de diciembre.
+El cuerpo docente es de Ecuador, México, Costa Rica, Perú, Argentina y
+Colombia; usted sería la segunda colega mexicana del programa.
 
 *Le digo de entrada para que no haya malentendidos:* la participación
 docente es ad honorem, la mía incluida. El curso va a cobrar inscripción,
 pero eso se destina a la plataforma, la certificación y el trámite del
 aval. Recibe certificado de docente.
 
-*Y lo que necesito de usted para el expediente:*
+*Y lo que necesito de usted para el expediente:* como es ponente
+internacional, la universidad pide un par de cosas distintas:
 
-  1. Hoja de vida resumida
-  2. Cédula o pasaporte, según dónde ejerza
-  3. Una fotografía profesional
-  4. La declaración de conflicto de interés firmada
-  5. Su institución, ciudad y país
+  1. Su institución, ciudad y estado en México
+  2. Copia del pasaporte (en su caso no aplica la cédula ecuatoriana)
+  3. Hoja de vida resumida
+  4. Una fotografía profesional
+  5. La declaración de conflicto de interés firmada
   6. El título definitivo de su charla, si decide ajustarlo
 
 Todo a: info@draomidresperez.com
@@ -84,5 +113,5 @@ Todo a: info@draomidresperez.com
 Si algo de esto le aprieta o cree que falta, dígame con toda confianza y
 lo ajustamos. Prefiero acomodarlo ahora y no cuando ya esté grabado.
 
-¡Bienvenida, y un abrazo grande!
+¡Bienvenida, y un abrazo grande hasta México!
 ```
