@@ -7,55 +7,72 @@ mismo. Todos lo serían si aparecieran por su cuenta.
 
 ---
 
-## 1 · La cadena de la plataforma
+## 1 · La cadena de la plataforma — confirmada
+
+**La Dra. Omidres confirma el 30/09: el auspicio de Boehringer paga la plataforma.**
 
 ```
 Boehringer Ingelheim
-        │  auspicio «para esta plataforma» (Liz, 30/09)
-        ▼
-     ¿SEDA?  ←── sin aclarar: ¿el dinero pasa por la Sociedad o no?
+        │  paga el uso de la plataforma  ← CONFIRMADO
         │
-        ▼
-saludelearning.com
-        │  depende de
-        ▼
-Omisalud Cía. Ltda.  ·  gerencia: Javier Carvelli
+        ├──?──►  SEDA  ──►  saludelearning.com     (ruta B)
         │
-        ▼
-Dra. Omidres Pérez de Carvelli
-   coordinadora académica del curso
-   docente en M7 · C1 y M7 · C4
+        └──?────────────►  saludelearning.com      (ruta C)
+                                   │  depende de
+                                   ▼
+                        Omisalud Cía. Ltda.
+                        gerencia: Javier Carvelli
+                                   │
+                                   ▼
+                  Dra. Omidres Pérez de Carvelli
+                     coordinadora académica
+                     docente en M7 · C1 y M7 · C4
 ```
 
-### Lo que hay que precisar antes de redactar nada
+> ### 🛑 El flujo del dinero es una **suposición**, no un dato
+>
+> La Dra. Omidres, 30/09: *«eso del flujo de pago no sé — imagino que a SEDA»*.
+>
+> **Imaginar no alcanza para un documento que se firma y se entrega en una universidad.**
+> Si el expediente dice «el auspicio entra a SEDA» y resulta que Boehringer paga
+> directamente a Omisalud, la declaración queda falseada — y la habrá firmado ella.
+> Eso es peor que cualquiera de las dos rutas.
+>
+> **Se resuelve con una pregunta a Liz.** Está abajo, son tres líneas. Hasta que
+> conteste, el expediente no se cierra en este punto.
 
-| Pregunta | Por qué importa |
+Queda **una sola pregunta de estructura**, y solo cambia cómo se redacta:
+
+**Ruta B — el auspicio entra a SEDA y SEDA contrata la plataforma.** La contraparte de
+Boehringer es la Sociedad. Es la que conviene, y si todavía se puede decidir así, no
+cuesta nada y quita el único punto discutible del expediente.
+
+**Ruta C — Boehringer paga directamente a Omisalud.** Se sostiene igual, pero hay que
+escribirla con más cuidado: un laboratorio pagando a una empresa vinculada a la familia
+de quien coordina el curso. Declarada de frente y por iniciativa propia, no es un
+problema. Descubierta después, sí lo sería.
+
+En el apartado 6 está el párrafo del expediente **redactado en las dos versiones**: se
+borra la que no aplique.
+
+### Lo que sigue faltando para poder redactarlo
+
+| Dato | Por qué |
 |---|---|
-| **¿Cuál es exactamente tu vínculo con Javier Carvelli?** Por el apellido supongo que es tu esposo, pero **no lo doy por hecho** y el expediente necesita la palabra exacta | Es lo que define cómo se nombra el vínculo en la declaración |
-| **¿Tienes participación societaria en Omisalud Cía. Ltda.?** | Ser cónyuge del gerente y ser socia son **dos declaraciones distintas**. Si además eres socia, se declara como interés económico propio, no como vínculo familiar |
-| **¿Boehringer paga a Omisalud, o paga a SEDA y SEDA paga la plataforma?** | Es la diferencia entre las tres estructuras de abajo |
-| **¿Monto, concepto y si hay contrato firmado?** | Sin esto no hay cómo declararlo |
+| **¿Ruta B o ruta C?** | Cambia la frase del expediente y de tu declaración. **Hoy es una suposición: hay que confirmarlo con Liz** |
+| **Tu vínculo exacto con Javier Carvelli** | Por el apellido supongo que es tu esposo, pero **no lo doy por hecho**: el documento necesita la palabra precisa |
+| **¿Tienes participación societaria en Omisalud Cía. Ltda.?** | Ser cónyuge del gerente y ser socia son **dos declaraciones distintas**. Si además eres socia, se declara como interés económico propio |
+| **Monto y si hay contrato firmado** | El expediente pide declarar el auspicio; un monto y un documento lo cierran |
+| **Tu número de cédula** | La matriz lo tiene vacío y hace falta para tu propia declaración |
 
-### Las tres estructuras posibles, y cuál conviene
+### Un hecho que juega a tu favor y hay que decir
 
-**A · Omisalud aporta la plataforma sin costo.** El auspicio de Boehringer entra a SEDA
-y se destina a otra cosa —certificación, diseño, tasas del aval—. **Ningún dinero
-farmacéutico llega a la empresa familiar.** Se declara el aporte en especie y se acabó.
-→ **Es la más limpia y la que recomiendo.**
-
-**B · Boehringer → SEDA → Omisalud.** Con contrato escrito, precio de mercado y, mejor
-aún, una cotización comparativa que muestre que el precio es el que habría pagado a
-cualquier otro proveedor. La contraparte es la Sociedad, no el laboratorio.
-→ **Aceptable, con esas tres condiciones.**
-
-**C · Boehringer paga directamente a Omisalud.** Una farmacéutica pagando a la empresa
-de la familia de quien coordina el curso y además dicta dos clases en él.
-→ **Evítala.** Aunque sea absolutamente honesta, sobre el papel no se sostiene, y el
-papel es lo que va a leer la Comisión de Avales.
-
-*Esto es criterio mío, no una norma que pueda citarte. La decisión es tuya y de SEDA.*
-
----
+**Tus dos clases no tocan el producto de ningún auspiciante.** M7 · C1 es fundamentos de
+salud digital y telemedicina; M7 · C4 es implementación, ética y seguridad de datos. Ni
+fármacos, ni dispositivos, ni nada del portafolio de Boehringer, Elea o Saval. Quien
+coordina el curso y está vinculada a la plataforma **no dicta ninguna de las ocho clases
+con exposición comercial**. Eso conviene que se lea en el expediente, porque es
+exactamente lo que un revisor iría a buscar.
 
 ## 2 · Tus tres sombreros
 
@@ -148,10 +165,10 @@ meses, la respuesta ya esté escrita y firmada de antes.
 
 ---
 
-## 6 · Borrador del apartado de transparencia del expediente
+## 6 · Apartado de transparencia del expediente
 
-*Para el punto de auspicios y el de plataforma. Los corchetes son lo que falta por
-decidir o confirmar.*
+*Para el punto de auspicios y el de plataforma. **Elige una de las dos versiones del
+segundo párrafo y borra la otra.** Los corchetes son lo que falta confirmar.*
 
 > **Financiamiento y transparencia**
 >
@@ -160,17 +177,57 @@ decidir o confirmar.*
 > definición de los contenidos ni en la elaboración del material, y no revisan las clases
 > antes de su publicación. Los docentes se comprometen por escrito a emplear
 > denominaciones genéricas y a no promover marcas comerciales ni productos específicos.
+> La totalidad del cuerpo docente participa ad honorem, incluida la coordinadora
+> académica.
 >
-> El curso se dicta en la plataforma saludelearning.com, que depende de Omisalud Cía.
+> **— Versión B (el auspicio entra a SEDA) —**
+> El curso se dicta en la plataforma saludelearning.com, que pertenece a Omisalud Cía.
 > Ltda., empresa cuya gerencia ejerce el Sr. Javier Carvelli, [vínculo exacto] de la
-> coordinadora académica del curso, Dra. Omidres Pérez de Carvelli. [La plataforma se
-> aporta sin costo / SEDA contrata su uso por un valor de USD ___ conforme a contrato
+> coordinadora académica, Dra. Omidres Pérez de Carvelli. El uso de la plataforma es
+> contratado por la Sociedad de Endocrinología y Diabetes del Austro con cargo al
+> auspicio de Boehringer Ingelheim, por un valor de USD [___] [conforme a contrato
 > suscrito el ___]. La coordinadora académica declara [tener / no tener] participación
 > societaria en dicha empresa.
 >
-> La totalidad del cuerpo docente participa ad honorem, incluida la coordinadora
-> académica. Todos los docentes han suscrito una declaración de conflicto de interés que
-> forma parte de este expediente.
+> **— Versión C (Boehringer paga a la plataforma) —**
+> El curso se dicta en la plataforma saludelearning.com, que pertenece a Omisalud Cía.
+> Ltda., empresa cuya gerencia ejerce el Sr. Javier Carvelli, [vínculo exacto] de la
+> coordinadora académica, Dra. Omidres Pérez de Carvelli. El uso de la plataforma es
+> financiado directamente por Boehringer Ingelheim, en calidad de auspiciante del curso,
+> por un valor de USD [___] [conforme a contrato suscrito el ___]. La coordinadora
+> académica declara [tener / no tener] participación societaria en dicha empresa y no
+> percibe remuneración alguna por la coordinación ni por la docencia.
+>
+> **— Cierre, común a las dos —**
+> Las dos clases a cargo de la coordinadora académica —Fundamentos de salud digital y
+> telemedicina, e Implementación, ética y seguridad de datos— no abordan productos
+> farmacéuticos ni dispositivos de ninguno de los auspiciantes. Todos los docentes han
+> suscrito una declaración de conflicto de interés que forma parte de este expediente.
 
 Ese párrafo, escrito y entregado por iniciativa propia, convierte lo que podría leerse
-como un problema en una señal de que el curso se organizó bien.
+como un problema en una señal de que el curso se organizó bien. **Escribirlo tú antes
+vale diez veces más que explicarlo después si alguien pregunta.**
+
+---
+
+## 7 · La pregunta a Liz, para cerrar esto hoy
+
+*Tres líneas por WhatsApp. Es lo único que falta para poder firmar el apartado.*
+
+```
+Liz, una precisión corta sobre lo de Boehringer y la plataforma, que la
+necesito para redactar el expediente.
+
+El auspicio ¿entra a SEDA y la Sociedad cubre el costo de la plataforma,
+o Boehringer le paga directamente a la plataforma?
+
+Te lo pregunto porque en el expediente tengo que escribir una cosa o la
+otra, y no quiero poner una suposición en un documento que firmamos. Con
+saber la ruta y el monto, yo lo redacto.
+```
+
+**Por qué conviene la ruta por SEDA, si todavía se puede elegir:** que la Sociedad sea la
+contraparte de Boehringer hace que el dinero farmacéutico llegue a la plataforma a través
+de la institución que organiza el curso, y no directamente a una empresa vinculada a la
+familia de quien lo coordina. Es la misma plata y el mismo servicio; cambia solo quién
+firma con quién. Y eso es justo lo que mira un revisor.
