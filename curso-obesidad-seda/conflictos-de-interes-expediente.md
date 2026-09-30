@@ -1,263 +1,289 @@
-# Conflictos de interés del curso — mapa completo para el expediente
+# Conflictos de interés del curso — mapa verificado para el expediente
 
 **Actualizado:** 30 de septiembre de 2026
-**Para qué sirve:** que todo lo declarable esté escrito *antes* de entregar el
-expediente, no explicado después. Ninguno de los hechos de abajo es un problema por sí
-mismo. Todos lo serían si aparecieran por su cuenta.
+**Fuentes:** escritura de constitución de OMISALUD CIA. LTDA. (Notaría Primera de
+Azogues, 21/05/2020), nombramientos inscritos en el Registro Mercantil del cantón Cuenca
+(08/11/2022), certificado de RUC del SRI y autorización notariada de recepción de fondos
+— **todos documentos del propio Drive de la Dra. Omidres**, no suposiciones.
 
 ---
 
-## 1 · La cadena de la plataforma — confirmada
+## 🛑 Corrección importante respecto de lo que se venía escribiendo
 
-**La Dra. Omidres confirma el 30/09: el auspicio de Boehringer paga la plataforma.**
+Hasta hoy el borrador decía que la plataforma estaba «vinculada» a la Dra. Omidres y que
+su gerente era «sobrino de su esposo». **Eso era cierto pero gravemente incompleto.** Los
+documentos registrales dicen algo mucho más directo:
 
-```
-Boehringer Ingelheim
-        │  paga el uso de la plataforma  ← CONFIRMADO
-        │
-        ├──?──►  SEDA  ──►  saludelearning.com     (ruta B)
-        │
-        └──?────────────►  saludelearning.com      (ruta C)
-                                   │  depende de
-                                   ▼
-                        Omisalud Cía. Ltda.
-                        gerencia: Javier Carvelli
-                                   │
-                                   ▼
-                  Dra. Omidres Pérez de Carvelli
-                     coordinadora académica
-                     docente en M7 · C1 y M7 · C4
-```
+> ### La Dra. Omidres Pérez de Carvelli es **socia mayoritaria (50 %) y Presidenta** de Omisalud Cía. Ltda., la empresa propietaria de la plataforma donde se dicta el curso.
 
-> ### 🛑 El flujo del dinero es una **suposición**, no un dato
->
-> La Dra. Omidres, 30/09: *«eso del flujo de pago no sé — imagino que a SEDA»*.
->
-> **Imaginar no alcanza para un documento que se firma y se entrega en una universidad.**
-> Si el expediente dice «el auspicio entra a SEDA» y resulta que Boehringer paga
-> directamente a Omisalud, la declaración queda falseada — y la habrá firmado ella.
-> Eso es peor que cualquiera de las dos rutas.
->
-> **Se resuelve con una pregunta a Liz.** Está abajo, son tres líneas. Hasta que
-> conteste, el expediente no se cierra en este punto.
+No es un vínculo familiar indirecto. Es **un interés económico propio, directo y de
+control**. Declararlo como «vinculada a mí» habría sido una declaración incompleta —
+firmada por ella y entregada a una universidad. Por eso se corrige antes, no después.
 
-Queda **una sola pregunta de estructura**, y solo cambia cómo se redacta:
+---
 
-**Ruta B — el auspicio entra a SEDA y SEDA contrata la plataforma.** La contraparte de
-Boehringer es la Sociedad. Es la que conviene, y si todavía se puede decidir así, no
-cuesta nada y quita el único punto discutible del expediente.
+## 1 · Quién es Omisalud Cía. Ltda., con documentos
 
-**Ruta C — Boehringer paga directamente a Omisalud.** Se sostiene igual, pero hay que
-escribirla con más cuidado: un laboratorio pagando a una empresa vinculada a la familia
-de quien coordina el curso. Declarada de frente y por iniciativa propia, no es un
-problema. Descubierta después, sí lo sería.
+**Constitución:** escritura pública del 21/05/2020, Notaría Primera de Azogues, inscrita
+en el Registro Mercantil de Cuenca el 23/06/2020 (repertorio 3645, inscripción 1313).
+**RUC:** 0190491641001 · **Domicilio:** Av. 24 de Mayo y Av. de las Américas, Hospital
+Universitario del Río, of. 227, Cuenca.
 
-En el apartado 6 está el párrafo del expediente **redactado en las dos versiones**: se
-borra la que no aplique.
+### Capital social: 400 participaciones de USD 1
 
-### Lo que sigue faltando para poder redactarlo
+| Socio | Participaciones | % | Cargo |
+|---|---:|---:|---|
+| **Omidres de la Consolación Pérez de Carvelli** · CI 0961279080 | **200** | **50 %** | **Presidenta** |
+| José Javier Carvelli Calzadilla · CI 1757808256 | 100 | 25 % | Gerente General |
+| Orianna Valentina Carvelli Pérez · CI 0151738093 | 100 | 25 % | Gerente de Mercadeo |
+| | **400** | **100 %** | |
 
-| Dato | Por qué |
-|---|---|
-| **¿Ruta B o ruta C?** | Cambia la frase del expediente y de tu declaración. **Hoy es una suposición: hay que confirmarlo con Liz** |
-| **Tu vínculo exacto con Javier Carvelli** | Por el apellido supongo que es tu esposo, pero **no lo doy por hecho**: el documento necesita la palabra precisa |
-| **¿Tienes participación societaria en Omisalud Cía. Ltda.?** | Ser cónyuge del gerente y ser socia son **dos declaraciones distintas**. Si además eres socia, se declara como interés económico propio |
-| **Monto y si hay contrato firmado** | El expediente pide declarar el auspicio; un monto y un documento lo cierran |
-| **Tu número de cédula** | La matriz lo tiene vacío y hace falta para tu propia declaración |
+La escritura los llama expresamente **«accionistas fundadores»**. Los nombramientos de
+Presidenta y Gerente General se renovaron el 28/09/2022 e inscribieron en el Registro
+Mercantil el 08/11/2022 (inscripciones 3082 y 3083).
 
-### Un hecho que juega a tu favor y hay que decir
+### El parentesco, ya completo
 
-**Tus dos clases no tocan el producto de ningún auspiciante.** M7 · C1 es fundamentos de
-salud digital y telemedicina; M7 · C4 es implementación, ética y seguridad de datos. Ni
-fármacos, ni dispositivos, ni nada del portafolio de Boehringer, Elea o Saval. Quien
-coordina el curso y está vinculada a la plataforma **no dicta ninguna de las ocho clases
-con exposición comercial**. Eso conviene que se lea en el expediente, porque es
-exactamente lo que un revisor iría a buscar.
+Los certificados del Registro Civil que acompañan la escritura lo cierran:
 
-## 2 · Tus tres sombreros
+- **José Javier Carvelli Calzadilla** — hijo de *Carvelli Domínguez Frank*. El esposo de
+  la Dra. Omidres es *Carvelli Domínguez Francisco Javier*. Es, en efecto, **sobrino de
+  su esposo**, como ella indicó.
+- **Orianna Valentina Carvelli Pérez** — padre: *Carvelli Domínguez Francisco Javier*;
+  madre: *Pérez de Carvelli Omidres*. Es **su hija**.
 
-No es un problema tenerlos. Es un problema que estén dispersos. Van juntos, en un solo
-párrafo del expediente:
+**Los tres socios son la misma familia. El 100 % del capital es familiar, y la mitad es
+de ella.**
+
+### El objeto social coincide con el curso
+
+Reformado en 2023: *«capacitación y educación tanto presencial como en línea, en temas de
+salud y bienestar… asesoría en servicios de salud y telemedicina»*. Es exactamente la
+actividad del curso. Coherente, y conviene decirlo — explica por qué la plataforma es esa
+y no otra.
+
+---
+
+## 2 · Qué significa esto para el curso
+
+La Dra. Omidres ocupa **cinco posiciones a la vez**:
 
 1. **Coordinadora académica** del curso
-2. **Docente** en dos clases: M7 · C1 y M7 · C4
-3. **Vinculada a la plataforma** donde se dicta, a través de Omisalud Cía. Ltda.
+2. **Docente** en M7 · C1 y M7 · C4
+3. **Socia mayoritaria** de la empresa dueña de la plataforma
+4. **Presidenta** de esa empresa
+5. **Titular de la cuenta bancaria autorizada** para recibir los pagos de esa empresa
+   *(autorización notariada: los pagos a Omisalud pueden hacerse a su cuenta personal en
+   Bank of America)*
+
+Y sobre eso, **un laboratorio farmacéutico va a pagar el uso de esa plataforma**.
+
+**Nada de esto es impropio.** Las empresas familiares prestan servicios todos los días, y
+en educación médica continua el auspicio farmacéutico es la norma. **Lo que sería impropio
+es que no estuviera escrito, o que ella decidiera de los dos lados de la mesa.** Esas son
+las dos cosas que hay que resolver, y las dos se resuelven esta semana.
 
 ---
 
-## 3 · Los tres auspiciantes y las clases que tocan
+## 3 · Las tres decisiones que protegen el expediente
 
-Según me indicas: **Boehringer** — empagliflozina y linagliptina (iSGLT2, iDPP-4).
-**Elea** — agonistas de GLP-1. **Saval** — sitagliptina (iDPP-4).
+### Decisión 1 · Cómo se financia la plataforma
 
-*De Boehringer tenía certeza. Lo de Elea y Saval lo tomo de ti y no lo he verificado
-por fuente propia.*
+**A · Omisalud aporta la plataforma sin costo.** El auspicio de Boehringer entra a SEDA
+y se destina a certificación, diseño y tasas. **Ningún dinero farmacéutico llega a la
+empresa de la que ella es dueña del 50 %.** Se declara el aporte en especie y el asunto
+desaparece.
+→ **Ahora la recomiendo con más fuerza que antes.** Con 50 % y presidencia, es la opción
+que no admite discusión.
+
+**B · Boehringer → SEDA → Omisalud**, con contrato escrito, precio de mercado y factura.
+La contraparte de Boehringer es la Sociedad. **Viable, con las condiciones de la decisión
+2.**
+
+**C · Boehringer paga directamente a Omisalud.**
+→ **Descartar.** Un laboratorio pagando a la empresa que preside y de la que es socia
+mayoritaria quien coordina el curso. Honesto o no, es indefendible por escrito.
+
+*Dato favorable: la propia Dra. Omidres señala que a los laboratorios les resulta
+engorroso dar de alta un proveedor nuevo, y SEDA ya lo está. Lo cómodo y lo limpio
+coinciden.*
+
+### Decisión 2 · Ella se aparta de la decisión del lado de SEDA
+
+Si SEDA contrata la plataforma, **la Dra. Omidres no puede participar en esa decisión ni
+firmarla por SEDA**. Que otro de la directiva la evalúe, decida y suscriba, y que quede
+en acta que ella se excusó. Es media hora de trámite y es lo que convierte un conflicto
+en un conflicto bien gestionado.
+
+### Decisión 3 · El pago va a la cuenta de la empresa, no a la personal
+
+Existe una autorización notariada para que los pagos a Omisalud se reciban en la cuenta
+personal de la Dra. Omidres en Bank of America. **Para esta operación, no usarla.** Que
+la factura de Omisalud se cobre en la cuenta corporativa ecuatoriana. Es legal de las dos
+formas; **solo una se puede explicar sin incomodidad.**
+
+---
+
+## 4 · Lo que SEDA tiene que saber por escrito
+
+Liz y Pablo están decidiendo usar una plataforma **cuya socia mayoritaria y presidenta es
+la persona que coordina el curso**. Tienen que saberlo antes de firmar nada, y por
+escrito, no de palabra.
+
+No es una confesión: es lo que permite que ellos digan «lo sabíamos y lo aprobamos», que
+es exactamente lo que necesitan poder decir. Está redactado en el apartado 7.
+
+---
+
+## 5 · Los tres auspiciantes y las clases que tocan
+
+Según indica la Dra. Omidres: **Boehringer** — empagliflozina y linagliptina (iSGLT2,
+iDPP-4). **Elea** — agonistas de GLP-1. **Saval** — sitagliptina (iDPP-4).
+*De Boehringer había certeza propia; lo de Elea y Saval se toma de ella y no está
+verificado por fuente independiente.*
 
 | Clase | Contenido declarado | Auspiciante con interés directo |
 |---|---|---|
-| **M3 · C2** — Agonistas del receptor de GLP-1 | Semaglutida; evidencia clínica | **Elea** — la clase entera versa sobre su clase terapéutica |
-| **M3 · C3** — Tirzepatida y nuevas terapias | Mecanismos; evidencia; seguridad | **Elea** (agonismo GLP-1 dual) |
-| **M3 · C1** — Farmacoterapia para obesidad | Orlistat, fentermina, bupropión/naltrexona | Ninguno de los tres, por ahora |
+| **M3 · C2** — Agonistas del receptor de GLP-1 | Semaglutida; evidencia clínica | **Elea** — la clase entera es su clase terapéutica |
+| **M3 · C3** — Tirzepatida y nuevas terapias | Mecanismos; evidencia; seguridad | Elea |
 | **M4 · C3** — Terapia farmacológica moderna | **iSGLT2 e iDPP-4**; GLP-1 y tirzepatida | **Los tres a la vez** ⚠️ |
-| **M4 · C4** — Insulinoterapia avanzada | Combinación con agonistas de GLP-1 | **Elea** |
-| **M5 · C3** — Nutrición durante las terapias | GLP-1; tirzepatida; masa muscular | **Elea** |
-| **M6 · C1** — Enfermedad renal | Estrategias terapéuticas | **Boehringer** (iSGLT2 en ERC) |
-| **M6 · C3** — Síndrome cardiorrenometabólico | Beneficios CV y renales de nuevas terapias | **Boehringer** |
+| **M4 · C4** — Insulinoterapia avanzada | Combinación con agonistas de GLP-1 | Elea |
+| **M5 · C3** — Nutrición durante las terapias | GLP-1; tirzepatida | Elea |
+| **M6 · C1** — Enfermedad renal | Estrategias terapéuticas | Boehringer (iSGLT2 en ERC) |
+| **M6 · C3** — Síndrome cardiorrenometabólico | Beneficios CV y renales de nuevas terapias | Boehringer |
 
-### Las dos clases más expuestas
+**M4 · C3 (Dra. Gabriela Jiménez)** es la clase más expuesta: su contenido nombra
+literalmente las clases terapéuticas de los tres auspiciantes.
 
-**M4 · C3 · Dra. Gabriela Jiménez.** Su contenido declarado nombra literalmente las
-clases terapéuticas de los tres auspiciantes. Es la clase más expuesta del programa
-entero.
+**M3 · C2 (Dr. Frank Espinoza)** se titula por la clase terapéutica pero declara una sola
+molécula, «semaglutida». Con un auspiciante que comercializa GLP-1, conviene **ampliarla
+a evidencia comparada de la clase completa**. *No se sabe qué molécula maneja Elea —
+preguntárselo a Liz.*
 
-**M3 · C2 · Dr. Frank Espinoza.** Una clase completa sobre la clase terapéutica de un
-auspiciante. Y hay un detalle del título que conviene mirar: **se llama «Agonistas del
-receptor de GLP-1» pero el contenido declarado dice «Semaglutida»**, una sola molécula.
-Con un auspiciante que comercializa GLP-1, una clase construida alrededor de un solo
-producto invita justo la pregunta que no queremos. **Recomiendo ampliar el contenido
-declarado a la clase terapéutica completa, con evidencia comparada entre moléculas.**
+### El hecho que juega a favor, y hay que decirlo
 
-*No sé qué molécula de GLP-1 comercializa Elea. Pregúntaselo a Liz: si coincide con la
-que se dicta en M3 · C2, con más razón hay que ampliar el enfoque.*
+**Las dos clases de la coordinadora no tocan el producto de ningún auspiciante.** M7 · C1
+es fundamentos de salud digital y telemedicina; M7 · C4, implementación, ética y seguridad
+de datos. Ni fármacos ni dispositivos. **Quien coordina el curso y es dueña de la
+plataforma no dicta ninguna de las siete clases con exposición comercial.** Eso es
+justamente lo que un revisor iría a buscar, y conviene que lo encuentre escrito.
 
-### Qué se hace con esto
+### Qué se hace con los auspiciantes
 
-1. **Denominación genérica, sin excepciones.** Ya está comprometida en el formulario de
-   conflicto de interés que firman todos. Con tres laboratorios detrás, deja de ser buena
-   práctica y pasa a ser lo que sostiene la credibilidad del curso.
-2. **Avisar personalmente** a los docentes de las ocho clases del cuadro. Que lo sepan
-   antes de grabar, no después.
+1. **Denominación genérica, sin excepciones.** Ya está comprometido en el formulario que
+   firman todos.
+2. **Avisar personalmente** a los docentes de las siete clases del cuadro, antes de grabar.
 3. **Evidencia comparada** en las clases de farmacología: la clase terapéutica completa,
    no una molécula.
-4. **Ningún auspiciante revisa una clase antes de publicarse.** Ya está en el formulario;
-   debe estar también en el expediente.
-
----
-
-## 4 · Lo que ya está hecho
-
-**`SEDA_Declaracion_Conflicto_Interes.docx` actualizado.** Ahora nombra a Boehringer
-Ingelheim, Elea y Saval, pide declarar expresamente los vínculos con ellos de los últimos
-24 meses, y deja escrito que los auspiciantes no intervienen en la selección de docentes,
-temas ni contenidos.
-
-Solo **1 de 23** lo había devuelto, así que los 22 restantes lo van a firmar con la
-información completa — que es exactamente para lo que sirve ese documento. **Hay que
-reenviárselo a quien ya tenga la versión anterior**, que no nombraba a nadie: la Dra.
-Adriana Álvarez.
-
----
-
-## 5 · Tu propia declaración de conflicto de interés
-
-**No la puedo prellenar todavía**: depende de las cuatro preguntas del apartado 1. En
-cuanto las respondas la armo. Lo que sí sé que tiene que decir:
-
-- Coordinación académica del curso y docencia en M7 · C1 y M7 · C4
-- La plataforma saludelearning.com depende de Omisalud Cía. Ltda., gerenciada por Javier
-  Carvelli — **con el vínculo nombrado con precisión**
-- Si tienes o no participación societaria en Omisalud
-- Cómo se financia el uso de la plataforma y quién paga a quién
-- Tus propios vínculos con Boehringer, Elea y Saval en los últimos 24 meses, si los hay
-
-Ese documento no es un trámite. Es lo que hace que, si alguien pregunta dentro de seis
-meses, la respuesta ya esté escrita y firmada de antes.
+4. **Ningún auspiciante revisa una clase antes de publicarse**, y debe estar por escrito.
 
 ---
 
 ## 6 · Apartado de transparencia del expediente
 
-*Para el punto de auspicios y el de plataforma. **Elige una de las dos versiones del
-segundo párrafo y borra la otra.** Los corchetes son lo que falta confirmar.*
+*Elige la versión A o la B del segundo párrafo y borra la otra. Los corchetes son lo que
+falta confirmar.*
 
 > **Financiamiento y transparencia**
 >
-> El curso cuenta con el auspicio de Boehringer Ingelheim, Laboratorios Elea y
-> Laboratorio Saval. Los auspiciantes no intervienen en la selección de docentes, en la
-> definición de los contenidos ni en la elaboración del material, y no revisan las clases
-> antes de su publicación. Los docentes se comprometen por escrito a emplear
-> denominaciones genéricas y a no promover marcas comerciales ni productos específicos.
-> La totalidad del cuerpo docente participa ad honorem, incluida la coordinadora
-> académica.
+> El curso cuenta con el auspicio de Boehringer Ingelheim, Laboratorios Elea y Laboratorio
+> Saval. Los auspiciantes no intervienen en la selección de docentes, en la definición de
+> los contenidos ni en la elaboración del material, y no revisan las clases antes de su
+> publicación. Los docentes se comprometen por escrito a emplear denominaciones genéricas
+> y a no promover marcas comerciales ni productos específicos. La totalidad del cuerpo
+> docente participa ad honorem, incluida la coordinadora académica, quien no percibe
+> remuneración alguna por la coordinación ni por la docencia.
 >
-> **— Versión B (el auspicio entra a SEDA) —**
-> El curso se dicta en la plataforma saludelearning.com, que pertenece a Omisalud Cía.
-> Ltda., empresa cuya gerencia ejerce el Sr. Javier Carvelli, [vínculo exacto] de la
-> coordinadora académica, Dra. Omidres Pérez de Carvelli. El uso de la plataforma es
-> contratado por la Sociedad de Endocrinología y Diabetes del Austro con cargo al
-> auspicio de Boehringer Ingelheim, por un valor de USD [___] [conforme a contrato
-> suscrito el ___]. La coordinadora académica declara [tener / no tener] participación
-> societaria en dicha empresa.
+> **— Versión A · la plataforma se aporta sin costo —**
+> El curso se dicta en la plataforma saludelearning.com, operada por Omisalud Cía. Ltda.
+> (RUC 0190491641001), compañía de la cual la coordinadora académica, Dra. Omidres Pérez
+> de Carvelli, es socia con el 50 % del capital social y ejerce la Presidencia. Omisalud
+> Cía. Ltda. aporta el uso de la plataforma sin costo para la Sociedad de Endocrinología
+> y Diabetes del Austro y sin recibir contraprestación de los auspiciantes del curso.
 >
-> **— Versión C (Boehringer paga a la plataforma) —**
-> El curso se dicta en la plataforma saludelearning.com, que pertenece a Omisalud Cía.
-> Ltda., empresa cuya gerencia ejerce el Sr. Javier Carvelli, [vínculo exacto] de la
-> coordinadora académica, Dra. Omidres Pérez de Carvelli. El uso de la plataforma es
-> financiado directamente por Boehringer Ingelheim, en calidad de auspiciante del curso,
-> por un valor de USD [___] [conforme a contrato suscrito el ___]. La coordinadora
-> académica declara [tener / no tener] participación societaria en dicha empresa y no
-> percibe remuneración alguna por la coordinación ni por la docencia.
+> **— Versión B · SEDA contrata la plataforma con cargo al auspicio —**
+> El curso se dicta en la plataforma saludelearning.com, operada por Omisalud Cía. Ltda.
+> (RUC 0190491641001), compañía de la cual la coordinadora académica, Dra. Omidres Pérez
+> de Carvelli, es socia con el 50 % del capital social y ejerce la Presidencia. La
+> Sociedad de Endocrinología y Diabetes del Austro contrata el uso de la plataforma por
+> un valor de USD [___], con cargo al auspicio de Boehringer Ingelheim [conforme a
+> contrato suscrito el ___ y factura N.º ___]. **La coordinadora académica se excusó de
+> participar en la deliberación y en la decisión de contratación, que fue adoptada y
+> suscrita por [nombre y cargo] en representación de la Sociedad**, conforme consta en
+> [acta / comunicación] de fecha [___].
 >
 > **— Cierre, común a las dos —**
-> Las dos clases a cargo de la coordinadora académica —Fundamentos de salud digital y
-> telemedicina, e Implementación, ética y seguridad de datos— no abordan productos
-> farmacéuticos ni dispositivos de ninguno de los auspiciantes. Todos los docentes han
-> suscrito una declaración de conflicto de interés que forma parte de este expediente.
+> Las dos clases a cargo de la coordinadora académica —*Fundamentos de salud digital y
+> telemedicina en enfermedades crónicas* e *Implementación, ética y seguridad de datos*—
+> no abordan productos farmacéuticos ni dispositivos de ninguno de los auspiciantes. La
+> totalidad de los docentes ha suscrito una declaración de conflicto de interés que forma
+> parte de este expediente.
 
-Ese párrafo, escrito y entregado por iniciativa propia, convierte lo que podría leerse
-como un problema en una señal de que el curso se organizó bien. **Escribirlo tú antes
-vale diez veces más que explicarlo después si alguien pregunta.**
+**Ese párrafo es el que protege el aval y protege su nombre.** Escrito por iniciativa
+propia, dice «esto se organizó con cuidado». Omitido y descubierto después, dice lo
+contrario aunque todo lo demás sea impecable.
 
 ---
 
-## 7 · La pregunta a Liz, para cerrar esto hoy
-
-**Un dato de la Dra. Omidres inclina la balanza:** para pagarle directamente a Omisalud,
-los laboratorios tendrían que **dar de alta un proveedor nuevo**, y eso es engorroso.
-SEDA, en cambio, ya está registrada como proveedor.
-
-Es decir: **lo más cómodo para Boehringer y lo que mejor se lee en el expediente son la
-misma cosa.** No hay que pedir un favor ni justificar nada — solo confirmarlo y
-escribirlo. Por eso la pregunta ya no es «¿cómo es?» sino «confirmemos que es así».
-
-*Sigue siendo una inferencia razonable, no un hecho verificado. Una línea de Liz lo
-convierte en dato.*
+## 7 · Lo que hay que escribirle a SEDA
 
 ```
-Liz, una precisión corta sobre lo de Boehringer y la plataforma, que la
-necesito para redactar el expediente.
+Liz, Pablo: antes de que avancemos con lo de la plataforma quiero
+ponerles por escrito algo que tienen que saber, y prefiero decirlo yo y
+de entrada.
 
-Entiendo que el auspicio entra a SEDA y la Sociedad cubre el costo de la
-plataforma, porque para pagarle directo a la plataforma el laboratorio
-tendría que crear un proveedor nuevo y eso les complica. ¿Me lo
-confirmas?
+saludelearning.com es de Omisalud Cía. Ltda. Yo soy socia de esa
+compañía con el 50% del capital y ejerzo la presidencia. Los otros dos
+socios son de mi familia. O sea: la plataforma donde se va a dictar el
+curso que yo coordino es, en la mitad, mía.
 
-Te lo pregunto porque en el expediente tengo que escribir una cosa o la
-otra, y no quiero poner una suposición en un documento que firmamos. Con
-que me digas «sí, entra a SEDA» y el monto, yo lo redacto.
+No hay nada irregular en eso, pero sí hay dos cosas que quiero dejar
+resueltas antes y no después:
 
-Y si por lo que fuera se planteara al revés, prefiero que lo hablemos:
-la plataforma es de Omisalud, que es una empresa de mi familia, y que un
-laboratorio le pague directamente a ella dentro de un curso que yo
-coordino es justo lo que no quiero que tengamos que explicar después.
-Por SEDA queda limpio.
+1. Lo más limpio es que Omisalud aporte la plataforma sin costo, y que
+   el auspicio de Boehringer se destine a certificación, diseño y tasas
+   del aval. Así ningún dinero de un laboratorio entra a una empresa mía
+   dentro de un curso que yo coordino. Yo lo propongo y lo asumo.
+
+2. Si prefieren que SEDA contrate la plataforma, adelante — pero con
+   contrato, factura y precio de mercado, y yo me excuso de esa decisión.
+   Que la evalúe, la decida y la firme otro de la directiva, y que quede
+   en acta que yo no participé.
+
+Sea cual sea la opción, va declarada con nombre y porcentaje en el
+expediente del aval y en mi propia declaración de conflicto de interés.
+Lo mismo con Boehringer, Elea y Saval, y con la constancia de que
+ninguno interviene en la selección de docentes ni en los contenidos.
+
+Les pido que me digan cuál de las dos prefieren y yo redacto. Prefiero
+que esto nos cueste una conversación hoy y no una explicación incómoda
+dentro de seis meses.
 ```
 
-### El beneficio que trae de regalo
+---
 
-Si el pago va **Boehringer → SEDA → Omisalud**, hay una **factura de Omisalud a SEDA**.
-Ese papel es el mejor respaldo posible del expediente: acredita el servicio, el monto y
-que la operación se hizo entre la Sociedad y un proveedor, con precio y documento. Pídela
-y adjúntala. Vale más que cualquier párrafo explicativo.
+## 8 · Datos que ya no hacen falta pedir, y los que sí
 
-### Lo que sigue faltando, aparte de esto
+**Ya confirmados por documento:**
 
-| Dato | Para qué |
+| Dato | Valor |
 |---|---|
-| Tu vínculo exacto con Javier Carvelli | La palabra precisa en tu declaración. Por el apellido supongo que es tu esposo, pero **no lo doy por hecho** |
-| ¿Tienes participación societaria en Omisalud? | Ser cónyuge del gerente y ser socia son declaraciones distintas |
-| Tu número de cédula | La matriz lo tiene vacío y hace falta para tu propia declaración |
-| El monto del auspicio | El expediente pide declararlo |
+| Cédula de la Dra. Omidres | **0961279080** |
+| Participación societaria | **50 % · 200 de 400 participaciones** |
+| Cargo en Omisalud | **Presidenta** (inscrita 08/11/2022) |
+| RUC de Omisalud | **0190491641001** |
+| Vínculo con Javier Carvelli | Sobrino de su esposo · Gerente General y socio al 25 % |
+| Tercera socia | Su hija, Orianna Valentina Carvelli Pérez · 25 % |
 
-Con esos cuatro datos te dejo armada tu declaración de conflicto de interés completa y el
-apartado del expediente listo para firma.
+**Todavía faltan:**
+
+1. **Cuál de las dos rutas** se adopta (decisión de SEDA)
+2. **El monto del auspicio** de Boehringer y si hay contrato firmado
+3. Sus **vínculos personales** con Boehringer, Elea o Saval en los últimos 24 meses, si
+   los hay — honorarios por conferencias, consultoría, consejos asesores, investigación
+
+> ### ⚠️ Una inconsistencia menor que conviene aclarar
+> El certificado del SRI da a Omisalud el **RUC 0190491641001**, pero varios recibos y el
+> contrato con MEDDI hub a.s. consignan **0992508663001**. No sé cuál corresponde a qué
+> ni si uno es un error de transcripción. **Verifícalo antes de que ese número entre en
+> un documento oficial** — en el expediente debe ir el que conste en el SRI.
