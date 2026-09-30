@@ -383,3 +383,76 @@ sería engorroso, y es la estructura que mejor se lee.
 
 Con esos cuatro datos, el apartado del expediente y la declaración de conflicto de
 interés de la coordinadora quedan listos para firma el mismo día.
+
+---
+
+## 11 · Sin vínculo con los laboratorios · y quién firma por SEDA
+
+**La Dra. Omidres, 30/09: «yo no tengo relación directa con los labs, solo con SEDA, y
+Liz es la presidenta de SEDA».**
+
+Eso cierra dos de los cuatro pendientes.
+
+### Su declaración frente a los auspiciantes: limpia
+
+No mantiene vínculo personal con Boehringer, Elea ni Saval. **Se declara así, y suma**:
+su única relación es con la Sociedad organizadora. Junto al hecho de que sus dos clases
+no abordan producto de ningún auspiciante, deja el flanco farmacéutico cerrado.
+
+> ⚠️ **Pero eso no le permite marcar la primera casilla del formulario.** No tener
+> vínculos con los laboratorios no la deja sin conflicto: **sigue siendo socia del 50 % y
+> Presidenta de la empresa que opera la plataforma**. Marca la **segunda** opción —
+> «Declaro SÍ tener los vínculos que detallo»— y detalla Omisalud. Ya está así en el
+> formulario prellenado.
+
+### Quién decide y firma por SEDA: la presidencia
+
+Si la Dra. Omidres se excusa de la contratación de la plataforma, **la Dra. Lizbet
+Ruilova, en su calidad de Presidenta de SEDA, es quien naturalmente decide y suscribe**.
+No es parte de Omisalud, de modo que no arrastra el conflicto.
+
+Que sea además docente del curso (M1 · C1 y M5 · C4) **no interfiere**: dictar una clase
+no tiene relación con decidir la contratación de un proveedor.
+
+Para el expediente: *«…adoptada y suscrita por la Dra. Lizbet Yolanda Ruilova González,
+Presidenta de la Sociedad de Endocrinología y Diabetes del Austro»* — **a confirmar con
+ella**, porque los estatutos de SEDA pueden asignar esa firma a otro cargo.
+
+### Lo que queda, ya solo dos cosas
+
+| Falta | De quién |
+|---|---|
+| Confirmación de que el auspicio entra a SEDA y la Sociedad paga la factura | Liz |
+| Monto destinado a la plataforma | Liz |
+
+Y un dato menor de ella misma: **la institución donde ejerce**, que la matriz tiene vacía
+y el formulario prellenado deja marcada para completar.
+
+---
+
+## 12 · Su declaración de conflicto de interés, prellenada
+
+**`SEDA_COI_Omidres_Perez_prellenada.docx`** — lista salvo la institución y la firma.
+
+| Campo | Contenido |
+|---|---|
+| Nombre | Dra. Omidres de la Consolación Pérez de Carvelli |
+| Cédula | 0961279080 |
+| Especialidad | Endocrinología · Medicina Interna |
+| Institución | **[pendiente de completar]** |
+| Ciudad y país | Cuenca, Ecuador |
+| Clases | M7 · C1 y M7 · C4 · entrega 3 de diciembre de 2026 |
+| Casilla marcada | **Sí tiene vínculos que declarar** |
+
+**Vínculo 1 — Omisalud Cía. Ltda. (RUC 0190491641001).** Socia con 200 de 400
+participaciones (50 % del capital) y Presidenta de la compañía. Opera saludelearning.com,
+donde se dicta el curso. Contratación, facturación y cobro se realizan íntegramente con la
+compañía, en cuenta corporativa nacional; la declarante no percibe pago personal alguno
+vinculado al curso. Desde el 21/05/2020, vigente.
+
+**Vínculo 2 — Boehringer Ingelheim, Elea y Saval.** Ninguno de carácter personal; su
+relación es con SEDA, sociedad organizadora. Últimos 24 meses: sin vínculo.
+
+Declarar el segundo vínculo aunque sea negativo **es deliberado**: deja constancia
+expresa de que se revisó y de que no lo hay, en lugar de dejar un silencio que alguien
+tenga que interpretar.
