@@ -189,7 +189,8 @@ semana.
 # Borrador de respuesta
 
 **Para:** Liz Ruilova · **Copia:** Pablo Vanegas
-**Responder sobre el mismo hilo**
+**Responder sobre el mismo hilo.** El mapa completo de conflictos de interés está en
+`conflictos-de-interes-expediente.md`.
 
 ```
 Querida Liz:
@@ -211,54 +212,81 @@ Premia la membresía de SEDA y premia inscribirse temprano, que es lo que
 nos permite saber cuánta gente viene antes de arrancar. Si te parece
 bien, así lo declaro.
 
-Sobre la plataforma necesito volver, porque mi pregunta era otra y de
-ella depende cómo se redacta el expediente y mi propia declaración de
-conflicto de interés.
+Ahora necesito volver sobre la plataforma, porque mi pregunta era otra y
+de la respuesta depende cómo se redacta el expediente.
 
 Te pregunté si SEDA paga por el uso de saludelearning.com o si la aporto
 sin costo. Me respondes que el auspicio de Boehringer cubre la
-plataforma, y eso abre tres preguntas que necesito resueltas por escrito:
+plataforma. Eso no es ninguna de las dos, y me obliga a ponerte por
+delante toda la cadena, para que la veas completa y no te enteres por un
+documento:
 
-  1. ¿Boehringer paga directamente a la plataforma, o entrega el
-     auspicio a SEDA y SEDA cubre el costo?
-  2. ¿Por qué monto y contra qué concepto: licencia, alojamiento,
-     número de inscritos?
-  3. ¿Hay algo firmado, o es un acuerdo verbal?
+saludelearning.com depende de Omisalud Cía. Ltda., cuya gerencia ejerce
+Javier Carvelli. Es decir: si Boehringer financia la plataforma, un
+laboratorio estaría pagando —directa o indirectamente— a una empresa
+vinculada a mi familia, dentro de un curso que yo coordino y en el que
+además dicto dos clases.
 
-Te insisto en esto no por formalismo. La plataforma está vinculada a mí,
-y si una farmacéutica la financia dentro de un curso que yo coordino y en
-el que además soy docente, eso tiene que estar declarado desde la primera
-página del expediente y en mi propia declaración. Declarado no es ningún
-problema. Descubierto después, sí lo sería, y nos alcanzaría a las dos y
-a la Sociedad.
+No tiene nada de ilegítimo y en educación médica continua pasa todo el
+tiempo. Pero tiene que estar escrito antes, no explicado después, y
+tenemos que elegir cómo se estructura. Te planteo las tres formas
+posibles:
 
-Con Boehringer, Elea y Saval confirmados, propongo que el expediente
-incluya expresamente —y que lo mismo se les diga a los inscritos— que los
-auspiciantes no intervienen en la selección de docentes, de temas ni de
-contenidos, y que no revisan las clases antes de su publicación. Con
-clases de tratamiento farmacológico en el programa, esa frase es la que
-sostiene la credibilidad de todo el curso. Y refuerzo con los docentes la
-regla de nombrar principios activos y no marcas comerciales.
+  A. Omisalud aporta la plataforma sin costo, y el auspicio de
+     Boehringer entra a SEDA y se destina a otra cosa: certificación,
+     diseño, tasas del aval. Ningún dinero farmacéutico llega a la
+     empresa. Se declara el aporte en especie y listo.
 
-Una cosa más, y te la planteo de frente: a los 23 docentes les escribí
-que la participación es ad honorem y que la inscripción se destina a
+  B. Boehringer entrega el auspicio a SEDA y SEDA contrata la
+     plataforma, con contrato escrito y precio de mercado. La
+     contraparte es la Sociedad, no el laboratorio.
+
+  C. Boehringer paga directamente a Omisalud.
+
+Te propongo la A, y si no fuera viable, la B con contrato. La C
+preferiría descartarla: aunque sea absolutamente honesta, sobre el papel
+no se sostiene, y el papel es lo que va a leer la Comisión de Avales.
+
+Dime cuál prefieren, con el monto y si hay algo firmado, y yo lo redacto.
+
+Sobre los auspiciantes: con Boehringer, Elea y Saval confirmados, los
+tres tienen interés comercial directo en el contenido del curso.
+Boehringer en iSGLT2 e iDPP-4, Elea en los agonistas de GLP-1 y Saval en
+sitagliptina. Eso toca ocho de las veintiocho clases, y la de terapia
+farmacológica moderna del módulo 4 toca a los tres a la vez.
+
+Por eso propongo que quede escrito en el expediente —y que se les diga
+igual a los inscritos— que los auspiciantes no intervienen en la
+selección de docentes, de temas ni de contenidos, y que no revisan las
+clases antes de su publicación. Con los docentes refuerzo la regla de
+nombrar principios activos y no marcas, y les pido evidencia comparada
+de la clase terapéutica completa, no de una sola molécula.
+
+A propósito de eso: la clase M3·C2 se llama «Agonistas del receptor de
+GLP-1» pero su contenido declarado dice solo «semaglutida». Con un
+auspiciante que comercializa GLP-1, voy a ampliarla a la clase
+terapéutica completa. ¿Sabes qué molécula maneja Elea? Si coincide, con
+más razón.
+
+Una cosa más, y te la digo de frente: a los 23 docentes les escribí que
+la participación es ad honorem y que la inscripción se destina a
 plataforma, certificación y aval. Lo escribí antes de saber que había
 tres laboratorios auspiciando. Prefiero decírselo yo en el grupo, con
 naturalidad, antes de que lo vean en la plataforma o en el certificado.
 Ya actualicé el formulario de declaración de conflicto de interés para
-que nombre a los tres auspiciantes: los 22 que aún no lo han firmado lo
-harán sabiendo quiénes son, que es exactamente para lo que sirve ese
-documento.
+que los nombre: los 22 que aún no lo firman lo harán sabiendo quiénes
+son, que es exactamente para lo que sirve ese documento.
 
 Me quedan dos cosas por saber:
 
-  · El contacto de Natalia Ortiz, para pedirle hoy mismo los CV. Es lo
-    más urgente que tenemos: faltan 18 hojas de vida, 22 declaraciones
-    y 23 fotografías, y el expediente se entrega el jueves 8.
-  · Quién firma y entrega la solicitud en el Decanato. Te lo pregunté
-    en el correo anterior y quedó sin respuesta; entiendo que
-    corresponde a la presidencia, pero dime cómo lo quieres manejar y
-    yo preparo el documento listo para firma.
+  · El correo de Natalia Ortiz. Lo busqué en mi bandeja y no lo
+    encuentro; pásamelo y le escribo hoy mismo. Es lo más urgente que
+    tenemos: faltan 18 hojas de vida, 22 declaraciones y 23 fotografías,
+    y el expediente se entrega el jueves 8.
+  · Quién firma y entrega la solicitud en el Decanato. Te lo pregunté en
+    el correo anterior y quedó sin respuesta; entiendo que corresponde a
+    la presidencia, pero dime cómo lo quieres manejar y yo preparo el
+    documento listo para firma.
 
 Pablo, si estás de acuerdo con todo esto, con un «conforme» me basta.
 
