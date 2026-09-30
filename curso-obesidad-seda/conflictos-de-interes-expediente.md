@@ -212,22 +212,52 @@ vale diez veces más que explicarlo después si alguien pregunta.**
 
 ## 7 · La pregunta a Liz, para cerrar esto hoy
 
-*Tres líneas por WhatsApp. Es lo único que falta para poder firmar el apartado.*
+**Un dato de la Dra. Omidres inclina la balanza:** para pagarle directamente a Omisalud,
+los laboratorios tendrían que **dar de alta un proveedor nuevo**, y eso es engorroso.
+SEDA, en cambio, ya está registrada como proveedor.
+
+Es decir: **lo más cómodo para Boehringer y lo que mejor se lee en el expediente son la
+misma cosa.** No hay que pedir un favor ni justificar nada — solo confirmarlo y
+escribirlo. Por eso la pregunta ya no es «¿cómo es?» sino «confirmemos que es así».
+
+*Sigue siendo una inferencia razonable, no un hecho verificado. Una línea de Liz lo
+convierte en dato.*
 
 ```
 Liz, una precisión corta sobre lo de Boehringer y la plataforma, que la
 necesito para redactar el expediente.
 
-El auspicio ¿entra a SEDA y la Sociedad cubre el costo de la plataforma,
-o Boehringer le paga directamente a la plataforma?
+Entiendo que el auspicio entra a SEDA y la Sociedad cubre el costo de la
+plataforma, porque para pagarle directo a la plataforma el laboratorio
+tendría que crear un proveedor nuevo y eso les complica. ¿Me lo
+confirmas?
 
 Te lo pregunto porque en el expediente tengo que escribir una cosa o la
 otra, y no quiero poner una suposición en un documento que firmamos. Con
-saber la ruta y el monto, yo lo redacto.
+que me digas «sí, entra a SEDA» y el monto, yo lo redacto.
+
+Y si por lo que fuera se planteara al revés, prefiero que lo hablemos:
+la plataforma es de Omisalud, que es una empresa de mi familia, y que un
+laboratorio le pague directamente a ella dentro de un curso que yo
+coordino es justo lo que no quiero que tengamos que explicar después.
+Por SEDA queda limpio.
 ```
 
-**Por qué conviene la ruta por SEDA, si todavía se puede elegir:** que la Sociedad sea la
-contraparte de Boehringer hace que el dinero farmacéutico llegue a la plataforma a través
-de la institución que organiza el curso, y no directamente a una empresa vinculada a la
-familia de quien lo coordina. Es la misma plata y el mismo servicio; cambia solo quién
-firma con quién. Y eso es justo lo que mira un revisor.
+### El beneficio que trae de regalo
+
+Si el pago va **Boehringer → SEDA → Omisalud**, hay una **factura de Omisalud a SEDA**.
+Ese papel es el mejor respaldo posible del expediente: acredita el servicio, el monto y
+que la operación se hizo entre la Sociedad y un proveedor, con precio y documento. Pídela
+y adjúntala. Vale más que cualquier párrafo explicativo.
+
+### Lo que sigue faltando, aparte de esto
+
+| Dato | Para qué |
+|---|---|
+| Tu vínculo exacto con Javier Carvelli | La palabra precisa en tu declaración. Por el apellido supongo que es tu esposo, pero **no lo doy por hecho** |
+| ¿Tienes participación societaria en Omisalud? | Ser cónyuge del gerente y ser socia son declaraciones distintas |
+| Tu número de cédula | La matriz lo tiene vacío y hace falta para tu propia declaración |
+| El monto del auspicio | El expediente pide declararlo |
+
+Con esos cuatro datos te dejo armada tu declaración de conflicto de interés completa y el
+apartado del expediente listo para firma.
