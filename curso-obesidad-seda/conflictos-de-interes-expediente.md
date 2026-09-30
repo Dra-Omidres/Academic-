@@ -311,3 +311,36 @@ dentro de seis meses.
 > contrato con MEDDI hub a.s. consignan **0992508663001**. No sé cuál corresponde a qué
 > ni si uno es un error de transcripción. **Verifícalo antes de que ese número entre en
 > un documento oficial** — en el expediente debe ir el que conste en el SRI.
+
+---
+
+## 9 · «Todo es con Omisalud, no conmigo directamente»
+
+**Es cierto y es valioso.** Contratos, factura y cobro son de la compañía; la Dra.
+Omidres no percibe pago personal alguno vinculado al curso. Eso está bien estructurado y
+**debe decirse en el expediente**, porque la favorece.
+
+**Pero no sustituye la declaración.** Una compañía limitada tiene personalidad jurídica
+propia — y precisamente por eso existen las declaraciones de conflicto de interés: para
+capturar los intereses **indirectos**. El dinero de Omisalud no es su dinero hoy, pero
+**el 50 % de lo que esa empresa gana y de lo que vale sí lo es**. Eso es, por definición,
+un interés económico indirecto.
+
+Y está en el propio formulario que ella diseñó para los 23 docentes:
+> *«participación societaria o acciones · cualquier otro beneficio económico o en especie»*
+
+Una declaración que dijera «no tengo vínculo personal, todo es con Omisalud» sería exacta
+en la letra e incompleta en el fondo. Además, la escritura está inscrita en el Registro
+Mercantil de Cuenca: es pública y cualquiera la consulta.
+
+### La fórmula que dice las dos cosas
+
+> La coordinadora académica no percibe remuneración alguna por la coordinación ni por la
+> docencia, ni recibe pago personal alguno vinculado al curso. Declara ser socia del 50 %
+> del capital social de Omisalud Cía. Ltda. y ejercer su Presidencia; la contratación,
+> facturación y cobro del uso de la plataforma se realizan íntegramente con la compañía y
+> en su cuenta corporativa nacional.
+
+**Lo que se declara no es que cobre — es que es dueña.** Son cosas distintas y las dos
+tienen que constar. Puestas juntas, y junto al hecho de que sus dos clases no abordan
+productos de ningún auspiciante, cierran el asunto en lugar de abrirlo.
