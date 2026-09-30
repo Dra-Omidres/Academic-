@@ -115,14 +115,32 @@ firmarla por SEDA**. Que otro de la directiva la evalúe, decida y suscriba, y q
 en acta que ella se excusó. Es media hora de trámite y es lo que convierte un conflicto
 en un conflicto bien gestionado.
 
-### Decisión 3 · El pago va a la cuenta de la empresa, no a la personal
+### ✅ Decisión 3 · RESUELTA — cobro en la cuenta corporativa
 
-Existe una autorización notariada para que los pagos a Omisalud se reciban en la cuenta
-personal de la Dra. Omidres en Bank of America. **Para esta operación, no usarla.** Que
-la factura de Omisalud se cobre en la cuenta corporativa ecuatoriana. Es legal de las dos
-formas; **solo una se puede explicar sin incomodidad.**
+**La Dra. Omidres confirma el 30/09: el pago se cobra en la cuenta corporativa de
+Omisalud Cía. Ltda. en Produbanco, Ecuador.**
 
----
+Es la decisión correcta y cierra el punto. La autorización notariada que permite recibir
+pagos de Omisalud en su cuenta personal de Bank of America **queda sin usarse en esta
+operación**, que era justamente lo que había que evitar: dinero de un laboratorio
+entrando a la cuenta personal de quien coordina el curso.
+
+Para el expediente: **factura de Omisalud Cía. Ltda., cobrada en cuenta corporativa
+nacional.** Adjuntar la factura es el mejor respaldo documental que puede llevar el
+apartado de auspicios — acredita servicio, monto, proveedor y cuenta.
+
+> ### ⚠️ Lo que esta decisión implica, y hay que confirmar
+> Si hay una factura y un cobro, **entonces la plataforma se paga y no se aporta**: la
+> **ruta A (aporte en especie) queda descartada en los hechos**, y estamos en B o en C.
+>
+> Eso hace que **la Decisión 2 deje de ser recomendable y pase a ser obligatoria**: si
+> SEDA contrata la plataforma, la Dra. Omidres tiene que excusarse por escrito de esa
+> decisión. Es lo único que separa «proveedor familiar contratado con transparencia» de
+> «se autocontrató».
+>
+> Y sigue abierta la pregunta de la ruta: **¿Boehringer paga a SEDA y SEDA paga la
+> factura, o Boehringer paga la factura directamente?** Con cobro en cuenta corporativa,
+> la ruta C es menos grave que antes, pero la B sigue siendo la que se lee mejor.
 
 ## 4 · Lo que SEDA tiene que saber por escrito
 
@@ -240,15 +258,21 @@ curso que yo coordino es, en la mitad, mía.
 No hay nada irregular en eso, pero sí hay dos cosas que quiero dejar
 resueltas antes y no después:
 
-1. Lo más limpio es que Omisalud aporte la plataforma sin costo, y que
-   el auspicio de Boehringer se destine a certificación, diseño y tasas
-   del aval. Así ningún dinero de un laboratorio entra a una empresa mía
-   dentro de un curso que yo coordino. Yo lo propongo y lo asumo.
+1. Me excuso formalmente de la decisión de contratar la plataforma. Que
+   la evalúe, la decida y la firme otro de la directiva, y que quede en
+   acta que yo no participé. No puedo estar de los dos lados de esa
+   mesa, y no quiero que nadie tenga que preguntárselo.
 
-2. Si prefieren que SEDA contrate la plataforma, adelante — pero con
-   contrato, factura y precio de mercado, y yo me excuso de esa decisión.
-   Que la evalúe, la decida y la firme otro de la directiva, y que quede
-   en acta que yo no participé.
+2. El cobro va con factura de Omisalud a la cuenta corporativa de la
+   empresa en Produbanco, aquí en Ecuador. Ni a cuentas personales ni al
+   exterior. La factura se adjunta al expediente.
+
+3. Sobre la ruta: prefiero que el auspicio de Boehringer entre a SEDA y
+   que la Sociedad pague la factura, y no que el laboratorio le pague
+   directamente a Omisalud. Es la misma plata y el mismo servicio, pero
+   con SEDA de contraparte se lee como lo que es. Y entiendo que a los
+   laboratorios les resulta más simple, porque SEDA ya está registrada
+   como proveedor.
 
 Sea cual sea la opción, va declarada con nombre y porcentaje en el
 expediente del aval y en mi propia declaración de conflicto de interés.
