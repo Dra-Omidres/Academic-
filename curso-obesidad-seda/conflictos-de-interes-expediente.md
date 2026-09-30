@@ -344,3 +344,42 @@ Mercantil de Cuenca: es pública y cualquiera la consulta.
 **Lo que se declara no es que cobre — es que es dueña.** Son cosas distintas y las dos
 tienen que constar. Puestas juntas, y junto al hecho de que sus dos clases no abordan
 productos de ningún auspiciante, cierran el asunto en lugar de abrirlo.
+
+---
+
+## 10 · Estado del apartado: ruta B, pendiente de una línea
+
+**La Dra. Omidres, 30/09: «seguramente el lab paga a SEDA y SEDA a Omisalud».**
+
+Se adopta la **ruta B** como versión de trabajo del expediente. Es coherente con todo lo
+demás: SEDA ya está registrada como proveedor de los laboratorios, dar de alta a Omisalud
+sería engorroso, y es la estructura que mejor se lee.
+
+> **Pero «seguramente» sigue siendo de ella, no de Liz.** El párrafo queda redactado y
+> listo; **no se entrega hasta que la Dra. Ruilova lo confirme por escrito**. Una línea
+> basta, y la pregunta ya está incluida en el texto del apartado 7.
+
+### Cómo queda el apartado, con la ruta B
+
+> El curso se dicta en la plataforma saludelearning.com, operada por Omisalud Cía. Ltda.
+> (RUC 0190491641001), compañía de la cual la coordinadora académica, Dra. Omidres Pérez
+> de Carvelli, es socia con el 50 % del capital social y ejerce la Presidencia. La
+> Sociedad de Endocrinología y Diabetes del Austro contrata el uso de la plataforma por
+> un valor de USD [monto], con cargo al auspicio de Boehringer Ingelheim, mediante
+> factura emitida por Omisalud Cía. Ltda. y cancelada en su cuenta corporativa nacional.
+> La coordinadora académica se excusó de participar en la deliberación y en la decisión
+> de contratación, adoptada y suscrita por [nombre y cargo] en representación de la
+> Sociedad. No percibe remuneración alguna por la coordinación ni por la docencia, ni
+> recibe pago personal alguno vinculado al curso.
+
+### Lo único que falta para cerrarlo
+
+| Falta | De quién | Cómo se pide |
+|---|---|---|
+| Confirmación de la ruta B | Liz | Ya está en el texto del apartado 7 |
+| Monto del auspicio destinado a la plataforma | Liz | En el mismo mensaje |
+| Nombre y cargo de quien decide y firma por SEDA | Liz o Pablo | En el mismo mensaje |
+| Vínculos personales con Boehringer, Elea o Saval en 24 meses | La Dra. Omidres | Para su propia declaración |
+
+Con esos cuatro datos, el apartado del expediente y la declaración de conflicto de
+interés de la coordinadora quedan listos para firma el mismo día.
