@@ -223,9 +223,9 @@ falta confirmar.*
 > El curso se dicta en la plataforma saludelearning.com, operada por Omisalud Cía. Ltda.
 > (RUC 0190491641001), compañía de la cual la coordinadora académica, Dra. Omidres Pérez
 > de Carvelli, es socia con el 50 % del capital social y ejerce la Presidencia. La
-> Sociedad de Endocrinología y Diabetes del Austro contrata el uso de la plataforma por
-> un valor de USD [___], con cargo al auspicio de Boehringer Ingelheim [conforme a
-> contrato suscrito el ___ y factura N.º ___]. **La coordinadora académica se excusó de
+> Sociedad de Endocrinología y Diabetes del Austro contrata el uso de la plataforma con
+> cargo al auspicio de Boehringer Ingelheim [conforme a contrato suscrito el ___ y
+> factura N.º ___]. **La coordinadora académica se excusó de
 > participar en la deliberación y en la decisión de contratación, que fue adoptada y
 > suscrita por [nombre y cargo] en representación de la Sociedad**, conforme consta en
 > [acta / comunicación] de fecha [___].
@@ -302,7 +302,7 @@ dentro de seis meses.
 **Todavía faltan:**
 
 1. **Cuál de las dos rutas** se adopta (decisión de SEDA)
-2. **El monto del auspicio** de Boehringer y si hay contrato firmado
+2. **Si hay contrato firmado** del auspicio, para poder adjuntarlo como respaldo
 3. Sus **vínculos personales** con Boehringer, Elea o Saval en los últimos 24 meses, si
    los hay — honorarios por conferencias, consultoría, consejos asesores, investigación
 
@@ -364,9 +364,9 @@ sería engorroso, y es la estructura que mejor se lee.
 > El curso se dicta en la plataforma saludelearning.com, operada por Omisalud Cía. Ltda.
 > (RUC 0190491641001), compañía de la cual la coordinadora académica, Dra. Omidres Pérez
 > de Carvelli, es socia con el 50 % del capital social y ejerce la Presidencia. La
-> Sociedad de Endocrinología y Diabetes del Austro contrata el uso de la plataforma por
-> un valor de USD [monto], con cargo al auspicio de Boehringer Ingelheim, mediante
-> factura emitida por Omisalud Cía. Ltda. y cancelada en su cuenta corporativa nacional.
+> Sociedad de Endocrinología y Diabetes del Austro contrata el uso de la plataforma con
+> cargo al auspicio de Boehringer Ingelheim, mediante factura emitida por Omisalud Cía.
+> Ltda. y cancelada en su cuenta corporativa nacional.
 > La coordinadora académica se excusó de participar en la deliberación y en la decisión
 > de contratación, adoptada y suscrita por [nombre y cargo] en representación de la
 > Sociedad. No percibe remuneración alguna por la coordinación ni por la docencia, ni
@@ -377,7 +377,6 @@ sería engorroso, y es la estructura que mejor se lee.
 | Falta | De quién | Cómo se pide |
 |---|---|---|
 | Confirmación de la ruta B | Liz | Ya está en el texto del apartado 7 |
-| Monto del auspicio destinado a la plataforma | Liz | En el mismo mensaje |
 | Nombre y cargo de quien decide y firma por SEDA | Liz o Pablo | En el mismo mensaje |
 | Vínculos personales con Boehringer, Elea o Saval en 24 meses | La Dra. Omidres | Para su propia declaración |
 
@@ -501,3 +500,30 @@ Sin nombrarlos, los docentes declaran sus vínculos a ciegas: quien sea conferen
 Boehringer puede no caer en que es relevante para este curso. El formulario sigue
 sirviendo —pregunta por todos los vínculos, no por algunos—, pero pierde la señal que
 hacía que la persona correcta se acordara. Queda anotado; la decisión es de ella.
+
+---
+
+## 14 · Decisión del 03/10: el monto del auspicio no se declara
+
+**La Dra. Omidres: «no digas nada en el correo de declaración de montos, ya que aquí no
+acostumbran eso».**
+
+**Y tiene razón también frente a la Universidad.** Conviene no confundir dos cifras
+distintas:
+
+| Cifra | ¿La pide la Comisión? | ¿Va en el expediente? |
+|---|---|---|
+| **El costo de inscripción** — 15 / 30 / 40 | **Sí**, expresamente: «hay que declarar el costo» | **Sí** |
+| **El monto del auspicio** de Boehringer | **No.** La Comisión pidió «la entidad auspiciante si la hubiere», no cuánto aporta | **No** |
+
+Así que la cifra del auspicio sale del correo a Liz **y del apartado de transparencia**.
+Lo que queda declarado es *quién* auspicia y *cómo* se estructura el pago de la
+plataforma, sin número.
+
+**Lo que sigue haciendo falta de Liz** es solo la **ruta**: si el auspicio entra a SEDA y
+la Sociedad paga la factura, o si Boehringer paga directamente. Eso cambia cómo se
+redacta la frase, y no es una cifra.
+
+**La factura de Omisalud** se sigue adjuntando al expediente como respaldo del servicio y
+del proveedor. Si prefiere no adjuntarla por el mismo criterio, se dice y se quita: el
+apartado se sostiene igual, solo pierde el respaldo documental.
