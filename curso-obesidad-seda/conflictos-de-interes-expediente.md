@@ -456,3 +456,48 @@ relación es con SEDA, sociedad organizadora. Últimos 24 meses: sin vínculo.
 Declarar el segundo vínculo aunque sea negativo **es deliberado**: deja constancia
 expresa de que se revisó y de que no lo hay, en lugar de dejar un silencio que alguien
 tenga que interpretar.
+
+---
+
+## 13 · Decisión del 03/10: los auspiciantes no se nombran ante los docentes
+
+**La Dra. Omidres: «no pongamos a los auspiciantes, aquí usualmente no lo hacen»**, y
+después, sobre el formulario: **«sin auspiciantes»**.
+
+### Qué se revirtió
+
+El 30/09 se había añadido al formulario un párrafo que nombraba a Boehringer Ingelheim,
+Elea y Saval y pedía declarar los vínculos con ellos. **Ese párrafo se quitó** de
+`SEDA_Declaracion_Conflicto_Interes.docx` el 03/10. El formulario vuelve a su forma
+original: pide declarar vínculos de los últimos 24 meses —honorarios por conferencias,
+consultoría, consejos asesores, investigación, participación societaria— **sin acotar con
+quién**.
+
+También salió del mensaje al grupo de ponentes. La Dra. Adriana Álvarez tiene la versión
+original, de modo que **ya no hay que reenviarle nada**.
+
+### Dónde siguen estando, y por qué
+
+| Documento | ¿Los nombra? | Por qué |
+|---|---|---|
+| Formulario de COI de los docentes | **No** | Decisión de la Dra. Omidres |
+| Mensaje al grupo de ponentes | **No** | Decisión de la Dra. Omidres |
+| **Expediente del aval** | **Sí** | **La Comisión los pidió expresamente** |
+| Declaración de COI de la coordinadora | Sí, en una fila | Ver abajo |
+
+**El expediente no es discrecional.** La respuesta de la Dra. Aguirre del 29/09 pide
+declarar el costo y «la entidad auspiciante si la hubiere». Omitirlos sería responder en
+falso a una pregunta de la Universidad, en un documento que firma la presidencia de SEDA.
+Ahí se quedan.
+
+**En la declaración propia de la Dra. Omidres se mantiene una fila** que dice que *no*
+tiene vínculo personal con ninguno de los tres. Se dejó a propósito: es una declaración
+de ausencia que la favorece, y acredita que el punto se revisó en lugar de dejar un
+silencio. **Si prefiere quitarla, se quita en un minuto.**
+
+### El costo de la decisión, dicho una sola vez
+
+Sin nombrarlos, los docentes declaran sus vínculos a ciegas: quien sea conferencista de
+Boehringer puede no caer en que es relevante para este curso. El formulario sigue
+sirviendo —pregunta por todos los vínculos, no por algunos—, pero pierde la señal que
+hacía que la persona correcta se acordara. Queda anotado; la decisión es de ella.
