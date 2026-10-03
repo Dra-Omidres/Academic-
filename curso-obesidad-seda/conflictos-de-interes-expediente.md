@@ -224,8 +224,7 @@ falta confirmar.*
 > (RUC 0190491641001), compañía de la cual la coordinadora académica, Dra. Omidres Pérez
 > de Carvelli, es socia con el 50 % del capital social y ejerce la Presidencia. La
 > Sociedad de Endocrinología y Diabetes del Austro contrata el uso de la plataforma con
-> cargo al auspicio de Boehringer Ingelheim [conforme a contrato suscrito el ___ y
-> factura N.º ___]. **La coordinadora académica se excusó de
+> cargo al auspicio de Boehringer Ingelheim [conforme a contrato suscrito el ___]. **La coordinadora académica se excusó de
 > participar en la deliberación y en la decisión de contratación, que fue adoptada y
 > suscrita por [nombre y cargo] en representación de la Sociedad**, conforme consta en
 > [acta / comunicación] de fecha [___].
@@ -524,6 +523,11 @@ plataforma, sin número.
 la Sociedad paga la factura, o si Boehringer paga directamente. Eso cambia cómo se
 redacta la frase, y no es una cifra.
 
-**La factura de Omisalud** se sigue adjuntando al expediente como respaldo del servicio y
-del proveedor. Si prefiere no adjuntarla por el mismo criterio, se dice y se quita: el
-apartado se sostiene igual, solo pierde el respaldo documental.
+**La factura de Omisalud no se adjunta por ahora** (decisión de la Dra. Omidres, 03/10:
+*«no la adjuntes aún»*). Lleva el monto, y aplica el mismo criterio. El apartado se
+sostiene igual sin ella: declara quién auspicia, quién opera la plataforma, el 50 % de la
+coordinadora y su excusa de la decisión.
+
+Queda **disponible, no descartada**: si la Comisión pidiera un respaldo del gasto o de la
+contratación, la factura existe y se entrega en ese momento. Conviene tenerla emitida y
+archivada aunque no viaje con el expediente.
