@@ -9,6 +9,20 @@ un día que diez mensajes individuales.
 **Pídele a Liz que lo refuerce desde la presidencia.** Ya se lo pediste en el correo de
 hoy; un «por favor, apóyenla» suyo en el grupo cambia el ritmo de respuesta.
 
+> ### Decisión de la Dra. Omidres, 03/10: los auspiciantes no se nombran aquí
+>
+> *«No pongamos a los auspiciantes, aquí usualmente no lo hacen.»* El párrafo que
+> explicaba a los docentes el auspicio de Boehringer, Elea y Saval **sale del mensaje al
+> grupo**. Es su decisión y es razonable: en el medio local no es costumbre.
+>
+> **Lo que no sale es del expediente.** La Dra. Aguirre pidió expresamente declarar el
+> costo y «la entidad auspiciante si la hubiere» (respuesta del 29/09). Ahí no es una
+> buena práctica opcional: es una pregunta de la Universidad que el expediente tiene que
+> responder con la verdad.
+>
+> **Queda por decidir** si el formulario de conflicto de interés sigue nombrándolos. Ver
+> la nota al final.
+
 ---
 
 ## Mensaje
@@ -47,31 +61,11 @@ prefiero que me lo reclamen a que se pierda.
 
 ————
 
-*Dos cosas más, que les debo:*
-
-*Sobre el formulario de conflicto de interés.* Van a ver que ahora nombra
-a tres laboratorios. Les cuento por qué: el curso tiene el auspicio de
-Boehringer Ingelheim, Elea y Saval. Cuando le escribí a cada uno de
-ustedes todavía no lo sabía, y prefiero decírselo yo ahora y no que lo
-vean en la plataforma o en el certificado.
-
-Quiero ser clara en lo que esto significa y en lo que no:
-
-  • La participación docente sigue siendo ad honorem. La mía incluida.
-  • Los auspiciantes *no* eligen docentes, *no* eligen temas y *no*
-    revisan ninguna clase antes de publicarse. Eso va escrito en el
-    expediente y se les va a decir también a los inscritos.
-  • A quienes dan clases de farmacología les voy a pedir, además,
-    denominación genérica —principios activos, no marcas— y evidencia
-    comparada de la clase terapéutica completa, no de una sola molécula.
-  • Por eso el formulario les pide declarar si tienen vínculos con esos
-    tres laboratorios. *Tener vínculos no es ningún problema* y es
-    normalísimo en nuestro medio. El problema sería no declararlos.
-
-*Sobre cómo se graba.* Les estoy preparando un video tutorial con todo:
-cómo grabar en Zoom paso a paso, cómo acomodar la luz y la cámara, y qué
-hacer con el archivo al final. Va con una guía en PDF y con el fondo
-institucional del curso. Se los anclo aquí en cuanto esté.
+*Y una cosa más:* les estoy preparando un video tutorial con todo lo de
+la grabación —cómo grabar en Zoom paso a paso, cómo acomodar la luz y la
+cámara, y qué hacer con el archivo al final—. Va con una guía en PDF y
+con el fondo institucional del curso, que es el mismo para todos. Se los
+anclo aquí en cuanto esté.
 
 ————
 
@@ -94,3 +88,28 @@ Omidres 🤍
 
 A **Chen Ku** solo le falta la foto: un mensaje privado de una línea lo deja completo, y
 tener 1 de 23 cerrado ayuda a contar.
+
+
+---
+
+## Pendiente de decidir: el formulario de conflicto de interés
+
+El 30/09 actualicé `SEDA_Declaracion_Conflicto_Interes.docx` para que nombrara a
+Boehringer, Elea y Saval y pidiera declarar los vínculos con ellos. **Eso se puede
+revertir**, pero conviene decidirlo a sabiendas, porque es un canal distinto del
+mensaje al grupo:
+
+**Si los nombra** — cada docente ve con quién debe contrastar sus propios vínculos. El
+que es conferencista de Boehringer lo recuerda y lo declara. Es lo que hace que el
+documento sirva de algo.
+
+**Si no los nombra** — el formulario pide igual «participación societaria, honorarios por
+conferencias, consultoría…» de los últimos 24 meses, sin acotar con quién. Se declara a
+ciegas: quien tenga vínculo con los tres puede no caer en que es relevante.
+
+Como el formulario **va dentro del expediente**, donde los auspiciantes sí están
+declarados, nombrarlos ahí no añade exposición: la Universidad ya los va a ver en el
+documento principal.
+
+**Dime cuál prefieres y lo dejo así en diez minutos.** Solo una persona lo devolvió
+firmado, así que todavía estamos a tiempo de cualquiera de las dos.
