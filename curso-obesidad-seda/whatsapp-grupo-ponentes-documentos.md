@@ -42,19 +42,25 @@ cuerpo docente. De los 23 que somos, hoy tengo:
 
 Sin eso no hay expediente que entregar, y sin expediente no hay aval.
 
-*Lo que necesito de cada uno — son cuatro cosas:*
+*Les dejo todo en un solo enlace*, para que no tengan que mandarme nada
+por partes ni buscar mi correo:
 
-  1. Hoja de vida resumida. *En el formato que ustedes tengan.* La
-     Universidad respondió expresamente que no exige ninguno.
-  2. Una fotografía profesional.
-  3. Copia de la cédula, o del pasaporte si ejercen fuera de Ecuador.
-  4. La declaración de conflicto de interés firmada. Les adjunto el
-     formulario actualizado aquí mismo.
+👉 https://forms.gle/Xg7JRjNWqTNDeZWL8
 
-Todo a: *info@draomidresperez.com*
+Son cuatro cosas y se tarda menos de cinco minutos:
 
-*Mi fecha es el martes 7.* Si les llega apretado, díganmelo y lo vemos,
+  1. Hoja de vida — *en el formato que tengan*, la Universidad no exige
+     ninguno
+  2. Una fotografía profesional
+  3. Copia de la cédula, o del pasaporte si ejercen fuera de Ecuador
+  4. La declaración de conflicto de interés firmada — el formulario para
+     llenar está anclado aquí arriba
+
+*Mi fecha es el martes 6.* Si les llega apretado, díganmelo y lo vemos,
 pero necesito saberlo, no quedarme esperando.
+
+Si el enlace les da problema o prefieren mandármelo por correo, también
+sirve: *info@draomidresperez.com*
 
 Si alguno ya me envió algo y no aparece en mi lista, por favor avísenme:
 prefiero que me lo reclamen a que se pierda.

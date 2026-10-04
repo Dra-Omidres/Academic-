@@ -1,5 +1,15 @@
 # Formulario de documentos — guía paso a paso
 
+> ## ✅ HECHO — 4 de octubre de 2026
+> **El formulario está montado y en marcha: https://forms.gle/Xg7JRjNWqTNDeZWL8**
+>
+> Lo que queda de esta guía sirve como referencia de cómo quedó configurado y por si hay
+> que ajustar algún campo.
+>
+> **Pendiente de comprobar por la Dra. Omidres:** abrir el enlace en una ventana de
+> incógnito y confirmar que no está restringido a un dominio. *Desde esta sesión no se
+> pudo verificar: el proxy de red bloquea forms.gle.*
+
 **Para qué:** que los 23 docentes suban CV, foto, cédula y declaración firmada en un solo
 sitio, sin que tengas que perseguir a nadie ni ir anotando quién mandó qué.
 **Tiempo:** unos 10 minutos.
@@ -191,7 +201,7 @@ Reemplaza el bloque de «lo que necesito de cada uno» del mensaje que te prepar
 *Les dejo todo en un solo enlace*, para que no tengan que mandarme nada
 por partes ni buscar mi correo:
 
-👉 [ENLACE DEL FORMULARIO]
+👉 https://forms.gle/Xg7JRjNWqTNDeZWL8
 
 Son cuatro cosas y se tarda menos de cinco minutos:
 
@@ -202,7 +212,7 @@ Son cuatro cosas y se tarda menos de cinco minutos:
   4. La declaración de conflicto de interés firmada — el formulario está
      anclado aquí arriba
 
-*Mi fecha es el martes 7.*
+*Mi fecha es el martes 6.*
 
 Si el enlace les da problema o prefieren mandármelo por correo, también
 sirve: info@draomidresperez.com
