@@ -33,41 +33,48 @@ y un nombre sin hoja de vida ni declaración es un nombre que no se puede declar
 
 ## 1 · A la Lcda. Daniela Vintimilla — la vía que funciona
 
-Ella trajo a Machado y a Gabriela Molina. Molina respondió; Machado no. Vintimilla es
-quien puede desbloquearlo en una llamada.
+Ella trajo a la Dra. Machado y a la Lcda. Gabriela Molina. Molina respondió y ya está en
+el grupo; Machado no. **Vintimilla es quien puede desbloquearlo en una llamada.**
+
+> **Registro: de usted.** Es Directora de la Carrera de Nutrición de la Universidad de
+> Cuenca y toda la relación se ha llevado así, incluido el mensaje formal del 23/09. No
+> tutear.
 
 ```
-Daniela, querida, ¿cómo estás? 🌿
+Lcda. Vintimilla, muy buenos días.
 
-Te escribo por lo de la Dra. Gabriela Machado, la que amablemente aceptó
-el tema de nutrición durante las terapias para obesidad.
+Le escribo por la Dra. Gabriela Machado, a quien usted amablemente nos
+presentó para el tema de nutrición durante las terapias para obesidad.
 
-Le escribí para pasarle los detalles y no he tenido respuesta. Como ella
-y yo no nos conocemos, me imagino que mi mensaje le llegó como el de una
-desconocida y se le quedó para después — nada raro, nos pasa a todas.
+Le escribí para hacerle llegar los detalles y no he tenido respuesta.
+Como la Dra. Machado y yo no nos conocemos, imagino que mi mensaje le
+llegó como el de una desconocida y se le quedó pendiente, lo cual es
+perfectamente comprensible.
 
-¿Me podrías dar un empujoncito? Con que le digas que soy yo la que
-coordina y que de verdad contamos con ella, seguro se destraba.
+¿Tendría usted la amabilidad de darle un empujoncito? Creo que con que
+ella sepa que soy yo quien coordina el curso y que de verdad contamos
+con su participación, se destraba.
 
-Lo que necesito de ella es poco: que confirme que sigue dentro, y la hoja
-de vida, una foto, la cédula y la declaración de conflicto de interés
-firmada, que es lo que la Universidad pide para el aval. Todo lo puede
-subir aquí en cinco minutos:
+Lo que necesito de ella es poco: que me confirme que sigue dentro, y su
+hoja de vida, una fotografía, la cédula y la declaración de conflicto de
+interés firmada, que es lo que la Universidad exige para el expediente
+del aval. Todo lo puede subir aquí en cinco minutos:
 👉 https://forms.gle/Xg7JRjNWqTNDeZWL8
 
-Te pido algo más y perdona la franqueza: *el expediente entra en el
-Decanato el jueves*. Si para el miércoles no logramos contacto, voy a
-tener que darle la clase a otra persona, y preferiría muchísimo no
+Y le comparto con franqueza el apuro: *el expediente se entrega en el
+Decanato este jueves*. Si para el miércoles no logramos contacto, voy a
+tener que asignar esa clase a otra persona, y preferiría muchísimo no
 hacerlo.
 
-Por cierto, la Lcda. Gabriela Molina respondió todo divino y ya está en
-el grupo. Mil gracias por las dos 🤍
+Aprovecho para contarle que la Lcda. Gabriela Molina respondió todo muy
+puntualmente y ya está integrada al grupo de ponentes. Mil gracias por
+las dos recomendaciones: las dos eran excelentes.
 
-Un abrazo grande,
-Omidres
+Quedo muy atenta y le agradezco de antemano.
+
+Un cordial saludo,
+Dra. Omidres Pérez de Carvelli
 ```
-
----
 
 ## 2 · A la Dra. Machado — el mensaje que sí se contesta
 
