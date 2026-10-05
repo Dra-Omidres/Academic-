@@ -14,7 +14,7 @@ juntos los de una misma persona y se vea de un vistazo quién está completo.
 | Docente | Hoja de vida | Fotografía | Identidad | Declaración COI |
 |---|:---:|:---:|:---:|:---:|
 | Dr. Chih Hao Chen Ku · Costa Rica | ✅ | ✅ | ✅ pasaporte | ✅ *(22/09)* |
-| Dra. Janneth Bermeo Cabrera | ✅ | — | ✅ cédula 0104851001 | ✅ |
+| Dra. Marcia Janneth Bermeo Cabrera | ✅ | — | ✅ cédula, ambas caras | ✅ |
 | Dra. Johanna Piedra Bravo | ✅ | — | — | — |
 | Dra. Lizbet Ruilova González | ✅ | — | — | — |
 | Dra. Josefa Palacio Riofrío | ✅ | — | — | — |
@@ -24,8 +24,10 @@ juntos los de una misma persona y se vea de un vistazo quién está completo.
 ## Datos que estos documentos aportaron a la matriz
 
 - **Dra. Bermeo** — nombre completo *Marcia Janneth Bermeo Cabrera* · cédula
-  **0104851001** · Endocrinología, enfermedades tiroideas y Medicina Interna · Hospital
-  del Río, Cuenca · `jbendocrino@hotmail.com`. Marcó **sin conflictos de interés**.
+  **0104851001**, verificada contra la copia del documento (ambas caras archivadas) ·
+  Endocrinología, enfermedades tiroideas y Medicina Interna · Hospital del Río, Cuenca ·
+  `jbendocrino@hotmail.com`. Marcó **sin conflictos de interés**. En la matriz figuraba
+  como «Janneth Bermeo Cabrera»; se corrige al nombre completo del documento.
 - **Dra. Ruilova** — `lizrg@hotmail.com` · SOLCA Cuenca, Hospital Monte Sinaí y
   Universidad de Cuenca.
 - **Dr. Chen Ku** — pasaporte de Costa Rica archivado. *El PDF es un escaneo sin texto
@@ -36,7 +38,7 @@ juntos los de una misma persona y se vea de un vistazo quién está completo.
 
 | Docente | Falta |
 |---|---|
-| Dra. Bermeo | fotografía |
+| Dra. Bermeo | **solo la fotografía** |
 | Dra. Piedra | fotografía · cédula · declaración firmada |
 | Dra. Ruilova | fotografía · cédula · declaración firmada |
 | Dra. Palacio | fotografía · cédula · declaración firmada · correo |
