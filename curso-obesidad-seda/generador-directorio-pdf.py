@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """Directorio de ponentes para la gestión documental del aval. Herramienta de trabajo
 para la Srta. Natalia (RRSS SEDA): a quién le falta qué y cómo contactarla."""
-import openpyxl
+import openpyxl, unicodedata, re
+from difflib import SequenceMatcher
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
 from reportlab.lib import colors
@@ -49,14 +50,29 @@ W=doc.width
 w=openpyxl.load_workbook('SEDA_Matriz_Ponentes_Curso_Obesidad.xlsx')
 m=w['Matriz 28 clases']; p=w['Ponentes - datos aval']
 mods=['M1']*4+['M2']*4+['M3']*4+['M4']*4+['M5']*4+['M6']*4+['M7']*4
+
+# --- emparejamiento de nombres -------------------------------------------
+# No basta con el ultimo apellido: hay dos Molina, dos Cabrera y dos Gonzalez
+# en la lista, y asi las clases se cruzaban de persona. Se comparan los
+# nombres completos token a token, tolerando variantes de escritura
+# (Janeth/Janneth, Palacios/Palacio) y se asigna cada clase a quien mas
+# coincide.
+TITULOS={'dr','dra','lcda','lcdo','msc','m','sc','mg','mgtr','de','del','la','y'}
+def tokens(s):
+    s=unicodedata.normalize('NFKD', str(s)).encode('ascii','ignore').decode().lower()
+    return {t for t in re.findall(r'[a-z]+', s) if t not in TITULOS and len(t)>1}
+def parecido(a,b):
+    return a==b or SequenceMatcher(None,a,b).ratio()>=0.85
+def puntaje(ta,tb):
+    return sum(1 for a in ta if any(parecido(a,b) for b in tb))
+
 clases={}
 i=0
 for r in range(3,31):
     if not m.cell(r,3).value: continue
     cod='%s·C%d'%(mods[i], i%4+1); i+=1
-    n=str(m.cell(r,5).value)
-    if str(m.cell(r,6).value)!='VACANTE':
-        clases.setdefault(n.split()[-1], []).append(cod)
+    if str(m.cell(r,6).value)=='VACANTE': continue
+    clases.setdefault(str(m.cell(r,5).value), []).append(cod)
 
 gente=[]
 r=4
@@ -66,8 +82,22 @@ while p.cell(r,2).value:
     gente.append({'n':n,'esp':p.cell(r,3).value,'tel':p.cell(r,6).value,'mail':p.cell(r,5).value,
                   'ced':p.cell(r,7).value,'cv':si(p.cell(r,10).value),'fo':si(p.cell(r,11).value),
                   'co':si(p.cell(r,12).value),
-                  'cl':', '.join(clases.get(n.split()[-1], ['—']))})
+                  'cl':''})
     r+=1
+
+# cada clase se adjudica al docente cuyo nombre mas se le parece
+for nombre_clase, cods in clases.items():
+    tc=tokens(nombre_clase)
+    mejor, mejor_p = None, 0
+    for g in gente:
+        p=puntaje(tc, tokens(g['n']))
+        if p>mejor_p: mejor, mejor_p = g, p
+    if mejor is None:
+        raise SystemExit('Sin docente para la clase de %s' % nombre_clase)
+    mejor.setdefault('cods', []).append((cods, nombre_clase))
+for g in gente:
+    cods=[c for par in g.get('cods', []) for c in par[0]]
+    g['cl']=', '.join(sorted(cods)) if cods else '—'
 
 tot_cv=sum(1 for g in gente if g['cv']); tot_fo=sum(1 for g in gente if g['fo'])
 tot_co=sum(1 for g in gente if g['co']); tot_ml=sum(1 for g in gente if g['mail'])
