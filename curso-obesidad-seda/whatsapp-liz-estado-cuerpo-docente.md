@@ -2,6 +2,10 @@
 
 **Al `+593 99 907 3471`** · 5 de octubre de 2026
 
+**Actualizado:** la Dra. Villavicencio declinó pero recomendó a otras personas · los
+«tú» pasan a nombrar a la Dra. Ruilova · se añade la petición de autonomía para
+contactar ponentes.
+
 Formateado para WhatsApp: sin tablas, con los asteriscos de negrita que la app
 interpreta, y partido para que se lea de corrido en el teléfono.
 
@@ -14,7 +18,7 @@ la mano 🌿
 *25 de 28 clases cerradas.* Te marco al final las tres que no lo están.
 
 *MÓDULO 1 — Obesidad: concepto y evaluación*
-1. Epidemiología y nuevos conceptos — tú
+1. Epidemiología y nuevos conceptos — Lizbet Ruilova
 2. Fisiopatología moderna de la obesidad — Pablo Vanegas
 3. Evaluación integral del paciente — María Augusta Astudillo
 4. Composición corporal y sarcopenia — Adriana González
@@ -41,7 +45,7 @@ la mano 🌿
 1. Nutrición de precisión en diabetes y obesidad — Gabriela Molina
 2. Estrategias nutricionales basadas en evidencia — *SIN PONENTE* ❌
 3. Nutrición durante las terapias para obesidad — Gabriela Machado ⚠️
-4. Composición corporal y sarcopenia en diabetes — tú
+4. Composición corporal y sarcopenia en diabetes — Lizbet Ruilova
 
 *MÓDULO 6 — Complicaciones*
 1. Enfermedad renal — Valeria Andrade
@@ -60,9 +64,9 @@ la mano 🌿
 *LAS TRES QUE NO ESTÁN CERRADAS*
 
 ❌ *M5·C2 — Estrategias nutricionales basadas en evidencia.* Vacante.
-Villavicencio no respondió, la Carrera de Nutrición de la U. Cuenca no la
-tomó, y María Augusta Vásquez me dijo hoy que no puede. Si se te ocurre
-alguien, te lo agradezco.
+Gaby Villavicencio declinó, aunque muy amablemente me recomendó a otras
+personas. La Carrera de Nutrición de la U. Cuenca no la tomó, y María
+Augusta Vásquez me dijo hoy que no puede.
 
 ⚠️ *M5·C3 — Gabriela Machado.* No me responde. Le pedí a Daniela
 Vintimilla que me ayude. Si el miércoles no aparece, hay que reasignar.
@@ -78,6 +82,18 @@ en el título del curso.
 
 Para el expediente no es un impedimento —una clase sin ponente se declara
 como está— pero preferiría entregarlo completo.
+
+*Y te quiero pedir algo:* ¿me das vía libre para buscar ponentes por mi
+cuenta?
+
+Te lo pido porque cada vez que se cae alguien, el ida y vuelta nos cuesta
+dos o tres días, y ya vamos tarde. Gaby Villavicencio me recomendó a
+varias personas y me gustaría poder escribirles directamente, igual que a
+quien se me ocurra que encaje.
+
+Por supuesto te consulto el nombre antes de cerrar nada, y nadie entra al
+programa sin que tú lo sepas. Lo que te pido es poder hacer el primer
+contacto sin esperar, para no perder días que ya no tenemos.
 
 Un abrazo 🤍
 ```
