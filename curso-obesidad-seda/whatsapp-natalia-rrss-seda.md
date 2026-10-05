@@ -64,6 +64,81 @@ está peor.
 
 ---
 
+## Mensaje — tono cercano, se conocen
+
+**Enviar el lunes por la mañana.** El correo salió el sábado 3 a las 22:14 y a alguien que
+lleva redes un correo de fin de semana se le entierra bajo todo lo del lunes.
+
+```
+¡Naty, buenos días! 🌿
+
+Te escribí el sábado por correo junto con Liz, pero los correos de fin de
+semana se entierran, así que te caigo por aquí también 😅
+
+Te cuento rápido: estamos sacando el aval de la Universidad de Cuenca
+para el curso de SEDA, y el expediente entra en el Decanato *este
+jueves*. Me faltan las fotos de los ponentes —*no tengo ni una de las
+23*— y 18 hojas de vida.
+
+Y ahí es donde tú me salvas la vida: como llevas las redes, seguro
+tienes guardados los retratos de casi todos de las jornadas y los
+simposios. *Si me pasas esa carpeta, me resuelves de un golpe lo que
+llevo dos semanas persiguiendo uno por uno.*
+
+Lo mismo con los CV que tengas archivados por ahí. En el formato que
+sea, no importa, la Universidad no exige ninguno en particular.
+
+Lo que no tengas lo persigo yo por el grupo, tranquila. No te quiero
+cargar con eso, solo no quiero pedirle a la gente lo que SEDA ya tiene
+guardado.
+
+¿Te llamo un ratito hoy? Con cinco minutos nos organizamos y te suelto 🙏
+
+¡Mil gracias, linda! Un abrazo grande 🤍
+```
+
+---
+
+## Los 23, y qué le falta a cada uno
+
+*Para pegárselo a Natalia en un segundo mensaje.*
+
+**Solo falta la foto (1)**
+- Dr. Chih Hao Chen Ku, M.Sc.
+
+**Falta foto y declaración; el CV ya lo tenemos (4)**
+- Dra. Johanna Piedra Bravo
+- Dra. Josefa Elizabeth Palacio Riofrío
+- Dra. Lizbet Yolanda Ruilova González
+- Dra. Janneth Bermeo Cabrera
+
+**Falta todo: CV, foto y declaración (18)**
+- Dra. Omidres Pérez de Carvelli
+- Dr. Pablo Vanegas
+- Lcda. Isabel Reinoso
+- Dra. María Augusta Astudillo
+- Dra. Gabriela Jiménez
+- Dr. Juan Molina
+- Dra. Valeria Andrade
+- Dra. Julia Castro
+- Dr. Cristian Castillo
+- Lcda. Gabriela Molina
+- Dra. Gabriela Machado
+- Dra. Adriana González
+- Dra. María Paz Castillo Cabrera
+- Dr. Frank Espinoza *(Perú)*
+- Dra. Teresa Cuatecontzi *(México)*
+- Dra. Adriana Mabel Álvarez *(Argentina)*
+- Dra. Ana María Gómez *(Colombia)*
+- Dr. Fabrizio Salas
+
+> **Nota para ti, no para ella:** tu propia fila está vacía en las tres columnas. Tu CV,
+> tu foto y tu declaración de conflicto de interés hacen falta igual que los de todos, y
+> la tuya es además la que tiene que declarar la plataforma. Es la única del paquete que
+> no puede pedir nadie más.
+
+---
+
 ## Mensaje
 
 ```
