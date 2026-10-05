@@ -16,14 +16,15 @@ Esa pregunta sale del mensaje.
 **Lo que sí queda por preguntar** es si Liz la conoce y le parece el perfil adecuado:
 M5 · C2 es nutrición clínica enfocada en diabetes, y es la última clase sin dueño.
 
-**Y se aprovecha para dos cosas más:** avisar de que la Dra. Machado no responde —el
-módulo 5 podría quedarse con dos huecos— y reclamar la hora del Zoom, que lleva dos días
-sin concretarse.
+**Y se aprovecha para avisar** de que la Dra. Machado no responde: el módulo 5 podría
+quedarse con dos huecos.
+
+*Lo del Zoom sale del mensaje por decisión de la Dra. Omidres.*
 
 ---
 
 ```
-Liz, ¿cómo estás? Tres cositas rápidas 🌿
+Liz, ¿cómo estás? Dos cositas rápidas 🌿
 
 *Una:* me falta cerrar la última clase sin dueño, la de estrategias
 nutricionales basadas en evidencia, en el módulo 5. Pensaba escribirle a
@@ -47,10 +48,6 @@ miércoles no aparece, el módulo 5 se me queda con *dos* clases sin
 ponente, y es justo el de nutrición clínica, que está en el título del
 curso.
 
-*Y tres:* ¿cómo quedamos con el Zoom? Dime hora y te mando el enlace.
-Tengo listo todo lo que te quería plantear y son cuarenta minutos. Es lo
-que me falta para poder redactar el expediente.
-
 ¡Un abrazo! 🤍
 ```
 
@@ -60,5 +57,6 @@ que me falta para poder redactar el expediente.
 
 1. **Visto bueno al perfil de la Lcda. Vásquez**, o el nombre de otra persona
 2. **Reacción a lo de Machado** — puede que Liz tenga una vía más rápida que Daniela
-3. **La hora del Zoom**, que lleva dos días sin concretarse y es donde se cierran la ruta
-   del auspicio, los precios y lo de María Paz
+> ⚠️ **El Zoom sigue sin fecha.** Es donde se cierran la ruta del auspicio, el visto bueno
+> a los precios y lo de María Paz, y sin eso el apartado de transparencia del expediente
+> no se puede redactar. Queda fuera de este mensaje, pero pendiente.
