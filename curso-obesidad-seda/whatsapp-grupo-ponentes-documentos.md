@@ -1,7 +1,7 @@
 # Mensaje al grupo de ponentes — pedido de documentos con fecha
 
 **Para:** el grupo de WhatsApp de los 23 docentes
-**Cuándo:** hoy, sábado 3 de octubre. Aunque sea fin de semana, queda ahí para el lunes.
+**ENVIADO:** lunes 5 de octubre de 2026. Los dos archivos quedaron anclados en el grupo.
 **Por qué al grupo y no uno por uno:** llevamos dos semanas pidiendo en privado y vamos
 0 fotos, 5 CV y 1 declaración. Un mensaje al grupo con una fecha concreta mueve más en
 un día que diez mensajes individuales.
