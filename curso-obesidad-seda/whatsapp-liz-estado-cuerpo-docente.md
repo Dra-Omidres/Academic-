@@ -2,8 +2,9 @@
 
 **Al `+593 99 907 3471`** · 5 de octubre de 2026
 
-**Actualizado:** la Dra. Villavicencio declinó pero recomendó a otras personas · los
-«tú» pasan a nombrar a la Dra. Ruilova · se añade la petición de autonomía para
+**Actualizado 05/10:** la Dra. Villavicencio declinó pero recomendó a otras personas ·
+la Lcda. Vásquez declinó · **la lista va con nombres completos, sin «tú» ni «yo»**, para
+que la presidencia pueda reenviarla tal cual · se añade la petición de autonomía para
 contactar ponentes.
 
 Formateado para WhatsApp: sin tablas, con los asteriscos de negrita que la app
@@ -15,7 +16,8 @@ interpreta, y partido para que se lea de corrido en el teléfono.
 Liz, te paso el estado completo del cuerpo docente para que lo tengas a
 la mano 🌿
 
-*25 de 28 clases cerradas.* Te marco al final las tres que no lo están.
+*25 de 28 clases cerradas.* Te la paso con todos los nombres completos,
+por si la quieres reenviar. Al final te marco las tres que no lo están.
 
 *MÓDULO 1 — Obesidad: concepto y evaluación*
 1. Epidemiología y nuevos conceptos — Lizbet Ruilova
@@ -54,10 +56,10 @@ la mano 🌿
 4. MASLD y complicaciones metabólicas — Adriana Álvarez (Argentina)
 
 *MÓDULO 7 — Salud digital*
-1. Fundamentos de salud digital y telemedicina — yo
+1. Fundamentos de salud digital y telemedicina — Omidres Pérez
 2. Monitoreo digital y tecnologías — Ana María Gómez (Colombia)
 3. Terapéutica digital, IA y educación — Fabrizio Salas
-4. Implementación, ética y seguridad de datos — yo
+4. Implementación, ética y seguridad de datos — Omidres Pérez
 
 ————
 
