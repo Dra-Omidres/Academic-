@@ -45,6 +45,14 @@ no son de trato diario. **Si hay más confianza, dígalo y se tutea.**
 
 ---
 
+> ### Actualizado el 05/10
+> - **La grabación es por cuenta propia**, no una sesión conjunta por Zoom. El texto
+>   anterior prometía coordinar día y hora, y eso ya no aplica: se le anuncia el video
+>   tutorial y la guía.
+> - Se añade el **enlace del formulario** de documentos.
+> - **Pendiente:** la Dra. Ruilova aún no ha dado el visto bueno al perfil. La Dra.
+>   Omidres decide enviarlo igual, por la fecha del expediente.
+
 ```
 María Augusta, ¿cómo está? Le escribe Omidres Pérez, endocrinóloga.
 
@@ -63,25 +71,31 @@ obesidad, que ve esos mismos patrones pero enfocados al paciente con
 obesidad. La suya es la mirada desde el control glucémico. Si le parece
 que el corte debería ser otro, lo conversamos con gusto.
 
-Qué implica: una clase grabada de 30 minutos, usted a su ritmo. Se graba
-por Zoom, yo le paso el enlace y coordinamos día y hora en el horario que
-le sirva, y le enviamos la plantilla institucional del curso. La grabación
-tendría que estar el jueves 19 de noviembre.
+*Qué implica:* una clase grabada de 30 minutos, usted a su ritmo y en su
+casa. No hay sesión en vivo ni horario que cumplir: se graba cuando a
+usted le quede bien. Le enviamos un video tutorial que explica paso a
+paso cómo grabarla, una guía en PDF, el fondo institucional del curso y
+la plantilla de diapositivas. La grabación tendría que estar lista el
+jueves 19 de noviembre.
 
-Le digo de entrada para que no haya malentendidos: la participación
+*Le digo de entrada para que no haya malentendidos:* la participación
 docente es ad honorem, la mía incluida. El curso va a cobrar inscripción,
 pero eso se destina a la plataforma, la certificación y el trámite del
 aval. Recibe certificado de docente.
 
-¿Se anima? Si me dice que sí, le paso enseguida la plantilla y los
-detalles. Y si la agenda no le da, me lo dice con toda confianza, que no
-pasa nada.
+¿Se anima? Si me dice que sí, la sumo enseguida al grupo de ponentes y le
+paso todo.
+
+Y le adelanto lo único urgente, que es del trámite del aval: la
+Universidad pide de cada docente la hoja de vida, una fotografía, copia
+de la cédula y una declaración de conflicto de interés firmada. Todo se
+sube aquí, en cinco minutos:
+👉 https://forms.gle/Xg7JRjNWqTNDeZWL8
+
+El expediente entra en el Decanato esta semana, así que si decide
+acompañarnos, eso es lo que más me corre.
+
+Y si la agenda no le da, me lo dice con toda confianza, que no pasa nada.
 
 ¡Un abrazo!
 ```
-
-## Si acepta, pedirle
-
-Hoja de vida, número de cédula, fotografía profesional, declaración de conflicto de
-interés firmada, su institución y el título definitivo de su charla, a
-info@draomidresperez.com.
