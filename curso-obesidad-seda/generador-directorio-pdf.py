@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Directorio de ponentes para la gestión documental del aval. Herramienta de trabajo
 para la Srta. Natalia (RRSS SEDA): a quién le falta qué y cómo contactarla."""
-import openpyxl, unicodedata, re
+import openpyxl, unicodedata, re, datetime
 from difflib import SequenceMatcher
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
@@ -28,6 +28,10 @@ st_hd =S(name='h', fontName='Helvetica-Bold', fontSize=7.4, leading=9, textColor
 st_av =S(name='a', fontName='Helvetica', fontSize=8.8, leading=11.8, textColor=INK)
 st_big=S(name='b', fontName='Helvetica-Bold', fontSize=11, leading=14, textColor=TEAL)
 
+_h=datetime.date.today()
+MESES=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre']
+HOY='%d de %s de %d' % (_h.day, MESES[_h.month-1], _h.year)
+
 def marco(canv, doc):
     canv.saveState()
     canv.setFillColor(PALE); canv.rect(0, A4[1]-12*mm, A4[0], 12*mm, stroke=0, fill=1)
@@ -37,7 +41,7 @@ def marco(canv, doc):
     canv.setStrokeColor(MINT); canv.setLineWidth(.6); canv.line(15*mm, 12*mm, A4[0]-15*mm, 12*mm)
     canv.setFillColor(MUTED); canv.setFont('Helvetica', 6.5)
     canv.drawString(15*mm, 8.5*mm, 'Contiene datos personales de los docentes. No distribuir fuera de la coordinación.')
-    canv.drawRightString(A4[0]-15*mm, 8.5*mm, 'Actualizado el 5 de octubre de 2026')
+    canv.drawRightString(A4[0]-15*mm, 8.5*mm, 'Actualizado el %s' % HOY)
     canv.restoreState()
 
 doc=BaseDocTemplate('SEDA_Directorio_Ponentes.pdf', pagesize=A4,
@@ -72,7 +76,7 @@ for r in range(3,31):
     if not m.cell(r,3).value: continue
     cod='%s·C%d'%(mods[i], i%4+1); i+=1
     if str(m.cell(r,6).value)=='VACANTE': continue
-    clases.setdefault(str(m.cell(r,5).value), []).append(cod)
+    clases.setdefault(str(m.cell(r,5).value), []).append((cod, str(m.cell(r,3).value)))
 
 gente=[]
 r=4
@@ -96,8 +100,7 @@ for nombre_clase, cods in clases.items():
         raise SystemExit('Sin docente para la clase de %s' % nombre_clase)
     mejor.setdefault('cods', []).append((cods, nombre_clase))
 for g in gente:
-    cods=[c for par in g.get('cods', []) for c in par[0]]
-    g['cl']=', '.join(sorted(cods)) if cods else '—'
+    g['cl']=sorted(c for par in g.get('cods', []) for c in par[0])
 
 tot_cv=sum(1 for g in gente if g['cv']); tot_fo=sum(1 for g in gente if g['fo'])
 tot_co=sum(1 for g in gente if g['co']); tot_ml=sum(1 for g in gente if g['mail'])
@@ -139,9 +142,9 @@ res.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,-1),VERDE),('ALIGN',(1,0),(-1,-
     ('LEFTPADDING',(0,0),(-1,-1),6)]))
 F += [res, Spacer(1,5*mm)]
 
-hdr=Table([[Paragraph('DOCENTE', st_sec), Paragraph('CLASE', st_sec),
+hdr=Table([[Paragraph('DOCENTE', st_sec), Paragraph('CLASE Y TEMA', st_sec),
             Paragraph('TELÉFONO', st_sec), Paragraph('LE FALTA', st_sec)]],
-          colWidths=[W*0.31, W*0.10, W*0.20, W*0.39])
+          colWidths=[W*0.25, W*0.32, W*0.17, W*0.26])
 hdr.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,-1),TEAL),
     ('LEFTPADDING',(0,0),(-1,-1),5),('TOPPADDING',(0,0),(-1,-1),4),('BOTTOMPADDING',(0,0),(-1,-1),4)]))
 F.append(hdr)
@@ -157,8 +160,12 @@ for g in sorted(gente, key=lambda x: (x['cv']+x['fo']+x['co'], x['n'])):
     izq=[Paragraph(g['n'], st_nom)]
     if g['esp']: izq.append(Paragraph(str(g['esp']), st_dat))
     cel=Paragraph(', '.join(falta), st_fal) if falta else Paragraph('nada — completo', st_ok)
-    filas.append([izq, Paragraph(g['cl'], st_dat), Paragraph(str(g['tel'] or '—'), st_dat), cel])
-t=Table(filas, colWidths=[W*0.31, W*0.10, W*0.20, W*0.39], repeatRows=0)
+    if g['cl']:
+        med=[Paragraph('<b>%s</b>  %s' % (cod, tema), st_dat) for cod, tema in g['cl']]
+    else:
+        med=[Paragraph('—', st_dat)]
+    filas.append([izq, med, Paragraph(str(g['tel'] or '—'), st_dat), cel])
+t=Table(filas, colWidths=[W*0.25, W*0.32, W*0.17, W*0.26], repeatRows=0)
 t.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),
     ('TOPPADDING',(0,0),(-1,-1),4.5),('BOTTOMPADDING',(0,0),(-1,-1),4.5),
     ('LEFTPADDING',(0,0),(-1,-1),5),('LINEBELOW',(0,0),(-1,-1),.35,MINT),
