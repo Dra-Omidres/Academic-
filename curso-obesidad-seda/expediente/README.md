@@ -9,7 +9,7 @@ coordinación.**
 `TIPO_Apellido1-Apellido2_Nombre.ext` — para que al ordenar alfabéticamente queden
 juntos los de una misma persona y se vea de un vistazo quién está completo.
 
-## Recibidos al 5 de octubre de 2026
+## Recibidos al 8 de octubre de 2026
 
 | Docente | Hoja de vida | Fotografía | Identidad | Declaración COI |
 |---|:---:|:---:|:---:|:---:|
@@ -18,8 +18,25 @@ juntos los de una misma persona y se vea de un vistazo quién está completo.
 | Dra. Johanna Piedra Bravo | ✅ | ✅ *(del CV)* | — | — |
 | Dra. Lizbet Ruilova González | ✅ | ✅ *(del CV)* | — | ⚠️ llegó en blanco |
 | Dra. Josefa Palacio Riofrío | ✅ | ✅ *(del CV)* | — | — |
+| Lcda. María Isabel Reinoso Pesántez | ✅ | ✅ *(del CV)* | ✅ cédula | ✅ *(05/10)* |
+| Dr. Juan Fernando Molina Galarza | ✅ | ✅ *(del CV)* | — *(está en Drive)* | ✅ *(05/10)* |
 
-**Dr. Chen Ku y la Dra. Bermeo son los dos expedientes completos de los 23.**
+**Cuatro expedientes completos en esta carpeta:** Dr. Chen Ku, Dra. Bermeo, Lcda. Reinoso y
+—a falta de guardar la copia de la cédula, que está en Drive— el Dr. Molina Galarza.
+
+### Lo llegado el 8 de octubre
+
+Los cinco archivos de la Lcda. Reinoso y el Dr. Molina Galarza entraron por el formulario y
+se guardaron aquí. De cada hoja de vida se extrajo además el retrato incrustado.
+
+- **Lcda. María Isabel Reinoso Pesántez** — cédula **0104473368**, *leída del documento y
+  contrastada con la que ella declaró: coinciden*. Nombre en la cédula: REINOSO PESANTEZ
+  MARÍA ISABEL. Su retrato es de estudio y sirve sin reparos.
+- **Dr. Juan Fernando Molina Galarza** — cédula **0104904313**, tomada de su declaración y de
+  su hoja de vida; *la copia del documento está en Drive y aún no se ha guardado aquí, así que
+  el número no está contrastado contra el carné*. Su fotografía es un **escaneo de una foto
+  tamaño carné**, con el borde del papel a la vista: se ve correcta en tamaño pequeño, pero si
+  la Universidad exige calidad de retrato conviene pedirle el archivo original.
 
 ## Fotografías tomadas de las hojas de vida
 
