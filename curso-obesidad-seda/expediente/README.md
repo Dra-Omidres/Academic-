@@ -20,7 +20,7 @@ juntos los de una misma persona y se vea de un vistazo quién está completo.
 | Dra. Josefa Palacio Riofrío | ✅ | ✅ *(del CV)* | — | — |
 | Lcda. María Isabel Reinoso Pesántez | ✅ | ✅ *(del CV)* | ✅ cédula | ✅ *(05/10)* |
 | Dr. Juan Fernando Molina Galarza | ✅ | ✅ *(del CV)* | — *(está en Drive)* | ✅ *(05/10)* |
-| Dra. Julia Castro de González | — *(está en el correo)* | — | — *(está en el correo)* | ✅ *(06/10)* |
+| Dra. Julia Castro de González | — *(está en el correo)* | ⚠️ miniatura | — *(está en el correo)* | ✅ *(06/10)* |
 
 **Cuatro expedientes completos en esta carpeta:** Dr. Chen Ku, Dra. Bermeo, Lcda. Reinoso y
 —a falta de guardar la copia de la cédula, que está en Drive— el Dr. Molina Galarza.
@@ -43,6 +43,9 @@ se guardaron aquí. De cada hoja de vida se extrajo además el retrato incrustad
   Rehabilitación** (no fisioterapia) y ejerce en el **IESS de Cuenca**. Declara la cédula
   **0151826435** y el correo **dracastrorehabilitacion@gmail.com**, distinto de aquel desde el
   que escribió (castromezajulia@gmail.com): *hay que preguntarle cuál quiere que conste*.
+  Su fotografía llegó como una **miniatura de 150 × 150 píxeles y 4 KB**, del tamaño de una
+  imagen de perfil. Impresa a 300 ppp mide **1,3 cm de lado**: no sirve para el expediente.
+  Queda archivada como provisional, a la espera del archivo original.
 
 ### Sobre los números de cédula
 
