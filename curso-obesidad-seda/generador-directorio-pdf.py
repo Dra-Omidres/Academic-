@@ -80,7 +80,14 @@ for r in range(3,31):
 
 gente=[]
 r=4
-si=lambda v: str(v).strip().upper()=='SÍ'
+# Cuenta como recibido todo lo que empieza por SÍ, incluido el «SÍ — el archivo
+# sigue en el correo»: esa persona ya cumplió y no hay que volver a escribirle,
+# aunque la coordinación todavía tenga que guardar el archivo. En cambio
+# PROVISIONAL, POSIBLE, EN BLANCO, PARCIAL, PENDIENTE y RECIBIDA no cuentan:
+# ahí sí falta algo que pedir.
+def si(v):
+    s=str(v or '').strip().upper()
+    return s.startswith('SÍ') or s.startswith('SI ') or s=='SI'
 while p.cell(r,2).value:
     n=str(p.cell(r,2).value)
     gente.append({'n':n,'esp':p.cell(r,3).value,'tel':p.cell(r,6).value,'mail':p.cell(r,5).value,
@@ -101,6 +108,11 @@ for nombre_clase, cods in clases.items():
     mejor.setdefault('cods', []).append((cods, nombre_clase))
 for g in gente:
     g['cl']=sorted(c for par in g.get('cods', []) for c in par[0])
+
+# La coordinación académica queda fuera de esta lista: la Dra. Omidres dicta dos
+# clases y sus documentos van al expediente como los de todos, pero no es alguien
+# a quien haya que perseguir, así que no figura en la herramienta de seguimiento.
+gente=[g for g in gente if 'Omidres' not in g['n']]
 
 tot_cv=sum(1 for g in gente if g['cv']); tot_fo=sum(1 for g in gente if g['fo'])
 tot_co=sum(1 for g in gente if g['co']); tot_ml=sum(1 for g in gente if g['mail'])
@@ -173,8 +185,10 @@ t.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),
 F.append(t)
 
 F += [Spacer(1,5*mm), Paragraph(
-  '<b>Dos personas que no hay que perseguir todavía:</b> la Dra. Gabriela Machado no ha confirmado su '
-  'participación y la Dra. María Paz Castillo aún no ha sido invitada formalmente. De esas dos se encarga '
-  'la coordinación.', st_av)]
+  '<b>Quiénes no están en esta lista.</b> La Dra. Omidres Pérez de Carvelli dicta las clases M7·C1 y '
+  'M7·C4 y sus documentos van al expediente igual que los de todos, pero lleva la coordinación académica '
+  'y se ocupa de los suyos: por eso no aparece aquí. Tampoco hay que escribir todavía a la Dra. Gabriela '
+  'Machado, que no ha confirmado su participación, ni a la Dra. María Paz Castillo, que aún no ha sido '
+  'invitada formalmente. De esas dos se encarga la coordinación.', st_av)]
 doc.build(F)
 print('generado')
