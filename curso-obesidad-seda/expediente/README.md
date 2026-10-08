@@ -20,6 +20,7 @@ juntos los de una misma persona y se vea de un vistazo quién está completo.
 | Dra. Josefa Palacio Riofrío | ✅ | ✅ *(del CV)* | — | — |
 | Lcda. María Isabel Reinoso Pesántez | ✅ | ✅ *(del CV)* | ✅ cédula | ✅ *(05/10)* |
 | Dr. Juan Fernando Molina Galarza | ✅ | ✅ *(del CV)* | — *(está en Drive)* | ✅ *(05/10)* |
+| Dra. Julia Castro de González | — *(está en el correo)* | — | — *(está en el correo)* | ✅ *(06/10)* |
 
 **Cuatro expedientes completos en esta carpeta:** Dr. Chen Ku, Dra. Bermeo, Lcda. Reinoso y
 —a falta de guardar la copia de la cédula, que está en Drive— el Dr. Molina Galarza.
@@ -37,6 +38,18 @@ se guardaron aquí. De cada hoja de vida se extrajo además el retrato incrustad
   el número no está contrastado contra el carné*. Su fotografía es un **escaneo de una foto
   tamaño carné**, con el borde del papel a la vista: se ve correcta en tamaño pequeño, pero si
   la Universidad exige calidad de retrato conviene pedirle el archivo original.
+- **Dra. Julia Castro de González** — su declaración firmada corrige tres datos que estaban
+  mal en la matriz: se apellida **Castro de González**, su especialidad es **Medicina Física y
+  Rehabilitación** (no fisioterapia) y ejerce en el **IESS de Cuenca**. Declara la cédula
+  **0151826435** y el correo **dracastrorehabilitacion@gmail.com**, distinto de aquel desde el
+  que escribió (castromezajulia@gmail.com): *hay que preguntarle cuál quiere que conste*.
+
+### Sobre los números de cédula
+
+Los seis números recibidos se pasaron por el dígito verificador del Registro Civil (módulo 10)
+y los seis cuadran. Eso prueba únicamente que **están bien transcritos**: no prueba que la
+cédula exista ni que pertenezca a esa persona. Lo único contrastado contra el documento mismo
+es el de la Lcda. Reinoso y el de la Dra. Bermeo, de quienes hay copia archivada aquí.
 
 ## Fotografías tomadas de las hojas de vida
 
