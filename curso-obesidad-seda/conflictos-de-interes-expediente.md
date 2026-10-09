@@ -606,10 +606,31 @@ SEDA.
 
 Queda escrito así en el punto 4 de su declaración firmada.
 
-**Lo que todavía conviene asegurar.** Esto es la decisión de la coordinadora sobre cómo
-factura su compañía, y es la parte que ella controla. Que **SEDA pague directamente**
-compromete a SEDA, y el expediente va a afirmarlo ante la Universidad. *Conviene tener
-una línea escrita de la Dra. Ruilova, como presidenta de SEDA, confirmándolo* — un
-mensaje suyo basta. No es desconfianza: es que una afirmación del expediente debe poder
-respaldarse con algo más que la palabra de la parte interesada, y aquí la parte
-interesada es la propia declarante.
+**No se consulta a la presidencia de SEDA sobre esto.** Se planteó pedir a la Dra.
+Ruilova una confirmación escrita de que SEDA pagaría directamente, dado que el expediente
+lo afirma ante la Universidad. La Dra. Omidres lo descarta (09/10/2026): *«No involucres a
+Liz en esto; ella me dio carta blanca al respecto»*. La decisión queda tomada por la
+coordinación académica al amparo de esa autorización, y así se registra.
+
+## MEDDI Hub: se atenúa, no se elimina *(09/10/2026)*
+
+La Dra. Omidres plantea quitar o atenuar la mención a MEDDI Hub, con este razonamiento:
+no le pagan por participar en este evento, MEDDI no lo auspicia, y el contenido de sus
+dos clases sale de su obra publicada y de su experiencia, no de su cargo.
+
+**Se atenúa.** La casilla ya no presenta el cargo como el vínculo temáticamente más
+cercano, sino como una declaración de transparencia, y recoge textualmente que MEDDI no
+auspicia, no interviene y no remunera su participación.
+
+**No se elimina, y la razón es verificable:** su hoja de vida va en la misma carpeta del
+expediente y dice «Chief Medical Officer LATAM | MEDDI Hub a.s.», además de su correo
+`draomidres@meddi.com`. Una declaración que omitiera el cargo junto a un currículum que
+lo proclama no se leería como una decisión de pertinencia, sino como una omisión. Además,
+el formulario que la propia coordinación redactó pide declarar «consultoría o
+participación en consejos asesores» y «cualquier otro beneficio económico», sin
+condicionarlo a que el vínculo tenga que ver con el curso.
+
+*Nota de método: el expediente de avales de la Universidad de Cuenca no exige
+declaraciones individuales de conflicto de interés —su lista de once requisitos no las
+menciona—. El formulario es una adición de esta coordinación, de modo que la vara aquí es
+la que ella misma fijó.*
