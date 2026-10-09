@@ -579,3 +579,37 @@ El PDF trae un campo de firma digital (`Signature1`) en la página 2, pero **no 
 electrónica verificable como la de FirmaEC** que sí traen las declaraciones de la Lcda.
 Reinoso y el Dr. Molina Galarza. *No pude comprobar si la firma es válida: eso hay que
 abrirlo en un lector de PDF con validación, o pedirle el documento firmado en FirmaEC.*
+
+---
+
+## La ruta del dinero queda decidida *(09/10/2026)*
+
+La Dra. Omidres la fija así:
+
+> «el cobro de la plataforma será desde Omisalud; Omisalud tiene su cuenta corporativa y
+> lo hará SEDA directamente».
+
+Es decir, la **ruta B** de las tres que se habían planteado, y es la limpia:
+
+```
+Boehringer · Elea · Saval  ──auspicio──▶  SEDA  ──paga la plataforma──▶  Omisalud Cía. Ltda.
+                                                                        (cuenta corporativa, Ecuador)
+```
+
+**Lo que esto resuelve.** Ningún auspiciante paga a Omisalud, de modo que no existe
+ningún flujo de dinero entre un laboratorio y la compañía de la coordinadora. SEDA queda
+en medio como la sociedad que organiza, recibe el auspicio y contrata la plataforma. El
+pago va a una cuenta corporativa de la compañía, no a una cuenta personal de la
+declarante —se descarta la cuenta personal pese a existir una autorización notariada que
+lo permitiría—, y la Dra. Omidres se excusa de la decisión de contratación, que adopta
+SEDA.
+
+Queda escrito así en el punto 4 de su declaración firmada.
+
+**Lo que todavía conviene asegurar.** Esto es la decisión de la coordinadora sobre cómo
+factura su compañía, y es la parte que ella controla. Que **SEDA pague directamente**
+compromete a SEDA, y el expediente va a afirmarlo ante la Universidad. *Conviene tener
+una línea escrita de la Dra. Ruilova, como presidenta de SEDA, confirmándolo* — un
+mensaje suyo basta. No es desconfianza: es que una afirmación del expediente debe poder
+respaldarse con algo más que la palabra de la parte interesada, y aquí la parte
+interesada es la propia declarante.
