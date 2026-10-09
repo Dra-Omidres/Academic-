@@ -80,18 +80,26 @@ for r in range(3,31):
 
 gente=[]
 r=4
-# Cuenta como recibido todo lo que empieza por SÍ, incluido el «SÍ — el archivo
-# sigue en el correo»: esa persona ya cumplió y no hay que volver a escribirle,
-# aunque la coordinación todavía tenga que guardar el archivo. En cambio
-# PROVISIONAL, POSIBLE, EN BLANCO, PARCIAL, PENDIENTE y RECIBIDA no cuentan:
-# ahí sí falta algo que pedir.
+# Esta lista sirve para perseguir documentos, así que la pregunta no es «¿está
+# archivado?» sino «¿lo mandó esta persona?». Por eso cuenta como recibido el
+# «SÍ — el archivo sigue en el correo»: ya cumplió, y guardarlo es tarea de la
+# coordinación, no suya. Lo que no cuenta son las marcas de duda —PROVISIONAL,
+# POSIBLE, EN BLANCO, PARCIAL, PENDIENTE, RECIBIDA—, que sí señalan algo
+# que hay que pedirle.
+DUDOSO=('PROVISIONAL','POSIBLE','EN BLANCO','PARCIAL','PENDIENTE','RECIBIDA')
+def dudoso(v):
+    return any(k in str(v or '').upper() for k in DUDOSO)
 def si(v):
     s=str(v or '').strip().upper()
+    if dudoso(v): return False
     return s.startswith('SÍ') or s.startswith('SI ') or s=='SI'
+def tiene(v):
+    # la columna de cédula guarda el número, no un SÍ
+    return bool(str(v or '').strip()) and not dudoso(v)
 while p.cell(r,2).value:
     n=str(p.cell(r,2).value)
     gente.append({'n':n,'esp':p.cell(r,3).value,'tel':p.cell(r,6).value,'mail':p.cell(r,5).value,
-                  'ced':p.cell(r,7).value,'cv':si(p.cell(r,10).value),'fo':si(p.cell(r,11).value),
+                  'ced':tiene(p.cell(r,7).value),'cv':si(p.cell(r,10).value),'fo':si(p.cell(r,11).value),
                   'co':si(p.cell(r,12).value),
                   'cl':''})
     r+=1
