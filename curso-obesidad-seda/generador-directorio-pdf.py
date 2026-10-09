@@ -86,7 +86,14 @@ r=4
 # coordinación, no suya. Lo que no cuenta son las marcas de duda —PROVISIONAL,
 # POSIBLE, EN BLANCO, PARCIAL, PENDIENTE, RECIBIDA—, que sí señalan algo
 # que hay que pedirle.
-DUDOSO=('PROVISIONAL','POSIBLE','EN BLANCO','PARCIAL','PENDIENTE','RECIBIDA',
+# Tres estados posibles en cada celda:
+#   · empieza por SÍ            → entregado, cuenta y no se persigue
+#   · contiene YA PEDIDA        → la coordinación ya lo pidió: no cuenta, pero
+#                                 tampoco se vuelve a escribir a esa persona
+#   · cualquier marca de duda   → no cuenta y hay que pedirlo
+# «RECIBIDA» no entra aquí: aparece dentro de frases como «SÍ, recibida firmada
+# por correo», que son entregas, y lo que falte en ellas es trabajo interno.
+DUDOSO=('PROVISIONAL','POSIBLE','EN BLANCO','PARCIAL','PENDIENTE','YA PEDIDA',
         'ILEGIBLE','POR CONFIRMAR','SIN CONFIRMAR')
 def dudoso(v):
     return any(k in str(v or '').upper() for k in DUDOSO)
@@ -194,6 +201,10 @@ t.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),
 F.append(t)
 
 F += [Spacer(1,5*mm), Paragraph(
+  '<b>Tres documentos ya pedidos desde la coordinación.</b> El 9 de octubre se les pidió la copia de la '
+  'cédula a la Dra. María Augusta Astudillo y a la Dra. Johanna Piedra, y al Dr. Cristian Castillo que '
+  'firme su declaración. Figuran como pendientes porque todavía no han llegado, pero <b>no hay que '
+  'volver a escribirles</b>.<br/><br/>'
   '<b>Quiénes no están en esta lista.</b> La Dra. Omidres Pérez de Carvelli dicta las clases M7·C1 y '
   'M7·C4 y sus documentos van al expediente igual que los de todos, pero lleva la coordinación académica '
   'y se ocupa de los suyos: por eso no aparece aquí. Tampoco hay que escribir todavía a la Dra. Gabriela '
