@@ -139,13 +139,18 @@ F=[Paragraph('Documentación del aval', st_tit), Spacer(1,2.5*mm),
              'nutrición clínica y salud digital', st_sub), Spacer(1,4*mm)]
 
 intro=Table([[Paragraph(
-  '<b>Para qué sirve esta lista.</b> La Universidad de Cuenca exige, de cada uno de los %d docentes, '
-  'cuatro documentos: hoja de vida, fotografía profesional, copia de la cédula o pasaporte y la '
-  'declaración de conflicto de interés firmada. Sin eso no hay expediente que entregar.<br/><br/>'
-  '<b>Cómo ayudar.</b> Lo más rápido es que cada persona lo suba al formulario; el enlace está abajo y '
-  'se tarda cinco minutos. A quien no responda, se le escribe por WhatsApp: el teléfono está en la '
-  'lista. <b>Las fotografías son lo más urgente</b> — si en el archivo de SEDA hay retratos de jornadas '
-  'o simposios anteriores, sirven y resuelven de un golpe la columna peor parada.<br/><br/>'
+  '<b>Qué pide la Universidad y qué pedimos nosotros.</b> De los %d docentes, la Universidad de Cuenca '
+  'exige <b>solo la hoja de vida</b>: su reglamento pide «expositoras o expositores propuestos, con sus '
+  'hojas de vida», y nada más. Sin ella no hay expediente que entregar.<br/><br/>'
+  'Los otros tres los añadió la coordinación. La <b>declaración de conflicto de interés</b> es la que '
+  'más importa de las tres: este curso tiene auspicio farmacéutico y conviene poder demostrar que cada '
+  'docente declaró sus vínculos. La <b>fotografía</b> y la <b>copia de la cédula</b> sirven para el '
+  'certificado y para identificar sin ambigüedad a cada persona, pero no son obligatorias: si el plazo '
+  'aprieta, el expediente se presenta sin ellas.<br/><br/>'
+  '<b>Cómo ayudar.</b> El orden de prioridad es ese: primero las hojas de vida que falten, después las '
+  'declaraciones. Lo más rápido es que cada persona lo suba al formulario; el enlace está abajo y se '
+  'tarda cinco minutos. A quien no responda, se le escribe por WhatsApp: el teléfono está en la '
+  'lista.<br/><br/>'
   '<b>Todo se recibe también en</b> info@draomidresperez.com, en el formato que sea.' % N, st_av)]],
   colWidths=[W])
 intro.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,-1),WARM),('LINEBEFORE',(0,0),(0,-1),2.2,GOLD),
