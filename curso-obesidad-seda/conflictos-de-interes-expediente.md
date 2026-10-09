@@ -531,3 +531,51 @@ coordinadora y su excusa de la decisión.
 Queda **disponible, no descartada**: si la Comisión pidiera un respaldo del gasto o de la
 contratación, la factura existe y se entrega en ese momento. Conviene tenerla emitida y
 archivada aunque no viaje con el expediente.
+
+---
+
+# Conflictos declarados por los docentes
+
+Aquí se anotan los vínculos que cada docente declara en su formulario firmado, a medida
+que llegan. Es lo que el apartado de transparencia del expediente tiene que poder
+sostener si la Comisión pregunta.
+
+## Dr. Pablo Esteban Vanegas Cedillo — M1·C2 y M3·C1 *(declarado el 09/10/2026)*
+
+**El primer conflicto declarado del cuerpo docente, y toca directamente a un auspiciante
+del curso.**
+
+| | |
+|---|---|
+| Empresa | **Boehringer Ingelheim** |
+| Tipo de vínculo | **Honorarios** |
+| Producto o área | *lo dejó en blanco* |
+| Periodo | *lo dejó en blanco* |
+
+Boehringer auspicia el curso y su área son los iSGLT2 y los iDPP-4. El Dr. Vanegas dicta
+**M3·C1, «Farmacoterapia para obesidad»**, además de M1·C2. Son dos cosas distintas: el
+auspicio de la actividad y los honorarios personales del docente. Que las dos existan a
+la vez no es un problema —es exactamente lo que el formulario sirve para sacar a la luz—,
+pero obliga a tres cosas:
+
+1. **Que él lo diga al inicio de la grabación de M3·C1.** Es el compromiso que firmó en
+   el punto 5 del propio formulario: *«Si un vínculo declarado guarda relación directa
+   con el tema de mi charla, lo mencionaré al inicio de la grabación»*. Conviene
+   recordárselo cuando se le envíe la plantilla, no darlo por sabido.
+2. **Que el expediente lo registre.** Un curso con auspicio farmacéutico cuyo cuerpo
+   docente declara «ningún conflicto» en bloque es menos creíble, no más. Que un docente
+   declare un vínculo y se gestione a la vista es la prueba de que el mecanismo funciona.
+3. **Que el contenido se revise con esa luz.** El propio formulario compromete a usar
+   denominación genérica y a no promover marcas. En una clase de farmacoterapia conviene
+   comprobar que el repaso de clases terapéuticas sea equilibrado.
+
+**Lo que falta en su formulario** y hay que pedirle que complete, porque va al expediente:
+
+- el **producto o área** del vínculo y el **periodo** (el formato pide los últimos 24 meses);
+- el **lugar y la fecha** de la firma, que quedaron vacíos;
+- las **fechas de entrega** de sus dos grabaciones.
+
+El PDF trae un campo de firma digital (`Signature1`) en la página 2, pero **no una firma
+electrónica verificable como la de FirmaEC** que sí traen las declaraciones de la Lcda.
+Reinoso y el Dr. Molina Galarza. *No pude comprobar si la firma es válida: eso hay que
+abrirlo en un lector de PDF con validación, o pedirle el documento firmado en FirmaEC.*
