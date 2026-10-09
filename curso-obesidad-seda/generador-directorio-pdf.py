@@ -86,7 +86,8 @@ r=4
 # coordinación, no suya. Lo que no cuenta son las marcas de duda —PROVISIONAL,
 # POSIBLE, EN BLANCO, PARCIAL, PENDIENTE, RECIBIDA—, que sí señalan algo
 # que hay que pedirle.
-DUDOSO=('PROVISIONAL','POSIBLE','EN BLANCO','PARCIAL','PENDIENTE','RECIBIDA')
+DUDOSO=('PROVISIONAL','POSIBLE','EN BLANCO','PARCIAL','PENDIENTE','RECIBIDA',
+        'ILEGIBLE','POR CONFIRMAR','SIN CONFIRMAR')
 def dudoso(v):
     return any(k in str(v or '').upper() for k in DUDOSO)
 def si(v):
