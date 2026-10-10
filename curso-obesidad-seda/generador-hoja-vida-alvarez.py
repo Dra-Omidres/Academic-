@@ -179,5 +179,77 @@ F += [Spacer(1,4*mm),
                 'docente a la coordinación académica (cargo y sociedades) y registros de PubMed '
                 'consultados el 10/10/2026 (publicaciones).</font>', S_txt)]
 
+F_word=list(F)   # doc.build vacía la lista
 doc.build(F)
+
+# ---------- versión Word, editable, con el mismo contenido ----------
+# Se recorre lo que ya se armó para el PDF, así ambos documentos no se desalinean.
+import re
+from docx import Document
+from docx.shared import Pt, RGBColor, Cm
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.oxml import OxmlElement
+from docx.oxml.ns import qn
+
+def _rgb(h): h=h.lstrip('#'); return RGBColor(int(h[:2],16), int(h[2:4],16), int(h[4:],16))
+
+def _sombra(par, color):
+    pPr=par._p.get_or_add_pPr(); shd=OxmlElement('w:shd')
+    shd.set(qn('w:val'),'clear'); shd.set(qn('w:color'),'auto'); shd.set(qn('w:fill'),color)
+    pPr.append(shd)
+
+def _runs(par, marca, size, color='1A2325', negrita=False):
+    """Convierte el marcado de reportlab (<b>, <i>, <font color>, <link>) en runs de Word."""
+    marca=marca.replace('&nbsp;',' ').replace('•  ','')
+    estado={'b':negrita,'i':False,'c':[color]}
+    for trozo in re.split(r'(<[^>]+>)', marca):
+        if not trozo: continue
+        t=trozo.lower()
+        if t in ('<b>',): estado['b']=True; continue
+        if t in ('</b>',): estado['b']=negrita; continue
+        if t in ('<i>',): estado['i']=True; continue
+        if t in ('</i>',): estado['i']=False; continue
+        m=re.match(r'<(?:font|link)[^>]*color="#?([0-9A-Fa-f]{6})"', trozo)
+        if m: estado['c'].append(m.group(1)); continue
+        if t.startswith('<font') or t.startswith('<link'): estado['c'].append(estado['c'][-1]); continue
+        if t in ('</font>','</link>'): estado['c'].pop(); continue
+        if trozo.startswith('<'): continue
+        r=par.add_run(trozo); r.bold=estado['b']; r.italic=estado['i']
+        r.font.size=Pt(size); r.font.color.rgb=_rgb(estado['c'][-1]); r.font.name='Arial'
+
+wd=Document()
+for sec in wd.sections:
+    sec.top_margin=sec.bottom_margin=Cm(1.6); sec.left_margin=sec.right_margin=Cm(1.8)
+    h=sec.header.paragraphs[0]
+    _runs(h, '<b>DRA. ADRIANA MABEL ÁLVAREZ</b>   ·   <font color="#A4161A"><b>BORRADOR</b></font> '
+             '— pendiente de aprobación por la docente', 8, '0D5A62')
+    f=sec.footer.paragraphs[0]
+    _runs(f, 'Hoja de vida · BORRADOR del 10 de octubre de 2026', 7.5, '5F7073')
+
+def _par(espacio_antes=0, espacio_despues=3):
+    q=wd.add_paragraph(); q.paragraph_format.space_before=Pt(espacio_antes)
+    q.paragraph_format.space_after=Pt(espacio_despues); return q
+
+for fl in F_word:
+    if isinstance(fl, Table):
+        par_rl=fl._cellvalues[0][0]
+        if not isinstance(par_rl, Paragraph): par_rl=par_rl[0]
+        if par_rl.style.name=='sec':
+            q=_par(9,4); q.paragraph_format.keep_with_next=True; _sombra(q,'0D5A62'); _runs(q, ' '+par_rl.text, 10, 'FFFFFF', True)
+        else:
+            q=_par(0,8); _sombra(q,'FBF1DC'); _runs(q, par_rl.text, 8.5)
+    elif isinstance(fl, Paragraph):
+        n=fl.style.name
+        if n=='nom': _runs(_par(0,1), fl.text, 18, '0D5A62', True)
+        elif n=='esp': _runs(_par(0,4), fl.text, 9.5, 'B8852B')
+        elif n=='sub':
+            q=_par(4,2); q.paragraph_format.keep_with_next=True; _runs(q, fl.text, 9, '0D5A62', True)
+        elif n=='item':
+            q=wd.add_paragraph(style='List Bullet'); q.paragraph_format.space_after=Pt(3)
+            _runs(q, fl.text, 9)
+        else:
+            q=_par(0,4); q.alignment=WD_ALIGN_PARAGRAPH.JUSTIFY; _runs(q, fl.text, 9)
+wd.core_properties.title='Hoja de vida (borrador) — Dra. Adriana Mabel Álvarez'
+wd.core_properties.author='Coordinación académica · Curso virtual SEDA'
+wd.save('SEDA_HojaVida_Alvarez_BORRADOR.docx')
 print('generado')
