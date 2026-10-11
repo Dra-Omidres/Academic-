@@ -3,13 +3,16 @@
 
 Acompaña al video tutorial. Es el documento que abre quien no vio el video, o quien lo
 vio hace tres semanas y hoy le toca grabar.
+
+Lleva el logo del curso (anillo de cuatro ejes con el logo de SEDA dentro), que sale de
+generador-logo-curso.py: si el logo cambia, se corre primero ese generador y después este.
 """
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
 from reportlab.lib import colors
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.platypus import (BaseDocTemplate, PageTemplate, Frame, Paragraph,
-                                Spacer, Table, TableStyle, KeepTogether, PageBreak)
+                                Spacer, Table, TableStyle, KeepTogether, PageBreak, Image)
 
 TEAL  = colors.HexColor('#0D5A62')
 GOLD  = colors.HexColor('#B8852B')
@@ -18,6 +21,9 @@ PALE  = colors.HexColor('#EDF5F4')
 WARM  = colors.HexColor('#FBF1DC')
 INK   = colors.HexColor('#1A2325')
 MUTED = colors.HexColor('#5F7073')
+
+LOGO    = 'activos/logo/logo-curso-seda.png'      # 2160 × 420
+SIMBOLO = 'activos/logo/simbolo-curso-seda.png'   # 420 × 420
 
 S = lambda **k: ParagraphStyle(**k)
 st_tit  = S(name='t',  fontName='Helvetica-Bold', fontSize=19, leading=23, textColor=TEAL)
@@ -34,8 +40,9 @@ def marco(canv, doc):
     canv.saveState()
     if doc.page > 1:
         canv.setFillColor(PALE); canv.rect(0, A4[1]-13*mm, A4[0], 13*mm, stroke=0, fill=1)
+        canv.drawImage(SIMBOLO, 18*mm, A4[1]-11.5*mm, 10*mm, 10*mm, mask='auto')
         canv.setFillColor(MUTED); canv.setFont('Helvetica', 7.5)
-        canv.drawString(18*mm, A4[1]-8.6*mm, 'Cómo grabar su clase · Curso virtual SEDA')
+        canv.drawString(30*mm, A4[1]-8.6*mm, 'Cómo grabar su clase · Curso virtual SEDA')
         canv.drawRightString(A4[0]-18*mm, A4[1]-8.6*mm, 'Página %d' % doc.page)
     canv.setStrokeColor(MINT); canv.setLineWidth(.6)
     canv.line(18*mm, 13*mm, A4[0]-18*mm, 13*mm)
@@ -86,7 +93,9 @@ def bullets(items, estilo=st_li):
 F = []
 
 # ---------------- página 1 ----------------
-F += [Paragraph('Cómo grabar su clase', st_tit),
+F += [Image(LOGO, width=86*mm, height=86*mm*420/2160, hAlign='LEFT'),
+      Spacer(1, 5*mm),
+      Paragraph('Cómo grabar su clase', st_tit),
       Spacer(1, 3*mm),
       Paragraph('Curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud '
                 'digital · SEDA<br/>Guía rápida de dos páginas. Acompaña al video tutorial.',
