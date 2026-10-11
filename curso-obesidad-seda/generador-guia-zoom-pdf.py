@@ -5,7 +5,7 @@ Acompaña al video tutorial. Es el documento que abre quien no vio el video, o q
 vio hace tres semanas y hoy le toca grabar.
 
 Modelo de grabación decidido el 11/10/2026: un solo enlace de Zoom de la cuenta
-live@draomidresperez.com, reunión periódica sin hora fija, entrada sin anfitriona y
+live@draomidresperez.com, reunión diaria (365 ocurrencias desde el 11/10/2026), entrada sin anfitriona y
 grabación automática en la nube. Cada docente entra sola; solo se acompaña a quien lo pide.
 Así todas las clases quedan en un mismo sitio y nadie tiene que enviar el archivo.
 
@@ -28,8 +28,9 @@ INK   = colors.HexColor('#1A2325')
 MUTED = colors.HexColor('#5F7073')
 
 # Sala única de grabación (cuenta live@draomidresperez.com). Graba sola en la nube al entrar.
-ENLACE  = 'https://us06web.zoom.us/j/87176184501'
+ENLACE  = 'https://us06web.zoom.us/j/87176184501?pwd=RaJQZkzCgbkaIDRbZTnqJ8t03n0nbk.1'
 ID_SALA = '871 7618 4501'
+CODIGO  = '259307'
 
 LOGO    = 'activos/logo/logo-curso-seda.png'      # 2160 × 420
 SIMBOLO = 'activos/logo/simbolo-curso-seda.png'   # 420 × 420
@@ -116,10 +117,11 @@ F += [Image(LOGO, width=86*mm, height=86*mm*420/2160, hAlign='LEFT'),
             '<b>audífonos con micrófono</b>: el audio importa más que la imagen.'),
       Spacer(1, 2.5*mm),
       aviso('<b>Sala de grabación del curso</b><br/>'
-            '<link href="%s" color="#0D5A62"><b>%s</b></link>&nbsp;&nbsp;·&nbsp;&nbsp;ID de reunión: '
-            '<b>%s</b><br/>Es la misma para todas las clases y para cualquier día y hora. '
+            '<link href="%s" color="#0D5A62"><b>Entrar a la sala (enlace directo)</b></link>'
+            '&nbsp;&nbsp;·&nbsp;&nbsp;ID de reunión: <b>%s</b>&nbsp;&nbsp;·&nbsp;&nbsp;Código de acceso: '
+            '<b>%s</b><br/>Es la misma para todas las clases y para cualquier día. '
             '¿Prefiere grabar acompañada? Pídalo por el grupo y agendamos un turno.'
-            % (ENLACE, ENLACE, ID_SALA), PALE, TEAL)]
+            % (ENLACE, ID_SALA, CODIGO), PALE, TEAL)]
 
 F += seccion('1 · Antes de sentarse a grabar')
 F += [pasos([
