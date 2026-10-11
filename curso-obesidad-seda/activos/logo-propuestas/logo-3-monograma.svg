@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160">
+<rect width="900" height="160" fill="#FFFFFF"/><g transform="translate(20,10)">
+ <rect x="4" y="4" width="124" height="124" rx="30" fill="#0D5A62"/>
+ <text x="66" y="94" text-anchor="middle" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-weight="700" font-size="88" fill="#FFFFFF">S</text>
+ <path d="M18 110 H46 L53 100 L60 118 L67 106 H114" stroke="#B8852B" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</g><text x="185" y="88" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="54" fill="#1A2325"><tspan font-weight="400">Curso </tspan><tspan font-weight="700" fill="#0D5A62">SEDA</tspan></text>
+<text x="187" y="118" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="13.5" letter-spacing="1.6" fill="#5F7073">OBESIDAD · DIABETES · NUTRICIÓN · SALUD DIGITAL</text><line x1="698" y1="18" x2="698" y2="122" stroke="#C8E1DF" stroke-width="2"/>
+<rect x="720" y="26" width="150" height="88" rx="10" fill="none" stroke="#5F7073" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="795" y="66" text-anchor="middle" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#5F7073">LOGO SEDA</text>
+<text x="795" y="88" text-anchor="middle" font-family="'Liberation Sans', Arial, Helvetica, sans-serif" font-size="11.5" fill="#5F7073">falta el archivo original</text></svg>
