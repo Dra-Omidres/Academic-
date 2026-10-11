@@ -4,6 +4,11 @@
 Acompaña al video tutorial. Es el documento que abre quien no vio el video, o quien lo
 vio hace tres semanas y hoy le toca grabar.
 
+Modelo de grabación decidido el 11/10/2026: un solo enlace de Zoom de la cuenta
+live@draomidresperez.com, reunión periódica sin hora fija, entrada sin anfitriona y
+grabación automática en la nube. Cada docente entra sola; solo se acompaña a quien lo pide.
+Así todas las clases quedan en un mismo sitio y nadie tiene que enviar el archivo.
+
 Lleva el logo del curso (anillo de cuatro ejes con el logo de SEDA dentro), que sale de
 generador-logo-curso.py: si el logo cambia, se corre primero ese generador y después este.
 """
@@ -21,6 +26,10 @@ PALE  = colors.HexColor('#EDF5F4')
 WARM  = colors.HexColor('#FBF1DC')
 INK   = colors.HexColor('#1A2325')
 MUTED = colors.HexColor('#5F7073')
+
+# Sala única de grabación (cuenta live@draomidresperez.com). Graba sola en la nube al entrar.
+ENLACE  = 'https://us06web.zoom.us/j/87176184501'
+ID_SALA = '871 7618 4501'
 
 LOGO    = 'activos/logo/logo-curso-seda.png'      # 2160 × 420
 SIMBOLO = 'activos/logo/simbolo-curso-seda.png'   # 420 × 420
@@ -101,15 +110,21 @@ F += [Image(LOGO, width=86*mm, height=86*mm*420/2160, hAlign='LEFT'),
                 'digital · SEDA<br/>Guía rápida de dos páginas. Acompaña al video tutorial.',
                 st_sub),
       Spacer(1, 4*mm),
-      aviso('<b>Lo esencial en tres líneas.</b> Grabe desde una <b>computadora</b>, nunca desde el '
-            'celular. Use <b>audífonos con micrófono</b>: el audio importa más que la imagen. Y '
-            'cuando termine, <b>no cierre la computadora</b> hasta que Zoom acabe de convertir el '
-            'video.')]
+      aviso('<b>Lo esencial en tres líneas.</b> Todos grabamos en <b>la misma sala de Zoom</b>: entra '
+            'con el enlace de abajo y <b>la grabación empieza sola</b>; al terminar no tiene que '
+            'enviarnos nada. Grabe desde una <b>computadora</b>, nunca desde el celular. Y use '
+            '<b>audífonos con micrófono</b>: el audio importa más que la imagen.'),
+      Spacer(1, 2.5*mm),
+      aviso('<b>Sala de grabación del curso</b><br/>'
+            '<link href="%s" color="#0D5A62"><b>%s</b></link>&nbsp;&nbsp;·&nbsp;&nbsp;ID de reunión: '
+            '<b>%s</b><br/>Es la misma para todas las clases y para cualquier día y hora. '
+            '¿Prefiere grabar acompañada? Pídalo por el grupo y agendamos un turno.'
+            % (ENLACE, ENLACE, ID_SALA), PALE, TEAL)]
 
 F += seccion('1 · Antes de sentarse a grabar')
 F += [pasos([
-    'Una <b>computadora</b> con Zoom instalado y sesión iniciada. Desde el celular no se puede '
-    'grabar en el equipo.',
+    'Una <b>computadora</b> con Zoom instalado. No hace falta tener cuenta propia: entra con el '
+    'enlace de la sala.',
     'El <b>fondo virtual del curso</b> descargado. Se lo enviamos por el grupo; es el mismo para '
     'todos.',
     'Su <b>presentación abierta</b>, en la primera diapositiva.',
@@ -163,44 +178,41 @@ F += bullets([
     'Avise en casa que va a estar grabando media hora.',
 ])
 
-F += seccion('6 · Grabar en Zoom, paso a paso')
+F += seccion('6 · Grabar en la sala del curso, paso a paso')
 F += [pasos([
-    'Abra Zoom y haga clic en <b>Nueva reunión</b>. Va a entrar usted sola: es su estudio de '
-    'grabación.',
+    'Abra el <b>enlace de la sala</b> (arriba, en la primera página). Escriba su nombre como quiere '
+    'que aparezca: <i>Dra. Nombre Apellido</i>.',
+    '<b>Si ya hay otra persona dentro, salga</b> y vuelva a intentarlo en un rato: es una sola '
+    'sala y quedaría grabada en la clase de otro colega.',
     'Cuando pregunte por el audio, <b>Entrar con el audio del computador</b>. Si no, graba sin '
     'sonido y no tiene arreglo.',
+    '<b>Verifique que está grabando:</b> arriba a la izquierda tiene que decir <i>Grabando</i>. '
+    'Empieza sola al entrar. Si no lo dice, avísenos por el grupo antes de dar la clase.',
     '<b>Pruebe el micrófono:</b> flechita junto al ícono del micrófono → <i>Configuración de '
     'audio</i> → <i>Probar micrófono</i>. Confirme que el micrófono elegido es el de sus audífonos.',
     '<b>Ponga el fondo:</b> flechita junto al ícono de la cámara → <i>Elegir fondo virtual</i> → '
-    'el signo <b>+</b> → busque la imagen del curso. Queda guardado para la próxima vez.',
+    'el signo <b>+</b> → busque la imagen del curso.',
     '<b>Comparta su presentación:</b> botón verde <i>Compartir pantalla</i> → elija la ventana de '
     'su presentación, no toda la pantalla → <i>Compartir</i>.',
-    '<b>Grabe:</b> botón <i>Grabar</i> → si le da opciones, <b>Grabar en este computador</b>.',
-    '<b>Verifique:</b> arriba a la izquierda tiene que decir <i>Grabando</i>. Si no lo dice, no '
-    'está grabando.',
-    '<b>Espere cinco segundos en silencio</b> antes de empezar a hablar. Nos deja margen limpio '
-    'para cortar.',
+    '<b>Diga en voz alta su nombre y el título de su clase</b>, espere cinco segundos en silencio '
+    'y empiece. Así identificamos cada grabación y nos deja margen limpio para cortar.',
     'Dé su clase. <b>Si se equivoca, no empiece de nuevo:</b> quédese callada tres segundos y '
     'repita la frase desde el principio. Eso se corta.',
 ])]
 
-F += seccion('7 · Al terminar — donde más gente pierde su trabajo')
+F += seccion('7 · Al terminar')
 F += [pasos([
     'Tres segundos en silencio antes de tocar nada.',
-    '<b>Detener grabación</b> → <b>Finalizar</b> → <b>Finalizar la reunión para todos</b>.',
-    'Zoom empieza a <b>convertir</b> el video y le muestra una barrita. <b>No cierre la '
-    'computadora, no la apague, no cierre esa ventana.</b> Déjela terminar sola; puede tardar '
-    'unos minutos.',
-    'Al terminar <b>se abre una carpeta</b>. Su clase es el archivo <b>zoom_0.mp4</b> o de nombre '
-    'parecido. Si cerró la carpeta: está en <i>Documentos → Zoom →</i> carpeta con la fecha de hoy.',
-    'Envíelo por el enlace que le pasamos en el grupo. <b>Pesa demasiado para mandarlo por '
-    'correo.</b>',
+    '<b>Dejar de compartir</b> → <b>Salir</b>. La grabación se guarda sola en la cuenta del curso.',
+    '<b>No tiene que descargar ni enviar ningún archivo.</b> Puede apagar la computadora.',
+    '<b>Escriba al grupo de ponentes «Grabé mi clase»</b>, con la fecha y la hora. Así la buscamos '
+    'y le confirmamos que quedó bien.',
 ])]
 
 F += [Spacer(1, 3.5*mm),
       aviso('<b>El consejo que ahorra una grabación entera: haga una prueba de un minuto.</b><br/>'
-            'Antes de grabar los treinta minutos, grabe uno solo, deténgalo y <b>ábralo y véalo</b>. '
-            'En ese minuto descubre si el micrófono era el correcto, si la luz le da de frente, si '
+            'Antes de los treinta minutos, haga una prueba corta: entre a la sala, dé un minuto de '
+            'clase y salga, y <b>pídanos que le enviemos ese minuto para verlo</b>. En él descubre si el micrófono era el correcto, si la luz le da de frente, si '
             'la cámara está a buena altura y si el fondo le recorta los hombros. Todo eso se '
             'arregla en dos minutos ahora, y no se arregla nunca si lo descubre al final de la '
             'clase.', PALE, TEAL),
