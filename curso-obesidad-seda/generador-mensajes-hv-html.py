@@ -18,9 +18,8 @@ DOCENTES = [
     ('Dr. Frank Espinoza', 'M3 · C2 · Agonistas del receptor de GLP-1', '+51 936 260 715', None),
     ('Dra. María Paz Castillo Cabrera', 'M4 · C1 · Fisiopatología y clasificación de la diabetes',
      '+52 1 56 2489 0698',
-     'No enviar hasta aclarar si es la misma persona que interviene en el trámite del aval de la '
-     'Universidad de Cuenca. Si lo es, dictar una clase de un curso que evalúa puede ser un conflicto '
-     'de interés para el aval.'),
+     'NO HACE FALTA ENVIARLO: su hoja de vida llegó el 12/10/2026 por correo, enviada por la Dra. '
+     'Ruilova. Sigue pendiente aclarar si interviene en el trámite del aval de la Universidad de Cuenca.'),
     ('Dra. Gabriela Jiménez', 'M4 · C3 · Terapia farmacológica moderna', '+593 99 807 8964', None),
     ('Dra. Gabriela Machado', 'M5 · C3 · Nutrición durante las terapias para obesidad', '+593 99 502 5774',
      'Confirmar antes que sigue en el curso: estaba pendiente de confirmar.'),
