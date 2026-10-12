@@ -21,8 +21,6 @@ DOCENTES = [
     ('Dra. Gabriela Machado', 'M5 · C3 · Nutrición durante las terapias para obesidad', '+593 99 502 5774',
      'Confirmar antes que sigue en el curso: estaba pendiente de confirmar.'),
     ('Dra. Valeria Andrade', 'M6 · C1 · Enfermedad renal asociada a obesidad y diabetes', '+593 98 335 5686', None),
-    ('Dra. Ana María Gómez', 'M7 · C2 · Monitoreo digital y tecnologías en diabetes y obesidad',
-     '+57 310 488 4626', None),
 ]
 
 def construir(FUENTE, SALIDA, titulo, sub, clave, DOCENTES):
