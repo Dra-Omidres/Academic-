@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Páginas HTML con los mensajes individuales de WhatsApp para pedir documentos.
 
-1. SEDA_Mensajes_Hojas_de_Vida.html — los seis que piden solo la hoja de vida.
+1. SEDA_Mensajes_Hojas_de_Vida.html — los cinco que piden solo la hoja de vida.
 2. SEDA_Mensajes_Otros_Documentos.html — los que ya tienen hoja de vida y deben foto,
    cédula o pasaporte y declaración (lo que añadió la coordinación).
 
@@ -18,11 +18,6 @@ import html, re, urllib.parse
 # nombre visible, clase, teléfono, aviso que bloquea el envío (o None)
 DOCENTES = [
     ('Dr. Frank Espinoza', 'M3 · C2 · Agonistas del receptor de GLP-1', '+51 936 260 715', None),
-    ('Dra. María Paz Castillo Cabrera', 'M4 · C1 · Fisiopatología y clasificación de la diabetes',
-     '+52 1 56 2489 0698',
-     'NO HACE FALTA ENVIARLO: su hoja de vida llegó el 12/10/2026 por correo (la envió la Dra. '
-     'Ruilova) y la Dra. Omidres la dio por buena. Sigue pendiente aclarar si interviene en el '
-     'trámite del aval de la Universidad de Cuenca.'),
     ('Dra. Gabriela Jiménez', 'M4 · C3 · Terapia farmacológica moderna', '+593 99 807 8964', None),
     ('Dra. Gabriela Machado', 'M5 · C3 · Nutrición durante las terapias para obesidad', '+593 99 502 5774',
      'Confirmar antes que sigue en el curso: estaba pendiente de confirmar.'),
@@ -116,7 +111,7 @@ def construir(FUENTE, SALIDA, titulo, sub, clave, DOCENTES):
     print(SALIDA, 'generado ·', len(tarjetas), 'mensajes')
 
 construir('whatsapp-seis-hojas-de-vida.md', 'SEDA_Mensajes_Hojas_de_Vida.html', 'Hojas de vida pendientes',
-          'Seis mensajes individuales · solo se pide la hoja de vida · 12 de octubre de 2026', 'hv', DOCENTES)
+          'Cinco mensajes individuales · solo se pide la hoja de vida · 12 de octubre de 2026', 'hv', DOCENTES)
 
 # Tienen hoja de vida; les falta lo que añadió la coordinación. No están Piedra, Astudillo ni
 # Cristian Castillo: a los tres ya se les pidió lo suyo y no se les vuelve a escribir.

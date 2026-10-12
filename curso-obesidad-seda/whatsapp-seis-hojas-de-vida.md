@@ -1,7 +1,8 @@
-# Seis mensajes individuales · solo la hoja de vida
+# Mensajes individuales · solo la hoja de vida
 
 **Fecha:** 12 de octubre de 2026
-**Para quién:** los seis docentes que todavía no han enviado ningún documento.
+**Para quién:** los cinco docentes que todavía no han enviado su hoja de vida. La Dra. María Paz
+Castillo salió de esta lista el 12/10/2026: su hoja de vida llegó por medio de la Dra. Ruilova.
 **Qué piden:** solo la hoja de vida, que es lo único que exige el reglamento de la Universidad
 de Cuenca. La foto, la cédula y la declaración se piden después.
 
@@ -11,7 +12,6 @@ mensaje nombra su clase, para que la persona sepa de qué se trata sin buscar.*
 | # | Docente | WhatsApp | Antes de enviar |
 |---|---|---|---|
 | 1 | Dr. Frank Espinoza 🇵🇪 | +51 936 260 715 | — |
-| 2 | Dra. María Paz Castillo Cabrera | +52 1 56 2489 0698 | ⚠️ **Aclarar primero** si es la misma persona que interviene en el trámite del aval |
 | 3 | Dra. Gabriela Jiménez | +593 99 807 8964 | — |
 | 4 | Dra. Gabriela Machado | +593 99 502 5774 | Confirmar que sigue en el curso |
 | 5 | Dra. Valeria Andrade | +593 98 335 5686 | — |
@@ -32,28 +32,6 @@ Puede mandarla por aquí mismo, al correo info@draomidresperez.com o por el form
 https://forms.gle/Xg7JRjNWqTNDeZWL8
 
 Muchas gracias 🙏
-```
-
----
-
-## 2 · Dra. María Paz Castillo Cabrera — M4 · C1
-
-> ⚠️ **No enviar hasta aclarar su caso.** La matriz dice: «PENDIENTE aclarar si es la misma
-> persona vinculada al trámite de avales de la Universidad de Cuenca. No escribirle hasta
-> resolverlo». Si lo es, que dicte una clase de un curso que la Universidad evalúa puede ser
-> un conflicto de interés para el aval.
-
-```
-Dra. Castillo, buenas tardes 🌿 Le saluda Omidres Pérez, coordinadora académica del curso virtual de SEDA.
-
-Muchas gracias por acompañarnos con la clase *Fisiopatología y clasificación de la diabetes*.
-
-Para el expediente del aval académico de la Universidad de Cuenca necesitamos su *hoja de vida*; es lo único que la Universidad nos exige de cada docente.
-
-¿Me la podría enviar? Sirve en el formato que la tenga (PDF o Word), por aquí mismo, al correo info@draomidresperez.com o por el formulario:
-https://forms.gle/Xg7JRjNWqTNDeZWL8
-
-Quedo atenta, muchas gracias 🙏
 ```
 
 ---
