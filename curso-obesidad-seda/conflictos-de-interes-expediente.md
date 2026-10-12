@@ -670,16 +670,19 @@ MINSA del Perú, presidente y fundador de HL7 Perú. Su perfil encaja con M7 · 
 
 **Dos vínculos con la Dra. Omidres que salen de su propia hoja de vida:**
 
-1. **MEDDI Hub a.s.** — la hoja de vida dice «Consultor Especialista en Proyectos TI,
-   02/2022 – 12/2023», o sea, terminado. Pero en septiembre de 2026 escribe desde
-   `styp@meddi.com` en los correos del proyecto MINSA Perú. **POR CONFIRMAR** si el vínculo
-   sigue vigente; si sigue, se declara como vigente.
+1. **MEDDI Hub a.s.** — hoy es **consultor externo** de varias empresas y MEDDI es una
+   de ellas *(lo confirmó la Dra. Omidres el 12/10/2026)*. Su hoja de vida solo menciona
+   el período 02/2022 – 12/2023, así que **se declara como vínculo vigente**, no como
+   pasado. La Dra. Omidres es CMO LATAM de MEDDI.
 2. **Organización Internacional de Telemedicina y Telesalud (OITT)** — figura como
    «miembro vocal y fundador». La Dra. Omidres es su presidenta y fundadora (está en su
    propia declaración).
 
-Ninguno es económico con el curso ni con los auspiciantes, pero los dos tienen que estar en
-su declaración. **POR CONFIRMAR** también: si tiene algún vínculo con Omisalud.
+**Omisalud:** sin vínculo *(confirmado por la Dra. Omidres el 12/10/2026)*. Conviene que
+él lo diga también en su declaración, de forma expresa.
+
+Ninguno de los dos vínculos es con el curso ni con los auspiciantes: MEDDI no auspicia ni
+interviene en el curso. Declararlos es lo que protege el expediente.
 
 **Datos que faltan:** el archivo de la hoja de vida (PDF o Word), su fotografía, su
 documento de identidad y su declaración firmada.
