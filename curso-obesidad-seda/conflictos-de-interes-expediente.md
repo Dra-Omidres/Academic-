@@ -69,7 +69,7 @@ y no otra.
 La Dra. Omidres ocupa **cinco posiciones a la vez**:
 
 1. **Coordinadora académica** del curso
-2. **Docente** en M7 · C1 y M7 · C4
+2. **Docente** en M7 · C1 *(M7 · C4 pasó al Ing. Styp Canto el 12/10/2026)*
 3. **Socia mayoritaria** de la empresa dueña de la plataforma
 4. **Presidenta** de esa empresa
 5. **Titular de la cuenta bancaria autorizada** para recibir los pagos de esa empresa
@@ -180,9 +180,10 @@ preguntárselo a Liz.*
 
 ### El hecho que juega a favor, y hay que decirlo
 
-**Las dos clases de la coordinadora no tocan el producto de ningún auspiciante.** M7 · C1
-es fundamentos de salud digital y telemedicina; M7 · C4, implementación, ética y seguridad
-de datos. Ni fármacos ni dispositivos. **Quien coordina el curso y es dueña de la
+**La clase de la coordinadora no toca el producto de ningún auspiciante.** M7 · C1 es
+fundamentos de salud digital y telemedicina. Ni fármacos ni dispositivos. *(Hasta el
+12/10/2026 dictaba también M7 · C4, implementación, ética y seguridad de datos, que tampoco
+los toca.)* **Quien coordina el curso y es dueña de la
 plataforma no dicta ninguna de las siete clases con exposición comercial.** Eso es
 justamente lo que un revisor iría a buscar, y conviene que lo encuentre escrito.
 
@@ -439,7 +440,7 @@ y el formulario prellenado deja marcada para completar.
 | Especialidad | Endocrinología · Medicina Interna |
 | Institución | **[pendiente de completar]** |
 | Ciudad y país | Cuenca, Ecuador |
-| Clases | M7 · C1 y M7 · C4 · entrega 3 de diciembre de 2026 |
+| Clases | M7 · C1 · entrega 3 de diciembre de 2026 *(M7 · C4 se quitó el 12/10/2026)* |
 | Casilla marcada | **Sí tiene vínculos que declarar** |
 
 **Vínculo 1 — Omisalud Cía. Ltda. (RUC 0190491641001).** Socia con 200 de 400
@@ -634,3 +635,30 @@ condicionarlo a que el vínculo tenga que ver con el curso.
 declaraciones individuales de conflicto de interés —su lista de once requisitos no las
 menciona—. El formulario es una adición de esta coordinación, de modo que la vara aquí es
 la que ella misma fijó.*
+
+---
+
+## Ing. Styp Canto — M7 · C4 *(asignado el 12/10/2026)*
+
+**Qué pasó.** La Dra. Omidres le cedió M7 · C4, «Implementación, ética y seguridad de
+datos», que dictaba desde el 23/09/2026. Ella conserva M7 · C1. Styp aceptó el mismo día.
+
+**El vínculo que hay que declarar.** Styp trabaja con la Dra. Omidres en MEDDI Hub (usa
+un correo `@meddi.com` y ambos están en los correos del proyecto MINSA Perú con el CEO de
+MEDDI). Además, la Dra. Omidres le ha encargado temas de hosting de sus sitios web. Es una
+relación profesional con quien coordina el curso y es socia de la plataforma.
+
+**No impide que dicte la clase, pero tiene que constar:**
+
+1. En **su** declaración de conflicto de interés: el vínculo profesional con la Dra.
+   Omidres en MEDDI Hub y cualquier relación con Omisalud o con la plataforma, si la hay.
+   **POR CONFIRMAR** con él: si tiene algún vínculo con Omisalud.
+2. En la declaración de la Dra. Omidres, MEDDI Hub ya está declarado.
+
+**Por qué conviene igual.** Con este cambio, quien coordina el curso y es socia de la
+plataforma pasa a dictar una sola clase. Un revisor lo verá como una reducción de su peso
+en el programa. Lo que no debe pasar es que encuentre el vínculo con Styp por su cuenta
+en lugar de leerlo en la declaración.
+
+**Datos que faltan:** nombre completo, especialidad de ingeniería, institución,
+WhatsApp, hoja de vida. Están como POR CONFIRMAR en la matriz.

@@ -61,7 +61,7 @@ mods=['M1']*4+['M2']*4+['M3']*4+['M4']*4+['M5']*4+['M6']*4+['M7']*4
 # nombres completos token a token, tolerando variantes de escritura
 # (Janeth/Janneth, Palacios/Palacio) y se asigna cada clase a quien mas
 # coincide.
-TITULOS={'dr','dra','lcda','lcdo','msc','m','sc','mg','mgtr','de','del','la','y'}
+TITULOS={'dr','dra','lcda','lcdo','ing','msc','m','sc','mg','mgtr','de','del','la','y'}
 def tokens(s):
     s=unicodedata.normalize('NFKD', str(s)).encode('ascii','ignore').decode().lower()
     return {t for t in re.findall(r'[a-z]+', s) if t not in TITULOS and len(t)>1}
@@ -210,10 +210,8 @@ F += [Spacer(1,5*mm), Paragraph(
   'cédula a la Dra. María Augusta Astudillo y a la Dra. Johanna Piedra, y al Dr. Cristian Castillo que '
   'firme su declaración. Figuran como pendientes porque todavía no han llegado, pero <b>no hay que '
   'volver a escribirles</b>.<br/><br/>'
-  '<b>Quiénes no están en esta lista.</b> La Dra. Omidres Pérez de Carvelli dicta las clases M7·C1 y '
-  'M7·C4 y sus documentos van al expediente igual que los de todos, pero lleva la coordinación académica '
-  'y se ocupa de los suyos: por eso no aparece aquí. Tampoco hay que escribir todavía a la Dra. Gabriela '
-  'Machado, que no ha confirmado su participación, ni a la Dra. María Paz Castillo, que aún no ha sido '
-  'invitada formalmente. De esas dos se encarga la coordinación.', st_av)]
+  '<b>Quiénes no están en esta lista.</b> La Dra. Omidres Pérez de Carvelli dicta la clase M7·C1 '
+  'y sus documentos van al expediente igual que los de todos, pero lleva la coordinación académica '
+  'y se ocupa de los suyos: por eso no aparece aquí.', st_av)]
 doc.build(F)
 print('generado')
