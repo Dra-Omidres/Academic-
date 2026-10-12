@@ -30,7 +30,7 @@ Querido Styp, buenas tardes 🌿
 
 Te escribo con una propuesta académica, y con toda la confianza de que me digas que no si no te da el tiempo.
 
-Estoy coordinando el *Curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital* de la Sociedad de Endocrinología y Diabetes del Austro (SEDA), que va a tener aval académico de la Universidad de Cuenca. Me gustaría que dictaras esta clase, porque es justo tu terreno:
+Estoy coordinando el *Curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital* de la Sociedad de Endocrinología y Diabetes del Austro (SEDA), para el que estamos solicitando el aval académico de la Universidad de Cuenca. Me gustaría que dictaras esta clase, porque es justo tu terreno:
 
 *Implementación, ética y seguridad de datos*
 Módulo 7 (Salud digital y telemedicina aplicada), Clase 4 · 30 minutos
