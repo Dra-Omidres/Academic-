@@ -1,6 +1,6 @@
 # Ing. Styp Canto — invitación a M7 · C4
 
-**Para:** Ing. Styp Canto · WhatsApp POR CONFIRMAR · correo styp611@outlook.com
+**Para:** Ing. Styp Bill Roy Canto Rondón · +51 956 194 180 · styp611@outlook.com · **ACEPTÓ el 12/10/2026**
 **Clase que se le ofrece:** M7 · C4 — Implementación, ética y seguridad de datos · 30 minutos ·
 entrega **jueves 3 de diciembre de 2026** (la misma del módulo 7)
 **Fecha:** 12 de octubre de 2026

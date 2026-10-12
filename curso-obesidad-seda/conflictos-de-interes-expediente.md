@@ -660,5 +660,26 @@ plataforma pasa a dictar una sola clase. Un revisor lo verá como una reducción
 en el programa. Lo que no debe pasar es que encuentre el vínculo con Styp por su cuenta
 en lugar de leerlo en la declaración.
 
-**Datos que faltan:** nombre completo, especialidad de ingeniería, institución,
-WhatsApp, hoja de vida. Están como POR CONFIRMAR en la matriz.
+### Lo que dice su hoja de vida *(recibida como texto el 12/10/2026)*
+
+**Ing. Styp Bill Roy Canto Rondón**, ingeniero de Telecomunicaciones (Universidad Inca
+Garcilaso de la Vega, 2005–2010), CIP 131278. Hoy coordina el equipo de TI del Centro
+Nacional de Telemedicina (CENATE) de EsSalud, en Lima. Antes: 7 años en telemedicina del
+MINSA del Perú, presidente y fundador de HL7 Perú. Su perfil encaja con M7 · C4
+(interoperabilidad, HL7 FHIR, seguridad de la información clínica).
+
+**Dos vínculos con la Dra. Omidres que salen de su propia hoja de vida:**
+
+1. **MEDDI Hub a.s.** — la hoja de vida dice «Consultor Especialista en Proyectos TI,
+   02/2022 – 12/2023», o sea, terminado. Pero en septiembre de 2026 escribe desde
+   `styp@meddi.com` en los correos del proyecto MINSA Perú. **POR CONFIRMAR** si el vínculo
+   sigue vigente; si sigue, se declara como vigente.
+2. **Organización Internacional de Telemedicina y Telesalud (OITT)** — figura como
+   «miembro vocal y fundador». La Dra. Omidres es su presidenta y fundadora (está en su
+   propia declaración).
+
+Ninguno es económico con el curso ni con los auspiciantes, pero los dos tienen que estar en
+su declaración. **POR CONFIRMAR** también: si tiene algún vínculo con Omisalud.
+
+**Datos que faltan:** el archivo de la hoja de vida (PDF o Word), su fotografía, su
+documento de identidad y su declaración firmada.
