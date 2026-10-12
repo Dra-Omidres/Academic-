@@ -14,7 +14,7 @@ mensaje nombra su clase, para que la persona sepa de qué se trata sin buscar.*
 | # | Docente | WhatsApp | Antes de enviar |
 |---|---|---|---|
 | 1 | Dr. Frank Espinoza 🇵🇪 | +51 936 260 715 | — |
-| 4 | Dra. Gabriela Machado | +593 99 502 5774 | Confirmar que sigue en el curso |
+| 2 | Dra. Gabriela Machado | +593 99 502 5774 | — (confirmó que sigue, 12/10/2026) |
 
 ---
 
@@ -35,10 +35,9 @@ Muchas gracias 🙏
 
 ---
 
-## 4 · Dra. Gabriela Machado — M5 · C3
+## 2 · Dra. Gabriela Machado — M5 · C3
 
-> Confirmar antes que sigue en el curso: el mensaje a Natalia del 9/10 decía que no había
-> confirmado, y la matriz la da por confirmada desde el 28/09.
+> La Dra. Omidres confirmó el 12/10/2026 que sigue en el curso.
 
 ```
 Dra. Machado, buenas tardes 🌿 Le saluda Omidres Pérez, del curso de SEDA.

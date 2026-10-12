@@ -18,8 +18,7 @@ import html, re, urllib.parse
 # nombre visible, clase, teléfono, aviso que bloquea el envío (o None)
 DOCENTES = [
     ('Dr. Frank Espinoza', 'M3 · C2 · Agonistas del receptor de GLP-1', '+51 936 260 715', None),
-    ('Dra. Gabriela Machado', 'M5 · C3 · Nutrición durante las terapias para obesidad', '+593 99 502 5774',
-     'Confirmar antes que sigue en el curso: estaba pendiente de confirmar.'),
+    ('Dra. Gabriela Machado', 'M5 · C3 · Nutrición durante las terapias para obesidad', '+593 99 502 5774', None),
 ]
 
 def construir(FUENTE, SALIDA, titulo, sub, clave, DOCENTES):
