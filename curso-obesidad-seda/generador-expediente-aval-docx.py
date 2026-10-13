@@ -131,7 +131,7 @@ def tabla(filas, anchos, cab=True, size=9):
     return t
 
 # ===== 1 · Carta de solicitud =====
-par('Cuenca, [[___ de octubre de 2026]]', align=WD_ALIGN_PARAGRAPH.RIGHT, despues=14)
+par('Cuenca, ____ de octubre de 2026', align=WD_ALIGN_PARAGRAPH.RIGHT, despues=14)
 for l in ['Doctora','Nancy Auquilla Díaz','Decana (e) de la Facultad de Ciencias Médicas','Universidad de Cuenca']:
     par(l, b=(l=='Nancy Auquilla Díaz'), despues=0)
 par('Presente.', despues=12)
@@ -181,9 +181,9 @@ tabla([
  ['Población objetivo','Médicos generales y especialistas, nutricionistas y otros profesionales de la salud'],
  ['Cupos disponibles','200 participantes'],
  ['Valor curricular','20 horas: 14 horas de clases grabadas (28 clases de 30 minutos) y 6 horas de estudio autónomo con lecturas y material complementario por módulo'],
- ['Tipo de certificado','De participación, emitido por SEDA con el aval académico de la Universidad de Cuenca. Se otorga a quienes [[completen la visualización de las 28 clases en la plataforma — criterio por confirmar]]'],
+ ['Tipo de certificado','De participación, emitido por SEDA con el aval académico de la Universidad de Cuenca'],
  ['Entidades auspiciantes','Boehringer Ingelheim, Laboratorios Elea y Laboratorio Saval (ver sección 7)'],
- ['Costo de inscripción','[[POR DEFINIR — la Comisión de Avales pidió declararlo]]'],
+ ['Costo de inscripción','El curso contempla un costo de inscripción, cuyo valor fija la directiva de SEDA. Se comunicará a la Comisión antes de abrir las inscripciones'],
  ['Coordinación académica','Dra. Omidres Pérez de Carvelli'],
 ], [5, 11.2], cab=False, size=9.5)
 
@@ -232,10 +232,10 @@ for d in docentes:
     filas.append([d['nombre'], d['esp'], d['inst'], ' / '.join(sorted(d['clases']))])
 tabla(filas, [4.4, 4.6, 5, 2.2], size=8.5)
 if sin_cv:
-    par('[[Hojas de vida en trámite: %s. Se remitirán a la Comisión en cuanto se reciban.]]' % '; '.join(sin_cv), size=9)
+    par('**Hojas de vida en trámite:** %s. Se remitirán a la Comisión en cuanto se reciban.' % '; '.join(sin_cv), size=9)
 
 titulo('6. Financiamiento')
-par('El curso se financia con el auspicio de la industria farmacéutica y [[con el costo de inscripción — por definir]]. '
+par('El curso se financia con el auspicio de la industria farmacéutica y con el costo de inscripción que fije la directiva de la Sociedad. '
     'El auspicio ingresa a la Sociedad de Endocrinología y Diabetes del Austro, que con esos recursos contrata la '
     'plataforma y su gestión operativa.', align=WD_ALIGN_PARAGRAPH.JUSTIFY)
 
