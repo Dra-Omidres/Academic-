@@ -25,3 +25,15 @@ Le pido, si es posible, una respuesta hasta el *viernes 16 de octubre*. Si en es
 
 Muchas gracias, doctor 🙏
 ```
+
+---
+
+## Plan B decidido *(13/10/2026)*
+
+Si el Dr. Espinoza no responde hasta el 16/10, **la clase la da la Dra. Omidres**. Ya se lo
+comentó a la Dra. Ruilova y ella está de acuerdo.
+
+**Si se activa, cambiar en el expediente:** la sección 7 dice que la clase de la
+coordinadora no aborda productos de los auspiciantes. Con M3 · C2 (agonistas de GLP-1) eso
+hay que revisarlo: verificar si Boehringer, Elea o Saval comercializan algún agonista de
+GLP-1 en Ecuador antes de reescribir la frase.
