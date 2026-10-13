@@ -205,6 +205,43 @@ F.append(tabla([['Contenido que se repite','Clases','Cómo se reparte'],
      'M1 para <b>clasificar</b> al paciente; M5 para decidir el <b>plan nutricional</b>']],
     [W*0.34, W*0.22, W*0.44]))
 
+# ---------- enfoque sugerido a algunos docentes ----------
+# Cuando un docente pregunta cómo encarar su clase y la coordinación le responde, el enfoque
+# acordado entra aquí. Es una propuesta: el docente puede repartir los minutos a su manera.
+ENFOQUE = {
+"M2 · C3": ("Una clase práctica para la consulta, no de fisiología ni de psiquiatría. Que quien escucha "
+            "sepa reconocer qué tipo de hambre tiene su paciente y qué herramientas conductuales usar para "
+            "que sostenga el tratamiento.",
+            # propuesto por la coordinación a la Dra. Bermeo el 13/10/2026, a raíz de su consulta
+            [("Hambre fisiológica y hambre emocional", "8 min",
+              "La vía del hambre de forma breve: lo justo para distinguir el hambre homeostática de la "
+              "hedónica o emocional, y cómo diferenciarlas en la consulta."),
+             ("Conducta alimentaria en la consulta", "12 min",
+              "Qué preguntar y cómo detectar el comer emocional; cuándo sospechar un trastorno de la conducta "
+              "alimentaria (por ejemplo, el trastorno por atracón) y derivar; herramientas sencillas: registro "
+              "alimentario, escala de hambre, control de estímulos, alimentación consciente, entrevista motivacional."),
+             ("Adherencia terapéutica", "8 min",
+              "Por qué los pacientes abandonan y qué hacer: metas realistas, seguimiento frecuente, prevención "
+              "de recaídas y lenguaje sin estigma.")],
+            "Cierre con un mensaje práctico para la consulta."),
+}
+
+def caja_enfoque(cod):
+    obj, bloques, cierre = ENFOQUE[cod]
+    filas=[[Paragraph('ENFOQUE SUGERIDO · los minutos son orientativos', S(name='ea', parent=st_lab, textColor=GOLD)), '', ''],
+           [Paragraph(obj, st_dat), '', '']]
+    for i,(t,mins,d) in enumerate(bloques, 1):
+        filas.append([Paragraph('<b>%d</b>' % i, st_dat), Paragraph('<b>%s</b><br/>%s' % (t, d), st_dat),
+                      Paragraph('<b>%s</b>' % mins, st_dat)])
+    filas.append([Paragraph(cierre, st_nota), '', ''])
+    t=Table(filas, colWidths=[8*mm, W-8*mm-18*mm, 18*mm])
+    t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,-1),WARM),('LINEBEFORE',(0,0),(0,-1),2.4,GOLD),
+        ('SPAN',(0,0),(-1,0)),('SPAN',(0,1),(-1,1)),('SPAN',(0,-1),(-1,-1)),
+        ('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),7),
+        ('TOPPADDING',(0,0),(-1,-1),2.5),('BOTTOMPADDING',(0,0),(-1,-1),2.5),
+        ('LINEABOVE',(0,2),(-1,-2),.4,colors.HexColor('#EBD9B4'))]))
+    return t
+
 # ---------- clase por clase ----------
 def bloque_clase(cod):
     c=CL[cod]; si,no=D[cod]; mod=cod.split(' · ')[0]
@@ -238,6 +275,8 @@ def bloque_clase(cod):
             Paragraph('<font color="#5F7073"><b>Contenidos declarados en el programa:</b> %s</font>' % c['cont'],
                       S(name='cd', parent=st_dat, leftIndent=8, spaceBefore=2, spaceAfter=3)),
             cuerpo]
+    if cod in ENFOQUE:
+        partes += [Spacer(1,2.5*mm), caja_enfoque(cod)]
     if vac:
         partes.append(Paragraph('Esta clase todavía no tiene docente confirmado. La coordinación avisará cuando '
                                 'se asigne.', S(name='v', parent=st_nota, textColor=ROJO)))
