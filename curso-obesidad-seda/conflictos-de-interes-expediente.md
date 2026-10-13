@@ -686,3 +686,38 @@ interviene en el curso. Declararlos es lo que protege el expediente.
 
 **Datos que faltan:** el archivo de la hoja de vida (PDF o Word), su fotografía, su
 documento de identidad y su declaración firmada.
+
+---
+
+## Monto de la plataforma y reparto con el programador *(13/10/2026)* — ⚠️ una decisión pendiente
+
+**Lo decidido por la Dra. Omidres:**
+
+- SEDA paga a Omisalud **USD 1 200** (tentativo) por factura, a su cuenta corporativa.
+- Omisalud reparte **50 / 50**: USD 600 se queda en Omisalud y USD 600 van a Nelson
+  (Amoba Software), que monta el curso, sube los videos, matricula, da soporte de lunes a
+  viernes y emite los certificados. El pago a Nelson es un gasto interno de Omisalud.
+- El cobro de las inscripciones lo hace SEDA, no la plataforma.
+- La Dra. Omidres precisa que la parte de Omisalud cubre **«plataforma, coordinación del
+  curso, etc.»**.
+
+**La tensión que hay que resolver antes de facturar.** El apartado de transparencia, en
+sus dos versiones (secciones 6 y 9-10 de este documento), dice:
+
+> «La coordinadora académica **no percibe remuneración alguna por la coordinación** ni por
+> la docencia, ni recibe pago personal alguno vinculado al curso.»
+
+Si Omisalud factura a SEDA por *coordinación del curso* y quien coordina es la Dra.
+Omidres, esa frase deja de ser exacta: la coordinación sí se estaría remunerando, a través
+de una compañía de la que ella es socia al 50 %. No es ilegítimo, pero el expediente no
+puede decir lo contrario.
+
+**Dos salidas, a elegir:**
+
+| | Qué factura Omisalud | Qué dice el expediente |
+|---|---|---|
+| **A** | Solo servicios de plataforma: alojamiento, montaje, soporte, matrículas, certificados y la gestión operativa del curso | Se mantiene tal cual: la coordinación **académica** es ad honorem |
+| **B** | Plataforma **y** coordinación académica | Hay que cambiar la frase: «la coordinación académica se presta a través de Omisalud Cía. Ltda., que la factura a SEDA junto con la plataforma» |
+
+La A es la más sencilla y la que menos explicación pide ante la Comisión. La decide la Dra.
+Omidres. **Hasta entonces, la factura no debe emitirse con el concepto «coordinación».**
