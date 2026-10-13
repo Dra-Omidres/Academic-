@@ -754,3 +754,20 @@ vínculo Omisalud):
 
 **Pendiente:** que la Dra. Omidres apruebe los dos textos; entonces se cambian en la
 declaración y en el expediente.
+
+### Decisión final: salida A *(13/10/2026)*
+
+Consultada entre las dos salidas, la Dra. Omidres elige la **A**. Queda sin efecto la
+propuesta B de arriba.
+
+- **Omisalud factura a SEDA:** el uso de la plataforma y su **gestión operativa**: montaje
+  del curso, subida de videos, soporte a los inscritos, matrículas y certificados. Eso es lo
+  que hace Nelson y lo que sostiene la compañía.
+- **La coordinación académica** —programa, docentes, delimitación de temas, expediente del
+  aval— **sigue siendo ad honorem**. La frase del expediente «la coordinadora académica no
+  percibe remuneración alguna por la coordinación ni por la docencia» se mantiene.
+- **Concepto de la factura:** «Plataforma saludelearning.com y gestión operativa del curso».
+  **No** usar la palabra «coordinación».
+- **Su declaración** (`SEDA_COI_Omidres_Perez_prellenada.docx`) se actualizó para decir que
+  Omisalud factura «el uso de la plataforma y su gestión operativa (montaje del curso,
+  soporte a los inscritos, matrículas y certificados)».
