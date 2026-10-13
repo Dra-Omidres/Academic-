@@ -721,3 +721,36 @@ puede decir lo contrario.
 
 La A es la más sencilla y la que menos explicación pide ante la Comisión. La decide la Dra.
 Omidres. **Hasta entonces, la factura no debe emitirse con el concepto «coordinación».**
+
+### Decisión: salida B *(13/10/2026)*
+
+La Dra. Omidres precisa: *«Omisalud se ha encargado, a través de Omidres Pérez y Claude,
+de todo lo demás»*. Es decir, la coordinación del curso la ha ejercido ella **a través de
+Omisalud**, y Omisalud la incluye en lo que factura a SEDA. Es la **salida B**: la frase
+«no percibe remuneración alguna por la coordinación» ya no es exacta y hay que cambiarla.
+
+*(«Claude» es la herramienta de inteligencia artificial con la que trabaja la
+coordinación. No es una persona ni un proveedor que facture: no se declara como vínculo.)*
+
+**Texto propuesto para el apartado de transparencia** *(sustituye la última frase del
+párrafo de financiamiento y la «fórmula que dice las dos cosas»)*:
+
+> La plataforma saludelearning.com y la coordinación del curso las presta Omisalud Cía.
+> Ltda., compañía de la que la coordinadora académica, Dra. Omidres Pérez de Carvelli, es
+> socia con el 50 % del capital y ejerce la Presidencia. SEDA contrata ese servicio
+> mediante factura emitida por la compañía y cancelada en su cuenta corporativa nacional;
+> la coordinadora se excusó de la decisión de contratación, que adoptó SEDA. La docencia de
+> todo el cuerpo docente, incluida la de la coordinadora, es ad honorem.
+
+**Texto propuesto para su declaración** (`SEDA_COI_Omidres_Perez_prellenada.docx`,
+vínculo Omisalud):
+
+> Opera la plataforma saludelearning.com, en la que se dicta este curso, y presta la
+> coordinación del curso, que la declarante ejerce a través de la compañía. Ambos
+> servicios los factura Omisalud y los paga SEDA directamente a la cuenta corporativa de
+> la compañía en el Ecuador. Los auspiciantes no pagan a Omisalud: su aporte entra a SEDA,
+> que es quien contrata el servicio. La declarante no recibe pagos personales por el curso
+> y se excusa de la decisión de contratación, que adopta SEDA.
+
+**Pendiente:** que la Dra. Omidres apruebe los dos textos; entonces se cambian en la
+declaración y en el expediente.
