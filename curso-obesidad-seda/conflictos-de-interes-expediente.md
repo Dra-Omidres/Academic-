@@ -777,8 +777,7 @@ propuesta B de arriba.
 ## Dr. Ramón de Cangas Morán — M5 · C2 *(aceptó el 13/10/2026)*
 
 Dietista-nutricionista y biólogo, de Oviedo (España). Dirige las clínicas Nutrigroup y
-preside la Fundación Alimenta Tu Salud. Su declaración de conflicto de interés está
-**pendiente**: conviene pedirle que declare cualquier relación con la industria
-alimentaria o de suplementos (en perfiles públicos figura como prescriptor de marcas de
-alimentación), porque su clase trata patrones alimentarios. Ninguno de los tres
-auspiciantes del curso es de ese sector, pero el formulario pide declararlo igual.
+preside la Fundación Alimenta Tu Salud.
+
+**Conflicto de interés:** la Dra. Omidres informa el 13/10/2026 que **no tiene conflicto**,
+y decide no pedirle la declaración, porque la Universidad no la exige. Queda anotado así.

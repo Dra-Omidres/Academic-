@@ -260,8 +260,8 @@ for t in [
  'remuneración alguna por la coordinación ni por la docencia. La clase a su cargo, «Fundamentos de salud digital y '
  'telemedicina en enfermedades crónicas», no aborda productos farmacéuticos ni dispositivos de ninguno de los '
  'auspiciantes.',
- 'Los docentes suscriben una declaración de conflicto de interés, que la Sociedad conserva y pone a disposición de la '
- 'Comisión.',
+ 'Los docentes declaran sus posibles conflictos de interés. Las declaraciones firmadas recibidas a la fecha se '
+ 'adjuntan como anexo.',
 ]: par(t, align=WD_ALIGN_PARAGRAPH.JUSTIFY, despues=7)
 
 titulo('8. Anexos')
