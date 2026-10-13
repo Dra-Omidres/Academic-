@@ -7,8 +7,8 @@ Médicas y se entrega en el Decanato; rige el artículo 7 del Reglamento Interno
 contenidos, población, expositores con sus hojas de vida, cronograma, financiamiento) y
 once puntos de evaluación.
 
-Decisiones de la Dra. Omidres (13/10/2026): firma la Dra. Lizbet Ruilova como Presidenta de
-SEDA; M5 · C2 la dicta la Lcda. Isabel Reinoso; expediente nuevo y completo.
+Decisiones de la Dra. Omidres (13/10/2026): firma ella misma como Coordinadora docente del
+curso (antes firmaba la Dra. Lizbet Ruilova como Presidenta de SEDA); M5 · C2 la dicta la Lcda. Isabel Reinoso; expediente nuevo y completo.
 
 El cuerpo docente, las clases y los contenidos salen de la matriz. Lo que falta decidir va
 resaltado en amarillo dentro del documento, para que nadie lo entregue sin completarlo.
@@ -142,10 +142,10 @@ par('**Asunto:** Solicitud de aval académico para el «Curso virtual de actuali
     'nutrición clínica y salud digital»', despues=12)
 par('De mi consideración:', despues=8)
 cuerpo=[
- 'Reciba un cordial saludo. En mi calidad de Presidenta de la **Sociedad de Endocrinología y Diabetes del Austro '
- '(SEDA)**, me permito solicitar a usted, y por su intermedio a la Comisión de Avales y al Consejo Directivo de la '
+ 'Reciba un cordial saludo. En mi calidad de Coordinadora docente del curso que organiza la **Sociedad de '
+ 'Endocrinología y Diabetes del Austro (SEDA)**, me permito solicitar a usted, y por su intermedio a la Comisión de Avales y al Consejo Directivo de la '
  'Facultad, el **aval académico de la Universidad de Cuenca** para el **Curso virtual de actualización en obesidad, '
- 'diabetes, nutrición clínica y salud digital**, que nuestra Sociedad dictará del **5 de noviembre al 17 de diciembre '
+ 'diabetes, nutrición clínica y salud digital**, que la Sociedad dictará del **5 de noviembre al 17 de diciembre '
  'de 2026**.',
  'La obesidad y la diabetes tipo 2 son hoy dos de los principales problemas de salud pública de la región, y su '
  'abordaje ha cambiado de forma sustancial en los últimos años con la llegada de nuevas terapias farmacológicas, de la '
@@ -158,15 +158,15 @@ cuerpo=[
  'docente de especialistas del Ecuador, México, Costa Rica, Perú, Argentina, Colombia y España.',
  'Adjunto el expediente con la información que establece el artículo 7 del Reglamento Interno y los puntos de '
  'evaluación que nos indicó la Comisión de Avales, junto con las hojas de vida del cuerpo docente.',
- 'Para cualquier aclaración, la coordinación académica del curso está a cargo de la **Dra. Omidres Pérez de '
- 'Carvelli** (info@draomidresperez.com), quien atenderá con gusto cualquier requerimiento de la Comisión.',
+ 'Quedo a disposición de la Comisión para cualquier aclaración o requerimiento adicional, en el correo '
+ 'info@draomidresperez.com.',
  'Agradezco de antemano la atención que brinde a la presente.',
 ]
 for c in cuerpo:
     q=par(c, align=WD_ALIGN_PARAGRAPH.JUSTIFY, despues=8)
 par('Atentamente,', antes=6, despues=46)
-par('**Dra. Lizbet Yolanda Ruilova González**', despues=0)
-par('Presidenta', despues=0)
+par('**Dra. Omidres Pérez de Carvelli**', despues=0)
+par('Coordinadora docente del curso', despues=0)
 par('Sociedad de Endocrinología y Diabetes del Austro (SEDA)', despues=0)
 doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
 

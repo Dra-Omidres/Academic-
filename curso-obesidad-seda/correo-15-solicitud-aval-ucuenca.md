@@ -7,12 +7,14 @@
 lleva los puntos del artículo 7 y los once de evaluación; se quitaron el apartado de
 transparencia y las declaraciones de conflicto de interés, que la Universidad no exige.
 Quedan archivados en `conflictos-de-interes-expediente.md` por si la Comisión pregunta.
+**Cambio (13/10/2026):** la carta la firma la Dra. Omidres como Coordinadora docente del
+curso, no la Dra. Ruilova.
 
 **Adjuntos:**
-1. `SEDA_Solicitud_Aval_UCuenca.pdf`, **firmada por la Dra. Ruilova** (escaneada).
-2. `SEDA_Anexo1_Hojas_de_Vida.pdf`.
+1. `SEDA_Solicitud_Aval_UCuenca.pdf`, **firmada por la Dra. Omidres** (escaneada).
+2. `SEDA_Hojas_de_Vida_Docentes.zip` (24 hojas de vida), además del enlace a la carpeta de Drive.
 
-**Antes de enviar:** que Liz haya firmado la carta. La solicitud se entrega además en
+**Antes de enviar:** firmar la carta y restringir la carpeta de Drive a las dos destinatarias. La solicitud se entrega además en
 físico en el Decanato.
 
 ---
@@ -25,7 +27,7 @@ Estimada Dra. Aguirre, estimada Lcda. Palacios:
 
 Reciban un cordial saludo.
 
-En seguimiento a su orientación del 29 de septiembre, les remito la solicitud de aval académico del **Curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital** de la Sociedad de Endocrinología y Diabetes del Austro (SEDA), dirigida a la Dra. Nancy Auquilla Díaz, Decana (e) de la Facultad de Ciencias Médicas, y firmada por la Dra. Lizbet Ruilova, Presidenta de SEDA.
+En seguimiento a su orientación del 29 de septiembre, les remito la solicitud de aval académico del **Curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital** de la Sociedad de Endocrinología y Diabetes del Austro (SEDA), dirigida a la Dra. Nancy Auquilla Díaz, Decana (e) de la Facultad de Ciencias Médicas.
 
 Adjunto:
 
