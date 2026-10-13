@@ -66,7 +66,10 @@ for r in range(3,31):
     if d: d['clases'].append(cod)
     clases.append({'cod':cod,'mod':mod,'tema':str(m.cell(r,3).value).strip(),
                    'cont':str(m.cell(r,4).value or '').strip(), 'doc':d['nombre'] if d else None})
-assert len(clases)==28 and all(c['doc'] for c in clases), 'hay clases sin docente en la matriz'
+assert len(clases)==28
+vacantes=[c['cod'] for c in clases if not c['doc']]
+for c in clases:
+    if not c['doc']: c['doc']='Por confirmar'
 docentes=[d for d in docentes if d['clases']]
 docentes.sort(key=lambda d: sorted(d['clases'])[0])
 sin_cv=[d['nombre'] for d in docentes if not d['cv']]
@@ -231,6 +234,8 @@ filas=[['Docente','Especialidad','Institución · ciudad y país','Clases']]
 for d in docentes:
     filas.append([d['nombre'], d['esp'], d['inst'], ' / '.join(sorted(d['clases']))])
 tabla(filas, [4.4, 4.6, 5, 2.2], size=8.5)
+if vacantes:
+    par('**Docente por confirmar:** %s. La Sociedad comunicará a la Comisión el nombre y la hoja de vida en cuanto se confirme.' % ', '.join(vacantes), size=9)
 if sin_cv:
     par('**Hojas de vida en trámite:** %s. Se remitirán a la Comisión en cuanto se reciban.' % '; '.join(sin_cv), size=9)
 
