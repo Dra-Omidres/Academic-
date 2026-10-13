@@ -30,10 +30,11 @@ plataforma.
 | Matrículas | 200 inscritos en lotes desde la lista de SEDA, unos 6 lotes de 1 h | ≈ 6 |
 | Soporte | Del 5/11 al 17/12 hay 31 días hábiles × 1 h diaria en promedio | ≈ 31 |
 | Certificados | Generar y enviar unos 200 certificados | 6 – 8 |
-| **Total** | | **≈ 62 – 66 h** |
+| Módulo de anexos | Montarlo y subir sus materiales a medida que lleguen *(agregado el 13/10/2026)* | 2 – 3 |
+| **Total** | | **≈ 64 – 69 h** |
 
-Con los **USD 600** que le corresponden a Nelson son unos **9 – 10 USD por hora** (600 ÷ 66 = 9,1 y
-600 ÷ 62 = 9,7). Los otros USD 600 quedan para Omisalud por la plataforma. Es una estimación mía para
+Con los **USD 600** que le corresponden a Nelson son unos **9 USD por hora** (600 ÷ 69 = 8,7 y
+600 ÷ 64 = 9,4). El módulo de anexos se sumó sin cambiar el monto. Los otros USD 600 quedan para Omisalud por la plataforma. Es una estimación mía para
 que Nelson vea el volumen; él puede ajustarla.
 
 ---
@@ -55,16 +56,18 @@ Como te comenté, te escribo con el detalle de lo que necesitamos para montar el
 - **Hasta 200 participantes.**
 - **Duración:** del jueves 5 de noviembre al jueves 17 de diciembre de 2026.
 - **Certificado de participación** de 20 horas.
+- **Un módulo de anexos** con material complementario, abierto desde el inicio. No forma parte de las 28 clases ni de las 20 horas del certificado.
 
 ## Qué necesitamos que hagas
 
-1. **Montar el curso** en la plataforma: los 7 módulos con sus 4 clases cada uno, con la imagen del curso (logo y colores, que te envío) y una página de presentación.
+1. **Montar el curso** en la plataforma: los 7 módulos con sus 4 clases cada uno, más el módulo de anexos al final, con la imagen del curso (logo y colores, que te envío) y una página de presentación.
 2. **Subir los videos cada semana.** Las clases se graban en una sala de Zoom del curso y quedan en la nube de Zoom. Te daré acceso aparte. Cada semana hay que descargarlas, subirlas, revisar que se vean y se escuchen bien, y dejarlas programadas para el jueves.
 3. **Matricular a los inscritos.** El cobro lo hace SEDA por su lado; tú no tienes que montar ninguna pasarela de pago. SEDA te pasará la lista de quienes ya pagaron y tú creas sus accesos.
 4. **Controlar el cupo de 200** y avisarnos cuando nos acerquemos al límite.
 5. **Dejar visibles en la plataforma** los logos de los auspiciantes y un aviso de transparencia sobre conflictos de interés. Te paso los textos y los logos.
-6. **Generar y enviar los certificados** al cierre del curso. El texto lo autoriza la Universidad de Cuenca; te lo paso en cuanto lo tengamos.
-7. **Dar soporte a los inscritos** de lunes a viernes: acceso, contraseñas, videos que no cargan y dudas de uso de la plataforma.
+6. **Armar el módulo de anexos.** Reúne varios temas complementarios (te paso la lista) y estará abierto desde el 5 de noviembre. Entre ellos va una charla de un auspiciante, que debe aparecer identificada como contenido del auspiciante. Si algún material llega después, se sube cuando llegue.
+7. **Generar y enviar los certificados** al cierre del curso. El texto lo autoriza la Universidad de Cuenca; te lo paso en cuanto lo tengamos.
+8. **Dar soporte a los inscritos** de lunes a viernes: acceso, contraseñas, videos que no cargan y dudas de uso de la plataforma.
 
 Un cuidado especial: la lista de inscritos tiene datos personales (nombres, correos, teléfonos). Te pido manejarla solo dentro de la plataforma y no compartirla con nadie fuera del curso.
 
@@ -74,8 +77,8 @@ Un cuidado especial: la lista de inscritos tiene datos personales (nombres, corr
 |---|---|---|
 | Hasta el viernes 30 de octubre | Montaje | Curso armado y probado |
 | Desde que SEDA abra la inscripción | Inscripciones | Matricular por lotes con la lista de SEDA |
-| Jueves 29 de octubre | Llegan los videos de los módulos 1 y 2 | Subir y revisar 8 videos |
-| **Jueves 5 de noviembre** | **Inicio · módulos 1 y 2** | Publicar |
+| Jueves 29 de octubre | Llegan los videos de los módulos 1 y 2, y los primeros materiales de anexos | Subir y revisar 8 videos y los anexos |
+| **Jueves 5 de noviembre** | **Inicio · módulos 1 y 2 y módulo de anexos** | Publicar |
 | Jueves 12 de noviembre | Módulo 3 | Publicar (videos disponibles desde el 5/11) |
 | Jueves 19 de noviembre | Módulo 4 | Publicar (videos desde el 12/11) |
 | Jueves 26 de noviembre | Módulo 5 | Publicar (videos desde el 19/11) |
@@ -95,7 +98,8 @@ Calculé el trabajo más o menos así, para que te hagas una idea; tú lo conoce
 | Matrículas de hasta 200 personas | 6 |
 | Soporte de lunes a viernes (31 días hábiles, ~1 hora diaria) | 31 |
 | Certificados | 6 – 8 |
-| **Total** | **unas 62 – 66 horas** entre el 14 de octubre y el 23 de diciembre |
+| Módulo de anexos | 2 – 3 |
+| **Total** | **unas 64 – 69 horas** entre el 14 de octubre y el 23 de diciembre |
 
 Lo que más importa en cuanto a disponibilidad:
 
@@ -104,7 +108,7 @@ Lo que más importa en cuanto a disponibilidad:
 
 ## Presupuesto
 
-Para tu trabajo tenemos previstos **USD 600**, tentativos, por el trabajo completo: montaje, videos, matrículas, soporte y certificados.
+Para tu trabajo tenemos previstos **USD 600**, tentativos, por el trabajo completo: montaje, videos, módulo de anexos, matrículas, soporte y certificados.
 
 ## Lo que necesito que me confirmes
 
