@@ -781,3 +781,24 @@ preside la Fundación Alimenta Tu Salud.
 
 **Conflicto de interés:** la Dra. Omidres informa el 13/10/2026 que **no tiene conflicto**,
 y decide no pedirle la declaración, porque la Universidad no la exige. Queda anotado así.
+
+---
+
+## M3 · C2 pasa a la Dra. Omidres *(13/10/2026)*
+
+El Dr. Frank Espinoza no respondió. La Dra. Omidres asume **M3 · C2 — Agonistas del receptor
+de GLP-1** (entrega 5 de noviembre), con el acuerdo de la Dra. Ruilova. El Dr. Espinoza sale
+de la matriz.
+
+**Lo que cambia en la transparencia.** Hasta hoy se podía decir que la coordinadora no
+dictaba ninguna clase con exposición comercial. Ya no: los agonistas de GLP-1 son una clase
+farmacológica con intereses comerciales. **No se sabe** si Elea o Saval comercializan alguno
+en Ecuador (Boehringer comercializa empagliflozina y linagliptina, que no lo son). Por eso:
+
+- **El expediente ya no afirma** que su clase no aborda productos de los auspiciantes. Dice
+  que tiene dos clases y que en la de GLP-1, como en todo el curso, se usan solo
+  denominaciones genéricas y no se promueve ningún producto comercial.
+- **Su declaración** (`SEDA_COI_Omidres_Perez_prellenada.docx`) lista ahora las dos clases.
+- **Compromiso que hay que cumplir al grabar:** solo nombres genéricos (semaglutida,
+  liraglutida, dulaglutida…), sin marcas, y evidencia de ensayos y guías, no de material
+  promocional.

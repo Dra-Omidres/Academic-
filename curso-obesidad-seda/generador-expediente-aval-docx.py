@@ -257,9 +257,9 @@ for t in [
  'en su cuenta corporativa nacional. Los auspiciantes no realizan pago alguno a la compañía. La coordinadora académica '
  'no participó en la decisión de contratación, que corresponde a la Sociedad.',
  'La participación de todo el cuerpo docente es ad honorem, incluida la de la coordinadora académica, quien no percibe '
- 'remuneración alguna por la coordinación ni por la docencia. La clase a su cargo, «Fundamentos de salud digital y '
- 'telemedicina en enfermedades crónicas», no aborda productos farmacéuticos ni dispositivos de ninguno de los '
- 'auspiciantes.',
+ 'remuneración alguna por la coordinación ni por la docencia. Tiene a su cargo dos clases: «Agonistas del receptor de '
+ 'GLP-1» y «Fundamentos de salud digital y telemedicina en enfermedades crónicas». En la primera, como en todo el curso, '
+ 'se emplean exclusivamente denominaciones genéricas y no se promueve ningún producto comercial.',
  'Los docentes declaran sus posibles conflictos de interés. Las declaraciones firmadas recibidas a la fecha se '
  'adjuntan como anexo.',
 ]: par(t, align=WD_ALIGN_PARAGRAPH.JUSTIFY, despues=7)
