@@ -185,9 +185,8 @@ tabla([
  ['Cupos disponibles','200 participantes'],
  ['Valor curricular','20 horas: 14 horas de clases grabadas (28 clases de 30 minutos) y 6 horas de estudio autónomo con lecturas y material complementario por módulo'],
  ['Tipo de certificado','De participación, emitido por SEDA con el aval académico de la Universidad de Cuenca'],
- ['Entidades auspiciantes','Boehringer Ingelheim, Laboratorios Elea y Laboratorio Saval (ver sección 7)'],
+ ['Entidades auspiciantes','Boehringer Ingelheim, Laboratorios Elea y Laboratorio Saval'],
  ['Costo de inscripción','El curso contempla un costo de inscripción, cuyo valor fija la directiva de SEDA. Se comunicará a la Comisión antes de abrir las inscripciones'],
- ['Coordinación académica','Dra. Omidres Pérez de Carvelli'],
 ], [5, 11.2], cab=False, size=9.5)
 
 titulo('2. Objetivos')
@@ -228,8 +227,7 @@ for s in sem: filas.append(list(s))
 tabla(filas, [2, 5, 9.2], size=9)
 
 titulo('5. Cuerpo docente')
-par('Las hojas de vida se adjuntan como anexo, en el formato propio de cada docente. La participación del cuerpo '
-    'docente es ad honorem.', align=WD_ALIGN_PARAGRAPH.JUSTIFY)
+par('Las hojas de vida se adjuntan como anexo, en el formato propio de cada docente.', align=WD_ALIGN_PARAGRAPH.JUSTIFY)
 filas=[['Docente','Especialidad','Institución · ciudad y país','Clases']]
 for d in docentes:
     filas.append([d['nombre'], d['esp'], d['inst'], ' / '.join(sorted(d['clases']))])
@@ -239,34 +237,13 @@ if vacantes:
 if sin_cv:
     par('**Hojas de vida en trámite:** %s. Se remitirán a la Comisión en cuanto se reciban.' % '; '.join(sin_cv), size=9)
 
-titulo('6. Financiamiento')
-par('El curso se financia con el auspicio de la industria farmacéutica y con el costo de inscripción que fije la directiva de la Sociedad. '
-    'El auspicio ingresa a la Sociedad de Endocrinología y Diabetes del Austro, que con esos recursos contrata la '
-    'plataforma y su gestión operativa.', align=WD_ALIGN_PARAGRAPH.JUSTIFY)
+titulo('6. Financiamiento y costo al participante')
+par('El curso se financia con el auspicio de Boehringer Ingelheim, Laboratorios Elea y Laboratorio Saval, y con el '
+    'costo de inscripción que fije la directiva de la Sociedad, que se comunicará a la Comisión antes de abrir las '
+    'inscripciones.', align=WD_ALIGN_PARAGRAPH.JUSTIFY)
 
-titulo('7. Auspicio y transparencia')
-for t in [
- 'El curso cuenta con el auspicio de **Boehringer Ingelheim, Laboratorios Elea y Laboratorio Saval**. Los auspiciantes '
- 'no intervienen en la selección de docentes, en la definición de los contenidos ni en la elaboración del material, y no '
- 'revisan las clases antes de su publicación. Los docentes se comprometen a emplear denominaciones genéricas y a no '
- 'promover marcas comerciales ni productos específicos.',
- 'El curso se dicta en la plataforma saludelearning.com, operada por **Omisalud Cía. Ltda.** (RUC 0190491641001), '
- 'compañía de la cual la coordinadora académica, Dra. Omidres Pérez de Carvelli, es socia con el 50 % del capital social '
- 'y ejerce la Presidencia. La Sociedad contrata el uso de la plataforma y su gestión operativa (montaje del curso, '
- 'soporte a los participantes, matrículas y certificados) mediante factura emitida por Omisalud Cía. Ltda. y cancelada '
- 'en su cuenta corporativa nacional. Los auspiciantes no realizan pago alguno a la compañía. La coordinadora académica '
- 'no participó en la decisión de contratación, que corresponde a la Sociedad.',
- 'La participación de todo el cuerpo docente es ad honorem, incluida la de la coordinadora académica, quien no percibe '
- 'remuneración alguna por la coordinación ni por la docencia. Tiene a su cargo dos clases: «Agonistas del receptor de '
- 'GLP-1» y «Fundamentos de salud digital y telemedicina en enfermedades crónicas». En la primera, como en todo el curso, '
- 'se emplean exclusivamente denominaciones genéricas y no se promueve ningún producto comercial.',
- 'Los docentes declaran sus posibles conflictos de interés. Las declaraciones firmadas recibidas a la fecha se '
- 'adjuntan como anexo.',
-]: par(t, align=WD_ALIGN_PARAGRAPH.JUSTIFY, despues=7)
-
-titulo('8. Anexos')
-vineta('**Anexo 1.** Hojas de vida del cuerpo docente (%d de %d).' % (len(docentes)-len(sin_cv), len(docentes)))
-vineta('**Anexo 2.** Declaraciones de conflicto de interés recibidas a la fecha.')
+titulo('7. Anexo')
+vineta('**Anexo 1.** Hojas de vida del cuerpo docente.')
 
 doc.core_properties.title='Solicitud de aval académico — Curso virtual SEDA'
 doc.core_properties.author='Sociedad de Endocrinología y Diabetes del Austro'
