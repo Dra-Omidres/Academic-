@@ -155,7 +155,7 @@ cuerpo=[
  'El programa consta de **siete módulos y veintiocho clases grabadas**, con un valor curricular de **20 horas**, en '
  'modalidad virtual en la plataforma **saludelearning.com**. Está dirigido a médicos generales y especialistas, '
  'nutricionistas y otros profesionales de la salud, con un cupo de **200 participantes**, y lo dicta un cuerpo '
- 'docente de especialistas del Ecuador, México, Costa Rica, Perú, Argentina y Colombia.',
+ 'docente de especialistas del Ecuador, México, Costa Rica, Perú, Argentina, Colombia y España.',
  'Adjunto el expediente con la información que establece el artículo 7 del Reglamento Interno y los puntos de '
  'evaluación que nos indicó la Comisión de Avales, junto con las hojas de vida del cuerpo docente.',
  'Para cualquier aclaración, la coordinación académica del curso está a cargo de la **Dra. Omidres Pérez de '
