@@ -6,15 +6,17 @@ Hostinger del 03/09/2026; confirmar que es el que usa para esto)*
 **Fecha:** 13 de octubre de 2026
 
 **Lo que decidió la Dra. Omidres (13/10/2026):** todo el alcance de la lista, soporte de
-lunes a viernes, monto tentativo de 1 200, y el cobro en línea lo hace SEDA, no la
+lunes a viernes, monto tentativo de 1 200 repartido **50 % Omisalud y 50 % Nelson** (USD 600
+cada uno), y el cobro en línea lo hace SEDA, no la
 plataforma.
 
 **Antes de enviarlo, revisar:**
 - **Moneda:** el correo dice USD. *Estoy suponiendo* que son dólares.
 - **Trato de «tú»:** así le escribe la Dra. Omidres en el hilo de Hostinger. Si prefiere
   «usted», se cambia.
-- **Quién paga a Nelson:** el correo no lo dice. Si lo paga Omisalud, conviene que conste en
-  la factura de la plataforma a SEDA, según `conflictos-de-interes-expediente.md`.
+- **Quién paga a Nelson:** sale de lo que SEDA paga a Omisalud (USD 1 200, mitad y mitad). Es un gasto
+  interno de Omisalud; la factura de Omisalud a SEDA debe mostrar el total, según
+  `conflictos-de-interes-expediente.md`.
 - **Acceso a las grabaciones de Zoom:** el correo dice que se le dará aparte. No poner
   contraseñas en el correo.
 - **El texto del certificado:** todavía no lo tenemos de la Universidad de Cuenca.
@@ -30,7 +32,8 @@ plataforma.
 | Certificados | Generar y enviar unos 200 certificados | 6 – 8 |
 | **Total** | | **≈ 62 – 66 h** |
 
-Con 1 200 USD son unos **18 – 19 USD por hora** (1 200 ÷ 66 = 18,2 y 1 200 ÷ 62 = 19,4). Es una estimación mía para
+Con los **USD 600** que le corresponden a Nelson son unos **9 – 10 USD por hora** (600 ÷ 66 = 9,1 y
+600 ÷ 62 = 9,7). Los otros USD 600 quedan para Omisalud por la plataforma. Es una estimación mía para
 que Nelson vea el volumen; él puede ajustarla.
 
 ---
@@ -101,7 +104,7 @@ Lo que más importa en cuanto a disponibilidad:
 
 ## Presupuesto
 
-El monto que tenemos previsto para todo esto es de **USD 1 200**, tentativo, por el trabajo completo: montaje, videos, matrículas, soporte y certificados.
+Para tu trabajo tenemos previstos **USD 600**, tentativos, por el trabajo completo: montaje, videos, matrículas, soporte y certificados.
 
 ## Lo que necesito que me confirmes
 
