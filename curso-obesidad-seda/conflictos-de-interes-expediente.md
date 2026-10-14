@@ -802,3 +802,24 @@ en Ecuador (Boehringer comercializa empagliflozina y linagliptina, que no lo son
 - **Compromiso que hay que cumplir al grabar:** solo nombres genéricos (semaglutida,
   liraglutida, dulaglutida…), sin marcas, y evidencia de ensayos y guías, no de material
   promocional.
+
+## Saleticlab · simposio satélite *(14/10/2026)* — ⚠️ por decidir con SEDA
+
+Según la Dra. Omidres, **Saleticlab comercializa semaglutida** y está interesado en un
+simposio satélite. Se le ofrece en el **módulo de anexos**, como a Boehringer: identificado
+como contenido de la industria, fuera de las 28 clases y de las horas del certificado.
+Borrador: `correo-saleticlab-simposio-satelite.md`.
+
+**Por qué hay que cuidarlo más que el de Boehringer:** la clase de la Dra. Omidres (M3 · C2)
+es justamente sobre agonistas de GLP-1, con semaglutida como eje. Para que se sostenga:
+
+1. **El ponente lo elige el laboratorio. No es la Dra. Omidres** ni otro docente del curso que
+   dicte una clase sobre el mismo fármaco.
+2. **Las condiciones económicas las negocia y firma SEDA (Liz)**, no la coordinadora. Ningún
+   pago va a Omisalud ni a ella.
+3. **Su clase no cambia por el simposio:** nombres genéricos y evidencia de ensayos.
+4. Si se concreta, **se agrega a su declaración de conflicto de interés** y a la lista de
+   auspiciantes que se declara a la Universidad.
+
+**POR CONFIRMAR:** nombre exacto del laboratorio y del contacto; si el acuerdo con Elea (que
+comercializa agonistas de GLP-1) incluye alguna exclusividad.
