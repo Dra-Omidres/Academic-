@@ -19,7 +19,8 @@ igual que a Boehringer, con el programa como adjunto y temas sugeridos.
   `conflictos-de-interes-expediente.md`.
 - **Elea, ya auspiciante, comercializa agonistas de GLP-1.** No sé si su acuerdo con SEDA
   incluye alguna exclusividad. Que Liz lo confirme antes de enviar.
-- **No se menciona ningún monto.** Lo negocia SEDA.
+- **Costo (14/10/2026): USD 1 000 más IVA**, facturado por SEDA. *Estoy suponiendo* que son
+  dólares. El correo no escribe la tarifa del IVA: la que corresponda la pone la factura.
 
 ---
 
@@ -62,7 +63,9 @@ Son sugerencias: el tema definitivo y el ponente los proponen ustedes.
 - Duración sugerida: hasta 30 minutos, el mismo formato de las clases del curso.
 - Grabación en la sala de Zoom del curso, en la fecha que el ponente elija. Para que esté disponible desde la apertura, lo ideal sería grabarlo antes del jueves 29 de octubre; si necesitan más tiempo, puede incorporarse después.
 
-Las condiciones del auspicio las coordina directamente la Sociedad; la Dra. Lizbet Ruilova, Presidenta de SEDA, va en copia.
+**Inversión**
+
+El simposio satélite tiene un valor de **USD 1 000 más IVA**. La factura la emite la Sociedad de Endocrinología y Diabetes del Austro, que coordina directamente las condiciones del auspicio; la Dra. Lizbet Ruilova, Presidenta de SEDA, va en copia.
 
 Si les interesa, con gusto agendamos una llamada breve para conversarlo.
 
