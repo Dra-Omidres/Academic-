@@ -1,6 +1,6 @@
 # Correo · Laboratorio Saleticlab — propuesta de simposio satélite
 
-**Para:** POR CONFIRMAR (no tenemos el nombre ni el correo del contacto)
+**Para:** jorge.betancourt@saleticlab.com (Jorge Betancourt; cargo POR CONFIRMAR)
 **CC:** lizrg@hotmail.com
 **De:** info@draomidresperez.com · firma la Dra. Omidres como coordinadora docente
 **Fecha:** 14 de octubre de 2026
@@ -11,8 +11,6 @@ interesado en un simposio satélite de la industria. Se le ofrece en el **módul
 igual que a Boehringer, con el programa como adjunto y temas sugeridos.
 
 **Antes de enviarlo, revisar:**
-- **Nombre exacto del laboratorio y del contacto: POR CONFIRMAR.** Escribí «Saleticlab» tal
-  como llegó.
 - **Tu clase M3 · C2 es justamente sobre semaglutida.** Por eso el correo deja claro que el
   simposio va aparte, en el módulo de anexos, con un ponente que elige el laboratorio, y que
   las condiciones económicas las acuerda SEDA. Ver la sección del 14/10 en
@@ -28,11 +26,11 @@ igual que a Boehringer, con el programa como adjunto y temas sugeridos.
 
 ---
 
-Estimados señores de Saleticlab:
+Estimado señor Betancourt:
 
 Reciban un cordial saludo de la Sociedad de Endocrinología y Diabetes del Austro (SEDA).
 
-Agradecemos su interés en participar en el **Curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital**. Les comparto la información para que puedan evaluarlo.
+Agradecemos el interés de Saleticlab en participar en el **Curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital**. Le comparto la información para que puedan evaluarlo.
 
 **El curso**
 
@@ -42,7 +40,7 @@ Agradecemos su interés en participar en el **Curso virtual de actualización en
 - Hasta 200 participantes: médicos generales y especialistas, nutricionistas y otros profesionales de la salud
 - Aval académico de la Universidad de Cuenca, en trámite
 
-Les adjunto el programa académico con los temas de cada módulo.
+Le adjunto el programa académico con los temas de cada módulo.
 
 **Dónde iría el simposio**
 
@@ -67,7 +65,7 @@ Son sugerencias: el tema definitivo y el ponente los proponen ustedes.
 
 El simposio satélite tiene un valor de **USD 1 000 más IVA**. La factura la emite la Sociedad de Endocrinología y Diabetes del Austro, que coordina directamente las condiciones del auspicio; la Dra. Lizbet Ruilova, Presidenta de SEDA, va en copia.
 
-Si les interesa, con gusto agendamos una llamada breve para conversarlo.
+Si le interesa, con gusto agendamos una llamada breve para conversarlo.
 
 Cordialmente,
 

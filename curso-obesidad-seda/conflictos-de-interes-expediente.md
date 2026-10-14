@@ -823,5 +823,7 @@ es justamente sobre agonistas de GLP-1, con semaglutida como eje. Para que se so
 
 **Costo del simposio (14/10/2026): USD 1 000 más IVA**, facturado por SEDA y cobrado en su cuenta.
 
-**POR CONFIRMAR:** nombre exacto del laboratorio y del contacto; si el acuerdo con Elea (que
+**Contacto:** Jorge Betancourt (jorge.betancourt@saleticlab.com).
+
+**POR CONFIRMAR:** si el acuerdo con Elea (que
 comercializa agonistas de GLP-1) incluye alguna exclusividad.
