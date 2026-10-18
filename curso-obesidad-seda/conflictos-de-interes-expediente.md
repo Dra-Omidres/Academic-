@@ -827,3 +827,21 @@ es justamente sobre agonistas de GLP-1, con semaglutida como eje. Para que se so
 
 **POR CONFIRMAR:** si el acuerdo con Elea (que
 comercializa agonistas de GLP-1) incluye alguna exclusividad.
+
+## Elea · simposio satélite *(18/10/2026)* — ⚠️ por decidir con SEDA
+
+Una persona de **Elea**, que ya es auspiciante y comercializa agonistas de GLP-1, está
+interesada en un simposio satélite. Se le ofrece **en las mismas condiciones que a
+Saleticlab**: módulo de anexos, contenido identificado como de la industria, fuera de las 28
+clases y del certificado, **USD 1 000 más IVA facturados por SEDA**. Borrador:
+`correo-elea-simposio-satelite.md`.
+
+Valen las mismas cuatro reglas de la sección de Saleticlab: ponente elegido por el
+laboratorio y que no sea la Dra. Omidres; condiciones negociadas y cobradas por SEDA; su
+clase sin cambios; declararlo si se concreta.
+
+**Dos laboratorios que compiten en la misma clase terapéutica.** Pueden convivir si reciben
+el mismo trato (precio, formato, ubicación, fechas) y si los temas no se superponen.
+
+**POR CONFIRMAR:** contacto de Elea; si el simposio se cobra aparte de su auspicio actual o ya
+estaba incluido.
