@@ -833,7 +833,8 @@ comercializa agonistas de GLP-1) incluye alguna exclusividad.
 Una persona de **Elea**, que ya es auspiciante y comercializa agonistas de GLP-1, está
 interesada en un simposio satélite. Se le ofrece **en las mismas condiciones que a
 Saleticlab**: módulo de anexos, contenido identificado como de la industria, fuera de las 28
-clases y del certificado, **USD 1 000 más IVA facturados por SEDA**. Borrador:
+clases y del certificado. **El correo no menciona monto** (decisión del 18/10/2026); las
+condiciones las conversa SEDA. Elea también comercializa **semaglutida**. Borrador:
 `correo-elea-simposio-satelite.md`.
 
 Valen las mismas cuatro reglas de la sección de Saleticlab: ponente elegido por el
@@ -843,5 +844,7 @@ clase sin cambios; declararlo si se concreta.
 **Dos laboratorios que compiten en la misma clase terapéutica.** Pueden convivir si reciben
 el mismo trato (precio, formato, ubicación, fechas) y si los temas no se superponen.
 
-**POR CONFIRMAR:** contacto de Elea; si el simposio se cobra aparte de su auspicio actual o ya
+**Contacto:** Rosa Michilena (Rosa.michilena@ec.elea.com).
+
+**POR CONFIRMAR:** si el simposio se cobra aparte de su auspicio actual o ya
 estaba incluido.
