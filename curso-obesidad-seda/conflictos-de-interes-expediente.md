@@ -848,3 +848,10 @@ el mismo trato (precio, formato, ubicación, fechas) y si los temas no se superp
 
 **POR CONFIRMAR:** si el simposio se cobra aparte de su auspicio actual o ya
 estaba incluido.
+
+## Boehringer · charla en el módulo de anexos *(21/10/2026)*
+
+Confirmado por la Dra. Omidres: **el espacio de Boehringer en el módulo de anexos tiene costo, y
+lo maneja la Dra. Ruilova (SEDA)**. La coordinadora no interviene en el monto ni en el cobro.
+Germania Torres escribió por WhatsApp el 21/10 para coordinar la grabación de su speaker
+(`whatsapp-germania-boehringer-grabacion.md`).
