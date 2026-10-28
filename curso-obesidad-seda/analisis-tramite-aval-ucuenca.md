@@ -32,5 +32,5 @@ Revisión de todos los correos del hilo en Gmail (info@draomidresperez.com).
 ## Cálculo para el nuevo inicio (26/11) — *esto es aproximado, verifícalo*
 
 Si el Decanato la recibe el **jueves 29/10** y la remite en ~2 días hábiles (supuesto) → Comisión
-desde ~2/11 → informe hasta ~17/11 (15 días calendario) o ~21/11 (15 hábiles) → Consejo
+desde ~2/11 → informe hasta ~17/11 (15 días calendario) o ~20/11 (15 hábiles; más tarde si el 2 y 3 de noviembre son feriados, como suele ocurrir en Cuenca — verificar) → Consejo
 Directivo la semana siguiente, ~24–28/11. **Queda justo para el 26/11.**
