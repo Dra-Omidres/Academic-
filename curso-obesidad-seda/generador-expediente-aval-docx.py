@@ -27,9 +27,11 @@ from docx.oxml.ns import qn
 TEAL='0D5A62'; GOLD='B8852B'; PALE='EDF5F4'; INK='1A2325'; MUTED='5F7073'
 def rgb(h): return RGBColor(int(h[:2],16), int(h[2:4],16), int(h[4:],16))
 
-PUBLICA={'M1':'jueves 5 de noviembre','M2':'jueves 5 de noviembre','M3':'jueves 12 de noviembre',
-         'M4':'jueves 19 de noviembre','M5':'jueves 26 de noviembre','M6':'jueves 3 de diciembre',
-         'M7':'jueves 10 de diciembre'}
+# Calendario del correo a la Comisión del 26/10/2026: del 26/11/2026 al 21/01/2027, siete
+# jueves, mismo formato (módulos 1 y 2 juntos, cierre el último jueves), receso entre el 17/12 y el 7/01.
+PUBLICA={'M1':'jueves 26 de noviembre de 2026','M2':'jueves 26 de noviembre de 2026','M3':'jueves 3 de diciembre de 2026',
+         'M4':'jueves 10 de diciembre de 2026','M5':'jueves 17 de diciembre de 2026','M6':'jueves 7 de enero de 2027',
+         'M7':'jueves 14 de enero de 2027'}
 
 # ---------- datos de la matriz ----------
 wb=openpyxl.load_workbook('SEDA_Matriz_Ponentes_Curso_Obesidad.xlsx')
@@ -145,8 +147,8 @@ cuerpo=[
  'Reciba un cordial saludo. En mi calidad de Coordinadora docente del curso que organiza la **Sociedad de '
  'Endocrinología y Diabetes del Austro (SEDA)**, me permito solicitar a usted, y por su intermedio a la Comisión de Avales y al Consejo Directivo de la '
  'Facultad, el **aval académico de la Universidad de Cuenca** para el **Curso virtual de actualización en obesidad, '
- 'diabetes, nutrición clínica y salud digital**, que la Sociedad dictará del **5 de noviembre al 17 de diciembre '
- 'de 2026**.',
+ 'diabetes, nutrición clínica y salud digital**, que la Sociedad dictará del **26 de noviembre de 2026 al 21 de enero '
+ 'de 2027**.',
  'La obesidad y la diabetes tipo 2 son hoy dos de los principales problemas de salud pública de la región, y su '
  'abordaje ha cambiado de forma sustancial en los últimos años con la llegada de nuevas terapias farmacológicas, de la '
  'nutrición basada en evidencia y de las herramientas de salud digital. El curso busca que los profesionales de la '
@@ -178,7 +180,7 @@ par('Sociedad de Endocrinología y Diabetes del Austro (SEDA) · Cuenca, Ecuador
 titulo('1. Datos generales')
 tabla([
  ['Entidad organizadora','Sociedad de Endocrinología y Diabetes del Austro (SEDA)'],
- ['Fecha','Del jueves 5 de noviembre al jueves 17 de diciembre de 2026 (siete semanas)'],
+ ['Fecha','Del jueves 26 de noviembre de 2026 al jueves 21 de enero de 2027 (siete jueves, con receso entre el 17 de diciembre y el 7 de enero)'],
  ['Lugar','Curso virtual. La entidad organizadora tiene su sede en Cuenca, Ecuador'],
  ['Modalidad y plataforma','Virtual asincrónica, en la plataforma saludelearning.com'],
  ['Población objetivo','Médicos generales y especialistas, nutricionistas y otros profesionales de la salud'],
@@ -211,7 +213,7 @@ par('Cada clase es un video de 30 minutos. Los módulos se publican en la plataf
 for mod, nom in modulos:
     q=par('Módulo %s · %s' % (mod[1], nom), b=True, color=TEAL, antes=6, despues=2)
     q.paragraph_format.keep_with_next=True
-    par('Publicación: %s de 2026' % PUBLICA[mod], i=True, color=MUTED, size=9, despues=3).paragraph_format.keep_with_next=True
+    par('Publicación: %s' % PUBLICA[mod], i=True, color=MUTED, size=9, despues=3).paragraph_format.keep_with_next=True
     filas=[['Clase','Tema y contenidos','Expositor','Duración']]
     for c in [c for c in clases if c['mod']==mod]:
         filas.append([c['cod'], '**%s**\n%s' % (c['tema'], c['cont']), c['doc'], '30 min'])
@@ -219,10 +221,11 @@ for mod, nom in modulos:
 
 titulo('4. Cronograma')
 filas=[['Semana','Fecha de publicación','Contenido']]
-sem=[('1','jueves 5 de noviembre','Módulos 1 y 2'),('2','jueves 12 de noviembre','Módulo 3'),
-     ('3','jueves 19 de noviembre','Módulo 4'),('4','jueves 26 de noviembre','Módulo 5'),
-     ('5','jueves 3 de diciembre','Módulo 6'),('6','jueves 10 de diciembre','Módulo 7'),
-     ('7','jueves 17 de diciembre','Cierre del curso y emisión de certificados')]
+sem=[('1','jueves 26 de noviembre de 2026','Módulos 1 y 2'),('2','jueves 3 de diciembre de 2026','Módulo 3'),
+     ('3','jueves 10 de diciembre de 2026','Módulo 4'),('4','jueves 17 de diciembre de 2026','Módulo 5'),
+     ('—','18 de diciembre – 6 de enero','Receso por las fiestas de fin de año'),
+     ('5','jueves 7 de enero de 2027','Módulo 6'),('6','jueves 14 de enero de 2027','Módulo 7'),
+     ('7','jueves 21 de enero de 2027','Cierre del curso y emisión de certificados')]
 for s in sem: filas.append(list(s))
 tabla(filas, [2, 5, 9.2], size=9)
 
