@@ -17,6 +17,7 @@ Revisión de todos los correos del hilo en Gmail (info@draomidresperez.com).
 | 19/10 | — | Borrador de seguimiento (no enviado; sigue en Borradores) |
 | 26/10 | Omidres → Aguirre (CC Palacios, Liz, Pablo) | Pregunta el estado; afirma que se entregó «por correo y en físico en el Decanato» el 13/10; **anuncia nuevas fechas: 26/11/2026 – 21/01/2027**, receso 17/12 – 7/01 |
 | 28/10 | **Aguirre** → Omidres | **«Desde la comisión no hemos recibido documento alguno»**. Pide verificar el envío. Correo del Decanato: **decmed@ucuenca.edu.ec** |
+| 28/10 | Omidres → **decmed@ucuenca.edu.ec** (CC Aguirre, Palacios, Liz, Pablo) | **Enviado en el mismo hilo**, dirigido a la Decana, con la carta firmada y el expediente con fechas nuevas (26/11/2026 – 21/01/2027) y enlace a las hojas de vida |
 
 ## Diagnóstico
 
@@ -34,3 +35,9 @@ Revisión de todos los correos del hilo en Gmail (info@draomidresperez.com).
 Si el Decanato la recibe el **jueves 29/10** y la remite en ~2 días hábiles (supuesto) → Comisión
 desde ~2/11 → informe hasta ~17/11 (15 días calendario) o ~20/11 (15 hábiles; más tarde si el 2 y 3 de noviembre son feriados, como suele ocurrir en Cuenca — verificar) → Consejo
 Directivo la semana siguiente, ~24–28/11. **Queda justo para el 26/11.**
+
+## Estado al 31/10/2026
+
+- Solicitud enviada al Decanato el 28/10 por la vía oficial. **Sin respuesta todavía.**
+- Entrega física en el Decanato: POR CONFIRMAR.
+- Queda en Borradores un correo suelto a decmed@ (no enviado): borrarlo para no duplicar.
