@@ -21,9 +21,10 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, Tabl
 TEAL=colors.HexColor('#0D5A62'); GOLD=colors.HexColor('#B8852B'); MINT=colors.HexColor('#C8E1DF')
 PALE=colors.HexColor('#EDF5F4'); INK=colors.HexColor('#1A2325'); MUTED=colors.HexColor('#5F7073')
 
-PUBLICA={'M1':'jueves 5 de noviembre','M2':'jueves 5 de noviembre','M3':'jueves 12 de noviembre',
-         'M4':'jueves 19 de noviembre','M5':'jueves 26 de noviembre','M6':'jueves 3 de diciembre',
-         'M7':'jueves 10 de diciembre'}
+# Calendario del correo a la Comisión del 26/10/2026 (ver generador-expediente-aval-docx.py)
+PUBLICA={'M1':'jueves 26 de noviembre de 2026','M2':'jueves 26 de noviembre de 2026','M3':'jueves 3 de diciembre de 2026',
+         'M4':'jueves 10 de diciembre de 2026','M5':'jueves 17 de diciembre de 2026','M6':'jueves 7 de enero de 2027',
+         'M7':'jueves 14 de enero de 2027'}
 
 # ---------- datos de la matriz (mismo emparejamiento que el expediente) ----------
 wb=openpyxl.load_workbook('SEDA_Matriz_Ponentes_Curso_Obesidad.xlsx')
@@ -71,8 +72,8 @@ E=[Paragraph('PROGRAMA ACADÉMICO', st_sup), Spacer(1,3),
    Paragraph('Curso virtual de actualización en obesidad, diabetes, nutrición clínica y salud digital', st_tit),
    Spacer(1,4), Paragraph('Sociedad de Endocrinología y Diabetes del Austro (SEDA) · Cuenca, Ecuador', st_sub), Spacer(1,12)]
 
-gen=[['Inicio','Jueves 5 de noviembre de 2026'],
-     ['Cierre','Jueves 17 de diciembre de 2026'],
+gen=[['Inicio','Jueves 26 de noviembre de 2026'],
+     ['Cierre','Jueves 21 de enero de 2027 · receso entre el 17 de diciembre y el 7 de enero'],
      ['Modalidad','Virtual y asincrónica, en la plataforma saludelearning.com'],
      ['Estructura','7 módulos · 28 clases grabadas de 30 minutos · un módulo nuevo cada jueves'],
      ['Valor curricular','20 horas'],
@@ -95,6 +96,6 @@ for md in modulos:
                            ('BOTTOMPADDING',(0,0),(-1,-1),4)]))
     E+=[KeepTogether([t, Spacer(1,9)])]
 
-E+=[Spacer(1,4), Paragraph('Programa sujeto a cambios menores en el cuerpo docente. Versión del 13 de octubre de 2026.', st_nota)]
+E+=[Spacer(1,4), Paragraph('Programa sujeto a cambios menores en el cuerpo docente. Versión del 7 de noviembre de 2026.', st_nota)]
 pdf.build(E)
 print('generado', out)
