@@ -72,7 +72,7 @@ s.addText("Nombre completo del ponente, con títulos",
   {x:0.75,y:3.72,w:8.2,h:0.36,fontFace:F,fontSize:17,bold:true,color:W,isTextBox:true,margin:0});
 s.addText("Especialidad · Institución · Ciudad, País",
   {x:0.75,y:4.12,w:8.2,h:0.32,fontFace:F,fontSize:12,color:MINT,isTextBox:true,margin:0});
-s.addText("Programa de educación continua  ·  Noviembre – diciembre 2026",
+s.addText("Programa de educación continua  ·  Noviembre 2026 – enero 2027",
   {x:0.75,y:4.82,w:8.5,h:0.3,fontFace:F,fontSize:10,color:MINT,isTextBox:true,margin:0});
 s.addNotes("Sustituya el título, el módulo, la clase y sus datos. No añada logotipos institucionales hasta que el aval esté resuelto.");
 
