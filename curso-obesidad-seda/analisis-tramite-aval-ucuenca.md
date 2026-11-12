@@ -41,3 +41,22 @@ Directivo la semana siguiente, ~24–28/11. **Queda justo para el 26/11.**
 - Solicitud enviada al Decanato el 28/10 por la vía oficial. **Sin respuesta todavía.**
 - Entrega física en el Decanato: POR CONFIRMAR.
 - Queda en Borradores un correo suelto a decmed@ (no enviado): borrarlo para no duplicar.
+
+## ✅ AVAL CONCEDIDO *(Consejo Directivo, 11/11/2026)*
+
+- **Resolución No. 0199-2026 H.C.D.F.C.M.**, notificada con el Memorando Nro.
+  UC-FCMSECABO-2026-0328-M del 12/11/2026 (Dr. Javier Villavicencio, Secretario Abogado).
+  Copia en `expediente/entrega-ucuenca/UC_Resolucion_0199-2026_Aval_concedido.pdf`.
+- Informe favorable de la Comisión de Avales; votación unánime.
+- Trámite: el Decanato lo remitió con memorando del **05/11**; nuestro oficio figura con fecha 29/10.
+
+**Lo que obliga (punto 2 de la resolución):** cumplido el curso y **antes de la firma de los
+certificados**, SEDA debe cumplir el art. 6 de la Norma Técnica de costos:
+1. **USD 278** por el aval.
+2. **10 % del valor total recaudado**, «calculado en función del valor del evento y la cantidad de
+   participantes menos el costo del aval». La redacción admite dudas sobre el orden del cálculo:
+   **confirmar la fórmula con la Universidad** (en copia: Ing. Diana Saquinaula, Analista de Gestión).
+3. La impresión de certificados no está incluida en los USD 278.
+
+**Pendiente:** instrucciones del certificado y del logotipo (la Comisión dijo el 06/10 que las daría
+tras la aprobación); avisar el cambio de docente en M3 · C1 (el expediente nombra al Dr. Vanegas).
