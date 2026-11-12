@@ -1,6 +1,8 @@
 # WhatsApp · Grupo de docentes — actualización y llamado a grabar
 
 **Fecha:** 12 de noviembre de 2026
+**Decisión (12/11/2026):** solo se mencionan los módulos 1 y 2; sin calendario completo, para que
+no dejen la grabación para el último día.
 **Contexto:** el curso abre el 26/11 con los módulos 1 y 2. Varias clases de esos módulos no
 están grabadas. Tono pedido: elegante entre colegas, pero incisivo. *Sin nombres en el grupo.*
 
@@ -11,22 +13,11 @@ Estimados y estimadas colegas, muy buenos días 🌿
 
 Les comparto una actualización importante del curso.
 
-📅 *El curso abre el jueves 26 de noviembre*, con los *módulos 1 y 2* disponibles desde el primer día. El calendario completo queda así:
-
-• Módulos 1 y 2 → jueves 26 de noviembre
-• Módulo 3 → jueves 3 de diciembre
-• Módulo 4 → jueves 10 de diciembre
-• Módulo 5 → jueves 17 de diciembre
-• Receso de fin de año
-• Módulo 6 → jueves 7 de enero
-• Módulo 7 → jueves 14 de enero
-• Cierre → jueves 21 de enero
+📅 *El curso abre el jueves 26 de noviembre*, con los *módulos 1 y 2* disponibles desde el primer día.
 
 👏 A quienes ya grabaron su clase: *muchísimas gracias y felicitaciones*. Su compromiso es lo que hace posible este curso.
 
 ⏰ A quienes dictan en los *módulos 1 y 2* y aún no han grabado: les pido, con todo respeto pero con carácter *urgente*, que graben su clase *a más tardar el martes 17 de noviembre*. El equipo de la plataforma necesita esos días para editar y publicar, y no quisiéramos abrir el curso con clases pendientes.
-
-📌 A los demás módulos: por favor graben *al menos una semana antes* de la fecha de su módulo. Para el módulo 6, idealmente *antes del 17 de diciembre*, por las fiestas.
 
 ✅ *Tres cuidados para todas las grabaciones*
 1. *Cámara encendida* durante toda la clase, que se les vea junto a la presentación
