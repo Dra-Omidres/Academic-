@@ -855,3 +855,16 @@ Confirmado por la Dra. Omidres: **el espacio de Boehringer en el módulo de anex
 lo maneja la Dra. Ruilova (SEDA)**. La coordinadora no interviene en el monto ni en el cobro.
 Germania Torres escribió por WhatsApp el 21/10 para coordinar la grabación de su speaker
 (`whatsapp-germania-boehringer-grabacion.md`).
+
+## Dr. Vanegas: charla de Boehringer en el módulo de anexos *(12/11/2026)*
+
+El Dr. Vanegas avisó por WhatsApp que **hará la charla adicional que solicitó Boehringer** y que,
+por carga, **no dictará M3 · C1 (Farmacoterapia para obesidad)**. Sigue con M1 · C2.
+
+Encaja con lo que ya declaró el 09/10 (honorarios de Boehringer). Hay que cuidar dos cosas:
+- **Su declaración debe completarse**: producto o área y periodo quedaron en blanco, y ahora se
+  suma la charla del módulo de anexos.
+- **Su clase M1 · C2 (Fisiopatología) no toca fármacos**, así que no se cruza con el auspiciante.
+  Bien que M3 · C1 pase a otra persona: era la clase con más exposición para él.
+
+M3 · C1 queda **VACANTE** en la matriz.
