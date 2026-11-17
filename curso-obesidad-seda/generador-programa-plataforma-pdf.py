@@ -81,7 +81,7 @@ gen=[['Inicio','Jueves 26 de noviembre de 2026'],
      ['Estructura','7 módulos · 28 clases grabadas de 30 minutos · un módulo nuevo cada jueves'],
      ['Valor curricular','20 horas'],
      ['Dirigido a','Médicos generales y especialistas, nutricionistas y otros profesionales de la salud'],
-     ['Aval académico','Universidad de Cuenca, en trámite']]
+     ['Aval académico','Universidad de Cuenca · Resolución No. 0199-2026 H.C.D.F.C.M.']]
 t=Table([[Paragraph('<b>%s</b>' % a, S(textColor=TEAL)), Paragraph(b, st_cel)] for a,b in gen], colWidths=[3.6*cm, 13.4*cm])
 t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,-1),PALE),('LINEBELOW',(0,0),(-1,-2),0.4,colors.white),
                        ('VALIGN',(0,0),(-1,-1),'TOP'),('TOPPADDING',(0,0),(-1,-1),4),('BOTTOMPADDING',(0,0),(-1,-1),4)]))
@@ -102,6 +102,6 @@ for md in modulos:
 E+=[KeepTogether([Table([[Paragraph('<b>Módulo de anexos · material complementario</b>', st_mod), Paragraph('Abierto desde el inicio del curso', st_fecha)],
        [Paragraph('Temas complementarios y charlas de la industria, identificados como tales. No forman parte de las 28 clases ni de las horas del certificado. Contenidos: <b>por confirmar</b>.', st_cel), Paragraph('', st_doc)]],
        colWidths=[11.2*cm, 5.8*cm], style=TableStyle([('BACKGROUND',(0,0),(-1,0),GOLD),('TOPPADDING',(0,0),(-1,-1),4),('BOTTOMPADDING',(0,0),(-1,-1),4),('SPAN',(0,1),(1,1))])), Spacer(1,9)])]
-E+=[Spacer(1,4), Paragraph('Programa sujeto a cambios menores en el cuerpo docente. Versión del 7 de noviembre de 2026.', st_nota)]
+E+=[Spacer(1,4), Paragraph('Programa sujeto a cambios menores en el cuerpo docente. Versión del 17 de noviembre de 2026.', st_nota)]
 pdf.build(E)
 print('generado', out)
