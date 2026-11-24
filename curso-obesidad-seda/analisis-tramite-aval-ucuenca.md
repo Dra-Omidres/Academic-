@@ -73,5 +73,5 @@ Firma: **Dra. Diana Larriva Villarreal, Decana** de la Facultad de Ciencias Méd
 | Cálculo del 10 % | Remiten a la **Ing. María Elisa Reyes Barrera** (mariae.reyesb@ucuenca.edu.ec) |
 | Forma de pago y documentos | Ídem: Ing. Reyes |
 
-**Borrador en Gmail** (no enviado, 24/11): respuesta en el mismo hilo a la Ing. Reyes con
-copia a decmed, con las tres preguntas de pago. Pendiente de revisión de la Dra. Omidres.
+**Enviado** (24/11, con aprobación de la Dra. Omidres): respuesta en el mismo hilo a la Ing. Reyes con
+copia a decmed, con las tres preguntas de pago. Esperando respuesta de la Ing. Reyes.
