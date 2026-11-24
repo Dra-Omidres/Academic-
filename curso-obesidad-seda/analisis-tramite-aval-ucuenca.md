@@ -60,3 +60,18 @@ certificados**, SEDA debe cumplir el art. 6 de la Norma Técnica de costos:
 
 **Pendiente:** instrucciones del certificado y del logotipo (la Comisión dijo el 06/10 que las daría
 tras la aprobación); avisar el cambio de docente en M3 · C1 (el expediente nombra al Dr. Vanegas).
+
+
+## Respuesta del Decanato a las consultas *(24/11/2026, 22:39)*
+
+Firma: **Dra. Diana Larriva Villarreal, Decana** de la Facultad de Ciencias Médicas
+(ya no la Dra. Auquilla como decana encargada).
+
+| Consulta | Respuesta |
+|---|---|
+| Texto del aval en certificados y uso de logo | «el diseño queda a criterio de la parte organizadora». Adjuntan el logo de la Facultad → `activos/logo-ucuenca-ciencias-medicas.png` (515 × 199 px: suficiente para pantalla y certificado digital, bajo para imprenta). |
+| Cálculo del 10 % | Remiten a la **Ing. María Elisa Reyes Barrera** (mariae.reyesb@ucuenca.edu.ec) |
+| Forma de pago y documentos | Ídem: Ing. Reyes |
+
+**Borrador en Gmail** (no enviado, 24/11): respuesta en el mismo hilo a la Ing. Reyes con
+copia a decmed, con las tres preguntas de pago. Pendiente de revisión de la Dra. Omidres.
