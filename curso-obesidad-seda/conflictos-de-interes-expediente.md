@@ -884,7 +884,7 @@ Lo que consta en los correos:
 No hay un correo de Miguel aceptando los 900 ni pidiendo mantener los 950. El valor que sostiene el
 hilo es **USD 900**.
 
-**Borrador de respuesta (26/11, sin enviar):** USD 900 en tres cuotas de USD 300; la primera, cuando
+**Respuesta enviada (26/11, con aprobación de la Dra. Omidres):** USD 900 en tres cuotas de USD 300; la primera, cuando
 SEDA haga su pago.
 
 **A tener en cuenta:** la nota del 13/10 preveía USD 1 200 de SEDA a Omisalud, de los cuales USD 600
