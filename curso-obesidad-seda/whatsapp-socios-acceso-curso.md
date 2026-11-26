@@ -1,22 +1,24 @@
 # WhatsApp · Socios de SEDA al día que preguntan cómo entrar al curso
 
 *Redactado el 26/11/2026. No enviado: lo envía la Dra. Omidres.*
-*Miguel y Nelson aún no confirman cuándo matriculan a los socios: por eso el mensaje no promete hora.*
+*Los socios escriben a Miguel; él los cruza con SEDA_Socios_Acceso_Curso.xlsx (correo a Miguel, 26/11).*
 
 ---
 
-Hola, querido(a) colega. 😊 ¡Gracias por escribir!
+¡Hola, querido colega! 😊 Qué gusto saber de ti.
 
-Como socio(a) de SEDA al día, *tienes acceso al curso sin costo*. No necesitas inscribirte ni pagar: nosotros te matriculamos directamente.
+Como eres socio de SEDA y estás al día, el curso es *totalmente gratis para ti* 🎁 No tienes que inscribirte ni pagar nada: te matriculamos directamente.
 
-Te llegará un *correo de la plataforma Salud E-Learning* con tu acceso. Revisa también la carpeta de spam o promociones.
+Solo envía estos datos a 👉 *miguel@amobasoftware.com* (Miguel es quien maneja la plataforma):
 
-Para asegurarnos de que te llegue, confírmame por aquí por favor:
+• Tu nombre completo
+• Tu cédula
+• El correo donde quieres recibir el acceso
 
-• Nombre completo
-• Número de cédula
-• Correo electrónico donde quieres recibir el acceso
+En el asunto pon: *Socio SEDA – Acceso al curso* ✉️
 
-Las clases quedan grabadas y disponibles en la plataforma, así que puedes avanzar a tu ritmo. 📚
+Te va a llegar un correo de *Salud E-Learning* con tu acceso. Échale un ojito también a spam o promociones, por si acaso 😉
 
-¡Bienvenido(a) al curso!
+Las clases quedan grabadas, así que las ves cuando puedas y a tu ritmo 📚☕
+
+¡Qué alegría tenerte en el curso! Un abrazo grande 🤗
