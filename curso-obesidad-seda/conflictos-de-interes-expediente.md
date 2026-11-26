@@ -891,3 +891,8 @@ SEDA haga su pago.
 irían a quien opere el curso. Con USD 900 a Miguel, esa cuenta ya no cierra (Omisalud quedaría con
 USD 300 o pondría la diferencia). Es una decisión de la Dra. Omidres; no cambia lo que se declara en
 el expediente, porque el pago a Miguel sigue siendo un gasto interno de Omisalud.
+
+**Consulta a SEDA (26/11, enviada a la Dra. Ruilova):** cuándo paga SEDA el servicio de plataforma y
+operación, si depende del ingreso de los auspicios, qué documentos necesita (factura de Omisalud,
+cuenta corporativa) y quién autoriza. Sin montos. La Dra. Omidres deja constancia de que se excusa
+de la decisión por su vínculo con Omisalud.
