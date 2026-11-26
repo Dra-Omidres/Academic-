@@ -868,3 +868,26 @@ Encaja con lo que ya declaró el 09/10 (honorarios de Boehringer). Hay que cuida
   Bien que M3 · C1 pase a otra persona: era la clase con más exposición para él.
 
 M3 · C1 queda **VACANTE** en la matriz.
+
+## Honorarios de Miguel López (Amoba) · operación del curso *(26/11/2026)*
+
+Lo que consta en los correos:
+
+| Fecha | Quién | Qué |
+|---|---|---|
+| 27/10 | Dra. Omidres → Nelson | Presupuesto para la persona que opere el curso: **USD 600** |
+| 27/10 | Miguel | Presupuesto preliminar: **USD 950** por el proyecto completo |
+| 28/10 | Dra. Omidres → Nelson | «¿Puede ser 900? Yo veo de dónde saco el resto de los fondos» |
+| 28/10 | Nelson → Miguel (cc Dra. Omidres) | «El presupuesto que indica es de **900**» |
+| 26/11 | Miguel | Pide **USD 950** en 3 cuotas (350 + 300 + 300) a su cuenta personal |
+
+No hay un correo de Miguel aceptando los 900 ni pidiendo mantener los 950. El valor que sostiene el
+hilo es **USD 900**.
+
+**Borrador de respuesta (26/11, sin enviar):** USD 900 en tres cuotas de USD 300; la primera, cuando
+SEDA haga su pago.
+
+**A tener en cuenta:** la nota del 13/10 preveía USD 1 200 de SEDA a Omisalud, de los cuales USD 600
+irían a quien opere el curso. Con USD 900 a Miguel, esa cuenta ya no cierra (Omisalud quedaría con
+USD 300 o pondría la diferencia). Es una decisión de la Dra. Omidres; no cambia lo que se declara en
+el expediente, porque el pago a Miguel sigue siendo un gasto interno de Omisalud.
