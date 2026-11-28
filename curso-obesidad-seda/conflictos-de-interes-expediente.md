@@ -898,6 +898,6 @@ cuenta corporativa) y quién autoriza. Sin montos. La Dra. Omidres deja constanc
 de la decisión por su vínculo con Omisalud.
 
 **Elea · seguimiento (28/11/2026).** Rosa Michilena escribió por WhatsApp preguntando cómo proceder
-y si el simposio es pregrabado. Borrador en Gmail (sin enviar), en el hilo del 18/10, cc Dra. Ruilova:
+y si el simposio es pregrabado. Correo ENVIADO el 28/11 en el hilo del 18/10, cc Dra. Ruilova (sin programa adjunto; condiciones ya cerradas con SEDA):
 fechas nuevas, ubicación en anexos, pregrabado de hasta 30 min, grabación en la sala Zoom del curso,
 datos que se piden (ponente, CV, título, fecha). Fecha sugerida: antes del 17/12. Sin montos.
